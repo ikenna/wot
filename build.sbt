@@ -1,6 +1,5 @@
 
-
-name := "Ikenas Simple Scala Project"
+name := "Ikenna's Simple Scala Project"
 
 version := "1.0"
 
