@@ -12,6 +12,7 @@ scalariformSettings
 
 libraryDependencies ++= Seq(
 "org.scalatest" % "scalatest_2.10" % "2.0" % "test",
+"net.databinder" % "dispatch-http_2.10" % "0.8.10",
 "ch.qos.logback" % "logback-classic" % "1.0.3",
 "ch.qos.logback" % "logback-core" % "1.0.3" )
 
