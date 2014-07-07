@@ -3,7 +3,7 @@ import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.support.ui.{ ExpectedConditions, WebDriverWait }
 import org.scalatest.{ BeforeAndAfterAll, Matchers, FreeSpec }
 
-class SeleniumTest extends FreeSpec with Matchers with BeforeAndAfterAll {
+class TwitterCountsTest extends FreeSpec with Matchers with BeforeAndAfterAll {
 
   val driver = new FirefoxDriver()
   val waiting = new WebDriverWait(driver, 15, 100)
@@ -29,3 +29,24 @@ class SeleniumTest extends FreeSpec with Matchers with BeforeAndAfterAll {
   }
 
 }
+
+object TwitterCountsFetcher {
+
+  def apply(titles: Map[Url, Title]): Map[Url, TwitterCounts] = {
+    implicit val driver = new FirefoxDriver()
+    implicit val waiting = new WebDriverWait(driver, 15, 100)
+    val result: Map[Url, TwitterCounts] = titles.transform((u, t) => getTwitterCount(u))
+    driver.quit()
+    result
+  }
+
+  def getTwitterCount(url: Url)(implicit waiting: WebDriverWait, driver: WebDriver): TwitterCounts = {
+    driver.get(url.value)
+    println("Page title is: " + driver.getTitle());
+    val element = waiting.until(ExpectedConditions.visibilityOfElementLocated(By.className("twitter-share-button")));
+    val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
+    TwitterCounts(twitterCount.replaceAll("Tweet\\s", "").toInt)
+  }
+}
+
+case class TwitterCounts(value: Int)
