@@ -16,6 +16,9 @@ libraryDependencies ++= Seq(
 "ch.qos.logback" % "logback-classic" % "1.0.3",
 "ch.qos.logback" % "logback-core" % "1.0.3" ,
 "org.jsoup" % "jsoup" % "1.7.3",
-"org.seleniumhq.selenium" % "selenium-java" % "2.42.2")
+"org.seleniumhq.selenium" % "selenium-java" % "2.42.2",
+"mysql" % "mysql-connector-java" % "5.1.31",
+"org.springframework" % "spring-jdbc" % "4.0.5.RELEASE",
+"com.h2database" % "h2" % "1.4.179")
 
 

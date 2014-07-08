@@ -1,3 +1,4 @@
+import net.ikenna.wot.CategoryLink
 import org.scalatest.{ BeforeAndAfterAll, Matchers, FreeSpec }
 import scala.collection.immutable.Seq
 import scala.xml.NodeSeq
@@ -6,7 +7,9 @@ class GetAllTitlesTest extends FreeSpec with Matchers with BeforeAndAfterAll {
 
   "Features" - {
     "list all categories" in {
-      println(CategoryLinks())
+      val links: Seq[CategoryLink] = CategoryLinks()
+      println(links)
+      println(links.size)
     }
   }
 

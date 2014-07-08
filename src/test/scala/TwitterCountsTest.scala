@@ -1,3 +1,4 @@
+import net.ikenna.wot._
 import org.openqa.selenium.{ WebDriver, By }
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.support.ui.{ ExpectedConditions, WebDriverWait }

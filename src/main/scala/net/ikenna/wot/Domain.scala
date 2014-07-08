@@ -13,7 +13,6 @@ object Language extends Enumeration {
 import Sentiment._
 import Language._
 
-
 trait BookTweetData {
   val tweetUrl: String
   val bookUrl: String
@@ -27,18 +26,18 @@ trait BookTweetData {
 case class BookTweets(byAuthor: BookTweetsByAuthor, byNonAuthor: BookTweetsByNonAuthor)
 
 case class BookTweetsByAuthor(tweetUrl: String,
-                              bookUrl: String, tweetText: String,
-                              retweetCount: String,
-                              sentiment: Sentiment,
-                              hashtag: String,
-                              originatorUrl: String) extends BookTweetData
+  bookUrl: String, tweetText: String,
+  retweetCount: String,
+  sentiment: Sentiment,
+  hashtag: String,
+  originatorUrl: String) extends BookTweetData
 
 case class BookTweetsByNonAuthor(tweetUrl: String,
-                                 bookUrl: String, tweetText: String,
-                                 retweetCount: String,
-                                 sentiment: Sentiment,
-                                 hashtag: String,
-                                 originatorUrl: String) extends BookTweetData
+  bookUrl: String, tweetText: String,
+  retweetCount: String,
+  sentiment: Sentiment,
+  hashtag: String,
+  originatorUrl: String) extends BookTweetData
 
 case class Author(name: String, twitterHandle: String, twitterUrl: String, leanpubUrl: String)
 
@@ -48,21 +47,17 @@ case class Price(min: Int, max: Int)
 
 case class Completeness(percent: Int, aboveThreshold: Boolean)
 
-case class BookMeta(readers: Int,
-                    language: Language,
-                    numberOfTranslations: Int,
-                    numberOfPages: Int,
-                    price: Price,
-                    completeness: Completeness)
+case class BookMeta(readers: Option[Int],
+  language: Option[Language],
+  numberOfTranslations: Option[Int],
+  numberOfPages: Option[Int],
+  price: Option[Price],
+  completeness: Option[Completeness])
 
 case class Book(title: String,
-                url: String,
-                hashtag: String,
-                meta: BookMeta,
-                numberOfTweets: Int,
-                author: Author)
-
-
-
-
+  url: String,
+  hashtag: String,
+  meta: BookMeta,
+  numberOfTweets: Int,
+  author: Author)
 
