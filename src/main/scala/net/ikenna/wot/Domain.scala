@@ -26,14 +26,16 @@ trait BookTweetData {
 case class BookTweets(byAuthor: BookTweetsByAuthor, byNonAuthor: BookTweetsByNonAuthor)
 
 case class BookTweetsByAuthor(tweetUrl: String,
-  bookUrl: String, tweetText: String,
+  bookUrl: String,
+  tweetText: String,
   retweetCount: String,
   sentiment: Sentiment,
   hashtag: String,
   originatorUrl: String) extends BookTweetData
 
 case class BookTweetsByNonAuthor(tweetUrl: String,
-  bookUrl: String, tweetText: String,
+  bookUrl: String,
+  tweetText: String,
   retweetCount: String,
   sentiment: Sentiment,
   hashtag: String,

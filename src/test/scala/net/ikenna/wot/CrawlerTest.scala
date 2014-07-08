@@ -37,7 +37,7 @@ class H2DatabaseTest extends FunSuite {
     clearDb
     loadSchema()
     insertBook(Book(title = "Treasure Island", "http://bing.com", "#treasure", bookMetaStub, 2, authorStub))
-    val result = template.queryForMap("Select * from BOOKS where url = ?", "http://bing.com").get("TITLE")
+    val result = template.queryForMap("Select * from BOOK where BOOKURL = ?", "http://bing.com").get("TITLE")
     assert(result === "Treasure Island")
   }
 
@@ -45,7 +45,7 @@ class H2DatabaseTest extends FunSuite {
     import book._
 
     val parameters = new MapSqlParameterSource()
-      .addValue("URL", url)
+      .addValue("BOOKURL", url)
       .addValue("TITLE", title)
       .addValue("HASHTAG", hashtag)
       .addValue("BOOKMETA", meta.hashCode)
@@ -53,7 +53,7 @@ class H2DatabaseTest extends FunSuite {
       .addValue("AUTHOR", author.hashCode)
 
     new SimpleJdbcInsert(template.getDataSource)
-      .withTableName("BOOKS")
+      .withTableName("BOOK")
       .execute(parameters)
   }
 

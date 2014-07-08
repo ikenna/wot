@@ -1,0 +1,21 @@
+07-08 15:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO BOOKS VALUES('http://bing.com', 'Treasure Island', '#treasure', 'BookMeta(None,None,None,None,None,None)', '2', 'Author(,,,)' [*]"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO BOOKS VALUES('http://bing.com', 'Treasure Island', '#treasure', 'BookMeta(None,None,None,None,None,None)', '2', 'Author(,,,)'  [42001-179]
+07-08 15:25:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO BOOKS VALUES('http://bing.com', 'Treasure Island', '#treasure', '-1279953272', '2', '1705451741' [*]"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO BOOKS VALUES('http://bing.com', 'Treasure Island', '#treasure', '-1279953272', '2', '1705451741'  [42001-179]
+07-08 15:27:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO BOOKS VALUES('bing.com', 'Treasure Island', 'treasure', '-1279953272', '2', '1705451741' [*]"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO BOOKS VALUES('bing.com', 'Treasure Island', 'treasure', '-1279953272', '2', '1705451741'  [42001-179]
+07-08 17:24:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE PRICE ( URL VARCHAR NOT NULL, MIN INT(255) MAX[*] INT(255) )"; expected "FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE PRICE ( URL VARCHAR NOT NULL, MIN INT(255) MAX INT(255) ) [42001-179]
+07-08 17:24:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE AUTHORTWEETS[*]( AUTHORURL VARCHAR NOT NULL, TWEETTEXT VARCHAR, TWEETURL VARCHAR, RETWEETCOUNT INT )"; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+CREATE AUTHORTWEETS( AUTHORURL VARCHAR NOT NULL, TWEETTEXT VARCHAR, TWEETURL VARCHAR, RETWEETCOUNT INT ) [42001-179]
+07-08 17:26:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE AUTHORTWEETS[*]( AUTHORURL VARCHAR NOT NULL, TWEETTEXT VARCHAR, TWEETURL VARCHAR, RETWEETCOUNT INT )"; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+CREATE AUTHORTWEETS( AUTHORURL VARCHAR NOT NULL, TWEETTEXT VARCHAR, TWEETURL VARCHAR, RETWEETCOUNT INT ) [42001-179]
+07-08 17:28:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOKS" not found; SQL statement:
+Select * from BOOKS where url = ? [42102-179]
