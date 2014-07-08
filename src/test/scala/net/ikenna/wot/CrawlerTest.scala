@@ -30,15 +30,14 @@ class H2DatabaseTest extends FunSuite {
   implicit val template = createJdbcTemplate(testDb)
 
   test("test connection to h2") {
-    val result = template.queryForMap("Select 1 from dual").get("1");
-    assert(result === "1")
+    assert(testDbConnection === true)
   }
 
   test("Create table and insert test data") {
     clearDb
     loadSchema()
     insertBook(Book(title = "Treasure Island", "http://bing.com", "#treasure", bookMetaStub, 2, authorStub))
-    val result = template.queryForMap("Select title from BOOKS").get("TITLE")
+    val result = template.queryForMap("Select * from BOOKS where url = ?", "http://bing.com").get("TITLE")
     assert(result === "Treasure Island")
   }
 
@@ -57,6 +56,8 @@ class H2DatabaseTest extends FunSuite {
       .withTableName("BOOKS")
       .execute(parameters)
   }
+
+  def testDbConnection(implicit template: JdbcTemplate): Boolean = template.queryForMap("Select 1 from dual").get("1") == 1
 
   def clearDb(implicit template: JdbcTemplate) = template.execute(""" DROP ALL OBJECTS  """)
 
