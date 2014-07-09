@@ -37,7 +37,7 @@ case class BookTweetsByNonAuthor(tweetUrl: String,
 
 case class Author(name: String, twitterHandle: String, twitterUrl: String, authorUrl: String)
 
-case class AuthorTweets(tweetText: String, tweetUrl: String, retweetCount: Int)
+case class AuthorTweets(authorUrl: String, tweetText: String, tweetUrl: String, retweetCount: Int)
 
 case class Price(min: Int, max: Int)
 
