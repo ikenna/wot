@@ -4,18 +4,18 @@ import org.jsoup.Jsoup
 
 trait CategoryCrawler extends App {
 
-  def getBooksFromCategoryPages(categories: Seq[Category]): List[Book] = {
-    categories.map { getBooksFromCategoryPage }.foldRight(List[Book]()) { (current, total) => total ++ current }
+  def getBooksFromCategoryPages(categories: Seq[Category]): Set[Book] = {
+    categories.map { getBooksFromCategoryPage }.foldRight(Set[Book]()) { (current, total) => total ++ current }
   }
 
-  def getBooksFromCategoryPage(categoryLink: Category): Seq[Book] = {
-    val iterator = Jsoup.connect(categoryLink.value).get.getElementsByClass("book-link").iterator
+  def getBooksFromCategoryPage(category: Category): Seq[Book] = {
+    val iterator = Jsoup.connect(category.url).get.getElementsByClass("book-link").iterator
     var book = Seq[Book]()
     while (iterator.hasNext) {
       val element = iterator.next()
       val bookUrl = "https://leanpub.com" + element.attr("href")
       val title = element.text
-      book = book :+ Book(Option(title), bookUrl, None, None, None, None)
+      book = book :+ Book(Option(title), bookUrl, None, None, None, None, Option(category.url))
     }
     book
   }
@@ -23,7 +23,8 @@ trait CategoryCrawler extends App {
 }
 
 object CategoryCrawlerApp extends App with CategoryCrawler {
-  implicit val jdbcTemplate = Db.prodJdbcTemplate
+  implicit val jdbcTemplate = Db.prodJdbcTemplateWithName("prod-wotdb-1")
+  Db.loadSchema()
   getBooksFromCategoryPages(Categories.list).map(Db.insert.book)
 }
 
@@ -69,4 +70,4 @@ object Categories {
     Category("https://leanpub.com/c/young_adult"))
 }
 
-case class Category(value: String)
+case class Category(url: String)

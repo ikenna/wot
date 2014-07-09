@@ -88,11 +88,9 @@ object Db {
 
   def createJdbcTemplate(dbUrl: String) = new JdbcTemplate(new SimpleDriverDataSource(new org.h2.Driver(), dbUrl, "sa", ""))
 
-  def prodJdbcTemplate = {
-    implicit val template = createJdbcTemplate("jdbc:h2:./wotdb")
+  def prodJdbcTemplateWithName(dbName: String) = {
+    implicit val template = createJdbcTemplate("jdbc:h2:./" + dbName)
     testConnection
-//    clear
-//    loadSchema()
     template
   }
 

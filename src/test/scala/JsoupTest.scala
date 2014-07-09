@@ -2,12 +2,12 @@ import org.jsoup.Jsoup
 import org.scalatest.{ Matchers, FreeSpec }
 import net.ikenna.wot._
 
-class JsoupTest extends FreeSpec with Matchers {
+class JsoupTest extends FreeSpec with Matchers with CategoryCrawler {
 
   "Features" - {
     "fetch all the urls and titles in best seller list" in {
       val link = Category("https://leanpub.com/most_copies_lifetime")
-      println(CategoryCrawler.getBooksFromCategoryPage(link))
+      println(getBooksFromCategoryPage(link))
     }
 
     "fetch the number of readers for each title" in {

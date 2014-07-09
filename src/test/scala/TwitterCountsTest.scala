@@ -2,17 +2,17 @@ import net.ikenna.wot._
 import org.openqa.selenium.{ WebDriver, By }
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.support.ui.{ ExpectedConditions, WebDriverWait }
-import org.scalatest.{ BeforeAndAfterAll, Matchers, FreeSpec }
+import org.scalatest.{ ShouldMatchers, BeforeAndAfterAll, Matchers, FreeSpec }
 
-class TwitterCountsTest extends FreeSpec with Matchers with BeforeAndAfterAll {
+class TwitterCountsTest extends FreeSpec with Matchers with BeforeAndAfterAll with ShouldMatchers {
 
   val driver = new FirefoxDriver()
   val waiting = new WebDriverWait(driver, 15, 100)
 
   "Features" - {
     "get twitter count" in {
-      assert(218 === getTwitterCount(driver)("https://leanpub.com/everydayrailsrspec"))
-      assert(661 === getTwitterCount(driver)("https://leanpub.com/codebright"))
+      getTwitterCount(driver)("https://leanpub.com/everydayrailsrspec") should be >= (218)
+      getTwitterCount(driver)("https://leanpub.com/codebright") should be >= (661)
     }
 
   }
