@@ -7,7 +7,7 @@ object Sentiment extends Enumeration {
 
 import Sentiment._
 
-case class BookTweets(tweetUrl: String,
+case class BookTweet(tweetUrl: String,
   bookUrl: String,
   tweetText: String,
   retweetCount: Int,
