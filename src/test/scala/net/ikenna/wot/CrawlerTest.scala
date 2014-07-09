@@ -31,7 +31,7 @@ class H2DatabaseTest extends FunSuite with BeforeAndAfterAll {
 
   implicit val template = createJdbcTemplate(testDb)
 
-  override def beforeAll {
+  override def beforeAll() {
     clearDb
     loadSchema()
   }
@@ -41,7 +41,7 @@ class H2DatabaseTest extends FunSuite with BeforeAndAfterAll {
   }
 
   test("Create table and insert test book data") {
-    val meta = BookMeta(Some(2), Some("English"), Some(3), Some(50), Some(Price(2556, 3456)), Some(Completeness(Some(60), true)))
+    val meta = BookMeta(Some(2), Some("English"), Some(3), Some(50), Some(Price(2556, 3456)), Some(Completeness(Some(60), aboveThreshold = true)))
     val book: Book = Book(title = "Treasure Island", "http://bing.com", "#treasure", meta, 2, "http://leanpub/jameshillspecialauthor")
     insertBook(book)
     assert(getBook("http://bing.com") === book)
@@ -59,6 +59,12 @@ class H2DatabaseTest extends FunSuite with BeforeAndAfterAll {
     insertAuthorTweets(authorTweets)
     assert(getAuthorTweetByTweetUrl("https://twitter.com/ikennacn/status/198710507283300352") === authorTweets)
     assert(getAuthorTweetsByAuthorUrl("http://leanpub/jameshillspecialauthor") === authorTweets)
+  }
+
+  test("insert book tweets") {
+    val bookTweets = BookTweets("https://twitter.com/ikennacn/status/198710507283300352", "http://leanpub/nicebook", "A very nice tweet message", 5, Sentiment.Positive, "#nicebook", "https://twitter.com/anoriginator", byAuthor = false)
+    insertBookTweets(bookTweets)
+    assert(getBookTweetByTweetUrl("https://twitter.com/ikennacn/status/198710507283300352") === bookTweets)
   }
 
 }
@@ -83,6 +89,10 @@ object Db {
     template.queryForObject("Select * from AuthorTweets where AUTHORURL = ?", new AuthorTweetRowMapper, Array(authorUrl))
   }
 
+  def getBookTweetByTweetUrl(tweetUrl: String)(implicit template: JdbcTemplate): BookTweets = {
+    template.queryForObject("Select * from BOOKTWEETS where TWEETURL = ?", new BookTweetRowMapper, Array(tweetUrl))
+  }
+
   def insertBook(book: Book)(implicit template: JdbcTemplate): Unit = {
     new SimpleJdbcInsert(template.getDataSource).withTableName("BOOK").execute(new BookTableParameters(book))
   }
@@ -93,6 +103,10 @@ object Db {
 
   def insertAuthorTweets(authorTweet: AuthorTweets)(implicit template: JdbcTemplate): Unit = {
     new SimpleJdbcInsert(template.getDataSource).withTableName("AUTHORTWEETS").execute(new AuthorTweetsParameter(authorTweet))
+  }
+
+  def insertBookTweets(bookTweets: BookTweets)(implicit template: JdbcTemplate) = {
+    new SimpleJdbcInsert(template.getDataSource).withTableName("BOOKTWEETS").execute(new BookTweetsParameter(bookTweets))
   }
 
   def testDbConnection(implicit template: JdbcTemplate): Boolean = template.queryForMap("Select 1 from dual").get("1") == 1
@@ -148,8 +162,8 @@ package dbrowmappers {
       .addValue("NUMPAGES", meta.numberOfPages.getOrElse(0))
       .addValue("MINPRICE", meta.price.getOrElse(Price(0, 0)).min)
       .addValue("MAXPRICE", meta.price.getOrElse(Price(0, 0)).max)
-      .addValue("COMPLETEPERCENT", meta.completeness.getOrElse(Completeness(None, true)).percent.getOrElse(100))
-      .addValue("COMPLETETHRESHOLD", meta.completeness.getOrElse(Completeness(None, true)).aboveThreshold)
+      .addValue("COMPLETEPERCENT", meta.completeness.getOrElse(Completeness(None, aboveThreshold = true)).percent.getOrElse(100))
+      .addValue("COMPLETETHRESHOLD", meta.completeness.getOrElse(Completeness(None, aboveThreshold = true)).aboveThreshold)
   }
 
   class AuthorRowMapper extends RowMapper[Author] {
@@ -170,6 +184,34 @@ package dbrowmappers {
       .addValue("TWITTERHANDLE", twitterHandle)
       .addValue("TWITTERURL", twitterUrl)
 
+  }
+
+  class BookTweetsParameter(bookTweets: BookTweets) extends MapSqlParameterSource {
+
+    import bookTweets._
+
+    addValue("TWEETURL", tweetUrl)
+      .addValue("BOOKURL", bookUrl)
+      .addValue("TWEETTEXT", tweetText)
+      .addValue("RETWEETCOUNT", retweetCount)
+      .addValue("SENTIMENT", sentiment)
+      .addValue("HASHTAG", hashtag)
+      .addValue("ORIGINATORURL", originatorUrl)
+      .addValue("BYAUTHOR", byAuthor)
+  }
+
+  class BookTweetRowMapper extends RowMapper[BookTweets] {
+    override def mapRow(rs: ResultSet, rowNum: Int): BookTweets = {
+      BookTweets(
+        rs.getString("TWEETURL"),
+        rs.getString("BOOKURL"),
+        rs.getString("TWEETTEXT"),
+        rs.getInt("RETWEETCOUNT"),
+        Sentiment.withName(rs.getString("SENTIMENT")),
+        rs.getString("HASHTAG"),
+        rs.getString("ORIGINATORURL"),
+        rs.getBoolean("BYAUTHOR"))
+    }
   }
 
   class AuthorTweetsParameter(authorTweet: AuthorTweets) extends MapSqlParameterSource {

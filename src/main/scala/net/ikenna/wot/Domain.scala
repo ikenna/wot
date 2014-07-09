@@ -7,33 +7,14 @@ object Sentiment extends Enumeration {
 
 import Sentiment._
 
-trait BookTweetData {
-  val tweetUrl: String
-  val bookUrl: String
-  val tweetText: String
-  val retweetCount: String
-  val sentiment: Sentiment
-  val hashtag: String
-  val originatorUrl: String
-}
-
-case class BookTweets(byAuthor: BookTweetsByAuthor, byNonAuthor: BookTweetsByNonAuthor)
-
-case class BookTweetsByAuthor(tweetUrl: String,
+case class BookTweets(tweetUrl: String,
   bookUrl: String,
   tweetText: String,
-  retweetCount: String,
+  retweetCount: Int,
   sentiment: Sentiment,
   hashtag: String,
-  originatorUrl: String) extends BookTweetData
-
-case class BookTweetsByNonAuthor(tweetUrl: String,
-  bookUrl: String,
-  tweetText: String,
-  retweetCount: String,
-  sentiment: Sentiment,
-  hashtag: String,
-  originatorUrl: String) extends BookTweetData
+  originatorUrl: String,
+  byAuthor: Boolean)
 
 case class Author(name: String, twitterHandle: String, twitterUrl: String, authorUrl: String)
 
