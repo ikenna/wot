@@ -19,3 +19,71 @@ CREATE AUTHORTWEETS( AUTHORURL VARCHAR NOT NULL, TWEETTEXT VARCHAR, TWEETURL VAR
 07-08 17:28:35 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "BOOKS" not found; SQL statement:
 Select * from BOOKS where url = ? [42102-179]
+07-08 19:39:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Duplicate column name "BOOKURL"; SQL statement:
+CREATE TABLE BOOK ( BOOKURL VARCHAR NOT NULL, TITLE VARCHAR NOT NULL, HASHTAG VARCHAR NOT NULL, BOOKMETA VARCHAR NOT NULL, NUMTWEETS INT NOT NULL, AUTHOR VARCHAR NOT NULL, BOOKURL VARCHAR NOT NULL, READERS INT, LANG VARCHAR, NUMTRANS INT, NUMPAGES INT, PRICE VARCHAR, COMPLETENESS VARCHAR ) [42121-179]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.setColumns(Table.java:398)
+	at org.h2.table.TableBase.<init>(TableBase.java:44)
+	at org.h2.mvstore.db.MVTable.<init>(MVTable.java:71)
+	at org.h2.mvstore.db.MVTableEngine.createTable(MVTableEngine.java:126)
+	at org.h2.mvstore.db.MVTableEngine.createTable(MVTableEngine.java:40)
+	at org.h2.schema.Schema.createTable(Schema.java:582)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:137)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:78)
+	at org.h2.command.Command.executeUpdate(Command.java:253)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:185)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:159)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:459)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:208)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at net.ikenna.wot.Db$.loadSchema(CrawlerTest.scala:109)
+	at net.ikenna.wot.H2DatabaseTest.beforeAll(CrawlerTest.scala:36)
+	at org.scalatest.BeforeAndAfterAll$class.beforeAll(BeforeAndAfterAll.scala:187)
+	at net.ikenna.wot.H2DatabaseTest.beforeAll(CrawlerTest.scala:25)
+	at org.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:253)
+	at net.ikenna.wot.H2DatabaseTest.run(CrawlerTest.scala:25)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:462)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:671)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:84)
+	at sbt.TestRunner.run(TestFramework.scala:94)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:224)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:224)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:212)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:224)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:224)
+	at sbt.TestFunction.apply(TestFramework.scala:229)
+	at sbt.Tests$$anonfun$7.apply(Tests.scala:196)
+	at sbt.Tests$$anonfun$7.apply(Tests.scala:196)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:45)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:45)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+07-08 19:41:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "aced00057372000a7363616c612e536f6d651122f2695ea18b740200014c0001787400124c6a6176612f6c616e672f4f626a6563743b7872000c7363616c612e4f7074696f6efe6937fddb0e66740200007870737200116a6176612e6c616e672e496e746567657212e2a0a4f781873802000149000576616c7565787200106a6176612e6c616e672e4e756d62657286ac951d0b94e08b020000787000000002" [22018-179]
+07-08 19:49:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE BOOK ( BOOKURL VARCHAR NOT NULL, TITLE VARCHAR NOT NULL, HASHTAG VARCHAR NOT NULL, BOOKMETA VARCHAR NOT NULL, NUMTWEETS INT NOT NULL, AUTHOR VARCHAR NOT NULL, READERS INT, LANG VARCHAR, NUMTRANS INT, NUMPAGES INT, MINPRICE INT, MAXPRICE INT COMPLETEPERCENT[*] VARCHAR, COMPLETETHRESHOLD BOOLEAN )"; expected "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE BOOK ( BOOKURL VARCHAR NOT NULL, TITLE VARCHAR NOT NULL, HASHTAG VARCHAR NOT NULL, BOOKMETA VARCHAR NOT NULL, NUMTWEETS INT NOT NULL, AUTHOR VARCHAR NOT NULL, READERS INT, LANG VARCHAR, NUMTRANS INT, NUMPAGES INT, MINPRICE INT, MAXPRICE INT COMPLETEPERCENT VARCHAR, COMPLETETHRESHOLD BOOLEAN ) [42001-179]
+07-08 19:50:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "aced00057372000a7363616c612e536f6d651122f2695ea18b740200014c0001787400124c6a6176612f6c616e672f4f626a6563743b7872000c7363616c612e4f7074696f6efe6937fddb0e66740200007870737200116a6176612e6c616e672e496e746567657212e2a0a4f781873802000149000576616c7565787200106a6176612e6c616e672e4e756d62657286ac951d0b94e08b020000787000000002" [22018-179]
+07-08 19:51:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "aced00057372000a7363616c612e536f6d651122f2695ea18b740200014c0001787400124c6a6176612f6c616e672f4f626a6563743b7872000c7363616c612e4f7074696f6efe6937fddb0e66740200007870737200116a6176612e6c616e672e496e746567657212e2a0a4f781873802000149000576616c7565787200106a6176612e6c616e672e4e756d62657286ac951d0b94e08b020000787000000003" [22018-179]
+07-08 19:51:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "aced00057372000a7363616c612e536f6d651122f2695ea18b740200014c0001787400124c6a6176612f6c616e672f4f626a6563743b7872000c7363616c612e4f7074696f6efe6937fddb0e66740200007870737200116a6176612e6c616e672e496e746567657212e2a0a4f781873802000149000576616c7565787200106a6176612e6c616e672e4e756d62657286ac951d0b94e08b020000787000000003" [22018-179]
+07-08 19:52:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "aced00057372000a7363616c612e536f6d651122f2695ea18b740200014c0001787400124c6a6176612f6c616e672f4f626a6563743b7872000c7363616c612e4f7074696f6efe6937fddb0e66740200007870737200116a6176612e6c616e672e496e746567657212e2a0a4f781873802000149000576616c7565787200106a6176612e6c616e672e4e756d62657286ac951d0b94e08b020000787000000003" [22018-179]

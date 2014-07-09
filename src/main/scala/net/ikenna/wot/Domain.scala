@@ -5,13 +5,7 @@ object Sentiment extends Enumeration {
   val Positive, Negative, Neutral = Value
 }
 
-object Language extends Enumeration {
-  type Language = Value
-  val English, Other = Value
-}
-
 import Sentiment._
-import Language._
 
 trait BookTweetData {
   val tweetUrl: String
@@ -41,16 +35,16 @@ case class BookTweetsByNonAuthor(tweetUrl: String,
   hashtag: String,
   originatorUrl: String) extends BookTweetData
 
-case class Author(name: String, twitterHandle: String, twitterUrl: String, leanpubUrl: String)
+case class Author(name: String, twitterHandle: String, twitterUrl: String, authorUrl: String)
 
 case class AuthorTweets(tweetText: String, tweetUrl: String, retweetCount: Int)
 
 case class Price(min: Int, max: Int)
 
-case class Completeness(percent: Int, aboveThreshold: Boolean)
+case class Completeness(percent: Option[Int], aboveThreshold: Boolean)
 
 case class BookMeta(readers: Option[Int],
-  language: Option[Language],
+  language: Option[String],
   numberOfTranslations: Option[Int],
   numberOfPages: Option[Int],
   price: Option[Price],
@@ -61,5 +55,5 @@ case class Book(title: String,
   hashtag: String,
   meta: BookMeta,
   numberOfTweets: Int,
-  author: Author)
+  authorUrl: String)
 
