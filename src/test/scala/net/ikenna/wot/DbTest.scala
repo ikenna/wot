@@ -1,21 +1,9 @@
 package net.ikenna.wot
 
-import org.scalatest.{ ShouldMatchers, BeforeAndAfterAll, FunSuite }
+import org.scalatest._
+import scala.Some
 
-class CrawlerTest extends FunSuite {
-
-  test("All 38 category links are available") {
-    assert(Categories().data.size === 38)
-  }
-
-  test("Get title link for a given category") {
-    assert(Crawler.getBookLinkForCategory(Categories().data.head).size === 45)
-    assert(Crawler.linksForCategories(Categories()).size === 600)
-  }
-
-}
-
-class H2DatabaseTest extends FunSuite with BeforeAndAfterAll with ShouldMatchers {
+class DbTest extends FunSuite with BeforeAndAfterAll with ShouldMatchers {
 
   implicit val testDbJdbcTemplate = Db.createJdbcTemplate("jdbc:h2:./test-wotdb")
 
@@ -29,8 +17,8 @@ class H2DatabaseTest extends FunSuite with BeforeAndAfterAll with ShouldMatchers
   }
 
   test("Create table and insert test book data") {
-    val meta = BookMeta(Some(2), Some("English"), Some(3), Some(50), Some(Price(2556, 3456)), Some(Completeness(Some(60), aboveThreshold = true)))
-    val book: Book = Book(title = "Treasure Island", "http://bing.com", "#treasure", meta, 2, "http://leanpub/jameshillspecialauthor")
+    val meta = Some(BookMeta(Some(2), Some("English"), Some(3), Some(50), Some(Price(2556, 3456)), Some(Completeness(Some(60), aboveThreshold = true))))
+    val book: Book = Book(title = Some("Treasure Island"), "http://bing.com", Some("#treasure"), meta, Some(2), Some("http://leanpub/jameshillspecialauthor"), Some("http://leanpub/somecategory"))
     Db.insert.book(book)
     assert(Db.get.book("http://bing.com") === book)
   }
@@ -63,4 +51,3 @@ class H2DatabaseTest extends FunSuite with BeforeAndAfterAll with ShouldMatchers
     Db.get.bookTweetsByHashTag("#nicebook") should contain(bookTweet2)
   }
 }
-

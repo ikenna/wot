@@ -6,8 +6,8 @@ class JsoupTest extends FreeSpec with Matchers {
 
   "Features" - {
     "fetch all the urls and titles in best seller list" in {
-      val link = CategoryLink("https://leanpub.com/most_copies_lifetime")
-      println(Crawler.getBookLinkForCategory(link))
+      val link = Category("https://leanpub.com/most_copies_lifetime")
+      println(CategoryCrawler.getBooksFromCategoryPage(link))
     }
 
     "fetch the number of readers for each title" in {

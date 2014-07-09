@@ -16,10 +16,10 @@ import scala.collection.JavaConversions._
 object BookRowMapper extends RowMapper[Book] {
   override def mapRow(rs: ResultSet, rowNum: Int): Book =
     Book(
-      rs.getString("TITLE"),
+      Option(rs.getString("TITLE")),
       rs.getString("BOOKURL"),
-      rs.getString("HASHTAG"),
-      BookMeta(
+      Option(rs.getString("HASHTAG")),
+      Option(BookMeta(
         Option(rs.getInt("READERS")),
         Option(rs.getString("LANG")),
         Option(rs.getInt("NUMTRANS")),
@@ -31,9 +31,11 @@ object BookRowMapper extends RowMapper[Book] {
           Completeness(
             Option(rs.getInt("COMPLETEPERCENT")),
             rs.getBoolean("COMPLETETHRESHOLD")
-          ))),
-      rs.getInt("NUMTWEETS"),
-      rs.getString("AUTHORURL"))
+          )))),
+      Option(rs.getInt("NUMTWEETS")),
+      Option(rs.getString("AUTHORURL")),
+      Option(rs.getString("CATEGORYURL"))
+    )
 }
 
 object BookTableParameters {
@@ -41,19 +43,29 @@ object BookTableParameters {
   def apply(book: Book): MapSqlParameterSource = {
     import book._
 
-    new MapSqlParameterSource().addValue("BOOKURL", url)
-      .addValue("TITLE", title)
-      .addValue("HASHTAG", hashtag)
-      .addValue("NUMTWEETS", numberOfTweets)
-      .addValue("AUTHORURL", authorUrl)
-      .addValue("READERS", meta.readers.getOrElse(0))
-      .addValue("LANG", meta.language.getOrElse("English"))
-      .addValue("NUMTRANS", meta.numberOfTranslations.getOrElse(0))
-      .addValue("NUMPAGES", meta.numberOfPages.getOrElse(0))
-      .addValue("MINPRICE", meta.price.getOrElse(Price(0, 0)).min)
-      .addValue("MAXPRICE", meta.price.getOrElse(Price(0, 0)).max)
-      .addValue("COMPLETEPERCENT", meta.completeness.getOrElse(Completeness(None, aboveThreshold = true)).percent.getOrElse(100))
-      .addValue("COMPLETETHRESHOLD", meta.completeness.getOrElse(Completeness(None, aboveThreshold = true)).aboveThreshold)
+    val lang: Option[String] = meta.flatMap(_.language)
+    val numTrans: Option[Int] = meta.flatMap(_.numberOfTranslations)
+    val numPages: Option[Int] = meta.flatMap(_.numberOfPages)
+    val minPrice: Option[Int] = meta.flatMap(_.price.map(p => p.min))
+    val maxPrice: Option[Int] = meta.flatMap(_.price.map(p => p.max))
+    val readers: Option[Int] = meta.flatMap(_.readers)
+    val completePercent: Option[Int] = meta.flatMap(_.completeness.flatMap(c => c.percent))
+    val completeThreshold: Option[Boolean] = meta.flatMap(_.completeness.map(c => c.aboveThreshold))
+
+    new MapSqlParameterSource().addValue("BOOKURL", bookUrl)
+      .addValue("TITLE", title.orNull)
+      .addValue("HASHTAG", hashtag.orNull)
+      .addValue("NUMTWEETS", numberOfTweets.orNull)
+      .addValue("AUTHORURL", authorUrl.orNull)
+      .addValue("READERS", readers.orNull)
+      .addValue("LANG", lang.orNull)
+      .addValue("NUMTRANS", numTrans.orNull)
+      .addValue("NUMPAGES", numPages.orNull)
+      .addValue("MINPRICE", minPrice.orNull)
+      .addValue("MAXPRICE", maxPrice.orNull)
+      .addValue("COMPLETEPERCENT", completePercent.orNull)
+      .addValue("COMPLETETHRESHOLD", completeThreshold.orNull)
+      .addValue("CATEGORYURL", categoryUrl.orNull)
   }
 }
 

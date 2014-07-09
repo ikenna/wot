@@ -15,9 +15,9 @@ INSERT INTO BOOKS VALUES ("url", "title", "hashtag", "bookmeta", "numtweets", "a
 	at org.springframework.jdbc.core.JdbcTemplate$1ExecuteStatementCallback.doInStatement(JdbcTemplate.java:429)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:402)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:437)
-	at net.ikenna.wot.H2DatabaseTest$$anonfun$4.apply$mcV$sp(CrawlerTest.scala:53)
-	at net.ikenna.wot.H2DatabaseTest$$anonfun$4.apply(CrawlerTest.scala:40)
-	at net.ikenna.wot.H2DatabaseTest$$anonfun$4.apply(CrawlerTest.scala:40)
+	at net.ikenna.wot.DbTest$$anonfun$4.apply$mcV$sp(CrawlerTest.scala:53)
+	at net.ikenna.wot.DbTest$$anonfun$4.apply(CrawlerTest.scala:40)
+	at net.ikenna.wot.DbTest$$anonfun$4.apply(CrawlerTest.scala:40)
 	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
 	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
 	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
@@ -98,9 +98,9 @@ INSERT INTO BOOKS VALUES ("URL", "TITLE", "HASHTAG", "BOOKMETA", "NUMTWEETS", "A
 	at org.springframework.jdbc.core.JdbcTemplate$1ExecuteStatementCallback.doInStatement(JdbcTemplate.java:429)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:402)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:437)
-	at net.ikenna.wot.H2DatabaseTest$$anonfun$4.apply$mcV$sp(CrawlerTest.scala:55)
-	at net.ikenna.wot.H2DatabaseTest$$anonfun$4.apply(CrawlerTest.scala:40)
-	at net.ikenna.wot.H2DatabaseTest$$anonfun$4.apply(CrawlerTest.scala:40)
+	at net.ikenna.wot.DbTest$$anonfun$4.apply$mcV$sp(CrawlerTest.scala:55)
+	at net.ikenna.wot.DbTest$$anonfun$4.apply(CrawlerTest.scala:40)
+	at net.ikenna.wot.DbTest$$anonfun$4.apply(CrawlerTest.scala:40)
 	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
 	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
 	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
@@ -164,3 +164,6 @@ INSERT INTO BOOKS VALUES ("URL", "TITLE", "HASHTAG", "BOOKMETA", "NUMTWEETS", "A
 07-08 14:42:32 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Data conversion error converting "'NUMTWEETS' (BOOKS: NUMTWEETS INT NOT NULL)"; SQL statement:
 INSERT INTO BOOKS VALUES('URL', 'TITLE', 'HASHTAG', 'BOOKMETA', 'NUMTWEETS', 'AUTHOR') -- ('URL', 'TITLE', 'HASHTAG', 'BOOKMETA', 'NUMTWEETS', 'AUTHOR') [22018-179]
+07-09 21:21:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOK" already exists; SQL statement:
+CREATE TABLE BOOK ( BOOKURL VARCHAR NOT NULL, TITLE VARCHAR, HASHTAG VARCHAR, NUMTWEETS INT, AUTHORURL VARCHAR, READERS INT, LANG VARCHAR, NUMTRANS INT, NUMPAGES INT, MINPRICE INT, MAXPRICE INT, COMPLETEPERCENT INT, COMPLETETHRESHOLD BOOLEAN, CATEGORYURL VARCHAR ) [42101-179]

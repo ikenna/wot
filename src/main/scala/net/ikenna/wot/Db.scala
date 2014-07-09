@@ -65,6 +65,7 @@ object Db {
     }
 
     def book(book: Book)(implicit template: JdbcTemplate): Unit = {
+      WotLogger.info(s"Inserting book -- ${book.bookUrl}")
       new SimpleJdbcInsert(template.getDataSource).withTableName("BOOK").execute(BookTableParameters(book))
     }
 
@@ -87,7 +88,13 @@ object Db {
 
   def createJdbcTemplate(dbUrl: String) = new JdbcTemplate(new SimpleDriverDataSource(new org.h2.Driver(), dbUrl, "sa", ""))
 
-  def prodJdbcTemplate = createJdbcTemplate("jdbc:h2:./wotdb")
+  def prodJdbcTemplate = {
+    implicit val template = createJdbcTemplate("jdbc:h2:./wotdb")
+    testConnection
+//    clear
+//    loadSchema()
+    template
+  }
 
   def loadSchema(schemaFile: String = "src/resources/wot-schema.sql")(implicit template: JdbcTemplate) {
     val schema: Resource = new FileSystemResourceLoader().getResource(schemaFile)

@@ -24,17 +24,18 @@ case class Price(min: Int, max: Int)
 
 case class Completeness(percent: Option[Int], aboveThreshold: Boolean)
 
-case class BookMeta(readers: Option[Int],
-  language: Option[String],
-  numberOfTranslations: Option[Int],
-  numberOfPages: Option[Int],
-  price: Option[Price],
-  completeness: Option[Completeness])
+case class BookMeta(readers: Option[Int] = None,
+  language: Option[String] = None,
+  numberOfTranslations: Option[Int] = None,
+  numberOfPages: Option[Int] = None,
+  price: Option[Price] = None,
+  completeness: Option[Completeness] = None)
 
-case class Book(title: String,
-  url: String,
-  hashtag: String,
-  meta: BookMeta,
-  numberOfTweets: Int,
-  authorUrl: String)
+case class Book(title: Option[String],
+  bookUrl: String,
+  hashtag: Option[String] = None,
+  meta: Option[BookMeta] = None,
+  numberOfTweets: Option[Int] = None,
+  authorUrl: Option[String] = None,
+  categoryUrl: Option[String] = None)
 
