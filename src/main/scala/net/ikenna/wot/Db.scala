@@ -18,7 +18,7 @@ object Db {
     }
 
     def book(url: String)(implicit template: JdbcTemplate): Book = {
-      template.queryForObject("Select * from BOOK where BOOKURL = ?", new BookRowMapper, Array(url))
+      template.queryForObject("Select * from BOOK where BOOKURL = ?", BookRowMapper, Array(url))
     }
 
     def author(url: String)(implicit template: JdbcTemplate): Author = {
@@ -44,23 +44,22 @@ object Db {
       val sql = "INSERT INTO BOOKTWEETS(TWEETURL, BOOKURL, TWEETTEXT, RETWEETCOUNT, SENTIMENT, HASHTAG, ORIGINATORURL, BYAUTHOR)" +
         " VALUES  (?, ?,  ?, ?,   ?,  ?,  ?,  ? )"
 
-      def batchSetter(tweets: Seq[BookTweet]) = {
-        new BatchPreparedStatementSetter() {
-          def setValues(ps: PreparedStatement, i: Int): Unit = {
-            ps.setString(1, tweets(i).tweetUrl)
-            ps.setString(2, tweets(i).bookUrl)
-            ps.setString(3, tweets(i).tweetText)
-            ps.setInt(4, tweets(i).retweetCount)
-            ps.setString(5, tweets(i).sentiment.toString)
-            ps.setString(6, tweets(i).hashtag)
-            ps.setString(7, tweets(i).originatorUrl)
-            ps.setBoolean(8, tweets(i).byAuthor)
-          }
-
-          def getBatchSize(): Int = tweets.size
+      object BatchSetter extends BatchPreparedStatementSetter {
+        def setValues(ps: PreparedStatement, i: Int): Unit = {
+          ps.setString(1, tweets(i).tweetUrl)
+          ps.setString(2, tweets(i).bookUrl)
+          ps.setString(3, tweets(i).tweetText)
+          ps.setInt(4, tweets(i).retweetCount)
+          ps.setString(5, tweets(i).sentiment.toString)
+          ps.setString(6, tweets(i).hashtag)
+          ps.setString(7, tweets(i).originatorUrl)
+          ps.setBoolean(8, tweets(i).byAuthor)
         }
+
+        def getBatchSize(): Int = tweets.size
       }
-      val result: Array[Int] = template.batchUpdate(sql, batchSetter(tweets))
+
+      val result: Array[Int] = template.batchUpdate(sql, BatchSetter)
 
       WotLogger.info("Batch update rows affected = " + result.sum)
     }

@@ -13,7 +13,7 @@ import net.ikenna.wot.AuthorTweets
 import net.ikenna.wot.Book
 import scala.collection.JavaConversions._
 
-class BookRowMapper extends RowMapper[Book] {
+object BookRowMapper extends RowMapper[Book] {
   override def mapRow(rs: ResultSet, rowNum: Int): Book =
     Book(
       rs.getString("TITLE"),
