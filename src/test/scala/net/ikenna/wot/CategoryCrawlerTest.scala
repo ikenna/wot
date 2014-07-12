@@ -9,8 +9,8 @@ class CategoryCrawlerTest extends FunSuite with CategoryCrawler {
   }
 
   test("Get title link for a given category") {
-    assert(getBooksFromCategoryPage(Categories.list.head).size === 45)
-    assert(getBooksFromCategoryPages(Categories.list).size === 600)
+    assert(getBookUrlAndTitleFrom(Categories.list.head).size === 45)
+    assert(getBookUrlAndTitleFrom(Categories.list).size === 600)
   }
 
 }

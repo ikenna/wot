@@ -16,8 +16,8 @@ import scala.collection.JavaConversions._
 object BookRowMapper extends RowMapper[Book] {
   override def mapRow(rs: ResultSet, rowNum: Int): Book =
     Book(
-      Option(rs.getString("TITLE")),
       rs.getString("BOOKURL"),
+      Option(rs.getString("TITLE")),
       Option(rs.getString("HASHTAG")),
       Option(BookMeta(
         Option(rs.getInt("READERS")),
@@ -25,16 +25,16 @@ object BookRowMapper extends RowMapper[Book] {
         Option(rs.getInt("NUMTRANS")),
         Option(rs.getInt("NUMPAGES")),
         Option(Price(
-          rs.getInt("MINPRICE"),
-          rs.getInt("MAXPRICE"))),
+          Option(rs.getInt("MINPRICE")),
+          Option(rs.getInt("MAXPRICE")))
+        ),
         Option(
           Completeness(
             Option(rs.getInt("COMPLETEPERCENT")),
             rs.getBoolean("COMPLETETHRESHOLD")
           )))),
       Option(rs.getInt("NUMTWEETS")),
-      Option(rs.getString("AUTHORURL")),
-      Option(rs.getString("CATEGORYURL"))
+      Option(rs.getString("AUTHORURL"))
     )
 }
 
@@ -46,8 +46,8 @@ object BookTableParameters {
     val lang: Option[String] = meta.flatMap(_.language)
     val numTrans: Option[Int] = meta.flatMap(_.numberOfTranslations)
     val numPages: Option[Int] = meta.flatMap(_.numberOfPages)
-    val minPrice: Option[Int] = meta.flatMap(_.price.map(p => p.min))
-    val maxPrice: Option[Int] = meta.flatMap(_.price.map(p => p.max))
+    val minPrice: Option[Int] = meta.flatMap(_.price.flatMap(p => p.min))
+    val maxPrice: Option[Int] = meta.flatMap(_.price.flatMap(p => p.max))
     val readers: Option[Int] = meta.flatMap(_.readers)
     val completePercent: Option[Int] = meta.flatMap(_.completeness.flatMap(c => c.percent))
     val completeThreshold: Option[Boolean] = meta.flatMap(_.completeness.map(c => c.aboveThreshold))
@@ -65,7 +65,6 @@ object BookTableParameters {
       .addValue("MAXPRICE", maxPrice.orNull)
       .addValue("COMPLETEPERCENT", completePercent.orNull)
       .addValue("COMPLETETHRESHOLD", completeThreshold.orNull)
-      .addValue("CATEGORYURL", categoryUrl.orNull)
   }
 }
 

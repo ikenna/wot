@@ -20,7 +20,7 @@ case class Author(name: String, twitterHandle: String, twitterUrl: String, autho
 
 case class AuthorTweets(authorUrl: String, tweetText: String, tweetUrl: String, retweetCount: Int)
 
-case class Price(min: Int, max: Int)
+case class Price(min: Option[Int] = None, max: Option[Int])
 
 case class Completeness(percent: Option[Int], aboveThreshold: Boolean)
 
@@ -31,11 +31,11 @@ case class BookMeta(readers: Option[Int] = None,
   price: Option[Price] = None,
   completeness: Option[Completeness] = None)
 
-case class Book(title: Option[String],
-  bookUrl: String,
-  hashtag: Option[String] = None,
-  meta: Option[BookMeta] = None,
-  numberOfTweets: Option[Int] = None,
-  authorUrl: Option[String] = None,
-  categoryUrl: Option[String] = None)
+case class Book(bookUrl: String,
+    title: Option[String] = None,
+    hashtag: Option[String] = None,
+    meta: Option[BookMeta] = None,
+    numberOfTweets: Option[Int] = None,
+    authorUrl: Option[String] = None) {
+}
 
