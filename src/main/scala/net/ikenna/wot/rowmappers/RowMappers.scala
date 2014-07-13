@@ -52,7 +52,8 @@ object BookTableParameters {
     val completePercent: Option[Int] = meta.flatMap(_.completeness.flatMap(c => c.percent))
     val completeThreshold: Option[Boolean] = meta.flatMap(_.completeness.map(c => c.aboveThreshold))
 
-    new MapSqlParameterSource().addValue("BOOKURL", bookUrl)
+    new MapSqlParameterSource()
+      .addValue("BOOKURL", bookUrl)
       .addValue("TITLE", title.orNull)
       .addValue("HASHTAG", hashtag.orNull)
       .addValue("NUMTWEETS", numberOfTweets.orNull)

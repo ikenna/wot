@@ -33,7 +33,8 @@ object TwitterCountsFetcher extends Updater {
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 
-object BookMetaUpdater extends Updater {
+object BookMetaUpdater extends BookMetaUpdater
+trait BookMetaUpdater extends Updater {
 
   override def update(book: Book): Book = {
     WotLogger.info(s"Updating meta for ${book.bookUrl}")
@@ -119,5 +120,3 @@ object BookMetaUpdater extends Updater {
     }
   }
 }
-
-//TODO - just carry on

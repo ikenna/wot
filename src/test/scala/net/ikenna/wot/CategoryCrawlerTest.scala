@@ -2,7 +2,7 @@ package net.ikenna.wot
 
 import org.scalatest.FunSuite
 
-class CategoryCrawlerTest extends FunSuite with CategoryCrawler {
+class CategoryCrawlerTest extends FunSuite with GetTitleAndUrlFromCategory {
 
   test("All 38 category links are available") {
     assert(Categories.list.size === 38)

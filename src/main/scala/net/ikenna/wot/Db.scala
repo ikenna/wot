@@ -82,19 +82,15 @@ object Db {
     }
   }
 
-  def testConnection(implicit template: JdbcTemplate): Boolean = template.queryForMap("Select 1 from dual").get("1") == 1
+  def testConnection(implicit template: JdbcTemplate): Boolean = template.queryForList("Select * from BOOK").isEmpty == true
 
   def clear(implicit template: JdbcTemplate) = template.execute(""" DROP ALL OBJECTS  """)
 
   def createJdbcTemplate(dbUrl: String) = new JdbcTemplate(new SimpleDriverDataSource(new org.h2.Driver(), dbUrl, "sa", ""))
 
-  def prodJdbcTemplateWithName(dbName: String) = {
-    implicit val template = createJdbcTemplate("jdbc:h2:./" + dbName)
-    testConnection
-    template
-  }
+  def prodJdbcTemplateWithName(dbName: String) = createJdbcTemplate("jdbc:h2:./" + dbName)
 
-  def loadSchema(schemaFile: String = "src/resources/wot-schema.sql")(implicit template: JdbcTemplate) {
+  def loadSchema(schemaFile: String = "src/main/resources/wot-schema.sql")(implicit template: JdbcTemplate) {
     val schema: Resource = new FileSystemResourceLoader().getResource(schemaFile)
     val populator = new ResourceDatabasePopulator(schema)
     DatabasePopulatorUtils.execute(populator, template.getDataSource)
