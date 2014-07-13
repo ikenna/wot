@@ -34,6 +34,7 @@ object TwitterCountsFetcher extends Updater {
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 
 object BookMetaUpdater extends BookMetaUpdater
+
 trait BookMetaUpdater extends Updater {
 
   override def update(book: Book): Book = {

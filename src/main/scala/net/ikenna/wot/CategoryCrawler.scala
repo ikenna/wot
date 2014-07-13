@@ -1,8 +1,9 @@
 package net.ikenna.wot
 
 import akka.actor._
-import net.ikenna.wot.CategoryActor.{ AllBooksInCategoryPersisted, StoreAllBooksInCategory }
 import akka.event.Logging
+import net.ikenna.wot.BookMetaActor.{ BookPersisted, GetBookMeta }
+import scala.concurrent.duration._
 
 object CategoryCrawler {
 
@@ -13,27 +14,37 @@ object CategoryCrawler {
   def name: String = "category-crawler"
 }
 
-class CategoryCrawler extends Actor {
+class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
 
   import CategoryCrawler._
+
   val log = Logging(context.system, this)
-  var toFetch = Set[Category]()
-  var fetched = Set[Category]()
+  var toFetch: Int = 0
+  var fetched: Int = 0
 
   override def receive: Actor.Receive = {
+    case Crawl => onCrawl
+    case BookPersisted(book) => onBookPersisted(book)
+  }
 
-    case Crawl => {
-      log.info("Received message " + Crawl)
-      toFetch = Categories.list.toSet
-      for (category <- toFetch) {
-        val categoryActor = context.actorOf(CategoryActor.props, CategoryActor.name(category))
-        log.debug(s"Actor ${categoryActor} created")
-        categoryActor ! StoreAllBooksInCategory(category)
-      }
+  def onCrawl = {
+    log.info("Received message " + Crawl)
+    val booksToUpdate = getBookUrlAndTitleFrom(Categories.list)
+    toFetch = booksToUpdate.size
+    log.info(s"Fetching total of ${toFetch} books")
+    for (book <- booksToUpdate) {
+      val bookMetaActor = context.actorOf(BookMetaActor.props, BookMetaActor.name(book))
+      context.watch(bookMetaActor)
+      bookMetaActor ! GetBookMeta(book)
     }
-    case AllBooksInCategoryPersisted(category) => {
-      fetched = fetched + category
-      if (toFetch.equals(fetched)) log.info("Finished all categories") else log.info(s"All books in category ${category.url} persisted. ToFetchSize = ${toFetch.size}. Fetched = ${fetched.size}")
+  }
+
+  def onBookPersisted(book: Book): Unit = {
+    fetched = fetched + 1
+    log.info(s"Fetched ${fetched} books")
+    if (toFetch == fetched) {
+      log.info("Finished all books")
+      context.system.scheduler.scheduleOnce(3 seconds)(context.system.shutdown())(context.dispatcher)
     }
   }
 }
