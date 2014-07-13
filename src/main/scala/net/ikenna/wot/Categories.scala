@@ -1,0 +1,52 @@
+package net.ikenna.wot
+
+object Categories {
+  val list: Seq[Category] = Seq(
+    Category("https://leanpub.com/c/academic"),
+    Category("https://leanpub.com/c/agile"),
+    Category("https://leanpub.com/c/bcwriters"),
+    Category("https://leanpub.com/c/biographies"),
+    Category("https://leanpub.com/c/business"),
+    Category("https://leanpub.com/c/childrensbooks"),
+    Category("https://leanpub.com/c/cookbooks"),
+    Category("https://leanpub.com/c/culture"),
+    Category("https://leanpub.com/c/diet"),
+    Category("https://leanpub.com/c/diy"),
+    Category("https://leanpub.com/c/erotica"),
+    Category("https://leanpub.com/c/familyandparenting"),
+    Category("https://leanpub.com/c/fanfiction"),
+    Category("https://leanpub.com/c/fantasy"),
+    Category("https://leanpub.com/c/fiction"),
+    Category("https://leanpub.com/c/general"),
+    Category("https://leanpub.com/c/historical_fiction"),
+    Category("https://leanpub.com/c/history"),
+    Category("https://leanpub.com/c/horror"),
+    Category("https://leanpub.com/c/humor"),
+    Category("https://leanpub.com/c/humorandsatire"),
+    Category("https://leanpub.com/c/internet"),
+    Category("https://leanpub.com/c/music"),
+    Category("https://leanpub.com/c/mystery"),
+    Category("https://leanpub.com/c/nanowrimo"),
+    Category("https://leanpub.com/c/poetry"),
+    Category("https://leanpub.com/c/religion"),
+    Category("https://leanpub.com/c/romance"),
+    Category("https://leanpub.com/c/science_fiction"),
+    Category("https://leanpub.com/c/selfhelp"),
+    Category("https://leanpub.com/c/serialfiction"),
+    Category("https://leanpub.com/c/software"),
+    Category("https://leanpub.com/c/sports"),
+    Category("https://leanpub.com/c/startups"),
+    Category("https://leanpub.com/c/textbooks"),
+    Category("https://leanpub.com/c/thriller"),
+    Category("https://leanpub.com/c/travel"),
+    Category("https://leanpub.com/c/young_adult"),
+
+    Category("https://leanpub.com/bestsellers"),
+    Category("https://leanpub.com/most_copies"),
+    Category("https://leanpub.com/bestsellers_lifetime"),
+    Category("https://leanpub.com/most_copies_lifetime"),
+    Category("https://leanpub.com/new_releases"),
+    Category("https://leanpub.com/just_updated"))
+}
+
+case class Category(url: String)

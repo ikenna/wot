@@ -8,6 +8,7 @@ import org.springframework.jdbc.core.simple.SimpleJdbcInsert
 import java.sql.PreparedStatement
 import scala.collection.JavaConversions._
 import net.ikenna.wot.rowmappers._
+import org.slf4j.LoggerFactory
 
 object Db {
 
@@ -94,5 +95,14 @@ object Db {
     val schema: Resource = new FileSystemResourceLoader().getResource(schemaFile)
     val populator = new ResourceDatabasePopulator(schema)
     DatabasePopulatorUtils.execute(populator, template.getDataSource)
+  }
+}
+
+trait CreateDBName {
+  def createDBName: String = {
+    val dbName = "prod-wotdb-" + new java.util.Date().toString.replace(" ", "").replace(":", "")
+    val logger = LoggerFactory.getLogger("net.ikenna.CreateDBName")
+    logger.info("Creating DB with name = " + dbName)
+    dbName
   }
 }

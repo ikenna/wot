@@ -14,12 +14,12 @@ class BookMetaUpdaterTest extends FunSuite with Matchers with BeforeAndAfterAll 
   implicit val document2: Document = Jsoup.connect(book2.bookUrl).get()
 
   test("get meta") {
-    val expected = Book("https://leanpub.com/everydayrailsrspec", None, None, Some(BookMeta(Some(4111), Some("English Chinese 日本語"), None, Some(145), Some(Price(Some(1400), Some(1900))), None)), None, None)
+    val expected = Book("https://leanpub.com/everydayrailsrspec", None, None, Some(BookMeta(Some(4116), Some("English Chinese 日本語"), None, Some(145), Some(Price(Some(1400), Some(1900))), None)), None, None)
     BookMetaUpdater.update(book1) should be(expected)
   }
   test("get readers") {
-    BookMetaUpdater.getReaders(document1).value should be(4111)
-    BookMetaUpdater.getReaders(document2).value should be(3991)
+    BookMetaUpdater.getReaders(document1).value should be(4116)
+    BookMetaUpdater.getReaders(document2).value should be(3993)
   }
 
   test("get pages") {
