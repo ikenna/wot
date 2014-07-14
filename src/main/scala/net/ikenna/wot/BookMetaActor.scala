@@ -17,14 +17,14 @@ object BookMetaActor {
 
 }
 
-class BookMetaActor extends Actor with BookMetaUpdater with ConnectWithRetry {
+class BookMetaActor extends Actor with BookMetaUpdater  with ConnectWithRetry {
   val log = Logging(context.system, this)
 
   override def receive: Actor.Receive = {
     case GetBookMeta(book) => {
       log.debug("Getting book meta")
       implicit val document: Document = connectWithRetry(book.bookUrl).get()
-      val updatedBook = getMeta(book)
+      val updatedBook = TwitterCountsFetcher.updateWithTwitterCount(getMeta(book))
       val authors = getAuthor(book)
       implicit val jdbcTemplate = Db.prodJdbcTemplateWithName(WotCrawlerApp.dbName)
       Db.insert.book(updatedBook)

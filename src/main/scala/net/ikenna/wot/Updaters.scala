@@ -1,21 +1,19 @@
 package net.ikenna.wot
 
 import org.openqa.selenium.firefox.FirefoxDriver
-import org.openqa.selenium.support.ui.{ ExpectedConditions, WebDriverWait }
-import org.openqa.selenium.{ By, WebDriver }
-import org.jsoup.Jsoup
+import org.openqa.selenium.support.ui.{ExpectedConditions, WebDriverWait}
+import org.openqa.selenium.{By, WebDriver}
 import org.jsoup.nodes.Document
-import scala.util.{ Failure, Success, Try }
+import scala.util.{Failure, Success, Try}
 import org.jsoup.select.Elements
 
-object TwitterCountsFetcher {
 
-  def update(book: Book): Book = {
-    implicit val driver = new FirefoxDriver()
-    implicit val waiting = new WebDriverWait(driver, 15, 100)
-    val result: Book = book.copy(numberOfTweets = getTwitterCount(book.bookUrl))
-    driver.quit()
-    result
+object TwitterCountsFetcher {
+  implicit val driver = new FirefoxDriver()
+  implicit val waiting = new WebDriverWait(driver, 15, 100)
+
+  def updateWithTwitterCount(book: Book): Book = {
+    book.copy(numberOfTweets = getTwitterCount(book.bookUrl))
   }
 
   def getTwitterCount(bookUrl: String)(implicit waiting: WebDriverWait, driver: WebDriver): Option[Int] = {
@@ -25,6 +23,9 @@ object TwitterCountsFetcher {
     val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
     Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
   }
+
+  def quit() = driver.quit()
+
 }
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)

@@ -11,8 +11,8 @@ class TwitterCountsTest extends FreeSpec with BeforeAndAfterAll with ShouldMatch
 
   "Features" - {
     "get twitter count" in {
-      TwitterCountsFetcher.update(book1).numberOfTweets.get should be >= (218)
-      TwitterCountsFetcher.update(book2).numberOfTweets.get should be >= (661)
+      TwitterCountsFetcher.updateWithTwitterCount(book1).numberOfTweets.get should be >= (218)
+      TwitterCountsFetcher.updateWithTwitterCount(book2).numberOfTweets.get should be >= (661)
     }
 
   }
