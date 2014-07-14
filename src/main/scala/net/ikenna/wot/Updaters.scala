@@ -8,11 +8,7 @@ import org.jsoup.nodes.Document
 import scala.util.{ Failure, Success, Try }
 import org.jsoup.select.Elements
 
-trait Updater {
-  def update(book: Book): Book
-}
-
-object TwitterCountsFetcher extends Updater {
+object TwitterCountsFetcher {
 
   def update(book: Book): Book = {
     implicit val driver = new FirefoxDriver()
@@ -33,15 +29,18 @@ object TwitterCountsFetcher extends Updater {
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 
-object BookMetaUpdater extends BookMetaUpdater
+object BookMetaUpdater extends BookMetaUpdater {
+}
 
-trait BookMetaUpdater extends Updater {
+trait BookMetaUpdater {
 
-  override def update(book: Book): Book = {
+  def getTitle(implicit document: Document): Option[String] = Option(document.select("h1[itemprop=name]").text())
+
+  def getMeta(book: Book): Book = {
     WotLogger.info(s"Updating meta for ${book.bookUrl}")
     implicit val document: Document = Jsoup.connect(book.bookUrl).get()
     val bookMeta = BookMeta(getReaders, getLanguage, None, getPages, Some(Price(getMinPrice, getMaxPrice)))
-    book.copy(meta = Some(bookMeta))
+    book.copy(meta = Some(bookMeta), hashtag = getHashtag, title = getTitle)
   }
 
   def getMaxPrice(implicit document: Document): Option[Int] = {
@@ -120,4 +119,23 @@ trait BookMetaUpdater extends Updater {
       }
     }
   }
+
+  def getHashtag(implicit document: Document): Option[String] = {
+    Option(document.location.replace("https://leanpub.com/", ""))
+  }
+
+  def getAuthorUrl(implicit document: Document): Set[String] = {
+    val selection: String = "a[href*=/u/]"
+    val select: Elements = document.select(selection)
+    val buffer = collection.mutable.Buffer[String]()
+    val iterator = select.listIterator()
+    while (iterator.hasNext) {
+      val attr: String = iterator.next().attr("href")
+      if (attr.startsWith("https://leanpub.com")) {
+        buffer.append(attr)
+      }
+    }
+    buffer.toSet
+  }
+
 }

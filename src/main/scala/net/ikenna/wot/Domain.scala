@@ -16,7 +16,7 @@ case class BookTweet(tweetUrl: String,
   originatorUrl: String,
   byAuthor: Boolean)
 
-case class Author(name: String, twitterHandle: String, twitterUrl: String, authorUrl: String)
+case class Author(name: String, twitterHandle: String, twitterUrl: String, authorUrl: String, bookUrl: String)
 
 case class AuthorTweets(authorUrl: String, tweetText: String, tweetUrl: String, retweetCount: Int)
 
@@ -35,7 +35,6 @@ case class Book(bookUrl: String,
     title: Option[String] = None,
     hashtag: Option[String] = None,
     meta: Option[BookMeta] = None,
-    numberOfTweets: Option[Int] = None,
-    authorUrl: Option[String] = None) {
+    numberOfTweets: Option[Int] = None) {
 }
 

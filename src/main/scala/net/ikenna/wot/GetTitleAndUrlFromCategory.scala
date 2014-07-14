@@ -20,7 +20,7 @@ trait GetTitleAndUrlFromCategory extends ConnectWithRetry {
       val element = iterator.next()
       val bookUrl = "https://leanpub.com" + element.attr("href")
       val title = element.text
-      book = book :+ Book(bookUrl, Option(title), None, None, None, None)
+      book = book :+ Book(bookUrl, Option(title), None, None, None)
     }
     book
   }

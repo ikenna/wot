@@ -21,7 +21,7 @@ class BookMetaActor extends Actor with BookMetaUpdater {
   override def receive: Actor.Receive = {
     case GetBookMeta(book) => {
       log.debug("Getting book meta")
-      val updatedBook = update(book)
+      val updatedBook = getMeta(book)
       implicit val jdbcTemplate = Db.prodJdbcTemplateWithName(WotCrawlerApp.dbName)
       Db.insert.book(updatedBook)
       sender() ! BookPersisted(book)

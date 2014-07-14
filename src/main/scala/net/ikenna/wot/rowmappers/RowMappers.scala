@@ -33,8 +33,7 @@ object BookRowMapper extends RowMapper[Book] {
             Option(rs.getInt("COMPLETEPERCENT")),
             rs.getBoolean("COMPLETETHRESHOLD")
           )))),
-      Option(rs.getInt("NUMTWEETS")),
-      Option(rs.getString("AUTHORURL"))
+      Option(rs.getInt("NUMTWEETS"))
     )
 }
 
@@ -57,7 +56,6 @@ object BookTableParameters {
       .addValue("TITLE", title.orNull)
       .addValue("HASHTAG", hashtag.orNull)
       .addValue("NUMTWEETS", numberOfTweets.orNull)
-      .addValue("AUTHORURL", authorUrl.orNull)
       .addValue("READERS", readers.orNull)
       .addValue("LANG", lang.orNull)
       .addValue("NUMTRANS", numTrans.orNull)
@@ -75,7 +73,9 @@ object AuthorRowMapper extends RowMapper[Author] {
       rs.getString("NAME"),
       rs.getString("TWITTERHANDLE"),
       rs.getString("TWITTERURL"),
-      rs.getString("AUTHORURL"))
+      rs.getString("AUTHORURL"),
+      rs.getString("BOOKURL")
+    )
 }
 
 object AuthorParameters {
@@ -87,6 +87,7 @@ object AuthorParameters {
       .addValue("NAME", name)
       .addValue("TWITTERHANDLE", twitterHandle)
       .addValue("TWITTERURL", twitterUrl)
+      .addValue("BOOKURL", bookUrl)
   }
 }
 
