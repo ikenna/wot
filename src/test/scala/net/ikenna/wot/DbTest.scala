@@ -24,7 +24,7 @@ class DbTest extends FunSuite with BeforeAndAfterAll with ShouldMatchers {
   }
 
   test("insert test author data") {
-    val author: Author = Author("James Hill", "@jameshilltesthandle", "http://bing.com", "http://leanpub/jameshillspecialauthor", "http://leanpub/anicebook")
+    val author: Author = Author("James Hill", "@jameshilltesthandle", Some("http://bing.com"), "http://leanpub/jameshillspecialauthor", "http://leanpub/anicebook")
     Db.insert.author(author)
     assert(Db.get.author("http://leanpub/jameshillspecialauthor") === author)
   }

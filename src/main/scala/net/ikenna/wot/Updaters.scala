@@ -36,9 +36,8 @@ trait BookMetaUpdater {
 
   def getTitle(implicit document: Document): Option[String] = Option(document.select("h1[itemprop=name]").text())
 
-  def getMeta(book: Book): Book = {
+  def getMeta(book: Book)(implicit document: Document): Book = {
     WotLogger.info(s"Updating meta for ${book.bookUrl}")
-    implicit val document: Document = Jsoup.connect(book.bookUrl).get()
     val bookMeta = BookMeta(getReaders, getLanguage, None, getPages, Some(Price(getMinPrice, getMaxPrice)))
     book.copy(meta = Some(bookMeta), hashtag = getHashtag, title = getTitle)
   }
@@ -136,6 +135,23 @@ trait BookMetaUpdater {
       }
     }
     buffer.toSet
+  }
+
+  def getAuthor(book: Book)(implicit document: Document): Set[Author] = {
+    getAuthorUrl.map(url => Author("", "", getAuthorTwitterUrl, url, book.bookUrl))
+  }
+
+  def getAuthorTwitterUrl(implicit document: Document): Option[String] = {
+    val selection: String = "a[href*=https://twitter.com]"
+    val select: Elements = document.select(selection)
+    val iterator = select.listIterator()
+    while (iterator.hasNext) {
+      val attr: String = iterator.next().attr("href")
+      if (!"https://twitter.com/share".equals(attr)) {
+        return Option(attr)
+      }
+    }
+    None
   }
 
 }

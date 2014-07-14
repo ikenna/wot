@@ -43,7 +43,7 @@ class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
     fetched = fetched + 1
     log.info(s"Fetched ${fetched} books")
     if (toFetch == fetched) {
-      log.info("Finished all books")
+      log.info("Finished all books. Db - " + WotCrawlerApp.dbName)
       context.system.scheduler.scheduleOnce(3 seconds)(context.system.shutdown())(context.dispatcher)
     }
   }

@@ -72,7 +72,7 @@ object AuthorRowMapper extends RowMapper[Author] {
     Author(
       rs.getString("NAME"),
       rs.getString("TWITTERHANDLE"),
-      rs.getString("TWITTERURL"),
+      Option(rs.getString("TWITTERURL")),
       rs.getString("AUTHORURL"),
       rs.getString("BOOKURL")
     )
@@ -86,7 +86,7 @@ object AuthorParameters {
       .addValue("AUTHORURL", authorUrl)
       .addValue("NAME", name)
       .addValue("TWITTERHANDLE", twitterHandle)
-      .addValue("TWITTERURL", twitterUrl)
+      .addValue("TWITTERURL", twitterUrl.orNull)
       .addValue("BOOKURL", bookUrl)
   }
 }

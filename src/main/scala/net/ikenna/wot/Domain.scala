@@ -16,7 +16,7 @@ case class BookTweet(tweetUrl: String,
   originatorUrl: String,
   byAuthor: Boolean)
 
-case class Author(name: String, twitterHandle: String, twitterUrl: String, authorUrl: String, bookUrl: String)
+case class Author(name: String, twitterHandle: String, twitterUrl: Option[String], authorUrl: String, bookUrl: String)
 
 case class AuthorTweets(authorUrl: String, tweetText: String, tweetUrl: String, retweetCount: Int)
 
