@@ -21,6 +21,7 @@ class DbTest extends FunSuite with BeforeAndAfterAll with ShouldMatchers {
     val book: Book = Book("http://bing.com", title = Some("Treasure Island"), Some("#treasure"), meta, Some(2))
     Db.insert.book(book)
     assert(Db.get.book("http://bing.com") === book)
+    assert(Db.get.books.size >= 1)
   }
 
   test("insert test author data") {
@@ -50,4 +51,5 @@ class DbTest extends FunSuite with BeforeAndAfterAll with ShouldMatchers {
     Db.get.bookTweetsByHashTag("#nicebook") should contain(bookTweet1)
     Db.get.bookTweetsByHashTag("#nicebook") should contain(bookTweet2)
   }
+
 }

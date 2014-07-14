@@ -1,12 +1,11 @@
 package net.ikenna.wot
 
 import org.openqa.selenium.firefox.FirefoxDriver
-import org.openqa.selenium.support.ui.{ExpectedConditions, WebDriverWait}
-import org.openqa.selenium.{By, WebDriver}
+import org.openqa.selenium.support.ui.{ ExpectedConditions, WebDriverWait }
+import org.openqa.selenium.{ By, WebDriver }
 import org.jsoup.nodes.Document
-import scala.util.{Failure, Success, Try}
+import scala.util.{ Failure, Success, Try }
 import org.jsoup.select.Elements
-
 
 object TwitterCountsFetcher {
   implicit val driver = new FirefoxDriver()

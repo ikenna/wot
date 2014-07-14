@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory
 object Db {
 
   object get {
+    def books(implicit template: JdbcTemplate): List[Book] = template.query("Select * from BOOK ", BookRowMapper).toList
 
     def bookTweetsByHashTag(hashTag: String)(implicit template: JdbcTemplate): List[BookTweet] = {
       template.query("Select * from BOOKTWEETS where HASHTAG = ?", Array(hashTag.asInstanceOf[Object]), BookTweetRowMapper).toList

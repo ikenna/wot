@@ -17,7 +17,7 @@ object BookMetaActor {
 
 }
 
-class BookMetaActor extends Actor with BookMetaUpdater  with ConnectWithRetry {
+class BookMetaActor extends Actor with BookMetaUpdater with ConnectWithRetry {
   val log = Logging(context.system, this)
 
   override def receive: Actor.Receive = {

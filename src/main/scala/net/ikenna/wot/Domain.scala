@@ -2,7 +2,7 @@ package net.ikenna.wot
 
 object Sentiment extends Enumeration {
   type Sentiment = Value
-  val Positive, Negative, Neutral = Value
+  val Positive, Negative, Neutral, Null = Value
 }
 
 import Sentiment._
