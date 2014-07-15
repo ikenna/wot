@@ -9,6 +9,8 @@ import java.sql.PreparedStatement
 import scala.collection.JavaConversions._
 import net.ikenna.wot.rowmappers._
 import org.slf4j.LoggerFactory
+import sentiment.SentimentResponse
+import akka.event.LoggingAdapter
 
 object Db {
 
@@ -81,6 +83,14 @@ object Db {
 
     def bookTweet(bookTweets: BookTweet)(implicit template: JdbcTemplate) = {
       new SimpleJdbcInsert(template.getDataSource).withTableName("BOOKTWEETS").execute(BookTweetsParameter(bookTweets))
+    }
+
+    def sentimentResponse(sr: Option[SentimentResponse])(implicit log: LoggingAdapter, template: JdbcTemplate) = {
+      sr.map {
+        s =>
+          log.info("Inserting into Db, book tweets - " + s.tweets.size)
+          Db.insert.bookTweets(s.tweets)
+      }
     }
   }
 

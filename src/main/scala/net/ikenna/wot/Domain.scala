@@ -1,6 +1,19 @@
 package net.ikenna.wot
 
 object Sentiment extends Enumeration {
+  def from(polarity: Option[Int]): Sentiment.Sentiment = {
+    if (polarity.isDefined) {
+      polarity.get match {
+        case 4 => Sentiment.Positive
+        case 2 => Sentiment.Neutral
+        case 0 => Sentiment.Negative
+        case _ => throw new RuntimeException("Unknown sentiment")
+      }
+    } else {
+      Sentiment.Null
+    }
+  }
+
   type Sentiment = Value
   val Positive, Negative, Neutral, Null = Value
 }
@@ -32,9 +45,12 @@ case class BookMeta(readers: Option[Int] = None,
   completeness: Option[Completeness] = None)
 
 case class Book(bookUrl: String,
-    title: Option[String] = None,
-    hashtag: Option[String] = None,
-    meta: Option[BookMeta] = None,
-    numberOfTweets: Option[Int] = None) {
+  title: Option[String] = None,
+  hashtag: Option[String] = None,
+  meta: Option[BookMeta] = None,
+  numberOfTweets: Option[Int] = None)
+
+object Book {
+  def searchTermFor(book: Book): String = book.bookUrl.replace("https://", "").replace("http://", "")
 }
 

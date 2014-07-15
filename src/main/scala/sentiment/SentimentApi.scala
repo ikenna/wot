@@ -2,14 +2,39 @@ package sentiment
 
 import dispatch._
 import dispatch.Defaults.executor
-import net.ikenna.wot.BookTweet
+import net.ikenna.wot.{ Book, Sentiment, BookTweet }
 import org.json4s._
 import org.json4s.jackson.Serialization
 import org.json4s.jackson.Serialization.{ write, read }
+import akka.event.LoggingAdapter
+
+case class SentimentRequest(book: Book, tweets: Seq[BookTweet])
+
+case class SentimentResponse(book: Book, tweets: Seq[BookTweet])
 
 object SentimentApi extends App {
 
-  def getSentiment2(tweet: BookTweet*): SData = {
+  def request(bookTweets: Option[SentimentRequest])(implicit log: LoggingAdapter): Option[SentimentResponse] = {
+    bookTweets.map {
+      b =>
+        val result = SentimentResponse(b.book, update(b.tweets))
+        val logSentiments = result.tweets.map(t => t.sentiment.toString).mkString
+        log.info(s"Sentiment for ${result.book.bookUrl} : ${logSentiments}")
+        result
+    }
+  }
+
+  def update(bookTweets: Seq[BookTweet])(implicit log: LoggingAdapter): Seq[BookTweet] = {
+    val sData = getSentiment(bookTweets: _*)
+    val textToPolarityMap: Map[String, Int] = sData.data.map(e => (e.text -> e.polarity.get)).toMap
+    bookTweets.map {
+      bookTweet =>
+        val polarity = textToPolarityMap.get(bookTweet.tweetText)
+        bookTweet.copy(sentiment = Sentiment.from(polarity))
+    }
+  }
+
+  def getSentiment(tweet: BookTweet*)(implicit log: LoggingAdapter): SData = {
     val tweetData: String = serialize(tweet: _*)
     val resultFuture = httpRequest(tweetData)
     deserialize(resultFuture())

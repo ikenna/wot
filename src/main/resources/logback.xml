@@ -13,7 +13,7 @@
         </encoder>
     </appender>
 
-    <logger name="net.ikenna.wot" level="INFO" additivity="false">
+    <logger name="net.ikenna.wot" level="DEBUG" additivity="false">
         <appender-ref ref="console"/>
         <appender-ref ref="file"/>
     </logger>

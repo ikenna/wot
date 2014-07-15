@@ -7,10 +7,7 @@ import org.jsoup.Jsoup
 
 class BookMetaUpdaterTest extends FunSuite with Matchers with BeforeAndAfterAll with ShouldMatchers with OptionValues {
 
-  val book1: Book = Book("https://leanpub.com/everydayrailsrspec")
-  val book2: Book = Book("https://leanpub.com/codebright")
-  val book3: Book = Book("https://leanpub.com/growing-rails")
-
+  import BooksForTests._
   implicit val document1: Document = Jsoup.connect(book1.bookUrl).get()
   implicit val document2: Document = Jsoup.connect(book2.bookUrl).get()
   implicit val document3: Document = Jsoup.connect(book3.bookUrl).get()
@@ -73,4 +70,10 @@ class BookMetaUpdaterTest extends FunSuite with Matchers with BeforeAndAfterAll 
     BookMetaUpdater.getAuthorTwitterUrl(document1).value should be("https://twitter.com/everydayrails")
   }
 
+}
+
+object BooksForTests {
+  val book1: Book = Book("https://leanpub.com/everydayrailsrspec")
+  val book2: Book = Book("https://leanpub.com/codebright")
+  val book3: Book = Book("https://leanpub.com/growing-rails")
 }

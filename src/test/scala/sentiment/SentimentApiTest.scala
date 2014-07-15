@@ -1,21 +1,24 @@
 package sentiment
 
 import org.scalatest.{ Matchers, FunSuite }
-import net.ikenna.wot.{ Sentiment, BookTweet }
+import net.ikenna.wot.{ Db, Sentiment, BookTweet }
+import akka.event.{ NoLogging, LoggingAdapter }
 
 class SentimentApiTest extends FunSuite with Matchers {
 
   import SentimentApi._
   import org.scalatest.OptionValues._
+  implicit val log: LoggingAdapter = NoLogging
+
   val tweet: BookTweet = BookTweet("", "", "I love Titanic", 0, Sentiment.Null, "", "", false)
   val tweet2: BookTweet = BookTweet("", "", "I hate Titanic", 0, Sentiment.Null, "", "", false)
 
   test("polarity of - I love Titanic - should be 4") {
-    getSentiment2(tweet) should be(SData(List(Entry("I love Titanic", Some(4), Some(Meta("en"))))))
+    getSentiment(tweet) should be(SData(List(Entry("I love Titanic", Some(4), Some(Meta("en"))))))
   }
 
   test("get sentiment for several tweets") {
-    getSentiment2(tweet, tweet2) should be(
+    getSentiment(tweet, tweet2) should be(
       SData(List(Entry("I love Titanic", Some(4), Some(Meta("en"))), Entry("I hate Titanic", Some(0), Some(Meta("en")))))
     )
   }
