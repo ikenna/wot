@@ -12,7 +12,7 @@ case class SentimentRequest(book: Book, tweets: Seq[BookTweet])
 
 case class SentimentResponse(book: Book, tweets: Seq[BookTweet])
 
-object SentimentApi extends App {
+object SentimentApi {
 
   def request(bookTweets: Option[SentimentRequest])(implicit log: LoggingAdapter): Option[SentimentResponse] = {
     bookTweets.map {

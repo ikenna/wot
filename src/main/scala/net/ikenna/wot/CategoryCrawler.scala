@@ -2,8 +2,8 @@ package net.ikenna.wot
 
 import akka.actor._
 import akka.event.Logging
-import net.ikenna.wot.BookMetaActor.{ BookPersisted, GetBookMeta }
 import scala.concurrent.duration._
+import net.ikenna.wot.BookActor.GetBookData
 
 object CategoryCrawler {
 
@@ -11,40 +11,48 @@ object CategoryCrawler {
 
   def props: Props = Props(new CategoryCrawler)
 
-  def name: String = "category-crawler"
+  def name: String = "category"
 }
 
 class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
 
   import CategoryCrawler._
+  import context.dispatcher
 
   val log = Logging(context.system, this)
-  var toFetch: Int = 0
-  var fetched: Int = 0
+  val children = collection.mutable.Set[ActorRef]()
 
+  override def preStart = {
+    shutdownSystemWhenChildrenFinish
+  }
   override def receive: Actor.Receive = {
-    case Crawl => onCrawl
-    case BookPersisted(book) => onBookPersisted(book)
+    case Crawl => bookActors.map(_ ! GetBookData())
+    case Terminated(child) => onChildTermination(child)
   }
 
-  def onCrawl = {
+  def bookActors: Seq[ActorRef] = {
     log.info("Received message " + Crawl)
-    val booksToUpdate = getBookUrlAndTitleFrom(Categories.list)
-    toFetch = booksToUpdate.size
-    log.info(s"Fetching total of ${toFetch} books")
-    for (book <- booksToUpdate) {
-      val bookMetaActor = context.actorOf(BookMetaActor.props, BookMetaActor.name(book))
-      context.watch(bookMetaActor)
-      bookMetaActor ! GetBookMeta(book)
-    }
+    getBookUrlAndTitleFrom(Categories.list).map {
+      book =>
+        val bookActor = context.actorOf(BookActor.props(book), BookActor.name(book))
+        context.watch(bookActor)
+        children.add(bookActor)
+        bookActor
+    }.toSeq
   }
 
-  def onBookPersisted(book: Book): Unit = {
-    fetched = fetched + 1
-    log.info(s"Fetched ${fetched} books")
-    if (toFetch == fetched) {
-      log.info("Finished all books. Db - " + WotCrawlerApp.dbName)
-      context.system.scheduler.scheduleOnce(3 seconds)(context.system.shutdown())(context.dispatcher)
+  def onChildTermination(actorRef: ActorRef): Unit = {
+    children.remove(actorRef)
+    log.info(s"Actor ${actorRef.path} stopped. Remaining ${children.size} actors")
+  }
+
+  def shutdownSystemWhenChildrenFinish = {
+    context.system.scheduler.schedule(10 seconds, 2 seconds) {
+      if (children.isEmpty) {
+        context.system.shutdown()
+      } else {
+        log.info("Children not finished yet")
+      }
     }
   }
 }

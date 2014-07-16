@@ -6,33 +6,39 @@ import org.openqa.selenium.{ By, WebDriver }
 import org.jsoup.nodes.Document
 import scala.util.{ Failure, Success, Try }
 import org.jsoup.select.Elements
+import akka.event.LoggingAdapter
 
-object TwitterCountsFetcher {
-  implicit val driver = new FirefoxDriver()
-  implicit val waiting = new WebDriverWait(driver, 15, 100)
+class TwitterCountsFetcher() {
+  val driver: FirefoxDriver = new FirefoxDriver()
+  val waiting: WebDriverWait = new WebDriverWait(driver, 15, 100)
 
-  def updateWithTwitterCount(book: Book): Book = {
-    book.copy(numberOfTweets = getTwitterCount(book.bookUrl))
+  def updateWithTwitterCount(book: Book)(implicit log: LoggingAdapter): Book = {
+    val result = Try(getTwitterCount(book.bookUrl)) match {
+      case Success(n) => book.copy(numberOfTweets = n)
+      case Failure(e) => {
+        log.error("Could not get Twitter count for " + book.bookUrl, e)
+        book
+      }
+    }
+    driver.quit()
+    result
   }
 
-  def getTwitterCount(bookUrl: String)(implicit waiting: WebDriverWait, driver: WebDriver): Option[Int] = {
+  def getTwitterCount(bookUrl: String): Option[Int] = {
     driver.get(bookUrl)
     WotLogger.debug("Page title is: " + driver.getTitle());
     val element = waiting.until(ExpectedConditions.visibilityOfElementLocated(By.className("twitter-share-button")));
     val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
     Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
   }
-
-  def quit() = driver.quit()
-
 }
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 
-object BookMetaUpdater extends BookMetaUpdater {
+object BookUpdater extends BookUpdater {
 }
 
-trait BookMetaUpdater {
+trait BookUpdater {
 
   def getTitle(implicit document: Document): Option[String] = Option(document.select("h1[itemprop=name]").text())
 

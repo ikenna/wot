@@ -14,7 +14,7 @@ import org.springframework.jdbc.core.JdbcTemplate
 object TwitterApp extends App {
   val actorSystem = ActorSystem("TwitterApp")
   val twitterSearch = actorSystem.actorOf(TwitterSearch.props, TwitterSearch.name)
-  twitterSearch ! SearchTwitter("prod-wotdb-MonJul14031047BST2014")
+  twitterSearch ! SearchTwitter("prod-wotdb-TueJul15174234BST2014")
 }
 
 object TwitterSearch {

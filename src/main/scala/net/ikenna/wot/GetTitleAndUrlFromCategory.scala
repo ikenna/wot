@@ -8,9 +8,11 @@ import scala.util.{ Failure, Success, Try }
 trait GetTitleAndUrlFromCategory extends ConnectWithRetry {
 
   def getBookUrlAndTitleFrom(categories: Seq[Category]): Set[Book] = {
-    categories.map(getBookUrlAndTitleFrom).foldRight(Set[Book]()) {
+    val result = categories.map(getBookUrlAndTitleFrom).foldRight(Set[Book]()) {
       (current, total) => total ++ current
     }
+    log.info(s"Fetching total of ${result.size} books")
+    result
   }
 
   def getBookUrlAndTitleFrom(category: Category): Seq[Book] = {
