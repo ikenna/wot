@@ -1,0 +1,1211 @@
+
+[info] Running net.ikenna.wot.twitter.TwitterAuthorSearchApp
+Jul 18, 2014 6:21:09 PM net.ikenna.wot.twitter.TwitterAuthorSearchApp$ loadAuthorsFromDb
+INFO: Number of author-books loaded from DB  843
+Jul 18, 2014 6:21:09 PM net.ikenna.wot.twitter.TwitterAuthorSearchApp$ removeNoneTwitterAuthors
+INFO: Removed non twitter authors. Twitter authors = 618
+Jul 18, 2014 6:21:12 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/search?q=%23painlessvim&src=hash =
+Jul 18, 2014 6:21:12 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/natedickson Some(https://twitter.com/search?q=%23painlessvim&src=hash) For input string: ""
+Jul 18, 2014 6:21:13 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/johnmfulwider = 904
+Jul 18, 2014 6:21:15 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/archesproject = 154
+Jul 18, 2014 6:21:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/JohnGreenaway/status/275312219816882176 = 687
+Jul 18, 2014 6:21:18 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jamesshore/status/301396603586105344 =
+Jul 18, 2014 6:21:18 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/joshuaclanton Some(https://twitter.com/jamesshore/status/301396603586105344) For input string: ""
+Jul 18, 2014 6:21:19 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/testobsessed = 8,613
+Jul 18, 2014 6:21:19 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/paulbradshaw = 21.4K
+Jul 18, 2014 6:21:19 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/paulbradshaw Some(https://twitter.com/paulbradshaw) For input string: "21.4K"
+Jul 18, 2014 6:21:20 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/robmil = 255
+Jul 18, 2014 6:21:20 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ralfw = 1,200
+Jul 18, 2014 6:21:20 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/jonguenther Some(https://twitter.com/_JonGuenther) HTTP error fetching URL
+Jul 18, 2014 6:21:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/spajus = 166
+Jul 18, 2014 6:21:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jerryweinberg = 7,213
+Jul 18, 2014 6:21:22 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/pavelpenev = 293
+Jul 18, 2014 6:21:22 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/feyeleanor = 1,089
+Jul 18, 2014 6:21:23 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/shadow_of__soul = 311
+Jul 18, 2014 6:21:23 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jonathan_kohl = 1,188
+Jul 18, 2014 6:21:24 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/auser = 1,777
+Jul 18, 2014 6:21:24 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jorge_lynch = 258
+Jul 18, 2014 6:21:25 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dancow = 6,699
+Jul 18, 2014 6:21:25 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/royosherove = 11.7K
+Jul 18, 2014 6:21:25 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/royosherove Some(https://twitter.com/royosherove) For input string: "11.7K"
+Jul 18, 2014 6:21:25 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jillmsanders = 1,917
+Jul 18, 2014 6:21:26 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/firstclown = 140
+Jul 18, 2014 6:21:26 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/NickOostvogels = 1,034
+Jul 18, 2014 6:21:27 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/JonoIsWriting = 6
+Jul 18, 2014 6:21:27 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/bruno1970 = 921
+Jul 18, 2014 6:21:28 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/enygma = 4,368
+Jul 18, 2014 6:21:28 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/CoolSWEng = 2,117
+Jul 18, 2014 6:21:29 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/samlaing = 1,243
+Jul 18, 2014 6:21:29 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/pverhaert = 6
+Jul 18, 2014 6:21:30 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sethdvincent = 663
+Jul 18, 2014 6:21:30 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/snowypelican = 6
+Jul 18, 2014 6:21:30 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fogus = 8,380
+Jul 18, 2014 6:21:31 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/pascal_martin = 886
+Jul 18, 2014 6:21:31 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/AbOrigineMundi = 561
+Jul 18, 2014 6:21:31 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/frugivore = 16
+Jul 18, 2014 6:21:32 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sidewinderfm = 171
+Jul 18, 2014 6:21:32 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/MilkHoneyedLand = 1,552
+Jul 18, 2014 6:21:33 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/pete_naish/status/440778521326415872 =
+Jul 18, 2014 6:21:33 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/stevejalim Some(https://twitter.com/pete_naish/status/440778521326415872) For input string: ""
+Jul 18, 2014 6:21:34 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dasryanmoore = 138
+Jul 18, 2014 6:21:34 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fideloper = 3,213
+Jul 18, 2014 6:21:34 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/philsturgeon = 11.1K
+Jul 18, 2014 6:21:34 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/joshlockhart Some(https://twitter.com/philsturgeon) For input string: "11.1K"
+Jul 18, 2014 6:21:35 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/naughtiescribe = 1,230
+Jul 18, 2014 6:21:35 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lunivore = 5,841
+Jul 18, 2014 6:21:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/emilybache = 1,250
+Jul 18, 2014 6:21:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/draemesaekyrFK = 574
+Jul 18, 2014 6:21:37 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/AmyPReed = 54
+Jul 18, 2014 6:21:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/erikaheidi = 3,687
+Jul 18, 2014 6:21:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/franzibaehrle = 577
+Jul 18, 2014 6:21:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mnishihan = 83
+Jul 18, 2014 6:21:39 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/clairemilleruk = 1,499
+Jul 18, 2014 6:21:40 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lornajane = 7,134
+Jul 18, 2014 6:21:40 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/swizec = 4,017
+Jul 18, 2014 6:21:41 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/juliendorra = 2,998
+Jul 18, 2014 6:21:41 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/JimKitzmiller = 65.8K
+Jul 18, 2014 6:21:41 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/jimkitzmiller Some(https://twitter.com/JimKitzmiller) For input string: "65.8K"
+Jul 18, 2014 6:21:42 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lenepp = 205
+Jul 18, 2014 6:21:42 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Mayashappyplace = 1,627
+Jul 18, 2014 6:21:43 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/PepeVazquezS = 369
+Jul 18, 2014 6:21:43 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/tastapod = 14.4K
+Jul 18, 2014 6:21:43 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/royosherove Some(https://twitter.com/tastapod) For input string: "14.4K"
+Jul 18, 2014 6:21:44 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/soapdog = 608
+Jul 18, 2014 6:21:45 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/pmjones = 1,937
+Jul 18, 2014 6:21:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fasttosee = 1
+Jul 18, 2014 6:21:47 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/autismfather = 10.7K
+Jul 18, 2014 6:21:47 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/autismfather Some(https://twitter.com/autismfather) For input string: "10.7K"
+Jul 18, 2014 6:21:47 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/rahmatawaludin = 165
+Jul 18, 2014 6:21:47 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/thierrycros = 855
+Jul 18, 2014 6:21:48 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lukaszwrobel = 28
+Jul 18, 2014 6:21:48 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/harshjv = 50
+Jul 18, 2014 6:21:49 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/cpp_rocks = 666
+Jul 18, 2014 6:21:49 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ElectroGrow = 172
+Jul 18, 2014 6:21:50 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lilibel = 862
+Jul 18, 2014 6:21:50 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/allankellynet = 1,715
+Jul 18, 2014 6:21:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/raganwald = 9,284
+Jul 18, 2014 6:21:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/iCantGB = 80
+Jul 18, 2014 6:21:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/cindyfsolomon = 2,769
+Jul 18, 2014 6:21:52 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/paulocaroli = 1,903
+Jul 18, 2014 6:21:52 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/alice_emily = 4,458
+Jul 18, 2014 6:21:52 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/artmov = 106
+Jul 18, 2014 6:21:53 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/DragonSnake9989 = 7
+Jul 18, 2014 6:21:53 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/d3noob = 311
+Jul 18, 2014 6:21:54 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/iwantmyrealname = 464
+Jul 18, 2014 6:21:54 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/azat_co = 2,607
+Jul 18, 2014 6:21:54 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/SistaGirlzBooks = 672
+Jul 18, 2014 6:21:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/secboffin = 5,215
+Jul 18, 2014 6:21:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/uncommoncold = 646
+Jul 18, 2014 6:21:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/YvesHanoulle = 4,052
+Jul 18, 2014 6:21:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sambahk = 83
+Jul 18, 2014 6:21:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/BjornTikkanen = 277
+Jul 18, 2014 6:21:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/hannahbabble = 538
+Jul 18, 2014 6:21:57 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/diegoresendez = 192
+Jul 18, 2014 6:21:57 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lgoncalves1979 = 14.8K
+Jul 18, 2014 6:21:57 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/benlinders Some(https://twitter.com/lgoncalves1979) For input string: "14.8K"
+Jul 18, 2014 6:21:58 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/marcusjmd = 72
+Jul 18, 2014 6:21:58 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/findinbay = 361
+Jul 18, 2014 6:21:59 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Phani_Mahesh = 158
+Jul 18, 2014 6:21:59 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sorinmustaca = 397
+Jul 18, 2014 6:21:59 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lukasco = 223
+Jul 18, 2014 6:22:00 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/everydayrails = 782
+Jul 18, 2014 6:22:00 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/benedmunds = 1,857
+Jul 18, 2014 6:22:01 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jcenters = 703
+Jul 18, 2014 6:22:01 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jasonlittle = 2,367
+Jul 18, 2014 6:22:02 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ops4devs = 25
+Jul 18, 2014 6:22:02 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jimmurdoch = 7,461
+Jul 18, 2014 6:22:03 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sweetpeasoft/status/240273809519804416 =
+Jul 18, 2014 6:22:03 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/marick Some(https://twitter.com/sweetpeasoft/status/240273809519804416) For input string: ""
+Jul 18, 2014 6:22:03 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/peteashton = 3,826
+Jul 18, 2014 6:22:04 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/alexander_tar = 112
+Jul 18, 2014 6:22:04 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/geerlingguy = 3,523
+Jul 18, 2014 6:22:05 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ashfurrow = 4,413
+Jul 18, 2014 6:22:05 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/infinitarian = 46
+Jul 18, 2014 6:22:05 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/robertsjason = 467
+Jul 18, 2014 6:22:06 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/nykingmd = 623
+Jul 18, 2014 6:22:06 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/concepthacker = 5
+Jul 18, 2014 6:22:06 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/zeljkofilipin = 938
+Jul 18, 2014 6:22:06 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/vdasta = 579
+Jul 18, 2014 6:22:07 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/WTFlopPoker = 113
+Jul 18, 2014 6:22:07 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/paddyforan = 687
+Jul 18, 2014 6:22:08 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ericries = 175K
+Jul 18, 2014 6:22:08 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/ericries Some(https://twitter.com/ericries) For input string: "175K"
+Jul 18, 2014 6:22:08 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/MarkNijhof = 2,074
+Jul 18, 2014 6:22:08 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mikebranski = 366
+Jul 18, 2014 6:22:09 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/varokas = 92
+Jul 18, 2014 6:22:09 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/#!/hkarthik =
+Jul 18, 2014 6:22:09 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/raganwald Some(https://twitter.com/#!/hkarthik) For input string: ""
+Jul 18, 2014 6:22:10 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/joeld = 388
+Jul 18, 2014 6:22:10 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/tabterp = 378
+Jul 18, 2014 6:22:10 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/niiganabiik = 152
+Jul 18, 2014 6:22:11 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/starttaiwan = 33
+Jul 18, 2014 6:22:11 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/grmpyprogrammer = 5,571
+Jul 18, 2014 6:22:12 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mwlauthor = 1,561
+Jul 18, 2014 6:22:12 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/TO = 23.4K
+Jul 18, 2014 6:22:12 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/obie Some(https://twitter.com/TO) For input string: "23.4K"
+Jul 18, 2014 6:22:12 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/bartvermijlen = 1,119
+Jul 18, 2014 6:22:13 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/alexis8nicolas = 591
+Jul 18, 2014 6:22:13 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/yuvalyeret = 1,699
+Jul 18, 2014 6:22:14 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/oddjones = 668
+Jul 18, 2014 6:22:14 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/tlperry = 452
+Jul 18, 2014 6:22:15 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/huanlin = 12
+Jul 18, 2014 6:22:15 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/steveo1967 = 1,360
+Jul 18, 2014 6:22:16 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/rebeccalee6661 = 37
+Jul 18, 2014 6:22:16 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/halfbyte = 1,345
+Jul 18, 2014 6:22:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/caracabe = 276
+Jul 18, 2014 6:22:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/markgraban = 12K
+Jul 18, 2014 6:22:17 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/markgraban Some(https://twitter.com/markgraban) For input string: "12K"
+Jul 18, 2014 6:22:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/josh_earl = 3,808
+Jul 18, 2014 6:22:18 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/scottmillett = 562
+Jul 18, 2014 6:22:18 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/uniek81books = 366
+Jul 18, 2014 6:22:18 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/itsunderstood = 1,033
+Jul 18, 2014 6:22:19 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Ryan_Kurr = 71
+Jul 18, 2014 6:22:19 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/PeacefulHealing = 156
+Jul 18, 2014 6:22:20 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ryakh = 1,389
+Jul 18, 2014 6:22:20 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Feenix217 = 1,489
+Jul 18, 2014 6:22:20 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/triskweline = 167
+Jul 18, 2014 6:22:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/shineandre = 454
+Jul 18, 2014 6:22:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/alanna_shaikh = 11.7K
+Jul 18, 2014 6:22:21 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/amandataub Some(https://twitter.com/alanna_shaikh) For input string: "11.7K"
+Jul 18, 2014 6:22:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/FrancescoLetter = 115
+Jul 18, 2014 6:22:22 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/minitechme = 193
+Jul 18, 2014 6:22:22 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Jamesshaw = 557
+Jul 18, 2014 6:22:23 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/julienbayle = 1,978
+Jul 18, 2014 6:22:24 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/chzy = 1,889
+Jul 18, 2014 6:22:24 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/psychicmegan = 5
+Jul 18, 2014 6:22:24 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/skooloflife = 500
+Jul 18, 2014 6:22:25 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mfeckie = 116
+Jul 18, 2014 6:22:25 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/oblakeerickson = 895
+Jul 18, 2014 6:22:26 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/BruceDillahunty = 500
+Jul 18, 2014 6:22:26 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/simpfinity = 220
+Jul 18, 2014 6:22:27 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/nurulimamnotes = 168
+Jul 18, 2014 6:22:27 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/pablitux = 1,937
+Jul 18, 2014 6:22:28 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/coloradocsas = 202
+Jul 18, 2014 6:22:28 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/shamanlvr = 15
+Jul 18, 2014 6:22:29 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/cathievr = 117
+Jul 18, 2014 6:22:29 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/scrumphony Some(https://twitter.com/scrumphony) HTTP error fetching URL
+Jul 18, 2014 6:22:30 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Soulsailor = 3,139
+Jul 18, 2014 6:22:30 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/matthewdedwards = 49
+Jul 18, 2014 6:22:31 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/TankBo = 71
+Jul 18, 2014 6:22:31 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/AdamTornhill = 225
+Jul 18, 2014 6:22:32 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fjfish = 863
+Jul 18, 2014 6:22:32 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/patkua = 1,476
+Jul 18, 2014 6:22:32 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/taylorotwell = 13K
+Jul 18, 2014 6:22:32 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/taylorotwell Some(https://twitter.com/taylorotwell) For input string: "13K"
+Jul 18, 2014 6:22:33 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/romillyc = 527
+Jul 18, 2014 6:22:33 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/drewmccormack = 2,607
+Jul 18, 2014 6:22:33 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mileventwelve = 35
+Jul 18, 2014 6:22:34 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fargoerbooks = 13.7K
+Jul 18, 2014 6:22:34 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/fargoer Some(https://twitter.com/fargoerbooks) For input string: "13.7K"
+Jul 18, 2014 6:22:34 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/nicolasstampf = 1,096
+Jul 18, 2014 6:22:35 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/aimzbutters = 103
+Jul 18, 2014 6:22:35 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/cascadiawillem = 279
+Jul 18, 2014 6:22:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/DinisCruz = 2,170
+Jul 18, 2014 6:22:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/pgte = 2,692
+Jul 18, 2014 6:22:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/stevencorona = 56.3K
+Jul 18, 2014 6:22:36 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/stevecorona Some(https://twitter.com/stevencorona) For input string: "56.3K"
+Jul 18, 2014 6:22:37 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/eviltester = 1,441
+Jul 18, 2014 6:22:37 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/streser = 484
+Jul 18, 2014 6:22:37 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/StanleyNKatrina = 2,243
+Jul 18, 2014 6:22:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/porlando = 1,781
+Jul 18, 2014 6:22:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dlebouc = 1,715
+Jul 18, 2014 6:22:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Teathacks = 89
+Jul 18, 2014 6:22:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/nickhodges = 1,748
+Jul 18, 2014 6:22:39 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/grobmeier = 734
+Jul 18, 2014 6:22:39 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/tante = 2,743
+Jul 18, 2014 6:22:39 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/GeorgeDonnelly = 2,867
+Jul 18, 2014 6:22:39 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/_Kestrel_ = 265
+Jul 18, 2014 6:22:40 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/avinaparstek = 28
+Jul 18, 2014 6:22:41 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/stevepitt = 454
+Jul 18, 2014 6:22:41 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sineld = 762
+Jul 18, 2014 6:22:41 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/caetano_tc = 183
+Jul 18, 2014 6:22:42 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/davidknorman = 130
+Jul 18, 2014 6:22:42 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/thedelphigeek = 169
+Jul 18, 2014 6:22:42 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/derickbailey = 5,729
+Jul 18, 2014 6:22:42 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jankovskyp/status/411913926951972864 =
+Jul 18, 2014 6:22:42 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/eriknordeus Some(https://twitter.com/jankovskyp/status/411913926951972864) For input string: ""
+Jul 18, 2014 6:22:43 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Macabhaird = 59
+Jul 18, 2014 6:22:43 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/venuswicca Some(https://twitter.com/VenusWicca) HTTP error fetching URL
+Jul 18, 2014 6:22:43 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Kanplan_net = 662
+Jul 18, 2014 6:22:44 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/flinchbaugh = 4,034
+Jul 18, 2014 6:22:44 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/slicknet = 25.3K
+Jul 18, 2014 6:22:44 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/nzakas Some(https://twitter.com/slicknet) For input string: "25.3K"
+Jul 18, 2014 6:22:44 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/EtherealMind = 11K
+Jul 18, 2014 6:22:44 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/EtherealMind Some(https://twitter.com/EtherealMind) For input string: "11K"
+Jul 18, 2014 6:22:44 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jbrains = 6,121
+Jul 18, 2014 6:22:45 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/msurguy = 3,442
+Jul 18, 2014 6:22:45 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/selfpubbootcamp = 538
+Jul 18, 2014 6:22:45 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/yogafreedom = 348
+Jul 18, 2014 6:22:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/LucCogZest = 86
+Jul 18, 2014 6:22:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/petegoodliffe = 791
+Jul 18, 2014 6:22:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/trumbitta = 551
+Jul 18, 2014 6:22:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/kimparker054 = 1,712
+Jul 18, 2014 6:22:47 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jhaurawachsman = 5,472
+Jul 18, 2014 6:22:48 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/zaip = 980
+Jul 18, 2014 6:22:48 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/davpol8112 = 137
+Jul 18, 2014 6:22:49 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/kevlangdo = 219
+Jul 18, 2014 6:22:49 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/curiouscat_com = 1,326
+Jul 18, 2014 6:22:50 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/elleclouse = 1,203
+Jul 18, 2014 6:22:50 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/tetradian = 2,427
+Jul 18, 2014 6:22:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/JurgenLACoach = 1,151
+Jul 18, 2014 6:22:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jbrains/status/468089107206668288 =
+Jul 18, 2014 6:22:51 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/jayfields Some(https://twitter.com/jbrains/status/468089107206668288) For input string: ""
+Jul 18, 2014 6:22:52 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jhlittle = 557
+Jul 18, 2014 6:22:52 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/436341 = 139
+Jul 18, 2014 6:22:52 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ryphna = 164
+Jul 18, 2014 6:22:53 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ElizaZanders = 534
+Jul 18, 2014 6:22:53 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/normis = 1,202
+Jul 18, 2014 6:22:54 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/assertchris = 1,206
+Jul 18, 2014 6:22:54 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Watyrfall = 13
+Jul 18, 2014 6:22:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dpatra = 329
+Jul 18, 2014 6:22:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/richardveryard = 1,466
+Jul 18, 2014 6:22:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/author63 = 59
+Jul 18, 2014 6:22:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ryanbigg = 4,256
+Jul 18, 2014 6:22:57 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/isaiah2620 = 13
+Jul 18, 2014 6:22:57 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/estherderby = 10.9K
+Jul 18, 2014 6:22:57 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/dongray Some(https://twitter.com/estherderby) For input string: "10.9K"
+Jul 18, 2014 6:22:58 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/taq = 1,381
+Jul 18, 2014 6:22:58 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/daylerees = 6,653
+Jul 18, 2014 6:22:58 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/neutralthoughts = 3,008
+Jul 18, 2014 6:22:59 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/renzonuccitec = 294
+Jul 18, 2014 6:22:59 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/matthiasak = 1,242
+Jul 18, 2014 6:23:00 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/robert_annett = 102
+Jul 18, 2014 6:23:00 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/darkhelmetlive = 881
+Jul 18, 2014 6:23:00 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/startuppatterns = 49
+Jul 18, 2014 6:23:01 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/iText = 395
+Jul 18, 2014 6:23:01 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dwildt = 2,351
+Jul 18, 2014 6:23:01 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dubber = 11.1K
+Jul 18, 2014 6:23:01 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/dubber Some(https://twitter.com/dubber) For input string: "11.1K"
+Jul 18, 2014 6:23:02 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mvizdos = 2,701
+Jul 18, 2014 6:23:02 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mattgoldspink = 190
+Jul 18, 2014 6:23:02 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lorcaper66 = 140
+Jul 18, 2014 6:23:03 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/simonbrown = 4,704
+Jul 18, 2014 6:23:03 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/alisterscott Some(https://twitter.com/alisterscott) HTTP error fetching URL
+Jul 18, 2014 6:23:03 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/joekissell = 1,790
+Jul 18, 2014 6:23:04 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ohcoder = 90
+Jul 18, 2014 6:23:04 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/zanedickens = 737
+Jul 18, 2014 6:23:05 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mygile = 53
+Jul 18, 2014 6:23:05 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/50quickideas = 455
+Jul 18, 2014 6:23:06 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/nulledd/status/278249999828140033 =
+Jul 18, 2014 6:23:06 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/raganwald Some(https://twitter.com/nulledd/status/278249999828140033) For input string: ""
+Jul 18, 2014 6:23:06 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/PogiNate = 104
+Jul 18, 2014 6:23:06 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/henrikkniberg = 9,356
+Jul 18, 2014 6:23:07 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/cychug = 93
+Jul 18, 2014 6:23:07 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jmvives = 450
+Jul 18, 2014 6:23:08 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/teacherguy66 = 185
+Jul 18, 2014 6:23:08 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mmarschall = 2,182
+Jul 18, 2014 6:23:09 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/coreyhaines = 12.8K
+Jul 18, 2014 6:23:09 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/coreyhaines Some(https://twitter.com/coreyhaines) For input string: "12.8K"
+Jul 18, 2014 6:23:09 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fsalehpour = 24
+Jul 18, 2014 6:23:10 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/BenLinders = 1,744
+Jul 18, 2014 6:23:10 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/EllanaRose_ = 154
+Jul 18, 2014 6:23:11 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/justmyfreak = 178
+Jul 18, 2014 6:23:11 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/InciteDecisions = 362
+Jul 18, 2014 6:23:11 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sivers = 277K
+Jul 18, 2014 6:23:11 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/woodegg Some(https://twitter.com/sivers) For input string: "277K"
+Jul 18, 2014 6:23:12 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/davidsulc = 263
+Jul 18, 2014 6:23:13 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/snscaimito = 326
+Jul 18, 2014 6:23:13 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/AviNaparstek = 28
+Jul 18, 2014 6:23:13 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dayangnoor = 1,693
+Jul 18, 2014 6:23:14 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ezliu = 271
+Jul 18, 2014 6:23:14 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/edismylife = 2,062
+Jul 18, 2014 6:23:15 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/docwinters = 181
+Jul 18, 2014 6:23:15 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/xdite = 6,121
+Jul 18, 2014 6:23:16 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/soyjavi = 5,271
+Jul 18, 2014 6:23:16 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/CaseySoftware = 6,071
+Jul 18, 2014 6:23:16 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Morendil = 2,190
+Jul 18, 2014 6:23:16 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/johnmcdowall Some(https://twitter.com/MrMcDowall) HTTP error fetching URL
+Jul 18, 2014 6:23:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/arafalov = 196
+Jul 18, 2014 6:23:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/GaryJ = 1,922
+Jul 18, 2014 6:23:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/stevelosh = 4,624
+Jul 18, 2014 6:23:17 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/bioko = 1,077
+Jul 18, 2014 6:23:18 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/cesarioramos = 311
+Jul 18, 2014 6:23:18 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/SimonPChappell = 34
+Jul 18, 2014 6:23:19 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/suhreed = 214
+Jul 18, 2014 6:23:19 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/negamuhia = 595
+Jul 18, 2014 6:23:20 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ButtaFly125 = 880
+Jul 18, 2014 6:23:20 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/heraldleader = 24.3K
+Jul 18, 2014 6:23:20 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/heraldleader Some(https://twitter.com/heraldleader) For input string: "24.3K"
+Jul 18, 2014 6:23:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/abhijitnr = 19
+Jul 18, 2014 6:23:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/vsbmeza = 635
+Jul 18, 2014 6:23:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/VPAssistance = 1
+Jul 18, 2014 6:23:21 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/6loss = 1,429
+Jul 18, 2014 6:23:22 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dylanschenker/status/326388615406026752 =
+Jul 18, 2014 6:23:22 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/zenbullets Some(https://twitter.com/dylanschenker/status/326388615406026752) For input string: ""
+Jul 18, 2014 6:23:22 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ekshortstories = 21
+Jul 18, 2014 6:23:22 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sandromancuso = 1,724
+Jul 18, 2014 6:23:23 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/prismdecision = 95
+Jul 18, 2014 6:23:23 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lancew = 1,204
+Jul 18, 2014 6:23:23 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/piyasde = 37
+Jul 18, 2014 6:23:24 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/storychuck = 124
+Jul 18, 2014 6:23:25 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/russmiles = 1,237
+Jul 18, 2014 6:23:25 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/judithandresen = 181
+Jul 18, 2014 6:23:26 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/karen_greaves = 940
+Jul 18, 2014 6:23:26 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mattarcheruk = 479
+Jul 18, 2014 6:23:27 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/tottinge = 2,077
+Jul 18, 2014 6:23:27 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/celalcem = 26
+Jul 18, 2014 6:23:28 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/andybrandt = 688
+Jul 18, 2014 6:23:28 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fergbyrne = 1,605
+Jul 18, 2014 6:23:29 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/IndianGuru = 5,493
+Jul 18, 2014 6:23:29 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/johannarothman = 6,462
+Jul 18, 2014 6:23:30 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fdietz = 281
+Jul 18, 2014 6:23:30 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/rikupekka = 51
+Jul 18, 2014 6:23:31 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/gnperdue = 43
+Jul 18, 2014 6:23:31 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/rosbarber = 3,210
+Jul 18, 2014 6:23:32 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/kfaustino = 604
+Jul 18, 2014 6:23:33 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/twinspiratie = 242
+Jul 18, 2014 6:23:33 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/luisc Some(https://twitter.com/joel-henry) HTTP error fetching URL
+Jul 18, 2014 6:23:33 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/rob_lambert = 3,458
+Jul 18, 2014 6:23:34 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/banovotz = 336
+Jul 18, 2014 6:23:35 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/geudde = 14
+Jul 18, 2014 6:23:35 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/talkingquickly = 896
+Jul 18, 2014 6:23:35 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/yanadikurniawan = 24
+Jul 18, 2014 6:23:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/harikt = 1,119
+Jul 18, 2014 6:23:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/tofo = 1,051
+Jul 18, 2014 6:23:36 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/LexusRanger = 510
+Jul 18, 2014 6:23:37 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/alberto_souza = 608
+Jul 18, 2014 6:23:37 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ericdouglas_ = 55
+Jul 18, 2014 6:23:37 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/UbiquitousRat = 384
+Jul 18, 2014 6:23:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/matthiasnoback = 1,530
+Jul 18, 2014 6:23:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/manuelkiessling = 1,550
+Jul 18, 2014 6:23:38 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jeffmcneill = 3,094
+Jul 18, 2014 6:23:39 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/garycxjk = 15
+Jul 18, 2014 6:23:39 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/StephenDrivick = 1,360
+Jul 18, 2014 6:23:40 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/daniel_schmitz = 845
+Jul 18, 2014 6:23:40 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/kode29 = 154
+Jul 18, 2014 6:23:40 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/juanre = 125
+Jul 18, 2014 6:23:41 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/ChrisPiechowicz = 51
+Jul 18, 2014 6:23:42 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/miboman = 81
+Jul 18, 2014 6:23:43 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/oschettler = 88
+Jul 18, 2014 6:23:43 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/sausheong = 1,372
+Jul 18, 2014 6:23:43 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/YovanMenkevick = 246
+Jul 18, 2014 6:23:44 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/stanmarion = 291
+Jul 18, 2014 6:23:44 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/leanself = 728
+Jul 18, 2014 6:23:45 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/BenediktNiessen = 60
+Jul 18, 2014 6:23:45 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/WynnAlice = 198
+Jul 18, 2014 6:23:45 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lazyrivr = 123
+Jul 18, 2014 6:23:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/philipdesmedt = 328
+Jul 18, 2014 6:23:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/scifilibby = 1,964
+Jul 18, 2014 6:23:46 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/NicoRowinsky = 138
+Jul 18, 2014 6:23:47 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mitch_martin = 233
+Jul 18, 2014 6:23:48 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/hunterwalk = 66.9K
+Jul 18, 2014 6:23:48 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/ericries Some(https://twitter.com/hunterwalk) For input string: "66.9K"
+Jul 18, 2014 6:23:48 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/fabianschiller = 227
+Jul 18, 2014 6:23:49 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mrhaki = 1,832
+Jul 18, 2014 6:23:49 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/nicolas_frankel = 681
+Jul 18, 2014 6:23:49 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/txustice = 939
+Jul 18, 2014 6:23:50 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dturnbull = 943
+Jul 18, 2014 6:23:50 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/bry_bibat = 438
+Jul 18, 2014 6:23:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Iskiea = 22
+Jul 18, 2014 6:23:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/thiagoesser = 440
+Jul 18, 2014 6:23:51 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jaldoretta = 303
+Jul 18, 2014 6:23:52 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Rozzot/status/434096994001244162 =
+Jul 18, 2014 6:23:52 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/adamldavis Some(https://twitter.com/Rozzot/status/434096994001244162) For input string: ""
+Jul 18, 2014 6:23:53 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Haun98 = 19
+Jul 18, 2014 6:23:53 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/mrlockyer = 5,802
+Jul 18, 2014 6:23:54 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/webenist = 104
+Jul 18, 2014 6:23:54 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/lowkontrast = 109
+Jul 18, 2014 6:23:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/_Garbage_ = 510
+Jul 18, 2014 6:23:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Adan_Tejada = 33
+Jul 18, 2014 6:23:55 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/Tim_Steinbach = 88
+Jul 18, 2014 6:23:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/yaph = 483
+Jul 18, 2014 6:23:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/adamldavis = 48
+Jul 18, 2014 6:23:56 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/SaKKosama = 15
+Jul 18, 2014 6:23:57 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/peterarmstrong = 862
+Jul 18, 2014 6:23:57 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/jahlomp = 36
+Jul 18, 2014 6:23:57 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/rrd = 663
+Jul 18, 2014 6:23:58 PM net.ikenna.wot.twitter.TwitterApi$$anonfun$1$$anonfun$apply$mcI$sp$2 apply
+INFO: Followers for  https://twitter.com/dyonsk/status/342016705171714048 =
+Jul 18, 2014 6:23:58 PM net.ikenna.wot.twitter.TwitterApi$ getAuthorFollowerCount
+WARNING: Error getting follower count for https://leanpub.com/u/jeffreyway Some(https://twitter.com/dyonsk/status/342016705171714048) For input string: ""
+https://leanpub.com/u/natedickson 0
+https://leanpub.com/u/johnfulwider 904
+https://leanpub.com/u/arches 154
+https://leanpub.com/u/gavd 687
+https://leanpub.com/u/joshuaclanton 0
+https://leanpub.com/u/testobsessed 8613
+https://leanpub.com/u/paulbradshaw 0
+https://leanpub.com/u/robmil 255
+https://leanpub.com/u/ralfw 1200
+https://leanpub.com/u/jonguenther 0
+https://leanpub.com/u/spajus 166
+https://leanpub.com/u/jerryweinberg 7213
+https://leanpub.com/u/pvlpenev 293
+https://leanpub.com/u/feyeleanor 1089
+https://leanpub.com/u/devnod 311
+https://leanpub.com/u/jonathankohl 1188
+https://leanpub.com/u/vicapow 1777
+https://leanpub.com/u/jorgelynch 258
+https://leanpub.com/u/dnguyen 6699
+https://leanpub.com/u/royosherove 0
+https://leanpub.com/u/jillsanders 1917
+https://leanpub.com/u/jerickson 140
+https://leanpub.com/u/nickoostvogels 1034
+https://leanpub.com/u/jgribeiro 6
+https://leanpub.com/u/blowagie 921
+https://leanpub.com/u/ccornutt 4368
+https://leanpub.com/u/dds 2117
+https://leanpub.com/u/karengreaves 1243
+https://leanpub.com/u/patrickverhaert 6
+https://leanpub.com/u/sethvincent 663
+https://leanpub.com/u/jamesgifford 6
+https://leanpub.com/u/fogus 8380
+https://leanpub.com/u/pmartin 886
+https://leanpub.com/u/svencipido 561
+https://leanpub.com/u/andrewed 16
+https://leanpub.com/u/kylebylin 171
+https://leanpub.com/u/anonymous0ZUsgo78P6Px0xy5NRMz1e 1552
+https://leanpub.com/u/stevejalim 0
+https://leanpub.com/u/ryanmoore 138
+https://leanpub.com/u/fideloper 3213
+https://leanpub.com/u/joshlockhart 0
+https://leanpub.com/u/naughtiescribe 1230
+https://leanpub.com/u/lunivore 5841
+https://leanpub.com/u/emilybache 1250
+https://leanpub.com/u/blfoxxe_mkitsune 574
+https://leanpub.com/u/amypreed 54
+https://leanpub.com/u/erikaheidi 3687
+https://leanpub.com/u/anonymous3z9asYEU17Xew5YXSpOCyh 577
+https://leanpub.com/u/mnishihan 83
+https://leanpub.com/u/clairemiller 1499
+https://leanpub.com/u/ijansch 7134
+https://leanpub.com/u/swizec 4017
+https://leanpub.com/u/juliendorra 2998
+https://leanpub.com/u/jimkitzmiller 0
+https://leanpub.com/u/steveluscher 205
+https://leanpub.com/u/mayatrimner 1627
+https://leanpub.com/u/anonymous2DNBhHQPr59f6Zh8TOkWI1 369
+https://leanpub.com/u/royosherove 0
+https://leanpub.com/u/andregarzia 608
+https://leanpub.com/u/pmjones 1937
+https://leanpub.com/u/doublefang 1
+https://leanpub.com/u/autismfather 0
+https://leanpub.com/u/rahmatawaludin 165
+https://leanpub.com/u/thierrycros 855
+https://leanpub.com/u/lukaszwrobel 28
+https://leanpub.com/u/harshjv 50
+https://leanpub.com/u/alexkorban 666
+https://leanpub.com/u/DavidWechsler 172
+https://leanpub.com/u/isabellmas 862
+https://leanpub.com/u/anonymous2BypmyCJHE3v-RIRGcRrgT 1715
+https://leanpub.com/u/raganwald 9284
+https://leanpub.com/u/djamespawson 80
+https://leanpub.com/u/cindyfsolomon 2769
+https://leanpub.com/u/paulocaroli 1903
+https://leanpub.com/u/josephstash 4458
+https://leanpub.com/u/artmov 106
+https://leanpub.com/u/dragonsnake9989 7
+https://leanpub.com/u/d3noob 311
+https://leanpub.com/u/sammyd 464
+https://leanpub.com/u/azat 2607
+https://leanpub.com/u/mrsreed 672
+https://leanpub.com/u/graham1 5215
+https://leanpub.com/u/chelseaclemmons 646
+https://leanpub.com/u/karengreaves 4052
+https://leanpub.com/u/samatkinson 83
+https://leanpub.com/u/bjorntikkanen 277
+https://leanpub.com/u/tomhoward 538
+https://leanpub.com/u/diegoresendez 192
+https://leanpub.com/u/benlinders 0
+https://leanpub.com/u/marcusdegerman 72
+https://leanpub.com/u/davidkim 361
+https://leanpub.com/u/jpmahesh 158
+https://leanpub.com/u/sorinmustaca 397
+https://leanpub.com/u/lukasoberhuber 223
+https://leanpub.com/u/aaronsumner 782
+https://leanpub.com/u/dexbarrett 1857
+https://leanpub.com/u/joshcenters 703
+https://leanpub.com/u/jasonlittle 2367
+https://leanpub.com/u/matthewwilliams 25
+https://leanpub.com/u/jimmurdoch 7461
+https://leanpub.com/u/marick 0
+https://leanpub.com/u/peteashton 3826
+https://leanpub.com/u/alexandertarnowski 112
+https://leanpub.com/u/geerlingguy 3523
+https://leanpub.com/u/theashfurrow 4413
+https://leanpub.com/u/michaelpicard 46
+https://leanpub.com/u/jasonroberts 467
+https://leanpub.com/u/jamesleenathaniii 623
+https://leanpub.com/u/concepthacker 5
+https://leanpub.com/u/zeljkofilipin 938
+https://leanpub.com/u/vincedasta 579
+https://leanpub.com/u/whattheflop 113
+https://leanpub.com/u/paddy 687
+https://leanpub.com/u/ericries 0
+https://leanpub.com/u/MarkNijhof 2074
+https://leanpub.com/u/mikebranski 366
+https://leanpub.com/u/varokas 92
+https://leanpub.com/u/raganwald 0
+https://leanpub.com/u/joelalexander 388
+https://leanpub.com/u/adrechsel 378
+https://leanpub.com/u/mildredrholmes 152
+https://leanpub.com/u/eliasek 33
+https://leanpub.com/u/chartjes 5571
+https://leanpub.com/u/michaelwlucas 1561
+https://leanpub.com/u/obie 0
+https://leanpub.com/u/bartvermijlen 1119
+https://leanpub.com/u/alexis8nicolas 591
+https://leanpub.com/u/yuvalyeret 1699
+https://leanpub.com/u/oddjones 668
+https://leanpub.com/u/tperry 452
+https://leanpub.com/u/michaeltsai 12
+https://leanpub.com/u/john_stevenson 1360
+https://leanpub.com/u/rebeccalee 37
+https://leanpub.com/u/jankrutisch 1345
+https://leanpub.com/u/caracabe 276
+https://leanpub.com/u/markgraban 0
+https://leanpub.com/u/joshearl 3808
+https://leanpub.com/u/scott7 562
+https://leanpub.com/u/churchjohnson28 366
+https://leanpub.com/u/suejohnston 1033
+https://leanpub.com/u/ryankurr 71
+https://leanpub.com/u/aturqoise 156
+https://leanpub.com/u/ryakh 1389
+https://leanpub.com/u/daveking 1489
+https://leanpub.com/u/thomas-eisenbarth 167
+https://leanpub.com/u/andrecronje 454
+https://leanpub.com/u/amandataub 0
+https://leanpub.com/u/francescolettera 115
+https://leanpub.com/u/jamesgifford 193
+https://leanpub.com/u/jamesshaw 557
+https://leanpub.com/u/julienbayle 1978
+https://leanpub.com/u/cheezy 1889
+https://leanpub.com/u/caroline 5
+https://leanpub.com/u/srinivasrao 500
+https://leanpub.com/u/anonymous2RpN87EE1BJw_Ul8CE0SeF 116
+https://leanpub.com/u/owenerickson0PxpuXdnPChOIPS7XoBAbE 895
+https://leanpub.com/u/bdillahu 500
+https://leanpub.com/u/luckyisgood 220
+https://leanpub.com/u/nurulimam 168
+https://leanpub.com/u/pablitux 1937
+https://leanpub.com/u/coloradocsas 202
+https://leanpub.com/u/jennatoff 15
+https://leanpub.com/u/cathievr 117
+https://leanpub.com/u/scrumphony 0
+https://leanpub.com/u/antclay 3139
+https://leanpub.com/u/matthewdedwards 49
+https://leanpub.com/u/tank 71
+https://leanpub.com/u/adamtornhill 225
+https://leanpub.com/u/fjfish 863
+https://leanpub.com/u/thekua 1476
+https://leanpub.com/u/taylorotwell 0
+https://leanpub.com/u/romilly 527
+https://leanpub.com/u/drewmccormack 2607
+https://leanpub.com/u/faysebastian 35
+https://leanpub.com/u/fargoer 0
+https://leanpub.com/u/nicolasstampf 1096
+https://leanpub.com/u/amyalexandra 103
+https://leanpub.com/u/dianalarsen 279
+https://leanpub.com/u/diniscruz 2170
+https://leanpub.com/u/pgte 2692
+https://leanpub.com/u/stevecorona 0
+https://leanpub.com/u/alanrichardson 1441
+https://leanpub.com/u/streser 484
+https://leanpub.com/u/stanleyandkatrina 2243
+https://leanpub.com/u/porlando 1781
+https://leanpub.com/u/didierlebouc3zNhP7WWr7PurZ_3XszIcS 1715
+https://leanpub.com/u/TaylorThackaberry 89
+https://leanpub.com/u/nickhodges 1748
+https://leanpub.com/u/grobmeier 734
+https://leanpub.com/u/tante 2743
+https://leanpub.com/u/GeorgeDonnelly 2867
+https://leanpub.com/u/kestrel 265
+https://leanpub.com/u/guysivan 28
+https://leanpub.com/u/stevepitt 454
+https://leanpub.com/u/sineld 762
+https://leanpub.com/u/paulocaroli 183
+https://leanpub.com/u/deekayen 130
+https://leanpub.com/u/gabr42 169
+https://leanpub.com/u/derickbailey 5729
+https://leanpub.com/u/eriknordeus 0
+https://leanpub.com/u/rossward 59
+https://leanpub.com/u/venuswicca 0
+https://leanpub.com/u/houdahamdane 662
+https://leanpub.com/u/JamieFlinchbaugh 4034
+https://leanpub.com/u/nzakas 0
+https://leanpub.com/u/EtherealMind 0
+https://leanpub.com/u/jbrains 6121
+https://leanpub.com/u/msurguy 3442
+https://leanpub.com/u/anonymous27jH-VXtj2bhHFsVGej5re 538
+https://leanpub.com/u/michellemargaret 348
+https://leanpub.com/u/LucBeaudoin 86
+https://leanpub.com/u/petegoodliffe 791
+https://leanpub.com/u/williamghelfi 551
+https://leanpub.com/u/kimparker 1712
+https://leanpub.com/u/jhauraw 5472
+https://leanpub.com/u/alexpiaz 980
+https://leanpub.com/u/davidpollard 137
+https://leanpub.com/u/kevlangdo 219
+https://leanpub.com/u/johnhunter 1326
+https://leanpub.com/u/elleclouse 1203
+https://leanpub.com/u/tetradian 2427
+https://leanpub.com/u/talboomerik 1151
+https://leanpub.com/u/jayfields 0
+https://leanpub.com/u/josephlittle 557
+https://leanpub.com/u/mohanarun 139
+https://leanpub.com/u/ryphna 164
+https://leanpub.com/u/elizabethzanders 534
+https://leanpub.com/u/normis 1202
+https://leanpub.com/u/carlosufano 1206
+https://leanpub.com/u/karygaul 13
+https://leanpub.com/u/dpatra 329
+https://leanpub.com/u/richardveryard 1466
+https://leanpub.com/u/engineryildiz 59
+https://leanpub.com/u/ryanbigg 4256
+https://leanpub.com/u/steveburkhart 13
+https://leanpub.com/u/dongray 0
+https://leanpub.com/u/taq 1381
+https://leanpub.com/u/alaguna 6653
+https://leanpub.com/u/thomasdavis 3008
+https://leanpub.com/u/renzo 294
+https://leanpub.com/u/matthiasak 1242
+https://leanpub.com/u/robertannett 102
+https://leanpub.com/u/darkhelmetlive 881
+https://leanpub.com/u/michaelromer 49
+https://leanpub.com/u/itextsoftware 395
+https://leanpub.com/u/danielwildt 2351
+https://leanpub.com/u/dubber 0
+https://leanpub.com/u/mvizdos 2701
+https://leanpub.com/u/mattgoldspink 190
+https://leanpub.com/u/loriferens 140
+https://leanpub.com/u/simonbrown 4704
+https://leanpub.com/u/alisterscott 0
+https://leanpub.com/u/joekissell 1790
+https://leanpub.com/u/ohcoder 90
+https://leanpub.com/u/zanedickens 737
+https://leanpub.com/u/joanne 53
+https://leanpub.com/u/gojko 455
+https://leanpub.com/u/raganwald 0
+https://leanpub.com/u/natedickson 104
+https://leanpub.com/u/hkniberg 9356
+https://leanpub.com/u/kwisniewski 93
+https://leanpub.com/u/josemiguelvivesmartinez 450
+https://leanpub.com/u/richardbwalker 185
+https://leanpub.com/u/danackerson 2182
+https://leanpub.com/u/coreyhaines 0
+https://leanpub.com/u/fsalehpour 24
+https://leanpub.com/u/benlinders 1744
+https://leanpub.com/u/ellanathornton-wheybrew 154
+https://leanpub.com/u/justmyfreak 178
+https://leanpub.com/u/robertdbrowniii 362
+https://leanpub.com/u/woodegg 0
+https://leanpub.com/u/davidsulc 263
+https://leanpub.com/u/stephanschwab 326
+https://leanpub.com/u/ideetsivan 28
+https://leanpub.com/u/dayangnoor 1693
+https://leanpub.com/u/ezl 271
+https://leanpub.com/u/ajjuliani 2062
+https://leanpub.com/u/docwinters 181
+https://leanpub.com/u/xdite 6121
+https://leanpub.com/u/soyjavi 5271
+https://leanpub.com/u/jameshigginbotham 6071
+https://leanpub.com/u/laurentbossavit 2190
+https://leanpub.com/u/johnmcdowall 0
+https://leanpub.com/u/arafalov 196
+https://leanpub.com/u/garyjones 1922
+https://leanpub.com/u/stevelosh 4624
+https://leanpub.com/u/cynthiadagnal-myron 1077
+https://leanpub.com/u/cesarioramos 311
+https://leanpub.com/u/simonpeter 34
+https://leanpub.com/u/suhreed 214
+https://leanpub.com/u/poppingtonic 595
+https://leanpub.com/u/poeticbuttafly 880
+https://leanpub.com/u/heraldleader 0
+https://leanpub.com/u/abhijitrawool 19
+https://leanpub.com/u/meza 635
+https://leanpub.com/u/silvan-kurras 1
+https://leanpub.com/u/scribe 1429
+https://leanpub.com/u/zenbullets 0
+https://leanpub.com/u/esthersloyer 21
+https://leanpub.com/u/sandromancuso 1724
+https://leanpub.com/u/seanbrady 95
+https://leanpub.com/u/lancewicks 1204
+https://leanpub.com/u/piyasde3eO0_mqkHBkv4Jfa8vBAy1 37
+https://leanpub.com/u/sineld 124
+https://leanpub.com/u/russmiles 1237
+https://leanpub.com/u/judithandresen 181
+https://leanpub.com/u/samanthalaing 940
+https://leanpub.com/u/mattarcher 479
+https://leanpub.com/u/tottinge 2077
+https://leanpub.com/u/celaldengiz 26
+https://leanpub.com/u/andybrandt 688
+https://leanpub.com/u/fergalbyrne 1605
+https://leanpub.com/u/satishtalim 5493
+https://leanpub.com/u/johannarothman 6462
+https://leanpub.com/u/fdietz 281
+https://leanpub.com/u/rikupekka 51
+https://leanpub.com/u/gnperdue 43
+https://leanpub.com/u/rosbarber 3210
+https://leanpub.com/u/vitalykushner 604
+https://leanpub.com/u/twinspiratie 242
+https://leanpub.com/u/luisc 0
+https://leanpub.com/u/roblambert121 3458
+https://leanpub.com/u/davorbanovic 336
+https://leanpub.com/u/janusz 14
+https://leanpub.com/u/andor_chen 896
+https://leanpub.com/u/yankurniawan 24
+https://leanpub.com/u/pmjones 1119
+https://leanpub.com/u/tobiasfors 1051
+https://leanpub.com/u/lynnalexandriamckendrick 510
+https://leanpub.com/u/albertosouza 608
+https://leanpub.com/u/ericdouglas 55
+https://leanpub.com/u/ubiquitousrat 384
+https://leanpub.com/u/matthiasnoback 1530
+https://leanpub.com/u/manuelkiessling 1550
+https://leanpub.com/u/jeffmcneill 3094
+https://leanpub.com/u/garycxjk 15
+https://leanpub.com/u/stephendrivick 1360
+https://leanpub.com/u/douglaslira 845
+https://leanpub.com/u/kylemperkins 154
+https://leanpub.com/u/juanre 125
+https://leanpub.com/u/robaley 51
+https://leanpub.com/u/miboman 81
+https://leanpub.com/u/olav 88
+https://leanpub.com/u/sausheong 1372
+https://leanpub.com/u/yovanmenkevick 246
+https://leanpub.com/u/louischatriot 291
+https://leanpub.com/u/leanself 728
+https://leanpub.com/u/BenediktNiessen 60
+https://leanpub.com/u/stephanieawbradley 198
+https://leanpub.com/u/andybell 123
+https://leanpub.com/u/philipDS 328
+https://leanpub.com/u/libbysinclair 1964
+https://leanpub.com/u/nicorowinsky 138
+https://leanpub.com/u/mitchmartin 233
+https://leanpub.com/u/ericries 0
+https://leanpub.com/u/anonymous3AhjzDyvf5uAjSAXaF6H5Z 227
+https://leanpub.com/u/mrhaki 1832
+https://leanpub.com/u/nicolasfrankel 681
+https://leanpub.com/u/txus 939
+https://leanpub.com/u/davidturnbull 943
+https://leanpub.com/u/bryanbibat 438
+https://leanpub.com/u/iskiea 22
+https://leanpub.com/u/thiagoesser 440
+https://leanpub.com/u/jenniferaldoretta 303
+https://leanpub.com/u/adamldavis 0
+https://leanpub.com/u/heatherhpogson 19
+https://leanpub.com/u/mrlockyer 5802
+https://leanpub.com/u/martinlissmats 104
+https://leanpub.com/u/leemiles 109
+https://leanpub.com/u/shirish4you 510
+https://leanpub.com/u/blacksword 33
+https://leanpub.com/u/timsteinbach 88
+https://leanpub.com/u/rg 483
+https://leanpub.com/u/adamldavis 48
+https://leanpub.com/u/sakko 15
+https://leanpub.com/u/peter 862
+https://leanpub.com/u/jahlom 36
+https://leanpub.com/u/rrd 663
+https://leanpub.com/u/jeffreyway 0
+[success] Total time: 174 s, completed 18-Jul-2014 18:23:58
+>

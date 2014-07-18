@@ -31,6 +31,10 @@ case class BookTweet(tweetUrl: String,
 
 case class Author(name: String, twitterHandle: String, twitterUrl: Option[String], authorUrl: String, bookUrl: String)
 
+object Author {
+  def twitterHandle(author: Author): Option[String] = author.twitterUrl.map(u => u.replace("https://twitter.com/", ""))
+}
+
 case class AuthorTweets(authorUrl: String, tweetText: String, tweetUrl: String, retweetCount: Int)
 
 case class Price(min: Option[Int] = None, max: Option[Int])

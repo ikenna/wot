@@ -29,6 +29,10 @@ object Db {
       template.queryForObject("Select * from AUTHOR where AUTHORURL = ?", AuthorRowMapper, Array(url))
     }
 
+    def authors(implicit template: JdbcTemplate): Seq[Author] = {
+      template.query("Select * from AUTHOR", AuthorRowMapper).toList
+    }
+
     def authorTweetByTweetUrl(tweetUrl: String)(implicit template: JdbcTemplate): AuthorTweets = {
       template.queryForObject("Select * from AuthorTweets where TWEETURL = ?", AuthorTweetRowMapper, Array(tweetUrl))
     }

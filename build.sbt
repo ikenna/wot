@@ -24,7 +24,8 @@ libraryDependencies ++= Seq(
   "com.h2database" % "h2" % "1.4.179",
   "org.twitter4j" % "twitter4j-core" % "4.0.2",
   "org.json4s" %% "json4s-native" % "3.2.10",
-  "org.json4s" %% "json4s-jackson" % "3.2.10"
+  "org.json4s" %% "json4s-jackson" % "3.2.10",
+  "com.github.tototoshi" %% "scala-csv" % "1.0.0"
 )
 
 

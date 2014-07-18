@@ -4,18 +4,35 @@ import twitter4j.{ Query, QueryResult, TwitterFactory, Twitter }
 import twitter4j.auth.AccessToken
 import net.ikenna.wot.twitter.TwitterSearch.Tweet
 import scala.collection.JavaConversions._
+import net.ikenna.wot.{ ConnectWithRetry, Author }
+import akka.event.{ NoLogging, LoggingAdapter }
+import java.util.logging.Logger
+import scala.util.{ Failure, Success, Try }
 
-object TwitterApi {
+object TwitterApi extends ConnectWithRetry {
+
   val twitter: Twitter = getTwitterApi()
 
   def getTwitterApi(): Twitter = {
     val t = TwitterFactory.getSingleton()
-    t.setOAuthConsumer(sys.env("TWITTER_CONSUMER_KEY"), sys.env("TWITTER_CONSUMER_SECRET"))
+    t.setOAuthConsumer(consumerKey, consumerSecret)
     t.setOAuthAccessToken(loadAccessToken)
     t
   }
 
-  def loadAccessToken: AccessToken = new AccessToken(sys.env("TWITTER_ACCESS_TOKEN"), sys.env("TWITTER_ACCESS_SECRET"))
+  def consumerKey = sys.env("TWITTER_CONSUMER_KEY")
+
+  def consumerSecret = sys.env("TWITTER_CONSUMER_SECRET")
+
+  def accessToken = sys.env("TWITTER_ACCESS_TOKEN")
+
+  def accessSecret = sys.env("TWITTER_ACCESS_SECRET")
+
+  def printTwitterCreds = {
+    println("consumerKey %s; consuerSecret %s, accessToken %s, accessSecret %s".format(consumerKey, consumerSecret, accessToken, accessSecret))
+  }
+
+  def loadAccessToken: AccessToken = new AccessToken(accessToken, accessSecret)
 
   def search(searchTerm: String): Seq[Tweet] = search(searchTerm, twitter)
 
@@ -32,4 +49,7 @@ object TwitterApi {
     } while (queryOption.isDefined)
     tweets
   }
+
+  override val log: LoggingAdapter = NoLogging
+
 }
