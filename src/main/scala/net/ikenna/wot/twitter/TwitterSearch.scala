@@ -1,8 +1,5 @@
 package net.ikenna.wot.twitter
 
-import twitter4j._
-import scala.collection.JavaConversions._
-import twitter4j.auth.AccessToken
 import net.ikenna.wot.{ Db, Sentiment, Book }
 import sentiment.{ SentimentRequest, SentimentApi }
 import akka.actor.{ Props, ActorSystem, Actor }
@@ -12,9 +9,10 @@ import net.ikenna.wot.twitter.TwitterSearch.SearchTwitter
 import org.springframework.jdbc.core.JdbcTemplate
 
 object TwitterApp extends App {
+  val dbName = "july14-sentiment"
   val actorSystem = ActorSystem("TwitterApp")
   val twitterSearch = actorSystem.actorOf(TwitterSearch.props, TwitterSearch.name)
-  twitterSearch ! SearchTwitter("prod-wotdb-TueJul15174234BST2014")
+  twitterSearch ! SearchTwitter()
 }
 
 object TwitterSearch {
@@ -23,7 +21,7 @@ object TwitterSearch {
 
   def props: Props = Props(new TwitterSearch())
 
-  case class SearchTwitter(dbName: String)
+  case class SearchTwitter()
 
   //TODO: filter out tweets by authors
 
@@ -67,15 +65,17 @@ object TwitterSearch {
 class TwitterSearch extends Actor {
 
   import TwitterSearch._
+  import scala.concurrent.duration._
+  import context.dispatcher
 
   implicit val log = Logging(context.system, this)
+  implicit val template = Db.prodJdbcTemplateWithName(TwitterApp.dbName)
 
   override def receive = {
-    case SearchTwitter(dbName) => onSearchTwitter(dbName)
+    case SearchTwitter() => batch
   }
 
-  def onSearchTwitter(dbName: String) = {
-    implicit val template = Db.prodJdbcTemplateWithName(dbName)
+  def onSearchTwitter = {
     val books = getBooksWithWithAtLeastOneTwitterCount
     for (book <- books) {
       val twitterResult = fetchAllTweetsForBook(book)
@@ -83,6 +83,30 @@ class TwitterSearch extends Actor {
       val sentimentRequest = filterOutRequestsWithTweetCountLessThan(5, allSentimentRequest)
       val sentimentResponse = SentimentApi.request(sentimentRequest)
       Db.insert.sentimentResponse(sentimentResponse)
+    }
+
+  }
+
+  def processBatch(books: List[Book]) = {
+    for (book <- books) {
+      val twitterResult = fetchAllTweetsForBook(book)
+      val allSentimentRequest = createSentimentRequest(twitterResult)
+      val sentimentRequest = filterOutRequestsWithTweetCountLessThan(5, allSentimentRequest)
+      val sentimentResponse = SentimentApi.request(sentimentRequest)
+      Db.insert.sentimentResponse(sentimentResponse)
+    }
+  }
+
+  def batch = {
+    implicit val template = Db.prodJdbcTemplateWithName(TwitterApp.dbName)
+    val iterator = getBooksWithWithAtLeastOneTwitterCount.grouped(179)
+    log.info("Grouped books by 179 batch")
+    var delay = 5
+    while (iterator.hasNext) {
+      val batch: List[Book] = iterator.next()
+      log.info("Setting up schedule for batch size " + batch.size + " to run in " + delay + " minutes")
+      context.system.scheduler.scheduleOnce(delay minutes)(processBatch(batch))
+      delay = delay + 15
     }
   }
 
