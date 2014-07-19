@@ -16,16 +16,16 @@ class BookUpdaterTest extends FunSuite with Matchers with BeforeAndAfterAll with
     val expected = Book("https://leanpub.com/everydayrailsrspec",
       Some("Everyday Rails Testing with RSpec"),
       Some("everydayrailsrspec"),
-      Some(BookMeta(Some(4117),
+      Some(BookMeta(Some(4130),
         Some("English Chinese 日本語"), None, Some(145), Some(Price(Some(1400), Some(1900))), None)), None)
     BookUpdater.getMeta(book1)(document1) should be(expected)
   }
-  test("Book 1 should have 4117 readers") {
-    BookUpdater.getReaders(document1).value should be(4117)
+  test("Book 1 should have 4130 readers") {
+    BookUpdater.getReaders(document1).value should be(4130)
   }
 
-  test("Book 2 should have 3993 readers") {
-    BookUpdater.getReaders(document2).value should be(3995)
+  test("Book 2 should have 4016 readers") {
+    BookUpdater.getReaders(document2).value should be(4016)
   }
 
   test("Book 1 should have 145 pages") {
@@ -69,6 +69,7 @@ class BookUpdaterTest extends FunSuite with Matchers with BeforeAndAfterAll with
   test("Author Twitter url should be should be https://twitter.com/everydayrails") {
     BookUpdater.getAuthorTwitterUrl(document1).value should be("https://twitter.com/everydayrails")
   }
+
 
 }
 

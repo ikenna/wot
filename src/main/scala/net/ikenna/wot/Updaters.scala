@@ -7,6 +7,7 @@ import org.jsoup.nodes.Document
 import scala.util.{ Failure, Success, Try }
 import org.jsoup.select.Elements
 import akka.event.LoggingAdapter
+import net.ikenna.wot.authorfollower.TwitterAuthorFollowers
 
 class TwitterCountsFetcher() {
   val driver: FirefoxDriver = new FirefoxDriver()
@@ -143,7 +144,7 @@ trait BookUpdater {
     buffer.toSet
   }
 
-  def getAuthor(book: Book)(implicit document: Document): Set[Author] = {
+  def getAuthors(book: Book)(implicit document: Document): Set[Author] = {
     getAuthorUrl.map(url => Author("", "", getAuthorTwitterUrl, url, book.bookUrl))
   }
 

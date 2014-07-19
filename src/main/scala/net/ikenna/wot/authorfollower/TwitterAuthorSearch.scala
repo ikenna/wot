@@ -15,9 +15,10 @@ trait TwitterAuthorSearch {
   val logging = Logger.getLogger(this.getClass.getName)
 
   val dbName = "july14-sentiment"
+  implicit val template = Db.prodJdbcTemplateWithName(dbName)
 
   def loadAuthorsFromDb: Seq[Author] = {
-    val result = Db.get.authors(Db.prodJdbcTemplateWithName(dbName))
+    val result = Db.get.authors(template)
     logging.info("Number of author-books loaded from DB  %s ".format(result.size))
     result
   }

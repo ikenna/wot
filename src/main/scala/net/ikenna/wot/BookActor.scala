@@ -67,7 +67,7 @@ class ScrapePageActor(book: Book) extends Actor with BookUpdater {
   override def receive: Actor.Receive = {
     case Scrape() => {
       log.debug("Scraping book data")
-      sender() ! ScrapePageResult(getMeta(book), getAuthor(book))
+      sender() ! ScrapePageResult(getMeta(book), getAuthors(book))
       context.stop(self)
     }
   }
