@@ -1,42 +1,40 @@
 package net.ikenna.wot
 
-import akka.event.LoggingAdapter
 import org.jsoup.{ Jsoup, Connection }
 import java.net.SocketTimeoutException
 import scala.util.{ Failure, Success, Try }
+import org.slf4j.{ LoggerFactory, Logger }
 
 trait GetTitleAndUrlFromCategory extends ConnectWithRetry {
 
-  def getBookUrlAndTitleFrom(categories: Seq[Category]): Set[Book] = {
-    val result = categories.map(getBookUrlAndTitleFrom).foldRight(Set[Book]()) {
-      (current, total) => total ++ current
-    }
-    log.info(s"Fetching total of ${result.size} books")
+  def getBookUrlAndTitleFromCategories: Set[BookTitleUrl] = {
+    val result = Categories.list.map(getBookUrlAndTitle).flatten.toSet
+    defaultLogger.info(s"Fetching total of ${result.size} books")
     result
   }
 
-  def getBookUrlAndTitleFrom(category: Category): Seq[Book] = {
+  def getBookUrlAndTitle(category: Category): Seq[BookTitleUrl] = {
     val iterator = connectWithRetry(category.url).get.getElementsByClass("book-link").iterator
-    var book = Seq[Book]()
+    var titleUrls = Seq[BookTitleUrl]()
     while (iterator.hasNext) {
       val element = iterator.next()
       val bookUrl = "https://leanpub.com" + element.attr("href")
       val title = element.text
-      book = book :+ Book(bookUrl, Option(title), None, None, None)
+      titleUrls = titleUrls :+ BookTitleUrl(bookUrl, title)
     }
-    book
+    titleUrls
   }
 }
 
-trait ConnectWithRetry {
+case class BookTitleUrl(url: String, title: String)
 
-  val log: LoggingAdapter
+trait ConnectWithRetry extends WotLogger {
 
   def connectWithRetry(url: String): Connection = {
     var maxRetry = 3
     var connected: Option[Connection] = tryConnect(url)
     while (maxRetry != 0 && connected.isEmpty) {
-      log.debug("Retrying connection to " + url)
+      defaultLogger.debug("Retrying connection to " + url)
       maxRetry = maxRetry - 1
       connected = tryConnect(url)
     }
@@ -46,11 +44,11 @@ trait ConnectWithRetry {
   def tryConnect(url: String): Option[Connection] = {
     Try(Jsoup.connect(url)) match {
       case Success(connection) => {
-        log.debug("Connected to " + url)
+        defaultLogger.debug("Connected to " + url)
         Some(connection)
       }
       case Failure(e) => {
-        log.error("Error connecting - " + e.toString)
+        defaultLogger.error("Error connecting to %s . Error message - %s".format(url, e.toString))
         None
       }
     }

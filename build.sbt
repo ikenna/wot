@@ -13,6 +13,7 @@ scalariformSettings
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-slf4j" % "2.3.4",
   "com.typesafe.akka" %% "akka-actor" % "2.3.4",
+  "com.typesafe.akka" %% "akka-agent" % "2.3.4",
   "org.scalatest" %% "scalatest" % "2.2.0" % "test",
   "net.databinder.dispatch" %% "dispatch-core" % "0.11.1",
 "ch.qos.logback" % "logback-classic" % "1.0.3",

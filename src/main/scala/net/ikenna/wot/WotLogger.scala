@@ -1,9 +1,10 @@
 package net.ikenna.wot
 
-object WotLogger {
-  def debug(msg: String) = {} //println("DEBUG: " + msg)
+import org.slf4j.LoggerFactory
+import akka.event.{ NoLogging, LoggingAdapter }
 
-  def info(msg: String) = {} //println("INFO: " + msg)
+trait WotLogger {
+  val defaultLogger = LoggerFactory.getLogger(this.getClass)
+  val akkaLogger: LoggingAdapter = NoLogging
 
-  def error(msg: String) = {} //println("ERROR: ***** " + msg)
 }

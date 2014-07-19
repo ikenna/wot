@@ -2,72 +2,67 @@ package net.ikenna.wot
 
 import org.scalatest._
 import scala.Some
-import org.jsoup.nodes.Document
-import org.jsoup.Jsoup
 
 class BookUpdaterTest extends FunSuite with Matchers with BeforeAndAfterAll with ShouldMatchers with OptionValues {
 
   import BooksForTests._
-  implicit val document1: Document = Jsoup.connect(book1.bookUrl).get()
-  implicit val document2: Document = Jsoup.connect(book2.bookUrl).get()
-  implicit val document3: Document = Jsoup.connect(book3.bookUrl).get()
 
-  test("get meta") {
-    val expected = Book("https://leanpub.com/everydayrailsrspec",
-      Some("Everyday Rails Testing with RSpec"),
-      Some("everydayrailsrspec"),
-      Some(BookMeta(Some(4130),
-        Some("English Chinese 日本語"), None, Some(145), Some(Price(Some(1400), Some(1900))), None)), None)
-    BookUpdater.getMeta(book1)(document1) should be(expected)
-  }
+  val updater1 = new DefaultBookUpdater(BookTitleUrl("https://leanpub.com/everydayrailsrspec", "Every Day Rails Spec"))
+  val updater2 = new DefaultBookUpdater(BookTitleUrl("https://leanpub.com/codebright", ""))
+  val updater3 = new DefaultBookUpdater(BookTitleUrl("https://leanpub.com/everydayrailsrspec", ""))
+
   test("Book 1 should have 4130 readers") {
-    BookUpdater.getReaders(document1).value should be(4130)
+    updater1.getReaders.value should be(4130)
   }
 
   test("Book 2 should have 4016 readers") {
-    BookUpdater.getReaders(document2).value should be(4016)
+    updater2.getReaders.value should be(4016)
   }
 
   test("Book 1 should have 145 pages") {
-    BookUpdater.getPages(document1).value should be(145)
+    updater1.getPages.value should be(145)
   }
 
   test("Book 2 should have 449 pages") {
-    BookUpdater.getPages(document2).value should be(449)
+    updater2.getPages.value should be(449)
   }
 
   test("get language") {
-    BookUpdater.getLanguage(document1).value should be("English Chinese 日本語")
-    BookUpdater.getLanguage(document2).value should be("English Español Serbian 日本語 italiana Turkish Português (Brazillian) Русский язык")
+    updater1.getLanguage.value should be("English Chinese 日本語")
+    updater2.getLanguage.value should be("English Español Serbian 日本語 italiana Turkish Português (Brazillian) Русский язык")
   }
 
-  test("get low price") {
-    BookUpdater.getMinPrice(document1).value should be(1400)
-    BookUpdater.getMinPrice(document2).value should be(2999)
+  test("get min price") {
+    updater1.getMinPrice.value should be(1400)
+    updater2.getMinPrice.value should be(2999)
   }
 
   test("get max price") {
-    BookUpdater.getMaxPrice(document1).value should be(1900)
-    BookUpdater.getMaxPrice(document2).value should be(3999)
+    updater1.getMaxPrice.value should be(1900)
+    updater2.getMaxPrice.value should be(3999)
   }
   test("Hashtag for book 1 should be everydayrailsrspec") {
-    BookUpdater.getHashtag(document1).value should be("everydayrailsrspec")
+    updater1.getHashtag.value should be("everydayrailsrspec")
   }
 
   test("Authors url should be https://leanpub.com/u/aaronsumner") {
-    BookUpdater.getAuthorUrl(document1) should be(Set("https://leanpub.com/u/aaronsumner"))
+    updater1.getAuthorUrls should be(Set("https://leanpub.com/u/aaronsumner"))
   }
 
   test("Authors url should be https://leanpub.com/u/henning-koch and https://leanpub.com/u/thomas-eisenbarth") {
-    BookUpdater.getAuthorUrl(document3) should be(Set("https://leanpub.com/u/henning-koch", "https://leanpub.com/u/thomas-eisenbarth"))
+    updater3.getAuthorUrls should be(Set("https://leanpub.com/u/henning-koch", "https://leanpub.com/u/thomas-eisenbarth"))
   }
 
   test("Title  should be Everyday Rails Testing with RSpec") {
-    BookUpdater.getTitle(document3) should be(Some("Growing Rails Applications in Practice"))
+    updater3.getTitle should be(Some("Growing Rails Applications in Practice"))
   }
 
-  test("Author Twitter url should be should be https://twitter.com/everydayrails") {
-    BookUpdater.getAuthorTwitterUrl(document1).value should be("https://twitter.com/everydayrails")
+  test("Get count") {
+    updater3.getCount("https://twitter.com/lunivore") should be(Some(5842))
+    updater3.getCount("https://twitter.com/vicapow") should be(Some(1104))
+    updater3.getCount("https://twitter.com/sivers") should be(Some(277000))
+    updater3.getCount("https://twitter.com/royosherove") should be(Some(11700))
+    updater3.getCount("https://twitter.com/JimKitzmiller") should be(Some(65700))
   }
 
 

@@ -73,9 +73,23 @@ object TwitterAuthorFollowers extends ConnectWithRetry {
     Option(connectWithRetry(author.authorUrl).get.select("#user_title > small:nth-child(2) > a").attr("href"))
   }
 
+  def getTwitterUrl(authorUrl: String): Option[String] = {
+    val url = connectWithRetry(authorUrl).get.select("#user_title > small:nth-child(2) > a").attr("href").trim
+    if (url.isEmpty) None else Option(url)
+  }
+
   def getCountText(twitterUrl: String): String = {
     connectWithRetry(twitterUrl).get().select("#page-container > div.ProfileCanopy.ProfileCanopy--withNav > div > div.ProfileCanopy-navBar > div > div > div.Grid-cell.u-size3of4 > div > div > ul > li.ProfileNav-item.ProfileNav-item--followers > a > span.ProfileNav-value").text()
   }
 
-  override val log: LoggingAdapter = NoLogging
+  def getCount(twitterUrl: String): Int = {
+    Try(getCountText(twitterUrl).toInt) match {
+      case Success(r) => r
+      case Failure(e) => {
+        akkaLogger.error("Error getting count for %s - %s".format(twitterUrl, e.getMessage))
+        0
+      }
+    }
+  }
+
 }

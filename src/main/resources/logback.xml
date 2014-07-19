@@ -6,6 +6,7 @@
         </encoder>
     </appender>
 
+
     <appender name="file" class="ch.qos.logback.core.FileAppender">
         <file>wotcrawler.log</file>
         <encoder>
@@ -13,7 +14,7 @@
         </encoder>
     </appender>
 
-    <logger name="net.ikenna.wot" level="DEBUG" additivity="false">
+    <logger name="net.ikenna.wot" level="INFO" additivity="false">
         <appender-ref ref="console"/>
         <appender-ref ref="file"/>
     </logger>

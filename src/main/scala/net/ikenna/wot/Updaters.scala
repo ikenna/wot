@@ -2,23 +2,23 @@ package net.ikenna.wot
 
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.support.ui.{ ExpectedConditions, WebDriverWait }
-import org.openqa.selenium.{ By, WebDriver }
+import org.openqa.selenium.By
 import org.jsoup.nodes.Document
 import scala.util.{ Failure, Success, Try }
 import org.jsoup.select.Elements
 import akka.event.LoggingAdapter
 import net.ikenna.wot.authorfollower.TwitterAuthorFollowers
 
-class TwitterCountsFetcher() {
+class TwitterCountsFetcher() extends WotLogger {
   val driver: FirefoxDriver = new FirefoxDriver()
   val waiting: WebDriverWait = new WebDriverWait(driver, 15, 100)
 
-  def updateWithTwitterCount(book: Book)(implicit log: LoggingAdapter): Book = {
+  def getTwitterCount(book: Book)(implicit log: LoggingAdapter): Option[Int] = {
     val result = Try(getTwitterCount(book.bookUrl)) match {
-      case Success(n) => book.copy(numberOfTweets = n)
+      case Success(n) => n
       case Failure(e) => {
         log.error("Could not get Twitter count for " + book.bookUrl, e)
-        book
+        None
       }
     }
     driver.quit()
@@ -27,7 +27,7 @@ class TwitterCountsFetcher() {
 
   def getTwitterCount(bookUrl: String): Option[Int] = {
     driver.get(bookUrl)
-    WotLogger.debug("Page title is: " + driver.getTitle());
+    defaultLogger.debug("Page title is: " + driver.getTitle());
     val element = waiting.until(ExpectedConditions.visibilityOfElementLocated(By.className("twitter-share-button")));
     val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
     Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
@@ -36,101 +36,108 @@ class TwitterCountsFetcher() {
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 
-object BookUpdater extends BookUpdater {
-}
+class DefaultBookUpdater(val bookUrlTitle: BookTitleUrl) extends BookUpdater
 
-trait BookUpdater {
+trait BookUpdater extends ConnectWithRetry {
 
-  def getTitle(implicit document: Document): Option[String] = Option(document.select("h1[itemprop=name]").text())
+  val bookUrlTitle: BookTitleUrl
+  val document: Document = connectWithRetry(bookUrlTitle.url).get()
 
-  def getMeta(book: Book)(implicit document: Document): Book = {
-    WotLogger.info(s"Updating meta for ${book.bookUrl}")
-    val bookMeta = BookMeta(getReaders, getLanguage, None, getPages, Some(Price(getMinPrice, getMaxPrice)))
+  def getTitle: Option[String] = Option(document.select("h1[itemprop=name]").text())
+
+  def getMeta(book: Book): Book = {
+    val bookMeta: BookMeta = getMeta2
     book.copy(meta = Some(bookMeta), hashtag = getHashtag, title = getTitle)
   }
 
-  def getMaxPrice(implicit document: Document): Option[Int] = {
+  def getMeta2: BookMeta = {
+    defaultLogger.info(s"Updating meta for ${document.location()}")
+    val bookMeta = BookMeta(getReaders, getLanguage, None, getPages, Some(Price(getMinPrice, getMaxPrice)))
+    bookMeta
+  }
+
+  def getMaxPrice: Option[Int] = {
     val selection: String = "span[itemprop*=highPrice]"
     val select: Elements = document.select(selection)
     if (select.isEmpty) {
-      WotLogger.info("No max price for " + document.location())
+      defaultLogger.debug("No max price for " + document.location())
       None
     } else {
       Try(select.text.replace("$", "").replace(".", "").replace(",", "").replace("+", "").split(" ").head.toInt) match {
         case Success(int) => Option(int)
         case Failure(e) => {
-          WotLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+          defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
           None
         }
       }
     }
   }
 
-  def getMinPrice(implicit document: Document): Option[Int] = {
+  def getMinPrice: Option[Int] = {
     val selection: String = "span[itemprop*=lowPrice] "
     val select: Elements = document.select(selection)
     if (select.isEmpty) {
-      WotLogger.info("No min price for " + document.location())
+      defaultLogger.debug("No min price for " + document.location())
       None
     } else {
       Try(select.text.replace("$", "").replace(".", "").replace(",", "").split(" ").head.toInt) match {
         case Success(int) => Option(int)
         case Failure(e) => {
-          WotLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+          defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
           None
         }
       }
     }
   }
 
-  def getLanguage(implicit document: Document): Option[String] = {
+  def getLanguage: Option[String] = {
     val select: Elements = document.select("ul li[class=language]")
     if (select.isEmpty) {
-      WotLogger.error("No language for " + document.location())
+      defaultLogger.error("No language for " + document.location())
       None
     } else {
       Try(select.text.replace("Book language:", "").trim) match {
         case Success(text) if !text.isEmpty => Some(text)
         case Success(text) if text.isEmpty => None
         case Failure(e) => {
-          WotLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+          defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
           None
         }
       }
     }
   }
 
-  def getReaders(implicit document: Document): Option[Int] = {
+  def getReaders: Option[Int] = {
     val selection: String = "li[class*=reader_count] strong"
     val select: Elements = document.select(selection)
     if (select.isEmpty) None
     else Try(select.text.toInt) match {
       case Success(int) => Option(int)
       case Failure(e) => {
-        WotLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+        defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
         None
       }
     }
   }
 
-  def getPages(implicit document: Document): Option[Int] = {
+  def getPages: Option[Int] = {
     val selection: String = "li[class*=page_count] strong"
     val select: Elements = document.select(selection)
     if (select.isEmpty) None
     else Try(select.text.toInt) match {
       case Success(int) => Option(int)
       case Failure(e) => {
-        WotLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+        defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
         None
       }
     }
   }
 
-  def getHashtag(implicit document: Document): Option[String] = {
+  def getHashtag: Option[String] = {
     Option(document.location.replace("https://leanpub.com/", ""))
   }
 
-  def getAuthorUrl(implicit document: Document): Set[String] = {
+  def getAuthorUrls: Set[String] = {
     val selection: String = "a[href*=/u/]"
     val select: Elements = document.select(selection)
     val buffer = collection.mutable.Buffer[String]()
@@ -144,21 +151,57 @@ trait BookUpdater {
     buffer.toSet
   }
 
-  def getAuthors(book: Book)(implicit document: Document): Set[Author] = {
-    getAuthorUrl.map(url => Author("", "", getAuthorTwitterUrl, url, book.bookUrl))
+  def getAuthors(authorUrls: Set[String]): Set[Author2] = {
+    val result = authorUrls.map {
+      authorUrl =>
+        Try {
+          val twitterUrl = getTwitterUrl(authorUrl)
+          val followerCount = twitterUrl.flatMap(getCount)
+          akkaLogger.info("Twitter Count for  %s - %s".format(twitterUrl, followerCount))
+          Author2(authorUrl, twitterUrl, followerCount)
+        } match {
+          case Success(a) => {
+            akkaLogger.info("Got author - " + a)
+            a
+          }
+          case Failure(e) => {
+            akkaLogger.info("Failure get author - " + authorUrl + " " + e.getMessage)
+            Author2(authorUrl, None, None)
+          }
+        }
+    }
+    akkaLogger.info("Result of get authors " + result)
+    result
   }
 
-  def getAuthorTwitterUrl(implicit document: Document): Option[String] = {
-    val selection: String = "a[href*=https://twitter.com]"
-    val select: Elements = document.select(selection)
-    val iterator = select.listIterator()
-    while (iterator.hasNext) {
-      val attr: String = iterator.next().attr("href")
-      if (!"https://twitter.com/share".equals(attr)) {
-        return Option(attr)
+  def getTwitterUrl(authorUrl: String): Option[String] = {
+    val url = connectWithRetry(authorUrl).get.select("#user_title > small:nth-child(2) > a").attr("href").trim
+    if (url.isEmpty) None else Option(url)
+  }
+
+  def getCountText(twitterUrl: String): String = {
+    connectWithRetry(twitterUrl).get().select("#page-container > div.ProfileCanopy.ProfileCanopy--withNav > div > div.ProfileCanopy-navBar > div > div > div.Grid-cell.u-size3of4 > div > div > ul > li.ProfileNav-item.ProfileNav-item--followers > a > span.ProfileNav-value").text()
+  }
+
+  def getCount(twitterUrl: String): Option[Int] = {
+    def toNum(text: String): Int = {
+      val a = text.replace(",", "")
+      if (a.contains("K")) {
+        (a.replace("K", "").toDouble * 1000).toInt
+      } else {
+        a.toInt
       }
     }
-    None
+
+    Try(toNum(getCountText(twitterUrl))) match {
+      case Success(r) => Option(r)
+      case Failure(e) => {
+        akkaLogger.error("Error getting count for %s - %s".format(twitterUrl, e.getMessage))
+        None
+      }
+    }
   }
 
 }
+
+case class Author2(authorUrl: String, twitterUrl: Option[String], followerCount: Option[Int])

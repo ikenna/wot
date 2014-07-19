@@ -11,8 +11,10 @@ import net.ikenna.wot.rowmappers._
 import org.slf4j.LoggerFactory
 import sentiment.SentimentResponse
 import akka.event.LoggingAdapter
+import java.util.{ Date, Calendar }
+import java.text.SimpleDateFormat
 
-object Db {
+object Db extends WotLogger {
 
   object get {
     def books(implicit template: JdbcTemplate): List[Book] = template.query("Select * from BOOK ", BookRowMapper).toList
@@ -69,11 +71,11 @@ object Db {
 
       val result: Array[Int] = template.batchUpdate(sql, BatchSetter)
 
-      WotLogger.info("Batch update rows affected = " + result.sum)
+      defaultLogger.info("Batch update rows affected = " + result.sum)
     }
 
     def book(book: Book)(implicit template: JdbcTemplate): Unit = {
-      WotLogger.info(s"Inserting book -- ${book.bookUrl}")
+      defaultLogger.info(s"Inserting book -- ${book.bookUrl}")
       new SimpleJdbcInsert(template.getDataSource).withTableName("BOOK").execute(BookTableParameters(book))
     }
 
@@ -115,9 +117,15 @@ object Db {
 
 trait CreateDBName {
   def createDBName: String = {
-    val dbName = "prod-wotdb-" + new java.util.Date().toString.replace(" ", "").replace(":", "")
+    val dbName = "prod-wotdb-" + RunTimeStamp()
     val logger = LoggerFactory.getLogger("net.ikenna.CreateDBName")
     logger.info("Creating DB with name = " + dbName)
     dbName
+  }
+}
+
+object RunTimeStamp {
+  def apply(): String = {
+    new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(new Date()).toLowerCase
   }
 }

@@ -2,12 +2,16 @@ package net.ikenna.wot
 
 import akka.actor._
 import akka.event.Logging
-import scala.concurrent.duration._
 import net.ikenna.wot.BookActor.GetBookData
+import scala.collection.immutable.Iterable
 
 object CategoryCrawler {
 
   case class Crawl()
+
+  case class ReceivedBook(book: Book2)
+
+  case class Tick()
 
   def props: Props = Props(new CategoryCrawler)
 
@@ -17,42 +21,59 @@ object CategoryCrawler {
 class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
 
   import CategoryCrawler._
-  import context.dispatcher
 
-  val log = Logging(context.system, this)
-  val children = collection.mutable.Set[ActorRef]()
+  override val akkaLogger = Logging(context.system, this)
+  var bookCount: Int = 0
+  var received: Set[Book2] = Set()
 
-  override def preStart = {
-    shutdownSystemWhenChildrenFinish
-  }
   override def receive: Actor.Receive = {
-    case Crawl => bookActors.map(_ ! GetBookData())
-    case Terminated(child) => onChildTermination(child)
+    case Crawl => {
+      val bookTitles = getBookUrlAndTitleFromCategories
+      bookCount = bookTitles.size
+      bookTitles.map(getBookData)
+    }
+
+    case ReceivedBook(b) => {
+      received = received + b
+      akkaLogger.info("Received %s books".format(received.size))
+    }
+
+    case Tick() => persistDataWhenComplete
   }
 
-  def bookActors: Seq[ActorRef] = {
-    log.info("Received message " + Crawl)
-    getBookUrlAndTitleFrom(Categories.list).map {
-      book =>
-        val bookActor = context.actorOf(BookActor.props(book), BookActor.name(book))
-        context.watch(bookActor)
-        children.add(bookActor)
-        bookActor
-    }.toSeq
+  def getBookData(urlAndTitle: BookTitleUrl) = {
+    akkaLogger.info("Creating actor for " + urlAndTitle.url)
+    val bookActor = context.actorOf(BookActor.props(urlAndTitle), BookActor.name(urlAndTitle))
+    bookActor ! GetBookData()
   }
 
-  def onChildTermination(actorRef: ActorRef): Unit = {
-    children.remove(actorRef)
-    log.info(s"Actor ${actorRef.path} stopped. Remaining ${children.size} actors")
-  }
-
-  def shutdownSystemWhenChildrenFinish = {
-    context.system.scheduler.schedule(10 seconds, 2 seconds) {
-      if (children.isEmpty) {
-        context.system.shutdown()
-      } else {
-        log.info("Children not finished yet")
-      }
+  def persistDataWhenComplete: Unit = {
+    if (received.size == bookCount) {
+      akkaLogger.info("Persisting data")
+      WotJson.serializeToJson(received)
+      WotCsvWriter.writeBooksToCsv(received)
+      //      WotJson.serializeToJson(groupByAuthors)
+      context.system.shutdown()
+    } else {
+      akkaLogger.info("Not persisted yet. Expected %s , received size %s".format(bookCount, received.size))
     }
   }
+
+  //  def groupByAuthors: Iterable[AuthorReaders] = {
+  //    received.groupBy(b => b.authorUrls).map(x => AuthorReaders(x._1, totalReaders(x._2)))
+  //  }
+
+  def totalReaders(books: Set[Book2]): Int = {
+    books.map(_.meta.readers.getOrElse(0)).sum
+  }
+
 }
+
+class WotAppender extends ch.qos.logback.core.FileAppender {
+
+  override def setFile(file: String): Unit = {
+    fileName = file + "-" + RunTimeStamp() + ".json"
+  }
+}
+
+case class AuthorReaders(authors: Set[String], readers: Int)

@@ -54,6 +54,14 @@ case class Book(bookUrl: String,
   meta: Option[BookMeta] = None,
   numberOfTweets: Option[Int] = None)
 
+case class Book2(bookUrl: String, title: String, meta: BookMeta, numberOfTweets: Option[Int] = None, authors: Set[Author2])
+
+object Book2 {
+  def sumOfAllAuthorsFollowers(book: Book2) = {
+    book.authors.map(a => a.followerCount.getOrElse(0)).sum.toString
+  }
+}
+
 object Book {
   def searchTermFor(book: Book): String = book.bookUrl.replace("https://", "").replace("http://", "")
 }

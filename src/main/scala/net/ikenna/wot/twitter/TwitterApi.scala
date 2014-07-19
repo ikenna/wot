@@ -50,6 +50,4 @@ object TwitterApi extends ConnectWithRetry {
     tweets
   }
 
-  override val log: LoggingAdapter = NoLogging
-
 }

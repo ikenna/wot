@@ -11,10 +11,10 @@ class TwitterCountsTest extends FreeSpec with BeforeAndAfterAll with ShouldMatch
   val book2: Book = Book("https://leanpub.com/codebright")
   implicit val log: LoggingAdapter = NoLogging
 
-  "Features" - {
+  "TwitterCountsFetcher should" - {
     "get twitter count" in {
-      new TwitterCountsFetcher().updateWithTwitterCount(book1).numberOfTweets.get should be >= (218)
-      new TwitterCountsFetcher().updateWithTwitterCount(book2).numberOfTweets.get should be >= (661)
+      new TwitterCountsFetcher().getTwitterCount(book1).get should be >= (218)
+      new TwitterCountsFetcher().getTwitterCount(book2).get should be >= (661)
     }
 
   }
