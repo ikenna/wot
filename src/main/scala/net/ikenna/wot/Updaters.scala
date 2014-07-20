@@ -33,10 +33,8 @@ class TwitterCountsFetcher() extends WotLogger {
     Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
   }
 
-  def getFacebookCount(bookUrl:String)={
+  def getFacebookCount(bookUrl: String) = {
     driver.get(bookUrl)
-
-
 
     val element = waiting.until(ExpectedConditions.visibilityOfElementLocated(By.className("pluginCountTextDisconnected")));
     val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()

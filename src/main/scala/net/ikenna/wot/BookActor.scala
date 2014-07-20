@@ -1,10 +1,10 @@
 package net.ikenna.wot
 
-import akka.actor.{Actor, Props}
+import akka.actor.{ Actor, Props }
 import akka.event.Logging
 import com.github.tototoshi.csv.CSVWriter
 import scala.io.Source
-import java.io.{File, PrintWriter}
+import java.io.{ File, PrintWriter }
 import scala.collection.immutable.Iterable
 import net.ikenna.wot.CategoryCrawler.ReceivedBook
 import net.ikenna.wot.BookActor.GetBookData
@@ -75,7 +75,6 @@ object WotCsvWriter {
 }
 
 object WotJson extends WotLogger {
-
 
   import org.json4s._
   import org.json4s.jackson.Serialization
