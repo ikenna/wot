@@ -1,15 +1,14 @@
 package net.ikenna.wot
 
-import akka.actor.{ Actor, Props }
+import akka.actor.{Actor, Props}
 import akka.event.Logging
-import net.ikenna.wot.BookActor.GetBookData
 import com.github.tototoshi.csv.CSVWriter
-import net.ikenna.wot.CategoryCrawler.ReceivedBook
 import scala.io.Source
-import java.io.{ File, PrintWriter }
+import java.io.{File, PrintWriter}
 import scala.collection.immutable.Iterable
+import net.ikenna.wot.CategoryCrawler.ReceivedBook
+import net.ikenna.wot.BookActor.GetBookData
 import net.ikenna.wot.readersauthor.BookFollower
-import net.ikenna.wot.authorfollower.TwitterAuthorFollowers
 
 object BookActor {
   def name(titleUrl: BookTitleUrl): String = titleUrl.url.replace("https://leanpub.com/", "")
@@ -26,7 +25,7 @@ class BookActor(val bookUrlTitle: BookTitleUrl) extends Actor with ConnectWithRe
   def onGetBookData: Unit = {
     val result = try {
       akkaLogger.debug("Getting twitter count from leanpub for " + bookUrlTitle.url)
-      val twitterCount = None // TODO: new TwitterCountsFetcher().getTwitterCount(bookUrlTitle.url)
+      val twitterCount = new TwitterCountsFetcher().getTwitterCount(bookUrlTitle.url)
       val authors = getAuthors(getAuthorUrls)
       Book2(bookUrlTitle.url, bookUrlTitle.title, getMeta2, twitterCount, authors)
     } catch {
@@ -69,12 +68,14 @@ object WotCsvWriter {
   def getCsvLine(book: Book2): List[String] = {
     List(book.bookUrl,
       book.meta.readers.getOrElse(0).toString,
-      Book2.sumOfAllAuthorsFollowers(book)
+      Book2.sumOfAllAuthorsFollowers(book),
+      book.meta.language.getOrElse("")
     )
   }
 }
 
 object WotJson extends WotLogger {
+
 
   import org.json4s._
   import org.json4s.jackson.Serialization
@@ -82,10 +83,18 @@ object WotJson extends WotLogger {
 
   implicit val formats = Serialization.formats(NoTypeHints)
 
+  def serializeToJson(fileName: String, output: AnyRef) = {
+    val file = "results/" + fileName + "-" + RunTimeStamp() + ".json"
+    val ser = writePretty(output)
+    val writer = new PrintWriter(file)
+    writer.println(ser)
+    writer.close()
+  }
+
   def serializeToJson(bookFollower: Seq[BookFollower]): Unit = {
     val fileName = "book-follower-" + RunTimeStamp() + ".json"
     val ser = write(bookFollower)
-    val writer = new PrintWriter(fileName, "UTF-8");
+    val writer = new PrintWriter(fileName);
     writer.println(ser)
     writer.close()
   }
@@ -97,6 +106,7 @@ object WotJson extends WotLogger {
     writer.println(ser)
     writer.close()
   }
+
   def serializeToJson(books: Set[Book2]): Unit = {
     val fileName = "books-" + RunTimeStamp() + ".json"
 

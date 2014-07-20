@@ -51,29 +51,18 @@ class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
     if (received.size == bookCount) {
       akkaLogger.info("Persisting data")
       WotJson.serializeToJson(received)
-      WotCsvWriter.writeBooksToCsv(received)
-      //      WotJson.serializeToJson(groupByAuthors)
+      val onlyEnglishTitles = received.filter(b => b.meta.language.getOrElse("").toLowerCase().contains("english"))
+      WotCsvWriter.writeBooksToCsv(onlyEnglishTitles)
       context.system.shutdown()
     } else {
       akkaLogger.info("Not persisted yet. Expected %s , received size %s".format(bookCount, received.size))
     }
   }
 
-  //  def groupByAuthors: Iterable[AuthorReaders] = {
-  //    received.groupBy(b => b.authorUrls).map(x => AuthorReaders(x._1, totalReaders(x._2)))
-  //  }
-
   def totalReaders(books: Set[Book2]): Int = {
     books.map(_.meta.readers.getOrElse(0)).sum
   }
 
-}
-
-class WotAppender extends ch.qos.logback.core.FileAppender {
-
-  override def setFile(file: String): Unit = {
-    fileName = file + "-" + RunTimeStamp() + ".json"
-  }
 }
 
 case class AuthorReaders(authors: Set[String], readers: Int)

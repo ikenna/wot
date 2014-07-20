@@ -32,6 +32,16 @@ class TwitterCountsFetcher() extends WotLogger {
     val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
     Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
   }
+
+  def getFacebookCount(bookUrl:String)={
+    driver.get(bookUrl)
+
+
+
+    val element = waiting.until(ExpectedConditions.visibilityOfElementLocated(By.className("pluginCountTextDisconnected")));
+    val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
+    Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
+  }
 }
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
