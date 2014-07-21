@@ -22,7 +22,7 @@ object GroupByReadersApp extends App with WotLogger {
 
   val result = Result(zeroToTen.size, tenToHundred.size, hundredTo999.size, oneThousandTo9999.size, tenThousandTo99999.size, hundredThousandTo999999.size)
 
-  WotJson.serializeToJson(fileName = "reader-categories", result)
+  WotJson.serializeToJsonFile(fileName = "reader-categories", result)
 
   defaultLogger.info("Finished. Result(zeroTo9 , TenTo99 , hundredTo999 , oneThousandTo9999 , tenThousandTo99999 , hundredThousandTo999999 ) = " + result)
 }

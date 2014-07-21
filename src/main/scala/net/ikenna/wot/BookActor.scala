@@ -9,6 +9,8 @@ import scala.collection.immutable.Iterable
 import net.ikenna.wot.CategoryCrawler.ReceivedBook
 import net.ikenna.wot.BookActor.GetBookData
 import net.ikenna.wot.readersauthor.BookFollower
+import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp
+import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp.Result
 
 object BookActor {
   def name(titleUrl: BookTitleUrl): String = titleUrl.url.replace("https://leanpub.com/", "")
@@ -49,6 +51,14 @@ class BookActor(val bookUrlTitle: BookTitleUrl) extends Actor with ConnectWithRe
 }
 
 object WotCsvWriter {
+  def writeToCsv2[T <: Any](data: Seq[T], headings:Seq[String], data2CsvLine: (T) => Seq[String], file: String) = {
+    val fileName = "results/" + file + RunTimeStamp() + ".csv"
+    val writer = CSVWriter.open(fileName, append = true)
+    writer.writeRow(headings)
+    data.map(dataLine => writer.writeRow(data2CsvLine(dataLine)))
+    writer.close()
+  }
+
 
   def writeToCsv(lines: List[List[Any]], file: String) = {
     val fileName = file + RunTimeStamp() + ".csv"
@@ -82,12 +92,13 @@ object WotJson extends WotLogger {
 
   implicit val formats = Serialization.formats(NoTypeHints)
 
-  def serializeToJson(fileName: String, output: AnyRef) = {
+  def serializeToJsonFile(fileName: String, output: AnyRef):String = {
     val file = "results/" + fileName + "-" + RunTimeStamp() + ".json"
     val ser = writePretty(output)
     val writer = new PrintWriter(file)
     writer.println(ser)
     writer.close()
+    ser
   }
 
   def serializeToJson(bookFollower: Seq[BookFollower]): Unit = {

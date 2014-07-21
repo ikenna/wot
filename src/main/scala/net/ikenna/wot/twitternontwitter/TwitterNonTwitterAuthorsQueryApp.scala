@@ -12,7 +12,7 @@ object TwitterNonTwitterAuthorsQueryApp extends App with WotLogger {
   val nonTwitterAuthors: Set[Author2] = totalAuthors.filterNot(a => a.twitterUrl.isDefined)
   val percentTwitterAuthors: Double = (twitterAuthors.size / totalAuthors.size.toDouble) * 100
   val result: Result = Result(totalAuthors.size, twitterAuthors.size, nonTwitterAuthors.size, percentTwitterAuthors)
-  WotJson.serializeToJson(fileName = "percentage-twitter", result)
+  WotJson.serializeToJsonFile(fileName = "percentage-twitter", result)
 
   defaultLogger.info("Finished. Result(totalAuthors, twitterAuthors, nonTwitterAuthors, percentTwitterAuthors) = " + result)
 }
