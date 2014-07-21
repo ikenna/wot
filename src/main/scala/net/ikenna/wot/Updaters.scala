@@ -6,15 +6,19 @@ import org.openqa.selenium.By
 import org.jsoup.nodes.Document
 import scala.util.{ Failure, Success, Try }
 import org.jsoup.select.Elements
-import akka.event.LoggingAdapter
+import akka.event.{ NoLogging, LoggingAdapter }
 import net.ikenna.wot.authorfollower.TwitterAuthorFollowers
-import net.ikenna.wot.builddb.TwitterCountsFetcher
+import net.ikenna.wot.ewom.EwomFetcher
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 
-class DefaultBookUpdater(val bookUrlTitle: BookTitleUrl) extends BookUpdater
+class DefaultBookUpdater(val bookUrlTitle: BookTitleUrl) extends BookUpdater {
+  override val akkaLogger: LoggingAdapter = NoLogging
+}
 
-trait BookUpdater extends ConnectWithRetry {
+trait BookUpdater extends ConnectWithRetryAkka {
+
+  val akkaLogger: LoggingAdapter
 
   val bookUrlTitle: BookTitleUrl
   val document: Document = connectWithRetry(bookUrlTitle.url).get()
@@ -27,7 +31,7 @@ trait BookUpdater extends ConnectWithRetry {
   }
 
   def getMeta2: BookMeta = {
-    defaultLogger.info(s"Updating meta for ${document.location()}")
+    akkaLogger.info(s"Updating meta for ${document.location()}")
     val bookMeta = BookMeta(getReaders, getLanguage, None, getPages, Some(Price(getMinPrice, getMaxPrice)))
     bookMeta
   }
@@ -36,13 +40,13 @@ trait BookUpdater extends ConnectWithRetry {
     val selection: String = "span[itemprop*=highPrice]"
     val select: Elements = document.select(selection)
     if (select.isEmpty) {
-      defaultLogger.debug("No max price for " + document.location())
+      akkaLogger.debug("No max price for " + document.location())
       None
     } else {
       Try(select.text.replace("$", "").replace(".", "").replace(",", "").replace("+", "").split(" ").head.toInt) match {
         case Success(int) => Option(int)
         case Failure(e) => {
-          defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+          akkaLogger.error(s"Failure parsing ${select.text} at ${document.location}")
           None
         }
       }
@@ -53,13 +57,13 @@ trait BookUpdater extends ConnectWithRetry {
     val selection: String = "span[itemprop*=lowPrice] "
     val select: Elements = document.select(selection)
     if (select.isEmpty) {
-      defaultLogger.debug("No min price for " + document.location())
+      akkaLogger.debug("No min price for " + document.location())
       None
     } else {
       Try(select.text.replace("$", "").replace(".", "").replace(",", "").split(" ").head.toInt) match {
         case Success(int) => Option(int)
         case Failure(e) => {
-          defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+          akkaLogger.error(s"Failure parsing ${select.text} at ${document.location}")
           None
         }
       }
@@ -69,14 +73,14 @@ trait BookUpdater extends ConnectWithRetry {
   def getLanguage: Option[String] = {
     val select: Elements = document.select("ul li[class=language]")
     if (select.isEmpty) {
-      defaultLogger.error("No language for " + document.location())
+      akkaLogger.error("No language for " + document.location())
       None
     } else {
       Try(select.text.replace("Book language:", "").trim) match {
         case Success(text) if !text.isEmpty => Some(text)
         case Success(text) if text.isEmpty => None
         case Failure(e) => {
-          defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+          akkaLogger.error(s"Failure parsing ${select.text} at ${document.location}")
           None
         }
       }
@@ -90,7 +94,7 @@ trait BookUpdater extends ConnectWithRetry {
     else Try(select.text.toInt) match {
       case Success(int) => Option(int)
       case Failure(e) => {
-        defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+        akkaLogger.error(s"Failure parsing ${select.text} at ${document.location}")
         None
       }
     }
@@ -103,7 +107,7 @@ trait BookUpdater extends ConnectWithRetry {
     else Try(select.text.toInt) match {
       case Success(int) => Option(int)
       case Failure(e) => {
-        defaultLogger.error(s"Failure parsing ${select.text} at ${document.location}")
+        akkaLogger.error(s"Failure parsing ${select.text} at ${document.location}")
         None
       }
     }

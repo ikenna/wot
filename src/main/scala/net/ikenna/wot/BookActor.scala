@@ -1,17 +1,15 @@
 package net.ikenna.wot
 
 import akka.actor.{ Actor, Props }
-import akka.event.Logging
-import com.github.tototoshi.csv.CSVWriter
+import akka.event.{ LoggingAdapter, Logging }
 import scala.io.Source
-import java.io.{ File, PrintWriter }
+import java.io.File
 import scala.collection.immutable.Iterable
 import net.ikenna.wot.CategoryCrawler.ReceivedBook
 import net.ikenna.wot.BookActor.GetBookData
-import net.ikenna.wot.readersauthor.BookFollower
 import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp
 import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp.Result
-import net.ikenna.wot.builddb.{ Ewom, TwitterCountsFetcher }
+import net.ikenna.wot.ewom.{ Ewom, EwomFetcher }
 
 object BookActor {
   def name(titleUrl: BookTitleUrl): String = titleUrl.url.replace("https://leanpub.com/", "")
@@ -22,19 +20,21 @@ object BookActor {
 
 }
 
-class BookActor(val bookUrlTitle: BookTitleUrl) extends Actor with ConnectWithRetry with BookUpdater {
+class DefaultEwomFetcher(val akkaLogger: LoggingAdapter) extends EwomFetcher
+
+class BookActor(val bookUrlTitle: BookTitleUrl) extends Actor with BookUpdater {
   override implicit val akkaLogger = Logging(context.system, this)
 
   def onGetBookData: Unit = {
     val result = try {
       akkaLogger.debug("Getting twitter count from leanpub for " + bookUrlTitle.url)
-      val ewom = new TwitterCountsFetcher().getTwitterCount(bookUrlTitle.url)
+      //      val ewom = new DefaultEwomFetcher(akkaLogger).getEwom(bookUrlTitle.url)
       val authors = getAuthors(getAuthorUrls)
-      Book3(bookUrlTitle.url, bookUrlTitle.title, getMeta2, ewom, authors)
+      Book2(bookUrlTitle.url, bookUrlTitle.title, getMeta2, None, authors)
     } catch {
       case e: Exception => {
-        akkaLogger.debug("Fetching book data failed ", e.getLocalizedMessage)
-        Book3(bookUrlTitle.url, "Exception - Failed " + e.getLocalizedMessage, BookMeta(), Ewom(None, None), Set())
+        akkaLogger.debug("Fetching book data failed ", e)
+        Book2(bookUrlTitle.url, "Exception - Failed " + e.getLocalizedMessage, BookMeta(), None, Set())
       }
     }
     context.parent ! ReceivedBook(result)

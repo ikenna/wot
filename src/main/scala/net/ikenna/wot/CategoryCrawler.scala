@@ -10,7 +10,7 @@ object CategoryCrawler {
 
   case class Crawl()
 
-  case class ReceivedBook(book: Book3)
+  case class ReceivedBook(book: Book2)
 
   case class Tick()
 
@@ -25,7 +25,7 @@ class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
 
   override val akkaLogger = Logging(context.system, this)
   var bookCount: Int = 0
-  var received: Set[Book3] = Set()
+  var received: Set[Book2] = Set()
 
   override def receive: Actor.Receive = {
     case Crawl => {

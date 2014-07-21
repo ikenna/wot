@@ -19,7 +19,7 @@ object NumberOfReadersPerAuthor extends TwitterAuthorSearch with WotLogger {
   import WotCsvWriter._
   def printOut(bookFollowers: List[BookFollower]) = {
     defaultLogger.info("Printing book followers")
-    serializeToJson(bookFollowers)
+    //    serializeToJson(bookFollowers)
     val lines: List[List[String]] = bookFollowers.map(bf =>
       List(bf.book.bookUrl, bf.followerCount.toString, bf.book.meta.readers.getOrElse(0).toString, bf.book.authors.toString))
     //    val header = List("book url", "num authors ", "follower count")

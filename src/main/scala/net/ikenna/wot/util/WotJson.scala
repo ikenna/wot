@@ -24,14 +24,14 @@ object WotJson extends WotLogger {
     writer.close()
     ser
   }
-
-  def serializeToJson(bookFollower: Seq[BookFollower]): Unit = {
-    val fileName = "book-follower-" + RunTimeStamp() + ".json"
-    val ser = write(bookFollower)
-    val writer = new PrintWriter(fileName);
-    writer.println(ser)
-    writer.close()
-  }
+  //
+  //  def serializeToJson(bookFollower: Seq[BookFollower]): Unit = {
+  //    val fileName = "book-follower-" + RunTimeStamp() + ".json"
+  //    val ser = write(bookFollower)
+  //    val writer = new PrintWriter(fileName);
+  //    writer.println(ser)
+  //    writer.close()
+  //  }
 
   def serializeToJson(authorReaders: Iterable[AuthorReaders]): Unit = {
     val fileName = "author-reader-" + RunTimeStamp() + ".json"
@@ -41,11 +41,18 @@ object WotJson extends WotLogger {
     writer.close()
   }
 
-  def serializeToJson(books: Set[Book3]): Unit = {
+  def serializeToJson(books: Set[Book2]): Unit = {
     val fileName = "db/new/books-" + RunTimeStamp() + ".json"
+    val ser = writePretty(books)
+    val writer = new PrintWriter(fileName);
+    writer.println(ser)
+    writer.close()
+  }
 
-    val ser = write(books)
-    val writer = new PrintWriter(fileName, "UTF-8");
+  def serializeToJson[T <: AnyRef](books: Seq[T]): Unit = {
+    val fileName = "db/new/books-" + RunTimeStamp() + ".json"
+    val ser = writePretty(books)
+    val writer = new PrintWriter(fileName);
     writer.println(ser)
     writer.close()
   }

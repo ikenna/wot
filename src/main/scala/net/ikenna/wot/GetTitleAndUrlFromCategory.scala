@@ -4,6 +4,7 @@ import org.jsoup.{ Jsoup, Connection }
 import java.net.SocketTimeoutException
 import scala.util.{ Failure, Success, Try }
 import org.slf4j.{ LoggerFactory, Logger }
+import akka.event.LoggingAdapter
 
 trait GetTitleAndUrlFromCategory extends ConnectWithRetry {
 
@@ -49,6 +50,34 @@ trait ConnectWithRetry extends WotLogger {
       }
       case Failure(e) => {
         defaultLogger.error("Error connecting to %s . Error message - %s".format(url, e.toString))
+        None
+      }
+    }
+  }
+}
+
+trait ConnectWithRetryAkka {
+
+  //  val akkaLogger: LoggingAdapter
+  def connectWithRetry(url: String): Connection = {
+    var maxRetry = 3
+    var connected: Option[Connection] = tryConnect(url)
+    while (maxRetry != 0 && connected.isEmpty) {
+      //      akkaLogger.debug("Retrying connection to " + url)
+      maxRetry = maxRetry - 1
+      connected = tryConnect(url)
+    }
+    connected.getOrElse(throw new SocketTimeoutException())
+  }
+
+  def tryConnect(url: String): Option[Connection] = {
+    Try(Jsoup.connect(url)) match {
+      case Success(connection) => {
+        //        akkaLogger.debug("Connected to " + url)
+        Some(connection)
+      }
+      case Failure(e) => {
+        //        akkaLogger.error("Error connecting to %s . Error message - %s".format(url, e.toString))
         None
       }
     }

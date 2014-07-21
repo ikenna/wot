@@ -19,7 +19,7 @@ object Sentiment extends Enumeration {
 }
 
 import Sentiment._
-import net.ikenna.wot.builddb.Ewom
+import net.ikenna.wot.ewom.Ewom
 
 case class BookTweet(tweetUrl: String,
   bookUrl: String,
