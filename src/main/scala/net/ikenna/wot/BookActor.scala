@@ -11,6 +11,7 @@ import net.ikenna.wot.BookActor.GetBookData
 import net.ikenna.wot.readersauthor.BookFollower
 import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp
 import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp.Result
+import net.ikenna.wot.builddb.TwitterCountsFetcher
 
 object BookActor {
   def name(titleUrl: BookTitleUrl): String = titleUrl.url.replace("https://leanpub.com/", "")
@@ -50,94 +51,3 @@ class BookActor(val bookUrlTitle: BookTitleUrl) extends Actor with ConnectWithRe
 
 }
 
-object WotCsvWriter {
-  def writeToCsv2[T <: Any](data: Seq[T], headings:Seq[String], data2CsvLine: (T) => Seq[String], file: String) = {
-    val fileName = "results/" + file + RunTimeStamp() + ".csv"
-    val writer = CSVWriter.open(fileName, append = true)
-    writer.writeRow(headings)
-    data.map(dataLine => writer.writeRow(data2CsvLine(dataLine)))
-    writer.close()
-  }
-
-
-  def writeToCsv(lines: List[List[Any]], file: String) = {
-    val fileName = file + RunTimeStamp() + ".csv"
-    val writer = CSVWriter.open(fileName, append = true)
-    writer.writeAll(lines)
-    writer.close()
-  }
-
-  def writeBooksToCsv(book: Set[Book2]) = {
-    val fileName = "books-" + RunTimeStamp() + ".csv"
-    val all: List[List[String]] = book.toList.map(getCsvLine)
-    val writer = CSVWriter.open(fileName, append = true)
-    writer.writeAll(all)
-    writer.close()
-  }
-
-  def getCsvLine(book: Book2): List[String] = {
-    List(book.bookUrl,
-      book.meta.readers.getOrElse(0).toString,
-      Book2.sumOfAllAuthorsFollowers(book),
-      book.meta.language.getOrElse("")
-    )
-  }
-}
-
-object WotJson extends WotLogger {
-
-  import org.json4s._
-  import org.json4s.jackson.Serialization
-  import org.json4s.jackson.Serialization._
-
-  implicit val formats = Serialization.formats(NoTypeHints)
-
-  def serializeToJsonFile(fileName: String, output: AnyRef):String = {
-    val file = "results/" + fileName + "-" + RunTimeStamp() + ".json"
-    val ser = writePretty(output)
-    val writer = new PrintWriter(file)
-    writer.println(ser)
-    writer.close()
-    ser
-  }
-
-  def serializeToJson(bookFollower: Seq[BookFollower]): Unit = {
-    val fileName = "book-follower-" + RunTimeStamp() + ".json"
-    val ser = write(bookFollower)
-    val writer = new PrintWriter(fileName);
-    writer.println(ser)
-    writer.close()
-  }
-
-  def serializeToJson(authorReaders: Iterable[AuthorReaders]): Unit = {
-    val fileName = "author-reader-" + RunTimeStamp() + ".json"
-    val ser = write(authorReaders)
-    val writer = new PrintWriter(fileName, "UTF-8");
-    writer.println(ser)
-    writer.close()
-  }
-
-  def serializeToJson(books: Set[Book2]): Unit = {
-    val fileName = "books-" + RunTimeStamp() + ".json"
-
-    val ser = write(books)
-    val writer = new PrintWriter(fileName, "UTF-8");
-    writer.println(ser)
-    writer.close()
-  }
-
-  def deSerializeBooks(fileName: String): List[Book2] = {
-    val jsonFile = Source.fromFile(new File(fileName)).mkString
-    assert(new File(fileName).exists())
-    read[List[Book2]](jsonFile)
-  }
-
-}
-
-object WotAgent {
-
-  import scala.concurrent.ExecutionContext.Implicits.global
-  import akka.agent.Agent
-
-  val agent: Agent[Set[Book2]] = Agent(Set[Book2]())
-}

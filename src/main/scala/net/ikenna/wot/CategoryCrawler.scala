@@ -4,6 +4,7 @@ import akka.actor._
 import akka.event.Logging
 import net.ikenna.wot.BookActor.GetBookData
 import scala.collection.immutable.Iterable
+import net.ikenna.wot.util.{WotJson, WotCsvWriter}
 
 object CategoryCrawler {
 

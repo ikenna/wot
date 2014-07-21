@@ -1,6 +1,7 @@
 package net.ikenna.wot.groupby
 
-import net.ikenna.wot.{ WotJson, Book2, WotLogger }
+import net.ikenna.wot.{ Book2, WotLogger }
+import net.ikenna.wot.util.WotJson
 
 object GroupByReadersApp extends App with WotLogger {
   val fileName = "db/books-2014-07-19-23-17-18.json"

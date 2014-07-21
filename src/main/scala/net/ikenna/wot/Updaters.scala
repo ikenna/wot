@@ -8,39 +8,14 @@ import scala.util.{ Failure, Success, Try }
 import org.jsoup.select.Elements
 import akka.event.LoggingAdapter
 import net.ikenna.wot.authorfollower.TwitterAuthorFollowers
+import net.ikenna.wot.builddb.TwitterCountsFetcher
 
-class TwitterCountsFetcher() extends WotLogger {
-  val driver: FirefoxDriver = new FirefoxDriver()
-  val waiting: WebDriverWait = new WebDriverWait(driver, 15, 100)
 
-  def getTwitterCount(book: Book)(implicit log: LoggingAdapter): Option[Int] = {
-    val result = Try(getTwitterCount(book.bookUrl)) match {
-      case Success(n) => n
-      case Failure(e) => {
-        log.error("Could not get Twitter count for " + book.bookUrl, e)
-        None
-      }
-    }
-    driver.quit()
-    result
-  }
-
-  def getTwitterCount(bookUrl: String): Option[Int] = {
-    driver.get(bookUrl)
-    defaultLogger.debug("Page title is: " + driver.getTitle());
-    val element = waiting.until(ExpectedConditions.visibilityOfElementLocated(By.className("twitter-share-button")));
-    val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
-    Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
-  }
-
-  def getFacebookCount(bookUrl: String) = {
-    driver.get(bookUrl)
-
-    val element = waiting.until(ExpectedConditions.visibilityOfElementLocated(By.className("pluginCountTextDisconnected")));
-    val twitterCount = driver.switchTo().frame(element).findElement(By.className("count-ready")).getText()
-    Option(twitterCount.replaceAll("Tweet\\s", "").toInt)
-  }
+object MyText extends  App {
+  new TwitterCountsFetcher().getFacebookCount("https://leanpub.com/globalmoves")
 }
+
+
 
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 

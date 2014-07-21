@@ -2,6 +2,7 @@ package net.ikenna.wot.followersreaders
 
 import net.ikenna.wot._
 import net.ikenna.wot.Author2
+import net.ikenna.wot.util.{WotJson, WotCsvWriter}
 
 /**
  * Correlation between the sum of author(s) twitter followers and the number of readers of their leanpub book

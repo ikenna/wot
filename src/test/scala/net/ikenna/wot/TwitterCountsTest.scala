@@ -4,6 +4,7 @@ import org.scalatest._
 import org.jsoup.nodes.Document
 import org.jsoup.Jsoup
 import akka.event.{NoLogging, LoggingAdapter}
+import net.ikenna.wot.builddb.TwitterCountsFetcher
 
 class TwitterCountsTest extends FreeSpec with BeforeAndAfterAll with ShouldMatchers {
 

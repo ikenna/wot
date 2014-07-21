@@ -1,6 +1,7 @@
 package net.ikenna.wot.twitternontwitter
 
-import net.ikenna.wot.{ WotLogger, WotJson, Author2, Book2 }
+import net.ikenna.wot.{ WotLogger, Author2, Book2 }
+import net.ikenna.wot.util.WotJson
 
 object TwitterNonTwitterAuthorsQueryApp extends App with WotLogger {
 
