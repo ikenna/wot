@@ -59,7 +59,7 @@ trait FollowersReadersCorrelation extends WotLogger {
 
 object BooksDb {
 
-  val fileName = "books-2014-07-19-23-17-18.json"
+  val fileName = "db/books-2014-07-19-23-17-18.json"
 
   val allBooks: Seq[Book2] = WotJson.deSerializeBooks(fileName)
 

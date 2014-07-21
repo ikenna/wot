@@ -3,7 +3,7 @@ package net.ikenna.wot.groupby
 import net.ikenna.wot.{ WotJson, Book2, WotLogger }
 
 object GroupByReadersApp extends App with WotLogger {
-  val fileName = "books-2014-07-19-23-17-18.json"
+  val fileName = "db/books-2014-07-19-23-17-18.json"
   defaultLogger.info("Started. Reader categories from Db + " + fileName)
   val books: Set[Book2] = WotJson.deSerializeBooks(fileName).toSet
 

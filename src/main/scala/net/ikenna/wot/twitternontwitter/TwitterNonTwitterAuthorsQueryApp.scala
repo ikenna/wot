@@ -4,7 +4,7 @@ import net.ikenna.wot.{ WotLogger, WotJson, Author2, Book2 }
 
 object TwitterNonTwitterAuthorsQueryApp extends App with WotLogger {
 
-  val fileName = "books-2014-07-19-23-17-18.json"
+  val fileName = "db/books-2014-07-19-23-17-18.json"
   defaultLogger.info("Started. Finding percentage of twitter vs non-twitter authors with Db + " + fileName)
   val books: Seq[Book2] = WotJson.deSerializeBooks(fileName)
   val totalAuthors: Set[Author2] = books.map(b => b.authors).flatten.toSet
