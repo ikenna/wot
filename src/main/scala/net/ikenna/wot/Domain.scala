@@ -19,6 +19,7 @@ object Sentiment extends Enumeration {
 }
 
 import Sentiment._
+import net.ikenna.wot.builddb.Ewom
 
 case class BookTweet(tweetUrl: String,
   bookUrl: String,
@@ -55,6 +56,7 @@ case class Book(bookUrl: String,
   numberOfTweets: Option[Int] = None)
 
 case class Book2(bookUrl: String, title: String, meta: BookMeta, numberOfTweets: Option[Int] = None, authors: Set[Author2])
+case class Book3(bookUrl: String, title: String, meta: BookMeta, ewom: Ewom, authors: Set[Author2])
 
 object Book2 {
   def sumOfAllAuthorsFollowers(book: Book2) = {

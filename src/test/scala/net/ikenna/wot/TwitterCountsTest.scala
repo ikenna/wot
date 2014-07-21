@@ -14,8 +14,8 @@ class TwitterCountsTest extends FreeSpec with BeforeAndAfterAll with ShouldMatch
 
   "TwitterCountsFetcher should" - {
     "get twitter count" in {
-      new TwitterCountsFetcher().getTwitterCount(book1).get should be >= (218)
-      new TwitterCountsFetcher().getTwitterCount(book2).get should be >= (661)
+      new TwitterCountsFetcher().getTwitterCount("https://leanpub.com/everydayrailsrspec").twitter.get should be >= (218)
+      new TwitterCountsFetcher().getTwitterCount("https://leanpub.com/codebright").twitter.get should be >= (661)
     }
 
   }

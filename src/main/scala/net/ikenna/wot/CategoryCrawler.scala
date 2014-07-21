@@ -4,13 +4,13 @@ import akka.actor._
 import akka.event.Logging
 import net.ikenna.wot.BookActor.GetBookData
 import scala.collection.immutable.Iterable
-import net.ikenna.wot.util.{WotJson, WotCsvWriter}
+import net.ikenna.wot.util.{ WotJson, WotCsvWriter }
 
 object CategoryCrawler {
 
   case class Crawl()
 
-  case class ReceivedBook(book: Book2)
+  case class ReceivedBook(book: Book3)
 
   case class Tick()
 
@@ -25,7 +25,7 @@ class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
 
   override val akkaLogger = Logging(context.system, this)
   var bookCount: Int = 0
-  var received: Set[Book2] = Set()
+  var received: Set[Book3] = Set()
 
   override def receive: Actor.Receive = {
     case Crawl => {
@@ -52,8 +52,8 @@ class CategoryCrawler extends Actor with GetTitleAndUrlFromCategory {
     if (received.size == bookCount) {
       akkaLogger.info("Persisting data")
       WotJson.serializeToJson(received)
-      val onlyEnglishTitles = received.filter(b => b.meta.language.getOrElse("").toLowerCase().contains("english"))
-      WotCsvWriter.writeBooksToCsv(onlyEnglishTitles)
+      //      val onlyEnglishTitles = received.filter(b => b.meta.language.getOrElse("").toLowerCase().contains("english"))
+      //      WotCsvWriter.writeBooksToCsv(onlyEnglishTitles)
       context.system.shutdown()
     } else {
       akkaLogger.info("Not persisted yet. Expected %s , received size %s".format(bookCount, received.size))

@@ -11,7 +11,7 @@ import net.ikenna.wot.BookActor.GetBookData
 import net.ikenna.wot.readersauthor.BookFollower
 import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp
 import net.ikenna.wot.followersreaders.FollowersReadersCorrelationApp.Result
-import net.ikenna.wot.builddb.TwitterCountsFetcher
+import net.ikenna.wot.builddb.{ Ewom, TwitterCountsFetcher }
 
 object BookActor {
   def name(titleUrl: BookTitleUrl): String = titleUrl.url.replace("https://leanpub.com/", "")
@@ -28,13 +28,13 @@ class BookActor(val bookUrlTitle: BookTitleUrl) extends Actor with ConnectWithRe
   def onGetBookData: Unit = {
     val result = try {
       akkaLogger.debug("Getting twitter count from leanpub for " + bookUrlTitle.url)
-      val twitterCount = new TwitterCountsFetcher().getTwitterCount(bookUrlTitle.url)
+      val ewom = new TwitterCountsFetcher().getTwitterCount(bookUrlTitle.url)
       val authors = getAuthors(getAuthorUrls)
-      Book2(bookUrlTitle.url, bookUrlTitle.title, getMeta2, twitterCount, authors)
+      Book3(bookUrlTitle.url, bookUrlTitle.title, getMeta2, ewom, authors)
     } catch {
       case e: Exception => {
         akkaLogger.debug("Fetching book data failed ", e.getLocalizedMessage)
-        Book2(bookUrlTitle.url, "Exception - Failed " + e.getLocalizedMessage, BookMeta(), None, Set())
+        Book3(bookUrlTitle.url, "Exception - Failed " + e.getLocalizedMessage, BookMeta(), Ewom(None, None), Set())
       }
     }
     context.parent ! ReceivedBook(result)

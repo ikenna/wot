@@ -10,13 +10,6 @@ import akka.event.LoggingAdapter
 import net.ikenna.wot.authorfollower.TwitterAuthorFollowers
 import net.ikenna.wot.builddb.TwitterCountsFetcher
 
-
-object MyText extends  App {
-  new TwitterCountsFetcher().getFacebookCount("https://leanpub.com/globalmoves")
-}
-
-
-
 class ParsingException(msg: String, e: Throwable) extends RuntimeException(msg, e)
 
 class DefaultBookUpdater(val bookUrlTitle: BookTitleUrl) extends BookUpdater

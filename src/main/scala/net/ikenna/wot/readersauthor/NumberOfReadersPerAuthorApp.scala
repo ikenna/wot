@@ -4,7 +4,7 @@ import net.ikenna.wot._
 import net.ikenna.wot.authorfollower.TwitterAuthorSearch
 import java.io.File
 import com.github.tototoshi.csv.CSVReader
-import net.ikenna.wot.util.{WotJson, WotCsvWriter}
+import net.ikenna.wot.util.{ WotJson, WotCsvWriter }
 
 object NumberOfReadersPerAuthorApp extends App with WotLogger {
   import NumberOfReadersPerAuthor._

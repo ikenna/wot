@@ -1,9 +1,10 @@
 package net.ikenna.wot.util
 
-import net.ikenna.wot.{Book2, RunTimeStamp, WotLogger}
-import java.io.{File, PrintWriter}
+import net.ikenna.wot._
+import java.io.{ File, PrintWriter }
 import scala.collection.immutable.Iterable
 import scala.io.Source
+import net.ikenna.wot.readersauthor.BookFollower
 import net.ikenna.wot.readersauthor.BookFollower
 import net.ikenna.wot.AuthorReaders
 
@@ -15,7 +16,7 @@ object WotJson extends WotLogger {
 
   implicit val formats = Serialization.formats(NoTypeHints)
 
-  def serializeToJsonFile(fileName: String, output: AnyRef):String = {
+  def serializeToJsonFile(fileName: String, output: AnyRef): String = {
     val file = "results/" + fileName + "-" + RunTimeStamp() + ".json"
     val ser = writePretty(output)
     val writer = new PrintWriter(file)
@@ -40,8 +41,8 @@ object WotJson extends WotLogger {
     writer.close()
   }
 
-  def serializeToJson(books: Set[Book2]): Unit = {
-    val fileName = "books-" + RunTimeStamp() + ".json"
+  def serializeToJson(books: Set[Book3]): Unit = {
+    val fileName = "db/new/books-" + RunTimeStamp() + ".json"
 
     val ser = write(books)
     val writer = new PrintWriter(fileName, "UTF-8");
