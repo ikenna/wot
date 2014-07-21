@@ -1,0 +1,5456 @@
+{
+  "description" : "Set of authors for each book, their total number of followers, and the number of readers for their book",
+  "authorsReaders" : [ {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryankurr",
+      "twitterUrl" : "https://twitter.com/Ryan_Kurr",
+      "followerCount" : 71
+    } ],
+    "followers" : 71,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/testobsessed",
+      "twitterUrl" : "https://twitter.com/testobsessed",
+      "followerCount" : 8618
+    } ],
+    "followers" : 8618,
+    "readers" : 145
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/harikt",
+      "twitterUrl" : "https://twitter.com/harikt",
+      "followerCount" : 1117
+    }, {
+      "authorUrl" : "https://leanpub.com/u/pmjones",
+      "twitterUrl" : "https://twitter.com/pmjones",
+      "followerCount" : 1939
+    } ],
+    "followers" : 3056,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stevejalim",
+      "twitterUrl" : "https://twitter.com/stevejalim",
+      "followerCount" : 527
+    } ],
+    "followers" : 527,
+    "readers" : 799
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/burtn"
+    } ],
+    "followers" : 0,
+    "readers" : 37
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/itextsoftware",
+      "twitterUrl" : "https://twitter.com/iText",
+      "followerCount" : 396
+    } ],
+    "followers" : 396,
+    "readers" : 8738
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrecronje",
+      "twitterUrl" : "https://twitter.com/shineandre",
+      "followerCount" : 454
+    } ],
+    "followers" : 454,
+    "readers" : 12
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/luckyisgood",
+      "twitterUrl" : "https://twitter.com/simpfinity",
+      "followerCount" : 222
+    } ],
+    "followers" : 222,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kylemperkins",
+      "twitterUrl" : "https://twitter.com/kode29",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamldavis",
+      "twitterUrl" : "https://twitter.com/adamldavis",
+      "followerCount" : 47
+    } ],
+    "followers" : 47,
+    "readers" : 30
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/hellofrancesco",
+      "twitterUrl" : "https://twitter.com/malatestafra",
+      "followerCount" : 184
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7269,
+    "readers" : 80
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/engineryildiz",
+      "twitterUrl" : "https://twitter.com/author63",
+      "followerCount" : 59
+    } ],
+    "followers" : 59,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alegacyoflove"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/poeticbuttafly",
+      "twitterUrl" : "https://twitter.com/ButtaFly125",
+      "followerCount" : 879
+    } ],
+    "followers" : 879,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nicolasstampf",
+      "twitterUrl" : "https://twitter.com/nicolasstampf",
+      "followerCount" : 1098
+    } ],
+    "followers" : 1098,
+    "readers" : 59
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/otmedia"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidrobinson",
+      "twitterUrl" : "https://twitter.com/trulypowerful",
+      "followerCount" : 225
+    } ],
+    "followers" : 225,
+    "readers" : 136
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/danielroot"
+    } ],
+    "followers" : 0,
+    "readers" : 390
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dubber",
+      "twitterUrl" : "https://twitter.com/dubber",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 2779
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/juliendorra",
+      "twitterUrl" : "https://twitter.com/juliendorra",
+      "followerCount" : 3002
+    } ],
+    "followers" : 3002,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 19
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rg",
+      "twitterUrl" : "https://twitter.com/yaph",
+      "followerCount" : 484
+    } ],
+    "followers" : 484,
+    "readers" : 36
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sethvincent",
+      "twitterUrl" : "https://twitter.com/sethdvincent",
+      "followerCount" : 663
+    } ],
+    "followers" : 663,
+    "readers" : 81
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lunivore",
+      "twitterUrl" : "https://twitter.com/lunivore",
+      "followerCount" : 5842
+    } ],
+    "followers" : 5842,
+    "readers" : 75
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jillkswanson"
+    } ],
+    "followers" : 0,
+    "readers" : 31
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/docwinters",
+      "twitterUrl" : "https://twitter.com/docwinters",
+      "followerCount" : 180
+    } ],
+    "followers" : 180,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 30
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/whattheflop",
+      "twitterUrl" : "https://twitter.com/WTFlopPoker",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 80
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johannarothman",
+      "twitterUrl" : "https://twitter.com/johannarothman",
+      "followerCount" : 6463
+    } ],
+    "followers" : 6463,
+    "readers" : 448
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/author"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesgifford"
+    } ],
+    "followers" : 0,
+    "readers" : 1581
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gnperdue",
+      "twitterUrl" : "https://twitter.com/gnperdue",
+      "followerCount" : 43
+    } ],
+    "followers" : 43,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jwmberkowitz"
+    } ],
+    "followers" : 0,
+    "readers" : 11
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/silviacasini"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/laragazzacongliocchiverdi"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/olav",
+      "twitterUrl" : "https://twitter.com/oschettler",
+      "followerCount" : 88
+    } ],
+    "followers" : 88,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 3268
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/slamet"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaeltsai",
+      "twitterUrl" : "https://twitter.com/huanlin",
+      "followerCount" : 12
+    } ],
+    "followers" : 12,
+    "readers" : 82
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fergalbyrne",
+      "twitterUrl" : "https://twitter.com/fergbyrne",
+      "followerCount" : 1606
+    } ],
+    "followers" : 1606,
+    "readers" : 15
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rbchv"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephendrivick",
+      "twitterUrl" : "https://twitter.com/StephenDrivick",
+      "followerCount" : 1362
+    } ],
+    "followers" : 1362,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/whattheflop",
+      "twitterUrl" : "https://twitter.com/WTFlopPoker",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 91
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dragonsnake9989",
+      "twitterUrl" : "https://twitter.com/DragonSnake9989",
+      "followerCount" : 7
+    } ],
+    "followers" : 7,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bryanbibat",
+      "twitterUrl" : "https://twitter.com/bry_bibat",
+      "followerCount" : 437
+    } ],
+    "followers" : 437,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kayleighgrian"
+    } ],
+    "followers" : 0,
+    "readers" : 14
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    } ],
+    "followers" : 1209,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marcusdegerman",
+      "twitterUrl" : "https://twitter.com/marcusjmd",
+      "followerCount" : 72
+    } ],
+    "followers" : 72,
+    "readers" : 42
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mattgoldspink",
+      "twitterUrl" : "https://twitter.com/mattgoldspink",
+      "followerCount" : 190
+    } ],
+    "followers" : 190,
+    "readers" : 18
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/luisdalmolin",
+      "twitterUrl" : "https://twitter.com/luisdalmolin",
+      "followerCount" : 294
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7379,
+    "readers" : 149
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/iskiea",
+      "twitterUrl" : "https://twitter.com/Iskiea",
+      "followerCount" : 22
+    } ],
+    "followers" : 22,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/linhpham"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/d3noob",
+      "twitterUrl" : "https://twitter.com/d3noob",
+      "followerCount" : 312
+    } ],
+    "followers" : 312,
+    "readers" : 12031
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bradsmith"
+    } ],
+    "followers" : 0,
+    "readers" : 23
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/esthersloyer",
+      "twitterUrl" : "https://twitter.com/ekshortstories",
+      "followerCount" : 21
+    } ],
+    "followers" : 21,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ubiquitousrat",
+      "twitterUrl" : "https://twitter.com/UbiquitousRat",
+      "followerCount" : 385
+    } ],
+    "followers" : 385,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    }, {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    } ],
+    "followers" : 2186,
+    "readers" : 203
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/djamespawson",
+      "twitterUrl" : "https://twitter.com/iCantGB",
+      "followerCount" : 80
+    } ],
+    "followers" : 80,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nickoostvogels",
+      "twitterUrl" : "https://twitter.com/NickOostvogels",
+      "followerCount" : 1034
+    } ],
+    "followers" : 1034,
+    "readers" : 2298
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/taq",
+      "twitterUrl" : "https://twitter.com/taq",
+      "followerCount" : 1381
+    } ],
+    "followers" : 1381,
+    "readers" : 984
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kwisniewski",
+      "twitterUrl" : "https://twitter.com/cychug",
+      "followerCount" : 93
+    } ],
+    "followers" : 93,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joanne",
+      "twitterUrl" : "https://twitter.com/mygile",
+      "followerCount" : 53
+    } ],
+    "followers" : 53,
+    "readers" : 25
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nicholasrobertlim"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/juanmagg"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/rodcaceres"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sucredecendres"
+    } ],
+    "followers" : 0,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/artmov",
+      "twitterUrl" : "https://twitter.com/artmov",
+      "followerCount" : 106
+    } ],
+    "followers" : 106,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/josephlittle",
+      "twitterUrl" : "https://twitter.com/jhlittle",
+      "followerCount" : 558
+    } ],
+    "followers" : 558,
+    "readers" : 257
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jaapmurre"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/darkness"
+    } ],
+    "followers" : 0,
+    "readers" : 6561
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/obie"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/manuelkiessling",
+      "twitterUrl" : "https://twitter.com/manuelkiessling",
+      "followerCount" : 1550
+    }, {
+      "authorUrl" : "https://leanpub.com/u/debbieandpablobontti"
+    } ],
+    "followers" : 1550,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/villafuerte"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jayfields",
+      "twitterUrl" : "https://twitter.com/thejayfields",
+      "followerCount" : 965
+    } ],
+    "followers" : 965,
+    "readers" : 249
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/wolfram-mueller"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/silvan-kurras"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephendrivick",
+      "twitterUrl" : "https://twitter.com/StephenDrivick",
+      "followerCount" : 1362
+    } ],
+    "followers" : 1362,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caracabe",
+      "twitterUrl" : "https://twitter.com/caracabe",
+      "followerCount" : 273
+    } ],
+    "followers" : 273,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daiguerra"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesleenathaniii",
+      "twitterUrl" : "https://twitter.com/nykingmd",
+      "followerCount" : 625
+    } ],
+    "followers" : 625,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexkorban",
+      "twitterUrl" : "https://twitter.com/cpp_rocks",
+      "followerCount" : 667
+    } ],
+    "followers" : 667,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidkim",
+      "twitterUrl" : "https://twitter.com/findinbay",
+      "followerCount" : 362
+    } ],
+    "followers" : 362,
+    "readers" : 107
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eriknordeus",
+      "twitterUrl" : "https://twitter.com/eriknordeus",
+      "followerCount" : 71
+    } ],
+    "followers" : 71,
+    "readers" : 116
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthewstrawbridge"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jgabardini",
+      "twitterUrl" : "https://twitter.com/jgabardini",
+      "followerCount" : 808
+    }, {
+      "authorUrl" : "https://leanpub.com/u/msalias",
+      "twitterUrl" : "https://twitter.com/MartinSalias",
+      "followerCount" : 1327
+    } ],
+    "followers" : 2135,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/feyeleanor",
+      "twitterUrl" : "https://twitter.com/feyeleanor",
+      "followerCount" : 1089
+    } ],
+    "followers" : 1089,
+    "readers" : 181
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fogus",
+      "twitterUrl" : "https://twitter.com/fogus",
+      "followerCount" : 8380
+    } ],
+    "followers" : 8380,
+    "readers" : 104
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ellanathornton-wheybrew",
+      "twitterUrl" : "https://twitter.com/EllanaRose_",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomaskilian"
+    } ],
+    "followers" : 0,
+    "readers" : 16
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pychen"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/yurenju"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/dwi2"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/stevechung"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/huchengtw"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/lukechang"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/anonymous1KDfeNwqLBORxzWNQBkiRp"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/evanxd"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/crh0716"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/eragonj"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/snowmantw"
+    } ],
+    "followers" : 0,
+    "readers" : 49
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/josephstash"
+    } ],
+    "followers" : 0,
+    "readers" : 13
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kaviraj"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jko"
+    } ],
+    "followers" : 0,
+    "readers" : 556
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nurulimam",
+      "twitterUrl" : "https://twitter.com/nurulimamnotes",
+      "followerCount" : 168
+    } ],
+    "followers" : 168,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/martinliss"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/arches",
+      "twitterUrl" : "https://twitter.com/archesproject",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 122
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexpiaz",
+      "twitterUrl" : "https://twitter.com/zaip",
+      "followerCount" : 980
+    } ],
+    "followers" : 980,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ccornutt",
+      "twitterUrl" : "https://twitter.com/enygma",
+      "followerCount" : 4366
+    } ],
+    "followers" : 4366,
+    "readers" : 181
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marekkowalczyk"
+    } ],
+    "followers" : 0,
+    "readers" : 29
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 20
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/taylorotwell",
+      "twitterUrl" : "https://twitter.com/taylorotwell",
+      "followerCount" : 13000
+    } ],
+    "followers" : 13000,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mikebranski",
+      "twitterUrl" : "https://twitter.com/mikebranski",
+      "followerCount" : 366
+    } ],
+    "followers" : 366,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    } ],
+    "followers" : 560,
+    "readers" : 45
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raviwu"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chartjes",
+      "twitterUrl" : "https://twitter.com/grmpyprogrammer",
+      "followerCount" : 5571
+    } ],
+    "followers" : 5571,
+    "readers" : 869
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mnishihan",
+      "twitterUrl" : "https://twitter.com/mnishihan",
+      "followerCount" : 83
+    } ],
+    "followers" : 83,
+    "readers" : 1715
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/richardveryard",
+      "twitterUrl" : "https://twitter.com/richardveryard",
+      "followerCount" : 1466
+    } ],
+    "followers" : 1466,
+    "readers" : 85
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulocaroli",
+      "twitterUrl" : "https://twitter.com/paulocaroli",
+      "followerCount" : 1904
+    } ],
+    "followers" : 1904,
+    "readers" : 89
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chartjes",
+      "twitterUrl" : "https://twitter.com/grmpyprogrammer",
+      "followerCount" : 5571
+    } ],
+    "followers" : 5571,
+    "readers" : 1279
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johnfulwider",
+      "twitterUrl" : "https://twitter.com/johnmfulwider",
+      "followerCount" : 903
+    } ],
+    "followers" : 903,
+    "readers" : 17
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ebookfrenzy"
+    } ],
+    "followers" : 0,
+    "readers" : 28
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lmsgoncalves",
+      "twitterUrl" : "https://twitter.com/lgoncalves1979",
+      "followerCount" : 14800
+    }, {
+      "authorUrl" : "https://leanpub.com/u/benlinders",
+      "twitterUrl" : "https://twitter.com/BenLinders",
+      "followerCount" : 1743
+    } ],
+    "followers" : 16543,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/drewmccormack",
+      "twitterUrl" : "https://twitter.com/drewmccormack",
+      "followerCount" : 2609
+    } ],
+    "followers" : 2609,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/MarkNijhof",
+      "twitterUrl" : "https://twitter.com/MarkNijhof",
+      "followerCount" : 2074
+    } ],
+    "followers" : 2074,
+    "readers" : 532
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coloradocsas",
+      "twitterUrl" : "https://twitter.com/coloradocsas",
+      "followerCount" : 203
+    } ],
+    "followers" : 203,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jmoy"
+    } ],
+    "followers" : 0,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/abhijitrawool",
+      "twitterUrl" : "https://twitter.com/abhijitnr",
+      "followerCount" : 19
+    } ],
+    "followers" : 19,
+    "readers" : 239
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulemcmahon"
+    } ],
+    "followers" : 0,
+    "readers" : 12
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/brajismadas"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/draupadidasi"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philsturgeon",
+      "twitterUrl" : "https://twitter.com/philsturgeon",
+      "followerCount" : 11100
+    }, {
+      "authorUrl" : "https://leanpub.com/u/joshlockhart",
+      "twitterUrl" : "https://twitter.com/codeguy",
+      "followerCount" : 2842
+    } ],
+    "followers" : 13942,
+    "readers" : 4446
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lunivore",
+      "twitterUrl" : "https://twitter.com/lunivore",
+      "followerCount" : 5842
+    } ],
+    "followers" : 5842,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/danielschmitz",
+      "twitterUrl" : "https://twitter.com/daniel_schmitz",
+      "followerCount" : 846
+    }, {
+      "authorUrl" : "https://leanpub.com/u/douglaslira",
+      "twitterUrl" : "https://twitter.com/douglaslira",
+      "followerCount" : 222
+    } ],
+    "followers" : 1068,
+    "readers" : 639
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dds",
+      "twitterUrl" : "https://twitter.com/CoolSWEng",
+      "followerCount" : 2118
+    } ],
+    "followers" : 2118,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbranski"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gojko",
+      "twitterUrl" : "https://twitter.com/gojkoadzic",
+      "followerCount" : 8150
+    } ],
+    "followers" : 8150,
+    "readers" : 3932
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jasonroberts"
+    } ],
+    "followers" : 0,
+    "readers" : 811
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/maximillianderembourg"
+    } ],
+    "followers" : 0,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelkiessling",
+      "twitterUrl" : "https://twitter.com/manuelkiessling",
+      "followerCount" : 1550
+    } ],
+    "followers" : 1550,
+    "readers" : 1568
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidsulc",
+      "twitterUrl" : "https://twitter.com/davidsulc",
+      "followerCount" : 263
+    } ],
+    "followers" : 263,
+    "readers" : 985
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 665
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 2270
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mackmacfarlane"
+    } ],
+    "followers" : 0,
+    "readers" : 10
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rutishauser"
+    } ],
+    "followers" : 0,
+    "readers" : 17
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zhiminzhan"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paddy",
+      "twitterUrl" : "https://twitter.com/paddyforan",
+      "followerCount" : 687
+    } ],
+    "followers" : 687,
+    "readers" : 587
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomasjeffreyandersontwin"
+    } ],
+    "followers" : 0,
+    "readers" : 369
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/scott7",
+      "twitterUrl" : "https://twitter.com/scottmillett",
+      "followerCount" : 562
+    } ],
+    "followers" : 562,
+    "readers" : 2858
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rosapjli"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthiasak",
+      "twitterUrl" : "https://twitter.com/matthiasak",
+      "followerCount" : 1242
+    } ],
+    "followers" : 1242,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lornajane",
+      "twitterUrl" : "https://twitter.com/lornajane",
+      "followerCount" : 7140
+    }, {
+      "authorUrl" : "https://leanpub.com/u/ijansch",
+      "twitterUrl" : "https://twitter.com/ijansch",
+      "followerCount" : 3620
+    } ],
+    "followers" : 10760,
+    "readers" : 57
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ddembe"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jgribeiro",
+      "twitterUrl" : "https://twitter.com/JonoIsWriting",
+      "followerCount" : 6
+    } ],
+    "followers" : 6,
+    "readers" : 38
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kaylagreen"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robmil",
+      "twitterUrl" : "https://twitter.com/robmil",
+      "followerCount" : 256
+    } ],
+    "followers" : 256,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mrlockyer",
+      "twitterUrl" : "https://twitter.com/mrlockyer",
+      "followerCount" : 5803
+    } ],
+    "followers" : 5803,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidpollard",
+      "twitterUrl" : "https://twitter.com/davpol8112",
+      "followerCount" : 137
+    } ],
+    "followers" : 137,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diabeticwoundssalve"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/neilkeleher"
+    } ],
+    "followers" : 0,
+    "readers" : 25
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nonfixe"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zenbullets",
+      "twitterUrl" : "https://twitter.com/zenbullets",
+      "followerCount" : 2276
+    } ],
+    "followers" : 2276,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/micaarie",
+      "twitterUrl" : "https://twitter.com/guy.nachimson"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/YvesHanoulle",
+      "twitterUrl" : "https://twitter.com/YvesHanoulle",
+      "followerCount" : 4054
+    }, {
+      "authorUrl" : "https://leanpub.com/u/anonymous2GAOijwmP5tvyPt8RnpDGe"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/andreachiou",
+      "twitterUrl" : "https://twitter.com/andreachiou",
+      "followerCount" : 1019
+    }, {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    }, {
+      "authorUrl" : "https://leanpub.com/u/mfloryan",
+      "twitterUrl" : "https://twitter.com/mfloryan",
+      "followerCount" : 1253
+    } ],
+    "followers" : 6886,
+    "readers" : 484
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/brevebooks"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cadimartin"
+    } ],
+    "followers" : 0,
+    "readers" : 13
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 114
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stevemiller"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/talkingquickly",
+      "twitterUrl" : "https://twitter.com/talkingquickly",
+      "followerCount" : 898
+    } ],
+    "followers" : 898,
+    "readers" : 698
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/elleclouse",
+      "twitterUrl" : "https://twitter.com/elleclouse",
+      "followerCount" : 1201
+    } ],
+    "followers" : 1201,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/autismfather",
+      "twitterUrl" : "https://twitter.com/autismfather",
+      "followerCount" : 10700
+    } ],
+    "followers" : 10700,
+    "readers" : 41
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jonathankohl",
+      "twitterUrl" : "https://twitter.com/jonathan_kohl",
+      "followerCount" : 1188
+    } ],
+    "followers" : 1188,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephanschwab",
+      "twitterUrl" : "https://twitter.com/snscaimito",
+      "followerCount" : 326
+    } ],
+    "followers" : 326,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/muellermi"
+    } ],
+    "followers" : 0,
+    "readers" : 45
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marick"
+    } ],
+    "followers" : 0,
+    "readers" : 3659
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dronte"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/Level",
+      "twitterUrl" : "https://twitter.com/Level_Trans",
+      "followerCount" : 8
+    } ],
+    "followers" : 8,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/docwinters",
+      "twitterUrl" : "https://twitter.com/docwinters",
+      "followerCount" : 180
+    } ],
+    "followers" : 180,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marlowesr"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipespinosa"
+    } ],
+    "followers" : 0,
+    "readers" : 33
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelromer",
+      "twitterUrl" : "https://twitter.com/startuppatterns",
+      "followerCount" : 49
+    } ],
+    "followers" : 49,
+    "readers" : 1007
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/juanmanuelferrera"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexis8nicolas",
+      "twitterUrl" : "https://twitter.com/alexis8nicolas",
+      "followerCount" : 593
+    } ],
+    "followers" : 593,
+    "readers" : 32
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/swizec",
+      "twitterUrl" : "https://twitter.com/swizec",
+      "followerCount" : 4016
+    } ],
+    "followers" : 4016,
+    "readers" : 1882
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dpatra",
+      "twitterUrl" : "https://twitter.com/dpatra",
+      "followerCount" : 329
+    } ],
+    "followers" : 329,
+    "readers" : 70
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/naughtiescribe",
+      "twitterUrl" : "https://twitter.com/naughtiescribe",
+      "followerCount" : 1230
+    } ],
+    "followers" : 1230,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/leamishell",
+      "twitterUrl" : "https://twitter.com/SistaGirlzBooks",
+      "followerCount" : 674
+    }, {
+      "authorUrl" : "https://leanpub.com/u/mrsreed",
+      "twitterUrl" : "https://twitter.com/thedrswifereed",
+      "followerCount" : 125
+    } ],
+    "followers" : 799,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthiasnoback",
+      "twitterUrl" : "https://twitter.com/matthiasnoback",
+      "followerCount" : 1534
+    } ],
+    "followers" : 1534,
+    "readers" : 155
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbradshaw",
+      "twitterUrl" : "https://twitter.com/paulbradshaw",
+      "followerCount" : 21400
+    } ],
+    "followers" : 21400,
+    "readers" : 1020
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andybrandt",
+      "twitterUrl" : "https://twitter.com/andybrandt",
+      "followerCount" : 691
+    } ],
+    "followers" : 691,
+    "readers" : 523
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryanmoore",
+      "twitterUrl" : "https://twitter.com/dasryanmoore",
+      "followerCount" : 139
+    } ],
+    "followers" : 139,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joel-henry",
+      "twitterUrl" : "https://twitter.com/joel-henry"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/luisc"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fideloper",
+      "twitterUrl" : "https://twitter.com/fideloper",
+      "followerCount" : 3216
+    } ],
+    "followers" : 3216,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caroline",
+      "twitterUrl" : "https://twitter.com/psychicmegan",
+      "followerCount" : 5
+    } ],
+    "followers" : 5,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bartvermijlen",
+      "twitterUrl" : "https://twitter.com/bartvermijlen",
+      "followerCount" : 1120
+    } ],
+    "followers" : 1120,
+    "readers" : 780
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jimmurdoch",
+      "twitterUrl" : "https://twitter.com/jimmurdoch",
+      "followerCount" : 7461
+    } ],
+    "followers" : 7461,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rosbarber",
+      "twitterUrl" : "https://twitter.com/rosbarber",
+      "followerCount" : 3215
+    } ],
+    "followers" : 3215,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 842
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelromer",
+      "twitterUrl" : "https://twitter.com/startuppatterns",
+      "followerCount" : 49
+    } ],
+    "followers" : 49,
+    "readers" : 1209
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peter",
+      "twitterUrl" : "https://twitter.com/peterarmstrong",
+      "followerCount" : 863
+    }, {
+      "authorUrl" : "https://leanpub.com/u/YvesHanoulle",
+      "twitterUrl" : "https://twitter.com/YvesHanoulle",
+      "followerCount" : 4054
+    } ],
+    "followers" : 4917,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/oddjones",
+      "twitterUrl" : "https://twitter.com/oddjones",
+      "followerCount" : 669
+    } ],
+    "followers" : 669,
+    "readers" : 451
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/brynncharity"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cesarioramos",
+      "twitterUrl" : "https://twitter.com/cesarioramos",
+      "followerCount" : 311
+    } ],
+    "followers" : 311,
+    "readers" : 45
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 2186,
+    "readers" : 71
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lionelbisschoff"
+    } ],
+    "followers" : 0,
+    "readers" : 50
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rikupekka",
+      "twitterUrl" : "https://twitter.com/rikupekka",
+      "followerCount" : 51
+    } ],
+    "followers" : 51,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/obie"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/kfaustino",
+      "twitterUrl" : "https://twitter.com/kfaustino",
+      "followerCount" : 604
+    }, {
+      "authorUrl" : "https://leanpub.com/u/vitalykushner",
+      "twitterUrl" : "https://twitter.com/vkushner",
+      "followerCount" : 338
+    } ],
+    "followers" : 942,
+    "readers" : 2232
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tobiasfors",
+      "twitterUrl" : "https://twitter.com/tofo",
+      "followerCount" : 1051
+    } ],
+    "followers" : 1051,
+    "readers" : 247
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/Dlexis"
+    } ],
+    "followers" : 0,
+    "readers" : 24
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caroline",
+      "twitterUrl" : "https://twitter.com/psychicmegan",
+      "followerCount" : 5
+    } ],
+    "followers" : 5,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/natedickson",
+      "twitterUrl" : "https://twitter.com/PogiNate",
+      "followerCount" : 104
+    } ],
+    "followers" : 104,
+    "readers" : 75
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 4095
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lilycruz"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/BenediktNiessen",
+      "twitterUrl" : "https://twitter.com/BenediktNiessen",
+      "followerCount" : 60
+    } ],
+    "followers" : 60,
+    "readers" : 26
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshuaclanton",
+      "twitterUrl" : "https://twitter.com/joshuacc",
+      "followerCount" : 528
+    } ],
+    "followers" : 528,
+    "readers" : 77
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chuckheintzelman",
+      "twitterUrl" : "https://twitter.com/storychuck",
+      "followerCount" : 124
+    }, {
+      "authorUrl" : "https://leanpub.com/u/sineld",
+      "twitterUrl" : "https://twitter.com/sineld",
+      "followerCount" : 763
+    } ],
+    "followers" : 887,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cindyfsolomon",
+      "twitterUrl" : "https://twitter.com/cindyfsolomon",
+      "followerCount" : 2769
+    } ],
+    "followers" : 2769,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2hLLJRPSv8igY9HWuG_NYz"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jeffmcneill",
+      "twitterUrl" : "https://twitter.com/jeffmcneill",
+      "followerCount" : 3095
+    } ],
+    "followers" : 3095,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mdavis"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sheremetyev"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/Jurgen",
+      "twitterUrl" : "https://twitter.com/JurgenLACoach",
+      "followerCount" : 1150
+    }, {
+      "authorUrl" : "https://leanpub.com/u/talboomerik",
+      "twitterUrl" : "https://twitter.com/talboomerik",
+      "followerCount" : 1045
+    } ],
+    "followers" : 2195,
+    "readers" : 384
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peter",
+      "twitterUrl" : "https://twitter.com/peterarmstrong",
+      "followerCount" : 863
+    } ],
+    "followers" : 863,
+    "readers" : 610
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/francescolettera",
+      "twitterUrl" : "https://twitter.com/FrancescoLetter",
+      "followerCount" : 116
+    } ],
+    "followers" : 116,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rmfavaretto"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mattcarkci"
+    } ],
+    "followers" : 0,
+    "readers" : 554
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/churchjohnson28",
+      "twitterUrl" : "https://twitter.com/uniek81books",
+      "followerCount" : 366
+    } ],
+    "followers" : 366,
+    "readers" : 40
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/judithandresen",
+      "twitterUrl" : "https://twitter.com/judithandresen",
+      "followerCount" : 181
+    } ],
+    "followers" : 181,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesleenathaniii",
+      "twitterUrl" : "https://twitter.com/nykingmd",
+      "followerCount" : 625
+    } ],
+    "followers" : 625,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/albertosouza",
+      "twitterUrl" : "https://twitter.com/alberto_souza",
+      "followerCount" : 608
+    } ],
+    "followers" : 608,
+    "readers" : 54
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jonathanbirkholz"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jwo"
+    } ],
+    "followers" : 0,
+    "readers" : 137
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 1432
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    } ],
+    "followers" : 560,
+    "readers" : 1007
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thekua",
+      "twitterUrl" : "https://twitter.com/patkua",
+      "followerCount" : 1476
+    } ],
+    "followers" : 1476,
+    "readers" : 1194
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/deekayen",
+      "twitterUrl" : "https://twitter.com/davidknorman",
+      "followerCount" : 130
+    } ],
+    "followers" : 130,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/arches",
+      "twitterUrl" : "https://twitter.com/archesproject",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 175
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joeswann"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelavalente"
+    } ],
+    "followers" : 0,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kemacleod"
+    } ],
+    "followers" : 0,
+    "readers" : 25
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sausheong",
+      "twitterUrl" : "https://twitter.com/sausheong",
+      "followerCount" : 1372
+    } ],
+    "followers" : 1372,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipespinosa"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelavalente"
+    } ],
+    "followers" : 0,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 2186,
+    "readers" : 72
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nivi"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/naval"
+    } ],
+    "followers" : 0,
+    "readers" : 1288
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/hirokws",
+      "twitterUrl" : "https://twitter.com/hirokws",
+      "followerCount" : 150
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7235,
+    "readers" : 48
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    }, {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    } ],
+    "followers" : 2186,
+    "readers" : 1086
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/isabellmas",
+      "twitterUrl" : "https://twitter.com/lilibel",
+      "followerCount" : 862
+    } ],
+    "followers" : 862,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/theashfurrow",
+      "twitterUrl" : "https://twitter.com/ashfurrow",
+      "followerCount" : 4422
+    } ],
+    "followers" : 4422,
+    "readers" : 481
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/arafalov",
+      "twitterUrl" : "https://twitter.com/arafalov",
+      "followerCount" : 196
+    } ],
+    "followers" : 196,
+    "readers" : 13
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tainacaetano",
+      "twitterUrl" : "https://twitter.com/caetano_tc",
+      "followerCount" : 183
+    }, {
+      "authorUrl" : "https://leanpub.com/u/paulocaroli",
+      "twitterUrl" : "https://twitter.com/paulocaroli",
+      "followerCount" : 1904
+    } ],
+    "followers" : 2087,
+    "readers" : 879
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/smickeyd43"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jgribeiro",
+      "twitterUrl" : "https://twitter.com/JonoIsWriting",
+      "followerCount" : 6
+    } ],
+    "followers" : 6,
+    "readers" : 18
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/EtherealMind",
+      "twitterUrl" : "https://twitter.com/EtherealMind",
+      "followerCount" : 11000
+    } ],
+    "followers" : 11000,
+    "readers" : 289
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/markgraban",
+      "twitterUrl" : "https://twitter.com/markgraban",
+      "followerCount" : 12000
+    } ],
+    "followers" : 12000,
+    "readers" : 15
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/suejohnston",
+      "twitterUrl" : "https://twitter.com/itsunderstood",
+      "followerCount" : 1032
+    } ],
+    "followers" : 1032,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/agileinsider",
+      "twitterUrl" : "https://twitter.com/agileinsider",
+      "followerCount" : 111
+    } ],
+    "followers" : 111,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshharington"
+    } ],
+    "followers" : 0,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kimparker",
+      "twitterUrl" : "https://twitter.com/kimparker054",
+      "followerCount" : 1712
+    } ],
+    "followers" : 1712,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/floriankromer"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/amyvanvre"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamldavis",
+      "twitterUrl" : "https://twitter.com/adamldavis",
+      "followerCount" : 47
+    } ],
+    "followers" : 47,
+    "readers" : 56
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ravindertulsiani"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/BradWallace"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/auieauieauieauie"
+    } ],
+    "followers" : 0,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/juanmagg"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/g3edge"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jonguenther",
+      "twitterUrl" : "https://twitter.com/_JonGuenther"
+    } ],
+    "followers" : 0,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kylebylin"
+    } ],
+    "followers" : 0,
+    "readers" : 1791
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 2186,
+    "readers" : 67
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jesperforslund"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ellanathornton-wheybrew",
+      "twitterUrl" : "https://twitter.com/EllanaRose_",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 30
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/juanre",
+      "twitterUrl" : "https://twitter.com/juanre",
+      "followerCount" : 124
+    } ],
+    "followers" : 124,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/hunterwalk",
+      "twitterUrl" : "https://twitter.com/hunterwalk",
+      "followerCount" : 66900
+    }, {
+      "authorUrl" : "https://leanpub.com/u/ericries",
+      "twitterUrl" : "https://twitter.com/ericries",
+      "followerCount" : 175000
+    } ],
+    "followers" : 241900,
+    "readers" : 585
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/sineld",
+      "twitterUrl" : "https://twitter.com/sineld",
+      "followerCount" : 763
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7848,
+    "readers" : 56
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2BypmyCJHE3v-RIRGcRrgT",
+      "twitterUrl" : "https://twitter.com/allankellynet",
+      "followerCount" : 1716
+    } ],
+    "followers" : 1716,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mattarcher",
+      "twitterUrl" : "https://twitter.com/mattarcheruk",
+      "followerCount" : 480
+    } ],
+    "followers" : 480,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/harveyramer",
+      "twitterUrl" : "https://twitter.com/harveyramer",
+      "followerCount" : 303
+    } ],
+    "followers" : 303,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/amypreed",
+      "twitterUrl" : "https://twitter.com/AmyPReed",
+      "followerCount" : 54
+    } ],
+    "followers" : 54,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/demetriobattaglia"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/patrickverhaert",
+      "twitterUrl" : "https://twitter.com/pverhaert",
+      "followerCount" : 6
+    } ],
+    "followers" : 6,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/blfoxxe_mkitsune",
+      "twitterUrl" : "https://twitter.com/draemesaekyrFK",
+      "followerCount" : 573
+    } ],
+    "followers" : 573,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 63
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/YvesHanoulle",
+      "twitterUrl" : "https://twitter.com/YvesHanoulle",
+      "followerCount" : 4054
+    }, {
+      "authorUrl" : "https://leanpub.com/u/meikemertsch",
+      "twitterUrl" : "https://twitter.com/meikemertsch",
+      "followerCount" : 531
+    }, {
+      "authorUrl" : "https://leanpub.com/u/ignacehanoulle"
+    } ],
+    "followers" : 4585,
+    "readers" : 336
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbradshaw",
+      "twitterUrl" : "https://twitter.com/paulbradshaw",
+      "followerCount" : 21400
+    } ],
+    "followers" : 21400,
+    "readers" : 1034
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eliezeryudkowsky"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/stavros",
+      "twitterUrl" : "https://twitter.com/stavros",
+      "followerCount" : 1119
+    } ],
+    "followers" : 1119,
+    "readers" : 570
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nickeconomidis"
+    } ],
+    "followers" : 0,
+    "readers" : 17
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    }, {
+      "authorUrl" : "https://leanpub.com/u/svencipido",
+      "twitterUrl" : "https://twitter.com/cipidos",
+      "followerCount" : 138
+    } ],
+    "followers" : 698,
+    "readers" : 137
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cynthiadagnal-myron",
+      "twitterUrl" : "https://twitter.com/bioko",
+      "followerCount" : 1074
+    } ],
+    "followers" : 1074,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joekissell",
+      "twitterUrl" : "https://twitter.com/joekissell",
+      "followerCount" : 1790
+    } ],
+    "followers" : 1790,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/leemiles",
+      "twitterUrl" : "https://twitter.com/lowkontrast",
+      "followerCount" : 109
+    } ],
+    "followers" : 109,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robertdbrowniii",
+      "twitterUrl" : "https://twitter.com/InciteDecisions",
+      "followerCount" : 362
+    } ],
+    "followers" : 362,
+    "readers" : 45
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/glennfleishman"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tank",
+      "twitterUrl" : "https://twitter.com/TankBo",
+      "followerCount" : 71
+    } ],
+    "followers" : 71,
+    "readers" : 68
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kathyonu"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7085,
+    "readers" : 179
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caseysoftware",
+      "twitterUrl" : "https://twitter.com/CaseySoftware",
+      "followerCount" : 6071
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jameshigginbotham",
+      "twitterUrl" : "https://twitter.com/launchany",
+      "followerCount" : 566
+    } ],
+    "followers" : 6637,
+    "readers" : 281
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tottinge",
+      "twitterUrl" : "https://twitter.com/tottinge",
+      "followerCount" : 2077
+    } ],
+    "followers" : 2077,
+    "readers" : 74
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/steveburkhart"
+    } ],
+    "followers" : 0,
+    "readers" : 14
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/normis",
+      "twitterUrl" : "https://twitter.com/normis",
+      "followerCount" : 1205
+    } ],
+    "followers" : 1205,
+    "readers" : 15
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gorzek"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/platoosom"
+    } ],
+    "followers" : 0,
+    "readers" : 10
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/GeorgeDonnelly",
+      "twitterUrl" : "https://twitter.com/GeorgeDonnelly",
+      "followerCount" : 2865
+    } ],
+    "followers" : 2865,
+    "readers" : 13
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lukasoberhuber",
+      "twitterUrl" : "https://twitter.com/lukasco",
+      "followerCount" : 223
+    } ],
+    "followers" : 223,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 62
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomasdavis",
+      "twitterUrl" : "https://twitter.com/neutralthoughts",
+      "followerCount" : 3007
+    } ],
+    "followers" : 3007,
+    "readers" : 24333
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kestrel",
+      "twitterUrl" : "https://twitter.com/_Kestrel_",
+      "followerCount" : 265
+    } ],
+    "followers" : 265,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zeljkofilipin",
+      "twitterUrl" : "https://twitter.com/zeljkofilipin",
+      "followerCount" : 937
+    } ],
+    "followers" : 937,
+    "readers" : 7497
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    }, {
+      "authorUrl" : "https://leanpub.com/u/taylorotwell",
+      "twitterUrl" : "https://twitter.com/taylorotwell",
+      "followerCount" : 13000
+    }, {
+      "authorUrl" : "https://leanpub.com/u/hirokws",
+      "twitterUrl" : "https://twitter.com/hirokws",
+      "followerCount" : 150
+    } ],
+    "followers" : 14359,
+    "readers" : 104
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sandromancuso",
+      "twitterUrl" : "https://twitter.com/sandromancuso",
+      "followerCount" : 1727
+    } ],
+    "followers" : 1727,
+    "readers" : 476
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamtornhill",
+      "twitterUrl" : "https://twitter.com/AdamTornhill",
+      "followerCount" : 225
+    } ],
+    "followers" : 225,
+    "readers" : 814
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 340
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mcohen"
+    } ],
+    "followers" : 0,
+    "readers" : 983
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2RpN87EE1BJw_Ul8CE0SeF",
+      "twitterUrl" : "https://twitter.com/mfeckie",
+      "followerCount" : 116
+    } ],
+    "followers" : 116,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raynethomas",
+      "twitterUrl" : "https://twitter.com/bloodynite"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/iword"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrewchen"
+    } ],
+    "followers" : 0,
+    "readers" : 1223
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daphodil0200"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rebeccalee",
+      "twitterUrl" : "https://twitter.com/rebeccalee6661",
+      "followerCount" : 37
+    } ],
+    "followers" : 37,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous0p5TqVkPP1i9Hvy9VX6yx-"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/justmyfreak",
+      "twitterUrl" : "https://twitter.com/justmyfreak",
+      "followerCount" : 178
+    } ],
+    "followers" : 178,
+    "readers" : 1402
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/faysebastian",
+      "twitterUrl" : "https://twitter.com/mileventwelve",
+      "followerCount" : 35
+    } ],
+    "followers" : 35,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous27jH-VXtj2bhHFsVGej5re",
+      "twitterUrl" : "https://twitter.com/selfpubbootcamp",
+      "followerCount" : 538
+    } ],
+    "followers" : 538,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthewdedwards",
+      "twitterUrl" : "https://twitter.com/matthewdedwards",
+      "followerCount" : 87
+    } ],
+    "followers" : 87,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jennatoff",
+      "twitterUrl" : "https://twitter.com/shamanlvr",
+      "followerCount" : 15
+    } ],
+    "followers" : 15,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sammyd",
+      "twitterUrl" : "https://twitter.com/iwantmyrealname",
+      "followerCount" : 466
+    } ],
+    "followers" : 466,
+    "readers" : 1193
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    } ],
+    "followers" : 560,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daveking",
+      "twitterUrl" : "https://twitter.com/Feenix217",
+      "followerCount" : 1487
+    } ],
+    "followers" : 1487,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yuvalyeret",
+      "twitterUrl" : "https://twitter.com/yuvalyeret",
+      "followerCount" : 1699
+    } ],
+    "followers" : 1699,
+    "readers" : 293
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/henning-koch",
+      "twitterUrl" : "https://twitter.com/triskweline",
+      "followerCount" : 167
+    }, {
+      "authorUrl" : "https://leanpub.com/u/thomas-eisenbarth",
+      "twitterUrl" : "https://twitter.com/fnordonaut",
+      "followerCount" : 49
+    } ],
+    "followers" : 216,
+    "readers" : 456
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nadiaalgerl"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robertdbrowniii",
+      "twitterUrl" : "https://twitter.com/InciteDecisions",
+      "followerCount" : 362
+    } ],
+    "followers" : 362,
+    "readers" : 16
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshearl",
+      "twitterUrl" : "https://twitter.com/josh_earl",
+      "followerCount" : 3803
+    } ],
+    "followers" : 3803,
+    "readers" : 304
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sucredecendres"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ericdouglas",
+      "twitterUrl" : "https://twitter.com/ericdouglas_",
+      "followerCount" : 55
+    } ],
+    "followers" : 55,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/meza",
+      "twitterUrl" : "https://twitter.com/vsbmeza",
+      "followerCount" : 636
+    } ],
+    "followers" : 636,
+    "readers" : 11
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/twinspiratie",
+      "twitterUrl" : "https://twitter.com/twinspiratie",
+      "followerCount" : 242
+    } ],
+    "followers" : 242,
+    "readers" : 161
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nicorowinsky",
+      "twitterUrl" : "https://twitter.com/NicoRowinsky",
+      "followerCount" : 138
+    } ],
+    "followers" : 138,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gabr42",
+      "twitterUrl" : "https://twitter.com/thedelphigeek",
+      "followerCount" : 169
+    } ],
+    "followers" : 169,
+    "readers" : 365
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pablitux",
+      "twitterUrl" : "https://twitter.com/pablitux",
+      "followerCount" : 1937
+    } ],
+    "followers" : 1937,
+    "readers" : 13
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ideetsivan"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aturqoise",
+      "twitterUrl" : "https://twitter.com/PeacefulHealing",
+      "followerCount" : 156
+    } ],
+    "followers" : 156,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jaanatolonen"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/amandataub"
+    } ],
+    "followers" : 0,
+    "readers" : 1359
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zeniaofshaula"
+    } ],
+    "followers" : 0,
+    "readers" : 10
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    } ],
+    "followers" : 6657,
+    "readers" : 3103
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yulich1978"
+    } ],
+    "followers" : 0,
+    "readers" : 16
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexandertarnowski",
+      "twitterUrl" : "https://twitter.com/alexander_tar",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 114
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/royosherove",
+      "twitterUrl" : "https://twitter.com/royosherove",
+      "followerCount" : 11700
+    } ],
+    "followers" : 11700,
+    "readers" : 1458
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lessofmehcg"
+    } ],
+    "followers" : 0,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 8315
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johnmcdowall",
+      "twitterUrl" : "https://twitter.com/MrMcDowall"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/danshaurette",
+      "twitterUrl" : "https://twitter.com/DanS42",
+      "followerCount" : 530
+    } ],
+    "followers" : 530,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/josemiguelvivesmartinez",
+      "twitterUrl" : "https://twitter.com/jmvives",
+      "followerCount" : 450
+    } ],
+    "followers" : 450,
+    "readers" : 43
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/d3noob",
+      "twitterUrl" : "https://twitter.com/d3noob",
+      "followerCount" : 312
+    } ],
+    "followers" : 312,
+    "readers" : 1825
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samatkinson",
+      "twitterUrl" : "https://twitter.com/sambahk",
+      "followerCount" : 83
+    } ],
+    "followers" : 83,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/satishtalim",
+      "twitterUrl" : "https://twitter.com/IndianGuru",
+      "followerCount" : 5498
+    } ],
+    "followers" : 5498,
+    "readers" : 141
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/spajus",
+      "twitterUrl" : "https://twitter.com/spajus",
+      "followerCount" : 167
+    } ],
+    "followers" : 167,
+    "readers" : 23
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/grobmeier",
+      "twitterUrl" : "https://twitter.com/grobmeier",
+      "followerCount" : 734
+    } ],
+    "followers" : 734,
+    "readers" : 225
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ohcoder",
+      "twitterUrl" : "https://twitter.com/ohcoder",
+      "followerCount" : 90
+    } ],
+    "followers" : 90,
+    "readers" : 18
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/donaldrnoyes"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gavd",
+      "twitterUrl" : "https://twitter.com/gavd_UK",
+      "followerCount" : 774
+    } ],
+    "followers" : 774,
+    "readers" : 453
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jasonwexbridge"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/walternyland"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamtornhill",
+      "twitterUrl" : "https://twitter.com/AdamTornhill",
+      "followerCount" : 225
+    } ],
+    "followers" : 225,
+    "readers" : 421
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fdietz",
+      "twitterUrl" : "https://twitter.com/fdietz",
+      "followerCount" : 281
+    } ],
+    "followers" : 281,
+    "readers" : 1109
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/billymoon"
+    } ],
+    "followers" : 0,
+    "readers" : 11
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rosapjli"
+    } ],
+    "followers" : 0,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/karangarewal21njjAk3n9tPQBQJKk46Rc"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/royosherove",
+      "twitterUrl" : "https://twitter.com/royosherove",
+      "followerCount" : 11700
+    } ],
+    "followers" : 11700,
+    "readers" : 314
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/cartoshka"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7085,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jbrains",
+      "twitterUrl" : "https://twitter.com/jbrains",
+      "followerCount" : 6124
+    } ],
+    "followers" : 6124,
+    "readers" : 326
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ericries",
+      "twitterUrl" : "https://twitter.com/ericries",
+      "followerCount" : 175000
+    } ],
+    "followers" : 175000,
+    "readers" : 706
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephanieawbradley",
+      "twitterUrl" : "https://twitter.com/WynnAlice",
+      "followerCount" : 198
+    } ],
+    "followers" : 198,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/leemcintyre"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marksentoshirusso"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fullstack",
+      "twitterUrl" : "https://twitter.com/auser",
+      "followerCount" : 1779
+    }, {
+      "authorUrl" : "https://leanpub.com/u/vicapow",
+      "twitterUrl" : "https://twitter.com/vicapow",
+      "followerCount" : 1104
+    } ],
+    "followers" : 2883,
+    "readers" : 853
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peteashton",
+      "twitterUrl" : "https://twitter.com/peteashton",
+      "followerCount" : 3827
+    } ],
+    "followers" : 3827,
+    "readers" : 37
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 239
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrecronje",
+      "twitterUrl" : "https://twitter.com/shineandre",
+      "followerCount" : 454
+    } ],
+    "followers" : 454,
+    "readers" : 14
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jankrutisch",
+      "twitterUrl" : "https://twitter.com/halfbyte",
+      "followerCount" : 1346
+    } ],
+    "followers" : 1346,
+    "readers" : 74
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ideetsivan"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/guysivan"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbradshaw",
+      "twitterUrl" : "https://twitter.com/paulbradshaw",
+      "followerCount" : 21400
+    }, {
+      "authorUrl" : "https://leanpub.com/u/carolmiers",
+      "twitterUrl" : "https://twitter.com/carolmiers",
+      "followerCount" : 94
+    } ],
+    "followers" : 21494,
+    "readers" : 158
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/janusz",
+      "twitterUrl" : "https://twitter.com/geudde",
+      "followerCount" : 14
+    } ],
+    "followers" : 14,
+    "readers" : 109
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alanrichardson",
+      "twitterUrl" : "https://twitter.com/eviltester",
+      "followerCount" : 1439
+    } ],
+    "followers" : 1439,
+    "readers" : 1074
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/clemmons-rockyproductions"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesgifford"
+    } ],
+    "followers" : 0,
+    "readers" : 20
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/talkingquickly",
+      "twitterUrl" : "https://twitter.com/talkingquickly",
+      "followerCount" : 898
+    }, {
+      "authorUrl" : "https://leanpub.com/u/andor_chen",
+      "twitterUrl" : "https://twitter.com/Andor_Chen",
+      "followerCount" : 340
+    } ],
+    "followers" : 1238,
+    "readers" : 93
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jasonlittle",
+      "twitterUrl" : "https://twitter.com/jasonlittle",
+      "followerCount" : 2369
+    } ],
+    "followers" : 2369,
+    "readers" : 328
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/leamishell",
+      "twitterUrl" : "https://twitter.com/SistaGirlzBooks",
+      "followerCount" : 674
+    } ],
+    "followers" : 674,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tante",
+      "twitterUrl" : "https://twitter.com/tante",
+      "followerCount" : 2779
+    } ],
+    "followers" : 2779,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philsturgeon",
+      "twitterUrl" : "https://twitter.com/philsturgeon",
+      "followerCount" : 11100
+    }, {
+      "authorUrl" : "https://leanpub.com/u/miclf"
+    } ],
+    "followers" : 11100,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/streser",
+      "twitterUrl" : "https://twitter.com/streser",
+      "followerCount" : 483
+    } ],
+    "followers" : 483,
+    "readers" : 397
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mrhaki",
+      "twitterUrl" : "https://twitter.com/mrhaki",
+      "followerCount" : 1832
+    } ],
+    "followers" : 1832,
+    "readers" : 0
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/churchjohnson28",
+      "twitterUrl" : "https://twitter.com/uniek81books",
+      "followerCount" : 366
+    } ],
+    "followers" : 366,
+    "readers" : 15
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alessandrapoma"
+    } ],
+    "followers" : 0,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/whattheflop",
+      "twitterUrl" : "https://twitter.com/WTFlopPoker",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 92
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jahlom",
+      "twitterUrl" : "https://twitter.com/jahlomp",
+      "followerCount" : 42
+    } ],
+    "followers" : 42,
+    "readers" : 273
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipespinosa"
+    } ],
+    "followers" : 0,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aaronsumner",
+      "twitterUrl" : "https://twitter.com/everydayrails",
+      "followerCount" : 782
+    } ],
+    "followers" : 782,
+    "readers" : 4131
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/DavidWechsler",
+      "twitterUrl" : "https://twitter.com/ElectroGrow",
+      "followerCount" : 172
+    } ],
+    "followers" : 172,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/arches",
+      "twitterUrl" : "https://twitter.com/archesproject",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 225
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2DNBhHQPr59f6Zh8TOkWI1",
+      "twitterUrl" : "https://twitter.com/PepeVazquezS",
+      "followerCount" : 369
+    } ],
+    "followers" : 369,
+    "readers" : 52
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/penelopestmartin"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sirildoreyes"
+    } ],
+    "followers" : 0,
+    "readers" : 20
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/darkhelmetlive",
+      "twitterUrl" : "https://twitter.com/darkhelmetlive",
+      "followerCount" : 880
+    } ],
+    "followers" : 880,
+    "readers" : 167
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/laurentbossavit",
+      "twitterUrl" : "https://twitter.com/Morendil",
+      "followerCount" : 2190
+    } ],
+    "followers" : 2190,
+    "readers" : 1583
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/neilkeleher"
+    } ],
+    "followers" : 0,
+    "readers" : 21
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thraeelddim"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/getjump"
+    } ],
+    "followers" : 0,
+    "readers" : 1370
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 1029
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/juanmagg"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/julienbayle",
+      "twitterUrl" : "https://twitter.com/julienbayle",
+      "followerCount" : 1984
+    } ],
+    "followers" : 1984,
+    "readers" : 592
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 29
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryphna",
+      "twitterUrl" : "https://twitter.com/ryphna",
+      "followerCount" : 164
+    } ],
+    "followers" : 164,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/didierlebouc3zNhP7WWr7PurZ_3XszIcS",
+      "twitterUrl" : "https://twitter.com/dlebouc",
+      "followerCount" : 1713
+    } ],
+    "followers" : 1713,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/richardveryard",
+      "twitterUrl" : "https://twitter.com/richardveryard",
+      "followerCount" : 1466
+    } ],
+    "followers" : 1466,
+    "readers" : 34
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jasonroberts"
+    } ],
+    "followers" : 0,
+    "readers" : 54
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/clairemiller",
+      "twitterUrl" : "https://twitter.com/clairemilleruk",
+      "followerCount" : 1502
+    } ],
+    "followers" : 1502,
+    "readers" : 140
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rosapjli"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alessandro-parisi",
+      "twitterUrl" : "https://twitter.com/startithub",
+      "followerCount" : 144
+    } ],
+    "followers" : 144,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/josephwilk",
+      "twitterUrl" : "https://twitter.com/josephwilk",
+      "followerCount" : 1601
+    } ],
+    "followers" : 1601,
+    "readers" : 102
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/christeenthornton"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ericdouglas",
+      "twitterUrl" : "https://twitter.com/ericdouglas_",
+      "followerCount" : 55
+    } ],
+    "followers" : 55,
+    "readers" : 438
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/blacksword"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/geerlingguy",
+      "twitterUrl" : "https://twitter.com/geerlingguy",
+      "followerCount" : 3526
+    } ],
+    "followers" : 3526,
+    "readers" : 502
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/libbysinclair",
+      "twitterUrl" : "https://twitter.com/scifilibby",
+      "followerCount" : 1965
+    } ],
+    "followers" : 1965,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eliasek",
+      "twitterUrl" : "https://twitter.com/starttaiwan",
+      "followerCount" : 33
+    } ],
+    "followers" : 33,
+    "readers" : 71
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tottinge",
+      "twitterUrl" : "https://twitter.com/tottinge",
+      "followerCount" : 2077
+    } ],
+    "followers" : 2077,
+    "readers" : 815
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrecronje",
+      "twitterUrl" : "https://twitter.com/shineandre",
+      "followerCount" : 454
+    } ],
+    "followers" : 454,
+    "readers" : 18
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bcshorty"
+    } ],
+    "followers" : 0,
+    "readers" : 144
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mattcarkci"
+    } ],
+    "followers" : 0,
+    "readers" : 255
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous3z9asYEU17Xew5YXSpOCyh",
+      "twitterUrl" : "https://twitter.com/franzibaehrle",
+      "followerCount" : 576
+    } ],
+    "followers" : 576,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aaronsumner",
+      "twitterUrl" : "https://twitter.com/everydayrails",
+      "followerCount" : 782
+    }, {
+      "authorUrl" : "https://leanpub.com/u/andor_chen",
+      "twitterUrl" : "https://twitter.com/Andor_Chen",
+      "followerCount" : 340
+    } ],
+    "followers" : 1122,
+    "readers" : 298
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/celaldengiz",
+      "twitterUrl" : "https://twitter.com/celalcem",
+      "followerCount" : 26
+    } ],
+    "followers" : 26,
+    "readers" : 9
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/elleclouse",
+      "twitterUrl" : "https://twitter.com/elleclouse",
+      "followerCount" : 1201
+    } ],
+    "followers" : 1201,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/seanellis"
+    } ],
+    "followers" : 0,
+    "readers" : 1235
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zexspectrum"
+    } ],
+    "followers" : 0,
+    "readers" : 196
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/neilkeleher"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jonathangrant"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stgilespreschool"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/attilavago85"
+    } ],
+    "followers" : 0,
+    "readers" : 18
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tgarris"
+    } ],
+    "followers" : 0,
+    "readers" : 15
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zaper"
+    } ],
+    "followers" : 0,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lenepp",
+      "twitterUrl" : "https://twitter.com/lenepp",
+      "followerCount" : 205
+    }, {
+      "authorUrl" : "https://leanpub.com/u/scott",
+      "twitterUrl" : "https://twitter.com/scott_patten",
+      "followerCount" : 235
+    }, {
+      "authorUrl" : "https://leanpub.com/u/peter",
+      "twitterUrl" : "https://twitter.com/peterarmstrong",
+      "followerCount" : 863
+    }, {
+      "authorUrl" : "https://leanpub.com/u/steveluscher"
+    } ],
+    "followers" : 1303,
+    "readers" : 722
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulmason"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulcamper"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrecronje",
+      "twitterUrl" : "https://twitter.com/shineandre",
+      "followerCount" : 454
+    } ],
+    "followers" : 454,
+    "readers" : 7
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 3825
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous3AhjzDyvf5uAjSAXaF6H5Z",
+      "twitterUrl" : "https://twitter.com/fabianschiller",
+      "followerCount" : 227
+    } ],
+    "followers" : 227,
+    "readers" : 221
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/concepthacker",
+      "twitterUrl" : "https://twitter.com/concepthacker",
+      "followerCount" : 5
+    } ],
+    "followers" : 5,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/federicogobbo"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 13
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robertannett",
+      "twitterUrl" : "https://twitter.com/robert_annett",
+      "followerCount" : 102
+    } ],
+    "followers" : 102,
+    "readers" : 464
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 42
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philsturgeon",
+      "twitterUrl" : "https://twitter.com/philsturgeon",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 1310
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thierrycros",
+      "twitterUrl" : "https://twitter.com/thierrycros",
+      "followerCount" : 854
+    } ],
+    "followers" : 854,
+    "readers" : 152
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nicolasfrankel",
+      "twitterUrl" : "https://twitter.com/nicolas_frankel",
+      "followerCount" : 681
+    } ],
+    "followers" : 681,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dubber",
+      "twitterUrl" : "https://twitter.com/dubber",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 55
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/roblambert121"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sylusrademacher"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/xjackk",
+      "twitterUrl" : "https://twitter.com/jack_killilea",
+      "followerCount" : 582
+    } ],
+    "followers" : 582,
+    "readers" : 1666
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbradshaw",
+      "twitterUrl" : "https://twitter.com/paulbradshaw",
+      "followerCount" : 21400
+    } ],
+    "followers" : 21400,
+    "readers" : 60
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/richardbwalker",
+      "twitterUrl" : "https://twitter.com/teacherguy66",
+      "followerCount" : 185
+    } ],
+    "followers" : 185,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/neilkeleher"
+    } ],
+    "followers" : 0,
+    "readers" : 34
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tperry",
+      "twitterUrl" : "https://twitter.com/tlperry",
+      "followerCount" : 452
+    } ],
+    "followers" : 452,
+    "readers" : 23
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/crisses"
+    } ],
+    "followers" : 0,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coloradocsas",
+      "twitterUrl" : "https://twitter.com/coloradocsas",
+      "followerCount" : 203
+    } ],
+    "followers" : 203,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chuckheintzelman",
+      "twitterUrl" : "https://twitter.com/storychuck",
+      "followerCount" : 124
+    } ],
+    "followers" : 124,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mildredrholmes",
+      "twitterUrl" : "https://twitter.com/niiganabiik",
+      "followerCount" : 151
+    } ],
+    "followers" : 151,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/platoosom"
+    } ],
+    "followers" : 0,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/erikaheidi",
+      "twitterUrl" : "https://twitter.com/erikaheidi",
+      "followerCount" : 3695
+    } ],
+    "followers" : 3695,
+    "readers" : 506
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/poeticbuttafly",
+      "twitterUrl" : "https://twitter.com/ButtaFly125",
+      "followerCount" : 879
+    } ],
+    "followers" : 879,
+    "readers" : 17
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/beverhart"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/benlinders",
+      "twitterUrl" : "https://twitter.com/BenLinders",
+      "followerCount" : 1743
+    } ],
+    "followers" : 1743,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sorinmustaca",
+      "twitterUrl" : "https://twitter.com/sorinmustaca",
+      "followerCount" : 397
+    } ],
+    "followers" : 397,
+    "readers" : 496
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jenniferaldoretta",
+      "twitterUrl" : "https://twitter.com/jaldoretta",
+      "followerCount" : 305
+    } ],
+    "followers" : 305,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesshaw",
+      "twitterUrl" : "https://twitter.com/Jamesshaw",
+      "followerCount" : 557
+    } ],
+    "followers" : 557,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshcenters",
+      "twitterUrl" : "https://twitter.com/jcenters",
+      "followerCount" : 704
+    } ],
+    "followers" : 704,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stanislasmarion",
+      "twitterUrl" : "https://twitter.com/stanmarion",
+      "followerCount" : 291
+    }, {
+      "authorUrl" : "https://leanpub.com/u/charlesmiglietti",
+      "twitterUrl" : "https://twitter.com/charlesmigli",
+      "followerCount" : 213
+    }, {
+      "authorUrl" : "https://leanpub.com/u/louischatriot",
+      "twitterUrl" : "https://twitter.com/louisChatriot",
+      "followerCount" : 131
+    } ],
+    "followers" : 635,
+    "readers" : 169
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous0ZUsgo78P6Px0xy5NRMz1e",
+      "twitterUrl" : "https://twitter.com/MilkHoneyedLand",
+      "followerCount" : 1549
+    } ],
+    "followers" : 1549,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/LucBeaudoin",
+      "twitterUrl" : "https://twitter.com/LucCogZest",
+      "followerCount" : 85
+    } ],
+    "followers" : 85,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/venuswicca",
+      "twitterUrl" : "https://twitter.com/VenusWicca"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pgte",
+      "twitterUrl" : "https://twitter.com/pgte",
+      "followerCount" : 2692
+    } ],
+    "followers" : 2692,
+    "readers" : 14216
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/russmiles",
+      "twitterUrl" : "https://twitter.com/russmiles",
+      "followerCount" : 1238
+    } ],
+    "followers" : 1238,
+    "readers" : 231
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/crisses"
+    } ],
+    "followers" : 0,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/devnod",
+      "twitterUrl" : "https://twitter.com/shadow_of__soul",
+      "followerCount" : 310
+    } ],
+    "followers" : 310,
+    "readers" : 48
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dpatra",
+      "twitterUrl" : "https://twitter.com/dpatra",
+      "followerCount" : 329
+    } ],
+    "followers" : 329,
+    "readers" : 109
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fsalehpour",
+      "twitterUrl" : "https://twitter.com/fsalehpour",
+      "followerCount" : 24
+    } ],
+    "followers" : 24,
+    "readers" : 1182
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/leonardepp",
+      "twitterUrl" : "https://twitter.com/lenepp",
+      "followerCount" : 205
+    } ],
+    "followers" : 205,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robaley"
+    } ],
+    "followers" : 0,
+    "readers" : 105
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidsulc",
+      "twitterUrl" : "https://twitter.com/davidsulc",
+      "followerCount" : 263
+    } ],
+    "followers" : 263,
+    "readers" : 280
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marciogalli"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bjorntikkanen",
+      "twitterUrl" : "https://twitter.com/BjornTikkanen",
+      "followerCount" : 277
+    } ],
+    "followers" : 277,
+    "readers" : 31
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/theashfurrow",
+      "twitterUrl" : "https://twitter.com/ashfurrow",
+      "followerCount" : 4422
+    } ],
+    "followers" : 4422,
+    "readers" : 994
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stevelosh",
+      "twitterUrl" : "https://twitter.com/stevelosh",
+      "followerCount" : 4625
+    } ],
+    "followers" : 4625,
+    "readers" : 588
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/blowagie",
+      "twitterUrl" : "https://twitter.com/bruno1970",
+      "followerCount" : 922
+    } ],
+    "followers" : 922,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jollen"
+    } ],
+    "followers" : 0,
+    "readers" : 347
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2BypmyCJHE3v-RIRGcRrgT",
+      "twitterUrl" : "https://twitter.com/allankellynet",
+      "followerCount" : 1716
+    } ],
+    "followers" : 1716,
+    "readers" : 110
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dayangnoor",
+      "twitterUrl" : "https://twitter.com/dayangnoor",
+      "followerCount" : 1696
+    } ],
+    "followers" : 1696,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidmartinez",
+      "twitterUrl" : "https://twitter.com/mexicanepic",
+      "followerCount" : 255
+    } ],
+    "followers" : 255,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 2025
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/hkniberg",
+      "twitterUrl" : "https://twitter.com/henrikkniberg",
+      "followerCount" : 9363
+    } ],
+    "followers" : 9363,
+    "readers" : 386
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rrd",
+      "twitterUrl" : "https://twitter.com/rrd",
+      "followerCount" : 663
+    } ],
+    "followers" : 663,
+    "readers" : 44
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diegoresendez",
+      "twitterUrl" : "https://twitter.com/diegoresendez",
+      "followerCount" : 192
+    } ],
+    "followers" : 192,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/JamieFlinchbaugh",
+      "twitterUrl" : "https://twitter.com/flinchbaugh",
+      "followerCount" : 4037
+    } ],
+    "followers" : 4037,
+    "readers" : 293
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/leanself",
+      "twitterUrl" : "https://twitter.com/leanself",
+      "followerCount" : 728
+    } ],
+    "followers" : 728,
+    "readers" : 68
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nzakas",
+      "twitterUrl" : "https://twitter.com/slicknet",
+      "followerCount" : 25400
+    } ],
+    "followers" : 25400,
+    "readers" : 100
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/derickbailey",
+      "twitterUrl" : "https://twitter.com/derickbailey",
+      "followerCount" : 5729
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jeromegn",
+      "twitterUrl" : "https://twitter.com/jeromegn",
+      "followerCount" : 2345
+    } ],
+    "followers" : 8074,
+    "readers" : 1005
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jaapkemp",
+      "twitterUrl" : "https://twitter.com/Fictionshark",
+      "followerCount" : 3
+    } ],
+    "followers" : 3,
+    "readers" : 24
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    } ],
+    "followers" : 560,
+    "readers" : 302
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lancewicks",
+      "twitterUrl" : "https://twitter.com/lancew",
+      "followerCount" : 1203
+    } ],
+    "followers" : 1203,
+    "readers" : 19
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    } ],
+    "followers" : 6657,
+    "readers" : 4020
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yovanmenkevick",
+      "twitterUrl" : "https://twitter.com/YovanMenkevick",
+      "followerCount" : 246
+    } ],
+    "followers" : 246,
+    "readers" : 68
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joelalexander",
+      "twitterUrl" : "https://twitter.com/joeld",
+      "followerCount" : 390
+    } ],
+    "followers" : 390,
+    "readers" : 84
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryakh",
+      "twitterUrl" : "https://twitter.com/ryakh",
+      "followerCount" : 1389
+    } ],
+    "followers" : 1389,
+    "readers" : 194
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/romilly",
+      "twitterUrl" : "https://twitter.com/romillyc",
+      "followerCount" : 526
+    } ],
+    "followers" : 526,
+    "readers" : 55
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fallyntalyn"
+    } ],
+    "followers" : 0,
+    "readers" : 13
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jtaveras"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/benedmunds",
+      "twitterUrl" : "https://twitter.com/benedmunds",
+      "followerCount" : 1857
+    }, {
+      "authorUrl" : "https://leanpub.com/u/dexbarrett",
+      "twitterUrl" : "https://twitter.com/dexbarrett",
+      "followerCount" : 155
+    } ],
+    "followers" : 2012,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adrianharabula"
+    } ],
+    "followers" : 0,
+    "readers" : 239
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sineld",
+      "twitterUrl" : "https://twitter.com/sineld",
+      "followerCount" : 763
+    } ],
+    "followers" : 763,
+    "readers" : 707
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous256Fo-irDBKQWETKhY2C-5"
+    } ],
+    "followers" : 0,
+    "readers" : 20
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eddonov"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johannarothman",
+      "twitterUrl" : "https://twitter.com/johannarothman",
+      "followerCount" : 6463
+    } ],
+    "followers" : 6463,
+    "readers" : 429
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/piyasde3eO0_mqkHBkv4Jfa8vBAy1",
+      "twitterUrl" : "https://twitter.com/piyasde",
+      "followerCount" : 38
+    } ],
+    "followers" : 38,
+    "readers" : 99
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tomhoward"
+    } ],
+    "followers" : 0,
+    "readers" : 101
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zanedickens",
+      "twitterUrl" : "https://twitter.com/zanedickens",
+      "followerCount" : 737
+    } ],
+    "followers" : 737,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aaronsumner",
+      "twitterUrl" : "https://twitter.com/everydayrails",
+      "followerCount" : 782
+    }, {
+      "authorUrl" : "https://leanpub.com/u/junichiito",
+      "twitterUrl" : "https://twitter.com/jnchito",
+      "followerCount" : 1188
+    }, {
+      "authorUrl" : "https://leanpub.com/u/springaki",
+      "twitterUrl" : "https://twitter.com/spring_aki",
+      "followerCount" : 538
+    }, {
+      "authorUrl" : "https://leanpub.com/u/blueplanet",
+      "twitterUrl" : "https://twitter.com/blueplanet42",
+      "followerCount" : 268
+    } ],
+    "followers" : 2776,
+    "readers" : 782
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous1SIumixSn8xPeECypR25fQ"
+    } ],
+    "followers" : 0,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomaskilian"
+    } ],
+    "followers" : 0,
+    "readers" : 39
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rahmatawaludin",
+      "twitterUrl" : "https://twitter.com/rahmatawaludin",
+      "followerCount" : 164
+    } ],
+    "followers" : 164,
+    "readers" : 64
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelkiessling",
+      "twitterUrl" : "https://twitter.com/manuelkiessling",
+      "followerCount" : 1550
+    } ],
+    "followers" : 1550,
+    "readers" : 14638
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/giris"
+    } ],
+    "followers" : 0,
+    "readers" : 58
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coloradocsas",
+      "twitterUrl" : "https://twitter.com/coloradocsas",
+      "followerCount" : 203
+    } ],
+    "followers" : 203,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerickson",
+      "twitterUrl" : "https://twitter.com/firstclown",
+      "followerCount" : 140
+    } ],
+    "followers" : 140,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/YvesHanoulle",
+      "twitterUrl" : "https://twitter.com/YvesHanoulle",
+      "followerCount" : 4054
+    }, {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 6240,
+    "readers" : 19
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dannyhui"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rghart"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/estherderby"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    }, {
+      "authorUrl" : "https://leanpub.com/u/johannarothman",
+      "twitterUrl" : "https://twitter.com/johannarothman",
+      "followerCount" : 6463
+    }, {
+      "authorUrl" : "https://leanpub.com/u/dongray",
+      "twitterUrl" : "https://twitter.com/donaldegray",
+      "followerCount" : 1323
+    } ],
+    "followers" : 14997,
+    "readers" : 87
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 523
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/montypelerin"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/antclay",
+      "twitterUrl" : "https://twitter.com/Soulsailor",
+      "followerCount" : 3137
+    } ],
+    "followers" : 3137,
+    "readers" : 212
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 1497
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davorbanovic",
+      "twitterUrl" : "https://twitter.com/banovotz",
+      "followerCount" : 334
+    } ],
+    "followers" : 334,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rosapjli"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelwlucas",
+      "twitterUrl" : "https://twitter.com/mwlauthor",
+      "followerCount" : 1563
+    } ],
+    "followers" : 1563,
+    "readers" : 91
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/autismfather",
+      "twitterUrl" : "https://twitter.com/autismfather",
+      "followerCount" : 10700
+    } ],
+    "followers" : 10700,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pvlpenev",
+      "twitterUrl" : "https://twitter.com/pavelpenev",
+      "followerCount" : 293
+    } ],
+    "followers" : 293,
+    "readers" : 424
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ricardoacastro",
+      "twitterUrl" : "https://twitter.com/RAALC",
+      "followerCount" : 1
+    } ],
+    "followers" : 1,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/delodell"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jillsanders",
+      "twitterUrl" : "https://twitter.com/jillmsanders",
+      "followerCount" : 1915
+    } ],
+    "followers" : 1915,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipespinosa"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 33
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mitchmartin",
+      "twitterUrl" : "https://twitter.com/mitch_martin",
+      "followerCount" : 232
+    } ],
+    "followers" : 232,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/owenstrevor",
+      "twitterUrl" : "https://twitter.com/TO",
+      "followerCount" : 23600
+    }, {
+      "authorUrl" : "https://leanpub.com/u/obie"
+    } ],
+    "followers" : 23600,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caitlinmcdonald",
+      "twitterUrl" : "https://twitter.com/caitiewrites",
+      "followerCount" : 644
+    } ],
+    "followers" : 644,
+    "readers" : 74
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 56
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jimkitzmiller",
+      "twitterUrl" : "https://twitter.com/JimKitzmiller",
+      "followerCount" : 65700
+    } ],
+    "followers" : 65700,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/harshjv",
+      "twitterUrl" : "https://twitter.com/harshjv",
+      "followerCount" : 50
+    } ],
+    "followers" : 50,
+    "readers" : 41
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/txus",
+      "twitterUrl" : "https://twitter.com/txustice",
+      "followerCount" : 940
+    } ],
+    "followers" : 940,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/julienbayle",
+      "twitterUrl" : "https://twitter.com/julienbayle",
+      "followerCount" : 1984
+    } ],
+    "followers" : 1984,
+    "readers" : 98
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cberkstresser"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelpicard",
+      "twitterUrl" : "https://twitter.com/infinitarian",
+      "followerCount" : 46
+    } ],
+    "followers" : 46,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/poppingtonic",
+      "twitterUrl" : "https://twitter.com/negamuhia",
+      "followerCount" : 597
+    } ],
+    "followers" : 597,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rachelpanckhurst"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    }, {
+      "authorUrl" : "https://leanpub.com/u/taylorotwell",
+      "twitterUrl" : "https://twitter.com/taylorotwell",
+      "followerCount" : 13000
+    } ],
+    "followers" : 14209,
+    "readers" : 992
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fjfish",
+      "twitterUrl" : "https://twitter.com/fjfish",
+      "followerCount" : 863
+    } ],
+    "followers" : 863,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/martinlissmats",
+      "twitterUrl" : "https://twitter.com/webenist",
+      "followerCount" : 104
+    } ],
+    "followers" : 104,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/saschabrink"
+    } ],
+    "followers" : 0,
+    "readers" : 65
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/simonpeter",
+      "twitterUrl" : "https://twitter.com/SimonPChappell",
+      "followerCount" : 34
+    } ],
+    "followers" : 34,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrecronje",
+      "twitterUrl" : "https://twitter.com/shineandre",
+      "followerCount" : 454
+    } ],
+    "followers" : 454,
+    "readers" : 19
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kincardinehistorygroup"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lukaszwrobel",
+      "twitterUrl" : "https://twitter.com/lukaszwrobel",
+      "followerCount" : 28
+    } ],
+    "followers" : 28,
+    "readers" : 87
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rossward",
+      "twitterUrl" : "https://twitter.com/Macabhaird",
+      "followerCount" : 59
+    } ],
+    "followers" : 59,
+    "readers" : 23
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidturnbull",
+      "twitterUrl" : "https://twitter.com/dturnbull",
+      "followerCount" : 942
+    } ],
+    "followers" : 942,
+    "readers" : 212
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/timsteinbach",
+      "twitterUrl" : "https://twitter.com/Tim_Steinbach",
+      "followerCount" : 88
+    } ],
+    "followers" : 88,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mohanarun",
+      "twitterUrl" : "https://twitter.com/436341",
+      "followerCount" : 139
+    } ],
+    "followers" : 139,
+    "readers" : 1613
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 23
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/theory"
+    } ],
+    "followers" : 0,
+    "readers" : 3938
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/devonsteiger"
+    } ],
+    "followers" : 0,
+    "readers" : 28
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/danielwildt",
+      "twitterUrl" : "https://twitter.com/dwildt",
+      "followerCount" : 2351
+    } ],
+    "followers" : 2351,
+    "readers" : 46
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mesnard"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mayatrimner",
+      "twitterUrl" : "https://twitter.com/Mayashappyplace",
+      "followerCount" : 1627
+    } ],
+    "followers" : 1627,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joelabrahamsson"
+    } ],
+    "followers" : 0,
+    "readers" : 432
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthiasnoback",
+      "twitterUrl" : "https://twitter.com/matthiasnoback",
+      "followerCount" : 1534
+    } ],
+    "followers" : 1534,
+    "readers" : 926
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/msurguy",
+      "twitterUrl" : "https://twitter.com/msurguy",
+      "followerCount" : 3452
+    } ],
+    "followers" : 3452,
+    "readers" : 282
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/seanbrady",
+      "twitterUrl" : "https://twitter.com/prismdecision",
+      "followerCount" : 95
+    } ],
+    "followers" : 95,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/julienbayle",
+      "twitterUrl" : "https://twitter.com/julienbayle",
+      "followerCount" : 1984
+    } ],
+    "followers" : 1984,
+    "readers" : 916
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aronsolomon",
+      "twitterUrl" : "https://twitter.com/aronsolomon",
+      "followerCount" : 2520
+    } ],
+    "followers" : 2520,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thiagoesser",
+      "twitterUrl" : "https://twitter.com/thiagoesser",
+      "followerCount" : 440
+    } ],
+    "followers" : 440,
+    "readers" : 1274
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chickdubber"
+    } ],
+    "followers" : 0,
+    "readers" : 21
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/shirish4you",
+      "twitterUrl" : "https://twitter.com/_Garbage_",
+      "followerCount" : 511
+    } ],
+    "followers" : 511,
+    "readers" : 3587
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andyaffleck"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mvizdos",
+      "twitterUrl" : "https://twitter.com/mvizdos",
+      "followerCount" : 2700
+    } ],
+    "followers" : 2700,
+    "readers" : 26
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/derickbailey",
+      "twitterUrl" : "https://twitter.com/derickbailey",
+      "followerCount" : 5729
+    } ],
+    "followers" : 5729,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nickhodges",
+      "twitterUrl" : "https://twitter.com/nickhodges",
+      "followerCount" : 1748
+    } ],
+    "followers" : 1748,
+    "readers" : 170
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/renzo",
+      "twitterUrl" : "https://twitter.com/renzonuccitec",
+      "followerCount" : 293
+    } ],
+    "followers" : 293,
+    "readers" : 80
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/emilybache",
+      "twitterUrl" : "https://twitter.com/emilybache",
+      "followerCount" : 1249
+    } ],
+    "followers" : 1249,
+    "readers" : 665
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/costallee"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chelseaclemmons",
+      "twitterUrl" : "https://twitter.com/uncommoncold",
+      "followerCount" : 648
+    } ],
+    "followers" : 648,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/derrikbulmer3Lmv1jV4T3TvEuHYGSacGr"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous0aUL9XrA5ERArJSQpoAF3u"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/karygaul",
+      "twitterUrl" : "https://twitter.com/Watyrfall",
+      "followerCount" : 13
+    } ],
+    "followers" : 13,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/heatherhpogson",
+      "twitterUrl" : "https://twitter.com/Haun98",
+      "followerCount" : 19
+    } ],
+    "followers" : 19,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mnishihan",
+      "twitterUrl" : "https://twitter.com/mnishihan",
+      "followerCount" : 83
+    } ],
+    "followers" : 83,
+    "readers" : 3
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cc"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/amosavery"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/simonbrown",
+      "twitterUrl" : "https://twitter.com/simonbrown",
+      "followerCount" : 4704
+    } ],
+    "followers" : 4704,
+    "readers" : 4390
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/srinivasrao",
+      "twitterUrl" : "https://twitter.com/skooloflife",
+      "followerCount" : 500
+    } ],
+    "followers" : 500,
+    "readers" : 491
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alisterscott",
+      "twitterUrl" : "https://twitter.com/alisterscott"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nonrecursive"
+    } ],
+    "followers" : 0,
+    "readers" : 193
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pmjones",
+      "twitterUrl" : "https://twitter.com/pmjones",
+      "followerCount" : 1939
+    } ],
+    "followers" : 1939,
+    "readers" : 407
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshearl",
+      "twitterUrl" : "https://twitter.com/josh_earl",
+      "followerCount" : 3803
+    } ],
+    "followers" : 3803,
+    "readers" : 1475
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/suhreed",
+      "twitterUrl" : "https://twitter.com/suhreed",
+      "followerCount" : 214
+    } ],
+    "followers" : 214,
+    "readers" : 0
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 1039
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrewed",
+      "twitterUrl" : "https://twitter.com/frugivore",
+      "followerCount" : 16
+    } ],
+    "followers" : 16,
+    "readers" : 12
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelavalente"
+    } ],
+    "followers" : 0,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mamawe"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bdillahu",
+      "twitterUrl" : "https://twitter.com/BruceDillahunty",
+      "followerCount" : 492
+    } ],
+    "followers" : 492,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/scribe",
+      "twitterUrl" : "https://twitter.com/6loss",
+      "followerCount" : 1427
+    } ],
+    "followers" : 1427,
+    "readers" : 9
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coloradocsas",
+      "twitterUrl" : "https://twitter.com/coloradocsas",
+      "followerCount" : 203
+    } ],
+    "followers" : 203,
+    "readers" : 12
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andybell",
+      "twitterUrl" : "https://twitter.com/lazyrivr",
+      "followerCount" : 122
+    } ],
+    "followers" : 122,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dubber",
+      "twitterUrl" : "https://twitter.com/dubber",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 1112
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/loriferens",
+      "twitterUrl" : "https://twitter.com/lorcaper66",
+      "followerCount" : 140
+    } ],
+    "followers" : 140,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    }, {
+      "authorUrl" : "https://leanpub.com/u/taylorotwell",
+      "twitterUrl" : "https://twitter.com/taylorotwell",
+      "followerCount" : 13000
+    }, {
+      "authorUrl" : "https://leanpub.com/u/pedroborg_es",
+      "twitterUrl" : "https://twitter.com/pedroborg_es",
+      "followerCount" : 73
+    } ],
+    "followers" : 14282,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/varokas",
+      "twitterUrl" : "https://twitter.com/varokas",
+      "followerCount" : 92
+    } ],
+    "followers" : 92,
+    "readers" : 42
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kevlangdo",
+      "twitterUrl" : "https://twitter.com/kevlangdo",
+      "followerCount" : 219
+    } ],
+    "followers" : 219,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yankurniawan",
+      "twitterUrl" : "https://twitter.com/yanadikurniawan",
+      "followerCount" : 24
+    } ],
+    "followers" : 24,
+    "readers" : 26
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshcrews"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 760
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    } ],
+    "followers" : 1209,
+    "readers" : 162
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/taq",
+      "twitterUrl" : "https://twitter.com/taq",
+      "followerCount" : 1381
+    } ],
+    "followers" : 1381,
+    "readers" : 25
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipDS",
+      "twitterUrl" : "https://twitter.com/philipdesmedt",
+      "followerCount" : 328
+    } ],
+    "followers" : 328,
+    "readers" : 131
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 1022
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexgarrett"
+    } ],
+    "followers" : 0,
+    "readers" : 1268
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jwmberkowitz"
+    } ],
+    "followers" : 0,
+    "readers" : 24
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stevecorona",
+      "twitterUrl" : "https://twitter.com/stevencorona",
+      "followerCount" : 56300
+    } ],
+    "followers" : 56300,
+    "readers" : 57
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 45
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dubber",
+      "twitterUrl" : "https://twitter.com/dubber",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/garycxjk",
+      "twitterUrl" : "https://twitter.com/garycxjk",
+      "followerCount" : 15
+    } ],
+    "followers" : 15,
+    "readers" : 44
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cyrijones2"
+    } ],
+    "followers" : 0,
+    "readers" : 35
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ajjuliani",
+      "twitterUrl" : "https://twitter.com/edismylife",
+      "followerCount" : 2061
+    } ],
+    "followers" : 2061,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephenmoore"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/owenerickson0PxpuXdnPChOIPS7XoBAbE",
+      "twitterUrl" : "https://twitter.com/oblakeerickson",
+      "followerCount" : 895
+    } ],
+    "followers" : 895,
+    "readers" : 5
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/vseloved"
+    } ],
+    "followers" : 0,
+    "readers" : 5909
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 315
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/beverlymontgomery"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/houdahamdane",
+      "twitterUrl" : "https://twitter.com/Kanplan_net",
+      "followerCount" : 662
+    } ],
+    "followers" : 662,
+    "readers" : 40
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/berylbrennan"
+    } ],
+    "followers" : 0,
+    "readers" : 21
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/taphangum"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mickey98"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelromer",
+      "twitterUrl" : "https://twitter.com/startuppatterns",
+      "followerCount" : 49
+    } ],
+    "followers" : 49,
+    "readers" : 31
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rileyaddams"
+    } ],
+    "followers" : 0,
+    "readers" : 4
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/skylarwolphe"
+    } ],
+    "followers" : 0,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jorgelynch",
+      "twitterUrl" : "https://twitter.com/jorge_lynch",
+      "followerCount" : 257
+    } ],
+    "followers" : 257,
+    "readers" : 88
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/amyalexandra",
+      "twitterUrl" : "https://twitter.com/aimzbutters",
+      "followerCount" : 103
+    } ],
+    "followers" : 103,
+    "readers" : 26
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/evasabolcik"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/xdite",
+      "twitterUrl" : "https://twitter.com/xdite",
+      "followerCount" : 6120
+    } ],
+    "followers" : 6120,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cheezy",
+      "twitterUrl" : "https://twitter.com/chzy",
+      "followerCount" : 1887
+    } ],
+    "followers" : 1887,
+    "readers" : 836
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rbatra"
+    } ],
+    "followers" : 0,
+    "readers" : 1002
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dnguyen",
+      "twitterUrl" : "https://twitter.com/dancow",
+      "followerCount" : 6700
+    } ],
+    "followers" : 6700,
+    "readers" : 2687
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/porlando",
+      "twitterUrl" : "https://twitter.com/porlando",
+      "followerCount" : 1784
+    } ],
+    "followers" : 1784,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryanbigg",
+      "twitterUrl" : "https://twitter.com/ryanbigg",
+      "followerCount" : 4259
+    } ],
+    "followers" : 4259,
+    "readers" : 1318
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eminetto",
+      "twitterUrl" : "https://twitter.com/eminetto",
+      "followerCount" : 2548
+    } ],
+    "followers" : 2548,
+    "readers" : 32
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jhauraw",
+      "twitterUrl" : "https://twitter.com/jhaurawachsman",
+      "followerCount" : 5471
+    } ],
+    "followers" : 5471,
+    "readers" : 178
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cathievr",
+      "twitterUrl" : "https://twitter.com/cathievr",
+      "followerCount" : 117
+    } ],
+    "followers" : 117,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/heraldleader",
+      "twitterUrl" : "https://twitter.com/heraldleader",
+      "followerCount" : 24300
+    } ],
+    "followers" : 24300,
+    "readers" : 374
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andregarzia",
+      "twitterUrl" : "https://twitter.com/soapdog",
+      "followerCount" : 608
+    } ],
+    "followers" : 608,
+    "readers" : 5802
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterb"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/john_stevenson",
+      "twitterUrl" : "https://twitter.com/steveo1967",
+      "followerCount" : 1360
+    } ],
+    "followers" : 1360,
+    "readers" : 27
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/russellhobbstoasters"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sakko",
+      "twitterUrl" : "https://twitter.com/SaKKosama",
+      "followerCount" : 15
+    } ],
+    "followers" : 15,
+    "readers" : 556
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/doublefang",
+      "twitterUrl" : "https://twitter.com/fasttosee",
+      "followerCount" : 1
+    } ],
+    "followers" : 1,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mmarschall",
+      "twitterUrl" : "https://twitter.com/mmarschall",
+      "followerCount" : 2183
+    }, {
+      "authorUrl" : "https://leanpub.com/u/danackerson",
+      "twitterUrl" : "https://twitter.com/danackerson",
+      "followerCount" : 656
+    } ],
+    "followers" : 2839,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ralfw",
+      "twitterUrl" : "https://twitter.com/ralfw",
+      "followerCount" : 1200
+    } ],
+    "followers" : 1200,
+    "readers" : 7
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbranski"
+    } ],
+    "followers" : 0,
+    "readers" : 2
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    } ],
+    "followers" : 1209,
+    "readers" : 6
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jeffreyway",
+      "twitterUrl" : "https://twitter.com/jeffrey_way",
+      "followerCount" : 21300
+    } ],
+    "followers" : 21300,
+    "readers" : 2166
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michellemargaret",
+      "twitterUrl" : "https://twitter.com/yogafreedom",
+      "followerCount" : 347
+    } ],
+    "followers" : 347,
+    "readers" : 79
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 152
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ezl",
+      "twitterUrl" : "https://twitter.com/ezliu",
+      "followerCount" : 271
+    } ],
+    "followers" : 271,
+    "readers" : 251
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fargoer",
+      "twitterUrl" : "https://twitter.com/fargoerbooks",
+      "followerCount" : 13700
+    } ],
+    "followers" : 13700,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/simonejenner"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/frankydotid"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/willemlarsen",
+      "twitterUrl" : "https://twitter.com/cascadiawillem",
+      "followerCount" : 281
+    }, {
+      "authorUrl" : "https://leanpub.com/u/dianalarsen",
+      "twitterUrl" : "https://twitter.com/DianaOfPortland",
+      "followerCount" : 3446
+    } ],
+    "followers" : 3727,
+    "readers" : 114
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/miboman",
+      "twitterUrl" : "https://twitter.com/miboman",
+      "followerCount" : 81
+    } ],
+    "followers" : 81,
+    "readers" : 38
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidsulc",
+      "twitterUrl" : "https://twitter.com/davidsulc",
+      "followerCount" : 263
+    } ],
+    "followers" : 263,
+    "readers" : 2419
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rbatra"
+    } ],
+    "followers" : 0,
+    "readers" : 1141
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 242
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomaskilian"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thesavvygrad"
+    } ],
+    "followers" : 0,
+    "readers" : 12
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/natedickson",
+      "twitterUrl" : "https://twitter.com/PogiNate",
+      "followerCount" : 104
+    } ],
+    "followers" : 104,
+    "readers" : 214
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/normpratt"
+    } ],
+    "followers" : 0,
+    "readers" : 4
+  }, {
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 1258
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michellemargaret",
+      "twitterUrl" : "https://twitter.com/yogafreedom",
+      "followerCount" : 347
+    } ],
+    "followers" : 347,
+    "readers" : 30
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/benedmunds",
+      "twitterUrl" : "https://twitter.com/benedmunds",
+      "followerCount" : 1858
+    } ],
+    "followers" : 1858,
+    "readers" : 310
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/spajus",
+      "twitterUrl" : "https://twitter.com/spajus",
+      "followerCount" : 167
+    } ],
+    "followers" : 167,
+    "readers" : 66
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bobbygill"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michellemargaret",
+      "twitterUrl" : "https://twitter.com/yogafreedom",
+      "followerCount" : 347
+    } ],
+    "followers" : 347,
+    "readers" : 112
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philsturgeon",
+      "twitterUrl" : "https://twitter.com/philsturgeon",
+      "followerCount" : 11100
+    }, {
+      "authorUrl" : "https://leanpub.com/u/damianoventurin",
+      "twitterUrl" : "https://twitter.com/damko",
+      "followerCount" : 189
+    } ],
+    "followers" : 11289,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesleenathaniii",
+      "twitterUrl" : "https://twitter.com/nykingmd",
+      "followerCount" : 625
+    } ],
+    "followers" : 625,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/williamghelfi",
+      "twitterUrl" : "https://twitter.com/trumbitta",
+      "followerCount" : 554
+    } ],
+    "followers" : 554,
+    "readers" : 11
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthewwilliams",
+      "twitterUrl" : "https://twitter.com/ops4devs",
+      "followerCount" : 25
+    } ],
+    "followers" : 25,
+    "readers" : 8
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 36
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/garyjones",
+      "twitterUrl" : "https://twitter.com/GaryJ",
+      "followerCount" : 1925
+    } ],
+    "followers" : 1925,
+    "readers" : 183
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andregarzia",
+      "twitterUrl" : "https://twitter.com/soapdog",
+      "followerCount" : 608
+    } ],
+    "followers" : 608,
+    "readers" : 3026
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/theinstitute"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/woodegg",
+      "twitterUrl" : "https://twitter.com/sivers",
+      "followerCount" : 277000
+    } ],
+    "followers" : 277000,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/graham1",
+      "twitterUrl" : "https://twitter.com/secboffin",
+      "followerCount" : 5217
+    } ],
+    "followers" : 5217,
+    "readers" : 362
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/EtherealMind",
+      "twitterUrl" : "https://twitter.com/EtherealMind",
+      "followerCount" : 11000
+    } ],
+    "followers" : 11000,
+    "readers" : 43
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephenpeplow"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coreyhaines",
+      "twitterUrl" : "https://twitter.com/coreyhaines",
+      "followerCount" : 12800
+    } ],
+    "followers" : 12800,
+    "readers" : 1209
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lynnalexandriamckendrick",
+      "twitterUrl" : "https://twitter.com/LexusRanger",
+      "followerCount" : 514
+    } ],
+    "followers" : 514,
+    "readers" : 70
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2Fq9U-_C5CGQ6AmsZ9BLD-"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johnhunter",
+      "twitterUrl" : "https://twitter.com/curiouscat_com",
+      "followerCount" : 1329
+    } ],
+    "followers" : 1329,
+    "readers" : 107
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/soyjavi",
+      "twitterUrl" : "https://twitter.com/soyjavi",
+      "followerCount" : 5284
+    } ],
+    "followers" : 5284,
+    "readers" : 2714
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/melodaf"
+    } ],
+    "followers" : 0,
+    "readers" : 17
+  }, {
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/scrumphony",
+      "twitterUrl" : "https://twitter.com/scrumphony"
+    } ],
+    "followers" : 0,
+    "readers" : 0
+  } ]
+}
