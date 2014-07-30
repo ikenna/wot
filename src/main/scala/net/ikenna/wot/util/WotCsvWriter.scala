@@ -13,7 +13,7 @@ object WotCsvWriter {
   }
 
   def writeToCsv(lines: List[List[Any]], file: String) = {
-    val fileName = file + RunTimeStamp() + ".csv"
+    val fileName = "results/" + file + RunTimeStamp() + ".csv"
     val writer = CSVWriter.open(fileName, append = true)
     writer.writeAll(lines)
     writer.close()

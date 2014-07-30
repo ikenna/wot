@@ -63,4 +63,9 @@ object WotJson extends WotLogger {
     read[List[Book2]](jsonFile)
   }
 
+  def deSerializeBooks3(fileName: String): List[Book3] = {
+    val jsonFile = Source.fromFile(new File(fileName)).mkString
+    assert(new File(fileName).exists())
+    read[List[Book3]](jsonFile)
+  }
 }
