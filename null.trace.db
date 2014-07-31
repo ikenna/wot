@@ -1,0 +1,3 @@
+07-30 17:37:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOK" not found; SQL statement:
+Select * from BOOK  [42102-179]

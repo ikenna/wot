@@ -2,12 +2,12 @@ package net.ikenna.wot.ewom
 
 import akka.actor.{ Actor, Props, ActorSystem }
 import net.ikenna.wot.ewom.EwomMaster.FetchEwom
-import net.ikenna.wot.followersreaders.BooksDb
 import net.ikenna.wot.{ Book3, Book2 }
 import akka.routing.RoundRobinPool
 import net.ikenna.wot.ewom.Worker.{ GetEwom, EwomResult }
 import akka.event.Logging
 import net.ikenna.wot.util.{ WotCsvWriter, WotJson }
+import ikenna.wot.BooksDb
 
 object EwomFetcherApp extends App {
 

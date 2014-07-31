@@ -1,0 +1,4832 @@
+{
+  "description" : "Set of authors for each book, their total number of followers, and the number of readers for their book",
+  "authorsReaders" : [ {
+    "bookTitle" : "Things I've Seen While Dreaming",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/steveburkhart"
+    } ],
+    "followers" : 0,
+    "readers" : 14,
+    "minPrice" : 149,
+    "maxPrice" : 599
+  }, {
+    "bookTitle" : "The Nonprofit Book of Awesome",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johnfulwider",
+      "twitterUrl" : "https://twitter.com/johnmfulwider",
+      "followerCount" : 903
+    } ],
+    "followers" : 903,
+    "readers" : 17,
+    "minPrice" : 999,
+    "maxPrice" : 2013
+  }, {
+    "bookTitle" : "Manage Your Job Search",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johannarothman",
+      "twitterUrl" : "https://twitter.com/johannarothman",
+      "followerCount" : 6463
+    } ],
+    "followers" : 6463,
+    "readers" : 429,
+    "minPrice" : 999,
+    "maxPrice" : 1599
+  }, {
+    "bookTitle" : "La venuta degli dei",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelavalente"
+    } ],
+    "followers" : 0,
+    "readers" : 4,
+    "minPrice" : 299,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Rose on Fire",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 56,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Oh My JS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 1022,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Rapid Prototyping with JS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 1432,
+    "minPrice" : -1,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Setting Up Scientific Python for Mac OSX",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gnperdue",
+      "twitterUrl" : "https://twitter.com/gnperdue",
+      "followerCount" : 43
+    } ],
+    "followers" : 43,
+    "readers" : 6,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Web Development with Zend Framework 2",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelromer",
+      "twitterUrl" : "https://twitter.com/startuppatterns",
+      "followerCount" : 49
+    } ],
+    "followers" : 49,
+    "readers" : 1007,
+    "minPrice" : 1200,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Holy Land Kanban",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yuvalyeret",
+      "twitterUrl" : "https://twitter.com/yuvalyeret",
+      "followerCount" : 1699
+    } ],
+    "followers" : 1699,
+    "readers" : 293,
+    "minPrice" : 600,
+    "maxPrice" : 1200
+  }, {
+    "bookTitle" : "Sapphire and Sage",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kayleighgrian"
+    } ],
+    "followers" : 0,
+    "readers" : 14,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The Quest of the Broken Egg",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lilycruz"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Abandonment Party",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bradsmith"
+    } ],
+    "followers" : 0,
+    "readers" : 23,
+    "minPrice" : -1,
+    "maxPrice" : 599
+  }, {
+    "bookTitle" : "Web Development with Java and JSF",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/muellermi"
+    } ],
+    "followers" : 0,
+    "readers" : 45,
+    "minPrice" : 699,
+    "maxPrice" : 3499
+  }, {
+    "bookTitle" : "Ember on Rails",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/owenerickson0PxpuXdnPChOIPS7XoBAbE",
+      "twitterUrl" : "https://twitter.com/oblakeerickson",
+      "followerCount" : 895
+    } ],
+    "followers" : 895,
+    "readers" : 5,
+    "minPrice" : -1,
+    "maxPrice" : 4900
+  }, {
+    "bookTitle" : "How to Do What You Love & Earn What You’re Worth as a Programmer",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 8315,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "認識食品添加物",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/iword"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "The Simple Leader",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous256Fo-irDBKQWETKhY2C-5"
+    } ],
+    "followers" : 0,
+    "readers" : 20,
+    "minPrice" : 99,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Balance Basics",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/neilkeleher"
+    } ],
+    "followers" : 0,
+    "readers" : 25,
+    "minPrice" : 1200,
+    "maxPrice" : 2600
+  }, {
+    "bookTitle" : "B'reisheet • Genesis",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joeswann"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "What The Float?",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/whattheflop",
+      "twitterUrl" : "https://twitter.com/WTFlopPoker",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 91,
+    "minPrice" : -1,
+    "maxPrice" : 6000
+  }, {
+    "bookTitle" : "Fifty Enterprise Architect Tricks",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    } ],
+    "followers" : 560,
+    "readers" : 1007,
+    "minPrice" : 1399,
+    "maxPrice" : 1799
+  }, {
+    "bookTitle" : "8000 Holes: How the 2012 Olympic Torch Relay Lost its Way",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbradshaw",
+      "twitterUrl" : "https://twitter.com/paulbradshaw",
+      "followerCount" : 21400
+    }, {
+      "authorUrl" : "https://leanpub.com/u/carolmiers",
+      "twitterUrl" : "https://twitter.com/carolmiers",
+      "followerCount" : 94
+    } ],
+    "followers" : 21494,
+    "readers" : 158,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "Your First iOS 7 App",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/theashfurrow",
+      "twitterUrl" : "https://twitter.com/ashfurrow",
+      "followerCount" : 4422
+    } ],
+    "followers" : 4422,
+    "readers" : 481,
+    "minPrice" : 999,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Made in Brazil: Vol. 1 - Alpha Dog",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/melodaf"
+    } ],
+    "followers" : 0,
+    "readers" : 17,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Gyrovagues",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jaapkemp",
+      "twitterUrl" : "https://twitter.com/Fictionshark",
+      "followerCount" : 3
+    } ],
+    "followers" : 3,
+    "readers" : 24,
+    "minPrice" : 599,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Personal Business Correspondence",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/janusz",
+      "twitterUrl" : "https://twitter.com/geudde",
+      "followerCount" : 14
+    } ],
+    "followers" : 14,
+    "readers" : 109,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Rose in Ice",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ellanathornton-wheybrew",
+      "twitterUrl" : "https://twitter.com/EllanaRose_",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 7,
+    "minPrice" : -1,
+    "maxPrice" : 200
+  }, {
+    "bookTitle" : "Heribone",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/demetriobattaglia"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Zenia",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zeniaofshaula"
+    } ],
+    "followers" : 0,
+    "readers" : 10,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Shielding a Dying Light",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zanedickens",
+      "twitterUrl" : "https://twitter.com/zanedickens",
+      "followerCount" : 737
+    } ],
+    "followers" : 737,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The Best Laid Plans",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fallyntalyn"
+    } ],
+    "followers" : 0,
+    "readers" : 13,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Android 4.4 App Development Essentials",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ebookfrenzy"
+    } ],
+    "followers" : 0,
+    "readers" : 28,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "The Coding Dojo Handbook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/emilybache",
+      "twitterUrl" : "https://twitter.com/emilybache",
+      "followerCount" : 1249
+    } ],
+    "followers" : 1249,
+    "readers" : 665,
+    "minPrice" : 2000,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Deal With It",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gavd",
+      "twitterUrl" : "https://twitter.com/gavd_UK",
+      "followerCount" : 774
+    } ],
+    "followers" : 774,
+    "readers" : 453,
+    "minPrice" : 199,
+    "maxPrice" : 399
+  }, {
+    "bookTitle" : "Backbone.Marionette.js: A Gentle Introduction",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidsulc",
+      "twitterUrl" : "https://twitter.com/davidsulc",
+      "followerCount" : 263
+    } ],
+    "followers" : 263,
+    "readers" : 2419,
+    "minPrice" : 1700,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "More Secrets of Consulting",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Git Flow",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jhauraw",
+      "twitterUrl" : "https://twitter.com/jhaurawachsman",
+      "followerCount" : 5471
+    } ],
+    "followers" : 5471,
+    "readers" : 178,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Working with Legacy Systems",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robertannett",
+      "twitterUrl" : "https://twitter.com/robert_annett",
+      "followerCount" : 102
+    } ],
+    "followers" : 102,
+    "readers" : 464,
+    "minPrice" : 1000,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Clojure for the Brave and True",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nonrecursive"
+    } ],
+    "followers" : 0,
+    "readers" : 193,
+    "minPrice" : 2500,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "Securing PHP: Core Concepts",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ccornutt",
+      "twitterUrl" : "https://twitter.com/enygma",
+      "followerCount" : 4366
+    } ],
+    "followers" : 4366,
+    "readers" : 181,
+    "minPrice" : -1,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Growing Agile: A Coach's Guide to Mastering Backlogs",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 2186,
+    "readers" : 71,
+    "minPrice" : 1000,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Denver Colorado CSA Guide",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coloradocsas",
+      "twitterUrl" : "https://twitter.com/coloradocsas",
+      "followerCount" : 203
+    } ],
+    "followers" : 203,
+    "readers" : 12,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Christ-Like",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/otmedia"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "The Node Craftsman Book",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelkiessling",
+      "twitterUrl" : "https://twitter.com/manuelkiessling",
+      "followerCount" : 1550
+    } ],
+    "followers" : 1550,
+    "readers" : 1568,
+    "minPrice" : 699,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Navajo: A Collection of NavajoWOTD Mini-Lessons",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bcshorty"
+    } ],
+    "followers" : 0,
+    "readers" : 144,
+    "minPrice" : -1,
+    "maxPrice" : 600
+  }, {
+    "bookTitle" : "Principles of Object-Oriented Programming in JavaScript",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 1039,
+    "minPrice" : 1499,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Lean Publishing",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peter",
+      "twitterUrl" : "https://twitter.com/peterarmstrong",
+      "followerCount" : 863
+    } ],
+    "followers" : 863,
+    "readers" : 610,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Hands-On Web Application with Javascript Frameworks and NoSQL",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/piyasde3eO0_mqkHBkv4Jfa8vBAy1",
+      "twitterUrl" : "https://twitter.com/piyasde",
+      "followerCount" : 38
+    } ],
+    "followers" : 38,
+    "readers" : 99,
+    "minPrice" : 999,
+    "maxPrice" : 1599
+  }, {
+    "bookTitle" : "Creating Exciting Web Pages",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mdavis"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : 100,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Your First Meteor Application",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidturnbull",
+      "twitterUrl" : "https://twitter.com/dturnbull",
+      "followerCount" : 942
+    } ],
+    "followers" : 942,
+    "readers" : 212,
+    "minPrice" : 1200,
+    "maxPrice" : 1900
+  }, {
+    "bookTitle" : "Psychic Awakening",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caroline",
+      "twitterUrl" : "https://twitter.com/psychicmegan",
+      "followerCount" : 5
+    } ],
+    "followers" : 5,
+    "readers" : 4,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Sublime Productivity",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshearl",
+      "twitterUrl" : "https://twitter.com/josh_earl",
+      "followerCount" : 3803
+    } ],
+    "followers" : 3803,
+    "readers" : 1475,
+    "minPrice" : 2200,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Fort Collins Colorado CSA Guide",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coloradocsas",
+      "twitterUrl" : "https://twitter.com/coloradocsas",
+      "followerCount" : 203
+    } ],
+    "followers" : 203,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Nature's Fate",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rileyaddams"
+    } ],
+    "followers" : 0,
+    "readers" : 4,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Senate of Blood",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ellanathornton-wheybrew",
+      "twitterUrl" : "https://twitter.com/EllanaRose_",
+      "followerCount" : 154
+    } ],
+    "followers" : 154,
+    "readers" : 30,
+    "minPrice" : -1,
+    "maxPrice" : 399
+  }, {
+    "bookTitle" : "Principles of PHP Package Design",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthiasnoback",
+      "twitterUrl" : "https://twitter.com/matthiasnoback",
+      "followerCount" : 1534
+    } ],
+    "followers" : 1534,
+    "readers" : 155,
+    "minPrice" : -1,
+    "maxPrice" : 2900
+  }, {
+    "bookTitle" : "Writing With Scrivener and Leanpub",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipespinosa"
+    } ],
+    "followers" : 0,
+    "readers" : 33,
+    "minPrice" : 99,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Breves sinsentidos",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/txus",
+      "twitterUrl" : "https://twitter.com/txustice",
+      "followerCount" : 940
+    } ],
+    "followers" : 940,
+    "readers" : 3,
+    "minPrice" : 600,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Split Decision",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/crisses"
+    } ],
+    "followers" : 0,
+    "readers" : 5,
+    "minPrice" : 579,
+    "maxPrice" : 1279
+  }, {
+    "bookTitle" : "เรื่องราวในวันดีๆ",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/platoosom"
+    } ],
+    "followers" : 0,
+    "readers" : 5,
+    "minPrice" : 499,
+    "maxPrice" : 699
+  }, {
+    "bookTitle" : "Beautiful Builds",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/royosherove",
+      "twitterUrl" : "https://twitter.com/royosherove",
+      "followerCount" : 11700
+    } ],
+    "followers" : 11700,
+    "readers" : 314,
+    "minPrice" : 799,
+    "maxPrice" : 1199
+  }, {
+    "bookTitle" : "FastTrack Essentials: MS Office 2007",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cyrijones2"
+    } ],
+    "followers" : 0,
+    "readers" : 35,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Chess begins",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rossward",
+      "twitterUrl" : "https://twitter.com/Macabhaird",
+      "followerCount" : 59
+    } ],
+    "followers" : 59,
+    "readers" : 23,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Judo for Parents",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lancewicks",
+      "twitterUrl" : "https://twitter.com/lancew",
+      "followerCount" : 1203
+    } ],
+    "followers" : 1203,
+    "readers" : 19,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Laravel Testing Decoded",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jeffreyway",
+      "twitterUrl" : "https://twitter.com/jeffrey_way",
+      "followerCount" : 21300
+    } ],
+    "followers" : 21300,
+    "readers" : 2166,
+    "minPrice" : 2000,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Conhecendo Ruby",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/taq",
+      "twitterUrl" : "https://twitter.com/taq",
+      "followerCount" : 1381
+    } ],
+    "followers" : 1381,
+    "readers" : 984,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "A Sword of Wrath",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kemacleod"
+    } ],
+    "followers" : 0,
+    "readers" : 25,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Netiquette",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthewstrawbridge"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Solr vs. ElasticSearch",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/arafalov",
+      "twitterUrl" : "https://twitter.com/arafalov",
+      "followerCount" : 196
+    } ],
+    "followers" : 196,
+    "readers" : 13,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Le Guide Ultime et Zen de Max for Live",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/julienbayle",
+      "twitterUrl" : "https://twitter.com/julienbayle",
+      "followerCount" : 1984
+    } ],
+    "followers" : 1984,
+    "readers" : 98,
+    "minPrice" : 3000,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Spécifiez agile",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thierrycros",
+      "twitterUrl" : "https://twitter.com/thierrycros",
+      "followerCount" : 854
+    } ],
+    "followers" : 854,
+    "readers" : 152,
+    "minPrice" : 900,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Laravel 4 Official Documentation",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/darkness"
+    } ],
+    "followers" : 0,
+    "readers" : 6561,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Searching For Love",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephanieawbradley",
+      "twitterUrl" : "https://twitter.com/WynnAlice",
+      "followerCount" : 198
+    } ],
+    "followers" : 198,
+    "readers" : 6,
+    "minPrice" : 250,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Controversial Love",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/churchjohnson28",
+      "twitterUrl" : "https://twitter.com/uniek81books",
+      "followerCount" : 366
+    } ],
+    "followers" : 366,
+    "readers" : 40,
+    "minPrice" : -1,
+    "maxPrice" : 300
+  }, {
+    "bookTitle" : "The Pirates' Cavern",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mvizdos",
+      "twitterUrl" : "https://twitter.com/mvizdos",
+      "followerCount" : 2700
+    } ],
+    "followers" : 2700,
+    "readers" : 26,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Less of Me with HCG",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lessofmehcg"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Lisp Web Tales",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pvlpenev",
+      "twitterUrl" : "https://twitter.com/pavelpenev",
+      "followerCount" : 293
+    } ],
+    "followers" : 293,
+    "readers" : 424,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "A Programmer's Diary",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ohcoder",
+      "twitterUrl" : "https://twitter.com/ohcoder",
+      "followerCount" : 90
+    } ],
+    "followers" : 90,
+    "readers" : 18,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "The Leprechauns of Software Engineering",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/laurentbossavit",
+      "twitterUrl" : "https://twitter.com/Morendil",
+      "followerCount" : 2190
+    } ],
+    "followers" : 2190,
+    "readers" : 1583,
+    "minPrice" : 1000,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Waking Up Well",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jwmberkowitz"
+    } ],
+    "followers" : 0,
+    "readers" : 24,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Perfect Software",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Take Control of Pages",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mcohen"
+    } ],
+    "followers" : 0,
+    "readers" : 983,
+    "minPrice" : -1,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Antifragile Software",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/russmiles",
+      "twitterUrl" : "https://twitter.com/russmiles",
+      "followerCount" : 1238
+    } ],
+    "followers" : 1238,
+    "readers" : 231,
+    "minPrice" : 1000,
+    "maxPrice" : 2799
+  }, {
+    "bookTitle" : "A Year With Symfony",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthiasnoback",
+      "twitterUrl" : "https://twitter.com/matthiasnoback",
+      "followerCount" : 1534
+    } ],
+    "followers" : 1534,
+    "readers" : 926,
+    "minPrice" : -1,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Moving to Hong Kong: The definitive guide for people in finance",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samatkinson",
+      "twitterUrl" : "https://twitter.com/sambahk",
+      "followerCount" : 83
+    } ],
+    "followers" : 83,
+    "readers" : 5,
+    "minPrice" : 200,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Leaflet Tips and Tricks",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/d3noob",
+      "twitterUrl" : "https://twitter.com/d3noob",
+      "followerCount" : 312
+    } ],
+    "followers" : 312,
+    "readers" : 1825,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Scraping for Journalists",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbradshaw",
+      "twitterUrl" : "https://twitter.com/paulbradshaw",
+      "followerCount" : 21400
+    } ],
+    "followers" : 21400,
+    "readers" : 1020,
+    "minPrice" : 1510,
+    "maxPrice" : 2001
+  }, {
+    "bookTitle" : "Laravel 4 Cookbook (ES)",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 33,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Who is agile in South Africa?",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/YvesHanoulle",
+      "twitterUrl" : "https://twitter.com/YvesHanoulle",
+      "followerCount" : 4054
+    }, {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 6240,
+    "readers" : 19,
+    "minPrice" : 99,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "PHP Beyond the web",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robaley"
+    } ],
+    "followers" : 0,
+    "readers" : 105,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "It's Your Move",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robertdbrowniii",
+      "twitterUrl" : "https://twitter.com/InciteDecisions",
+      "followerCount" : 362
+    } ],
+    "followers" : 362,
+    "readers" : 16,
+    "minPrice" : -1,
+    "maxPrice" : 399
+  }, {
+    "bookTitle" : "Web Application Testing in Ruby",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zeljkofilipin",
+      "twitterUrl" : "https://twitter.com/zeljkofilipin",
+      "followerCount" : 937
+    } ],
+    "followers" : 937,
+    "readers" : 7497,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Choosing a full-time Coding Bootcamp",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidkim",
+      "twitterUrl" : "https://twitter.com/findinbay",
+      "followerCount" : 362
+    } ],
+    "followers" : 362,
+    "readers" : 107,
+    "minPrice" : 199,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Modernizing Legacy Applications In PHP",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pmjones",
+      "twitterUrl" : "https://twitter.com/pmjones",
+      "followerCount" : 1939
+    } ],
+    "followers" : 1939,
+    "readers" : 407,
+    "minPrice" : 3900,
+    "maxPrice" : 4900
+  }, {
+    "bookTitle" : "Backbone Tutorials",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomasdavis",
+      "twitterUrl" : "https://twitter.com/neutralthoughts",
+      "followerCount" : 3007
+    } ],
+    "followers" : 3007,
+    "readers" : 24333,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "darkroom retreat",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrewed",
+      "twitterUrl" : "https://twitter.com/frugivore",
+      "followerCount" : 16
+    } ],
+    "followers" : 16,
+    "readers" : 12,
+    "minPrice" : -1,
+    "maxPrice" : 800
+  }, {
+    "bookTitle" : "Automation and Monitoring with Hubot",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/spajus",
+      "twitterUrl" : "https://twitter.com/spajus",
+      "followerCount" : 167
+    } ],
+    "followers" : 167,
+    "readers" : 66,
+    "minPrice" : 2000,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "Game Development Design",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tank",
+      "twitterUrl" : "https://twitter.com/TankBo",
+      "followerCount" : 71
+    } ],
+    "followers" : 71,
+    "readers" : 68,
+    "minPrice" : 100,
+    "maxPrice" : 250
+  }, {
+    "bookTitle" : "Java For Testers",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alanrichardson",
+      "twitterUrl" : "https://twitter.com/eviltester",
+      "followerCount" : 1439
+    } ],
+    "followers" : 1439,
+    "readers" : 1074,
+    "minPrice" : 499,
+    "maxPrice" : 2499
+  }, {
+    "bookTitle" : "Finding Stories in Spreadsheets",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbradshaw",
+      "twitterUrl" : "https://twitter.com/paulbradshaw",
+      "followerCount" : 21400
+    } ],
+    "followers" : 21400,
+    "readers" : 60,
+    "minPrice" : 1299,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "The Hip Control Guide",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/neilkeleher"
+    } ],
+    "followers" : 0,
+    "readers" : 34,
+    "minPrice" : 1240,
+    "maxPrice" : 2380
+  }, {
+    "bookTitle" : "A Novelist",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/esthersloyer",
+      "twitterUrl" : "https://twitter.com/ekshortstories",
+      "followerCount" : 21
+    } ],
+    "followers" : 21,
+    "readers" : 3,
+    "minPrice" : 200,
+    "maxPrice" : 800
+  }, {
+    "bookTitle" : "Best of Andrew Chen's Blog",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andrewchen"
+    } ],
+    "followers" : 0,
+    "readers" : 1223,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "The Bastards Book of Regular Expressions",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dnguyen",
+      "twitterUrl" : "https://twitter.com/dancow",
+      "followerCount" : 6700
+    } ],
+    "followers" : 6700,
+    "readers" : 2687,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "CQRS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/MarkNijhof",
+      "twitterUrl" : "https://twitter.com/MarkNijhof",
+      "followerCount" : 2074
+    } ],
+    "followers" : 2074,
+    "readers" : 532,
+    "minPrice" : 1199,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "New World",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 400
+  }, {
+    "bookTitle" : "Laravel: Code Bright",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    } ],
+    "followers" : 6657,
+    "readers" : 4020,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Laravel 4 Docs (Updated for 4.2.x)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mnishihan",
+      "twitterUrl" : "https://twitter.com/mnishihan",
+      "followerCount" : 83
+    } ],
+    "followers" : 83,
+    "readers" : 1715,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Cancelled",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cathievr",
+      "twitterUrl" : "https://twitter.com/cathievr",
+      "followerCount" : 117
+    } ],
+    "followers" : 117,
+    "readers" : 6,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "How to be Free",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michellemargaret",
+      "twitterUrl" : "https://twitter.com/yogafreedom",
+      "followerCount" : 347
+    } ],
+    "followers" : 347,
+    "readers" : 112,
+    "minPrice" : -1,
+    "maxPrice" : 400
+  }, {
+    "bookTitle" : "Dirk Finley: Something Borrowed",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mikebranski",
+      "twitterUrl" : "https://twitter.com/mikebranski",
+      "followerCount" : 366
+    } ],
+    "followers" : 366,
+    "readers" : 5,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Startup Flow",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stanislasmarion",
+      "twitterUrl" : "https://twitter.com/stanmarion",
+      "followerCount" : 291
+    }, {
+      "authorUrl" : "https://leanpub.com/u/charlesmiglietti",
+      "twitterUrl" : "https://twitter.com/charlesmigli",
+      "followerCount" : 213
+    }, {
+      "authorUrl" : "https://leanpub.com/u/louischatriot",
+      "twitterUrl" : "https://twitter.com/louisChatriot",
+      "followerCount" : 131
+    } ],
+    "followers" : 635,
+    "readers" : 169,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "I gabbiani volano in cerchio",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/williamghelfi",
+      "twitterUrl" : "https://twitter.com/trumbitta",
+      "followerCount" : 554
+    } ],
+    "followers" : 554,
+    "readers" : 11,
+    "minPrice" : 199,
+    "maxPrice" : 399
+  }, {
+    "bookTitle" : "From Heaven to Hell",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/berylbrennan"
+    } ],
+    "followers" : 0,
+    "readers" : 21,
+    "minPrice" : -1,
+    "maxPrice" : 1199
+  }, {
+    "bookTitle" : "Use Vim Like A Pro",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tottinge",
+      "twitterUrl" : "https://twitter.com/tottinge",
+      "followerCount" : 2077
+    } ],
+    "followers" : 2077,
+    "readers" : 815,
+    "minPrice" : -1,
+    "maxPrice" : 947
+  }, {
+    "bookTitle" : "Complete Separation of the 3 Tiers",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rutishauser"
+    } ],
+    "followers" : 0,
+    "readers" : 17,
+    "minPrice" : -1,
+    "maxPrice" : 100
+  }, {
+    "bookTitle" : "C# Tips",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jasonroberts"
+    } ],
+    "followers" : 0,
+    "readers" : 811,
+    "minPrice" : -1,
+    "maxPrice" : 1599
+  }, {
+    "bookTitle" : "Structuring Backbone Code with RequireJS and Marionette Modules",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidsulc",
+      "twitterUrl" : "https://twitter.com/davidsulc",
+      "followerCount" : 263
+    } ],
+    "followers" : 263,
+    "readers" : 985,
+    "minPrice" : 2000,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "JavaScript and Node FUNdamentals",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 4095,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "A Drip of JavaScript",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshuaclanton",
+      "twitterUrl" : "https://twitter.com/joshuacc",
+      "followerCount" : 528
+    } ],
+    "followers" : 528,
+    "readers" : 77,
+    "minPrice" : 599,
+    "maxPrice" : 1199
+  }, {
+    "bookTitle" : "Ruby on Rails: The Little Gem That Could",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesgifford"
+    } ],
+    "followers" : 0,
+    "readers" : 20,
+    "minPrice" : 900,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "The Colors of Change",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nicolasstampf",
+      "twitterUrl" : "https://twitter.com/nicolasstampf",
+      "followerCount" : 1098
+    } ],
+    "followers" : 1098,
+    "readers" : 59,
+    "minPrice" : 1000,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "It's Payback Time",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thesavvygrad"
+    } ],
+    "followers" : 0,
+    "readers" : 12,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "PHP 101 crash-course",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshharington"
+    } ],
+    "followers" : 0,
+    "readers" : 7,
+    "minPrice" : 999,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Public Procurement and Contract Administration: A Brief Introduction",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jorgelynch",
+      "twitterUrl" : "https://twitter.com/jorge_lynch",
+      "followerCount" : 257
+    } ],
+    "followers" : 257,
+    "readers" : 88,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Ansible for AWS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yankurniawan",
+      "twitterUrl" : "https://twitter.com/yanadikurniawan",
+      "followerCount" : 24
+    } ],
+    "followers" : 24,
+    "readers" : 26,
+    "minPrice" : 1499,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Functional Programming for the Object-Oriented Programmer",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marick"
+    } ],
+    "followers" : 0,
+    "readers" : 3659,
+    "minPrice" : 1500,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Hands-on Node.js",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pgte",
+      "twitterUrl" : "https://twitter.com/pgte",
+      "followerCount" : 2692
+    } ],
+    "followers" : 2692,
+    "readers" : 14216,
+    "minPrice" : -1,
+    "maxPrice" : 1199
+  }, {
+    "bookTitle" : "Imperia",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yovanmenkevick",
+      "twitterUrl" : "https://twitter.com/YovanMenkevick",
+      "followerCount" : 246
+    } ],
+    "followers" : 246,
+    "readers" : 68,
+    "minPrice" : 290,
+    "maxPrice" : 490
+  }, {
+    "bookTitle" : "Rails 101",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 3825,
+    "minPrice" : -1,
+    "maxPrice" : 1295
+  }, {
+    "bookTitle" : "Sometimes We Ran",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stephendrivick",
+      "twitterUrl" : "https://twitter.com/StephenDrivick",
+      "followerCount" : 1362
+    } ],
+    "followers" : 1362,
+    "readers" : 2,
+    "minPrice" : 299,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Joe's Agile Release Planning",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/josephlittle",
+      "twitterUrl" : "https://twitter.com/jhlittle",
+      "followerCount" : 558
+    } ],
+    "followers" : 558,
+    "readers" : 257,
+    "minPrice" : 700,
+    "maxPrice" : 1295
+  }, {
+    "bookTitle" : ".NET 相依性注入",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaeltsai",
+      "twitterUrl" : "https://twitter.com/huanlin",
+      "followerCount" : 12
+    } ],
+    "followers" : 12,
+    "readers" : 82,
+    "minPrice" : 800,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "CoffeeScript Ristretto",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 1029,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Multitenancy with Rails",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryanbigg",
+      "twitterUrl" : "https://twitter.com/ryanbigg",
+      "followerCount" : 4259
+    } ],
+    "followers" : 4259,
+    "readers" : 1318,
+    "minPrice" : 2000,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Fifty Years of Night",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/heraldleader",
+      "twitterUrl" : "https://twitter.com/heraldleader",
+      "followerCount" : 24300
+    } ],
+    "followers" : 24300,
+    "readers" : 374,
+    "minPrice" : 899,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Coding In Delphi",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nickhodges",
+      "twitterUrl" : "https://twitter.com/nickhodges",
+      "followerCount" : 1748
+    } ],
+    "followers" : 1748,
+    "readers" : 170,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Lando Cruz and The Coup Conspiracy",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/GeorgeDonnelly",
+      "twitterUrl" : "https://twitter.com/GeorgeDonnelly",
+      "followerCount" : 2865
+    } ],
+    "followers" : 2865,
+    "readers" : 13,
+    "minPrice" : 399,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The PHP Project Guide",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexgarrett"
+    } ],
+    "followers" : 0,
+    "readers" : 1268,
+    "minPrice" : 1000,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Astral Force Rising",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2hLLJRPSv8igY9HWuG_NYz"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The Struggling Academic's Guide to Research",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joanne",
+      "twitterUrl" : "https://twitter.com/mygile",
+      "followerCount" : 53
+    } ],
+    "followers" : 53,
+    "readers" : 25,
+    "minPrice" : 200,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "EA for the Business Analyst",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomaskilian"
+    } ],
+    "followers" : 0,
+    "readers" : 39,
+    "minPrice" : 2999,
+    "maxPrice" : 3499
+  }, {
+    "bookTitle" : "Everyday Rails - RSpecによるRailsテスト入門",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aaronsumner",
+      "twitterUrl" : "https://twitter.com/everydayrails",
+      "followerCount" : 782
+    }, {
+      "authorUrl" : "https://leanpub.com/u/junichiito",
+      "twitterUrl" : "https://twitter.com/jnchito",
+      "followerCount" : 1188
+    }, {
+      "authorUrl" : "https://leanpub.com/u/springaki",
+      "twitterUrl" : "https://twitter.com/spring_aki",
+      "followerCount" : 538
+    }, {
+      "authorUrl" : "https://leanpub.com/u/blueplanet",
+      "twitterUrl" : "https://twitter.com/blueplanet42",
+      "followerCount" : 268
+    } ],
+    "followers" : 2776,
+    "readers" : 782,
+    "minPrice" : 1600,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Learn.js #1",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sethvincent",
+      "twitterUrl" : "https://twitter.com/sethdvincent",
+      "followerCount" : 663
+    } ],
+    "followers" : 663,
+    "readers" : 81,
+    "minPrice" : 1500,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "How to Start a Business in Taiwan",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eliasek",
+      "twitterUrl" : "https://twitter.com/starttaiwan",
+      "followerCount" : 33
+    } ],
+    "followers" : 33,
+    "readers" : 71,
+    "minPrice" : -1,
+    "maxPrice" : 3699
+  }, {
+    "bookTitle" : "Tome of Vo - Lance's First Chapter",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/Dlexis"
+    } ],
+    "followers" : 0,
+    "readers" : 24,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Thai Swift (แปลไทย)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sakko",
+      "twitterUrl" : "https://twitter.com/SaKKosama",
+      "followerCount" : 15
+    } ],
+    "followers" : 15,
+    "readers" : 556,
+    "minPrice" : -1,
+    "maxPrice" : 599
+  }, {
+    "bookTitle" : "Trigger Point",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryankurr",
+      "twitterUrl" : "https://twitter.com/Ryan_Kurr",
+      "followerCount" : 71
+    } ],
+    "followers" : 71,
+    "readers" : 4,
+    "minPrice" : 1000,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Painless Vim",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/natedickson",
+      "twitterUrl" : "https://twitter.com/PogiNate",
+      "followerCount" : 104
+    } ],
+    "followers" : 104,
+    "readers" : 214,
+    "minPrice" : 599,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Agile Pitfalls",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/varokas",
+      "twitterUrl" : "https://twitter.com/varokas",
+      "followerCount" : 92
+    } ],
+    "followers" : 92,
+    "readers" : 42,
+    "minPrice" : 500,
+    "maxPrice" : 700
+  }, {
+    "bookTitle" : "Xanpan",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2BypmyCJHE3v-RIRGcRrgT",
+      "twitterUrl" : "https://twitter.com/allankellynet",
+      "followerCount" : 1716
+    } ],
+    "followers" : 1716,
+    "readers" : 110,
+    "minPrice" : 1500,
+    "maxPrice" : 1900
+  }, {
+    "bookTitle" : "Ryphna's Notebook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryphna",
+      "twitterUrl" : "https://twitter.com/ryphna",
+      "followerCount" : 164
+    } ],
+    "followers" : 164,
+    "readers" : 4,
+    "minPrice" : 199,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Uncensored",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/hunterwalk",
+      "twitterUrl" : "https://twitter.com/hunterwalk",
+      "followerCount" : 66900
+    }, {
+      "authorUrl" : "https://leanpub.com/u/ericries",
+      "twitterUrl" : "https://twitter.com/ericries",
+      "followerCount" : 175000
+    } ],
+    "followers" : 241900,
+    "readers" : 585,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Kommentare zur EU Datenschutz Grundverordnung",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tante",
+      "twitterUrl" : "https://twitter.com/tante",
+      "followerCount" : 2779
+    } ],
+    "followers" : 2779,
+    "readers" : 6,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Aura Framework v2",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/harikt",
+      "twitterUrl" : "https://twitter.com/harikt",
+      "followerCount" : 1117
+    }, {
+      "authorUrl" : "https://leanpub.com/u/pmjones",
+      "twitterUrl" : "https://twitter.com/pmjones",
+      "followerCount" : 1939
+    } ],
+    "followers" : 3056,
+    "readers" : 8,
+    "minPrice" : 500,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "United Front",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/crisses"
+    } ],
+    "followers" : 0,
+    "readers" : 5,
+    "minPrice" : 399,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Building an Open Community",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/juliendorra",
+      "twitterUrl" : "https://twitter.com/juliendorra",
+      "followerCount" : 3002
+    } ],
+    "followers" : 3002,
+    "readers" : 8,
+    "minPrice" : -1,
+    "maxPrice" : 200
+  }, {
+    "bookTitle" : "Starting Your Self-Publishing Path: Chapter 1, Self-Publishing Boot Camp Guide for Authors",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous27jH-VXtj2bhHFsVGej5re",
+      "twitterUrl" : "https://twitter.com/selfpubbootcamp",
+      "followerCount" : 538
+    } ],
+    "followers" : 538,
+    "readers" : 8,
+    "minPrice" : 99,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Getting Stuff Done with Laravel 4 (TR)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chuckheintzelman",
+      "twitterUrl" : "https://twitter.com/storychuck",
+      "followerCount" : 124
+    }, {
+      "authorUrl" : "https://leanpub.com/u/sineld",
+      "twitterUrl" : "https://twitter.com/sineld",
+      "followerCount" : 763
+    } ],
+    "followers" : 887,
+    "readers" : 3,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Who is agile? Volume 1",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/micaarie",
+      "twitterUrl" : "https://twitter.com/guy.nachimson"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/YvesHanoulle",
+      "twitterUrl" : "https://twitter.com/YvesHanoulle",
+      "followerCount" : 4054
+    }, {
+      "authorUrl" : "https://leanpub.com/u/anonymous2GAOijwmP5tvyPt8RnpDGe"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/andreachiou",
+      "twitterUrl" : "https://twitter.com/andreachiou",
+      "followerCount" : 1019
+    }, {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    }, {
+      "authorUrl" : "https://leanpub.com/u/mfloryan",
+      "twitterUrl" : "https://twitter.com/mfloryan",
+      "followerCount" : 1253
+    } ],
+    "followers" : 6886,
+    "readers" : 484,
+    "minPrice" : -1,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Practical Git and GitHub",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 315,
+    "minPrice" : -1,
+    "maxPrice" : 1100
+  }, {
+    "bookTitle" : "Agile w praktyce",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/andybrandt",
+      "twitterUrl" : "https://twitter.com/andybrandt",
+      "followerCount" : 691
+    } ],
+    "followers" : 691,
+    "readers" : 523,
+    "minPrice" : 370,
+    "maxPrice" : 600
+  }, {
+    "bookTitle" : "Keeping Software Soft",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jasonroberts"
+    } ],
+    "followers" : 0,
+    "readers" : 54,
+    "minPrice" : 1299,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "The Secrets of Consulting",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 20,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Watirways",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jko"
+    } ],
+    "followers" : 0,
+    "readers" : 556,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "App Engine e Python",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/renzo",
+      "twitterUrl" : "https://twitter.com/renzonuccitec",
+      "followerCount" : 293
+    } ],
+    "followers" : 293,
+    "readers" : 80,
+    "minPrice" : 1165,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Management Matters",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johnhunter",
+      "twitterUrl" : "https://twitter.com/curiouscat_com",
+      "followerCount" : 1329
+    } ],
+    "followers" : 1329,
+    "readers" : 107,
+    "minPrice" : 500,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Lord of the Deer",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sirildoreyes"
+    } ],
+    "followers" : 0,
+    "readers" : 20,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "Autism Understanding and Acceptance",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/autismfather",
+      "twitterUrl" : "https://twitter.com/autismfather",
+      "followerCount" : 10700
+    } ],
+    "followers" : 10700,
+    "readers" : 41,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "The Seer",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidrobinson",
+      "twitterUrl" : "https://twitter.com/trulypowerful",
+      "followerCount" : 225
+    } ],
+    "followers" : 225,
+    "readers" : 136,
+    "minPrice" : 699,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Gestion des devoirs",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/houdahamdane",
+      "twitterUrl" : "https://twitter.com/Kanplan_net",
+      "followerCount" : 662
+    } ],
+    "followers" : 662,
+    "readers" : 40,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "The Agile Quizzitch",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    }, {
+      "authorUrl" : "https://leanpub.com/u/svencipido",
+      "twitterUrl" : "https://twitter.com/cipidos",
+      "followerCount" : 138
+    } ],
+    "followers" : 698,
+    "readers" : 137,
+    "minPrice" : 899,
+    "maxPrice" : 1299
+  }, {
+    "bookTitle" : "career.fork()",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stevejalim",
+      "twitterUrl" : "https://twitter.com/stevejalim",
+      "followerCount" : 527
+    } ],
+    "followers" : 527,
+    "readers" : 799,
+    "minPrice" : 1499,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Developer Testing",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexandertarnowski",
+      "twitterUrl" : "https://twitter.com/alexander_tar",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 114,
+    "minPrice" : 800,
+    "maxPrice" : 1600
+  }, {
+    "bookTitle" : "The 20 Things You Must Know About Music Online",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dubber",
+      "twitterUrl" : "https://twitter.com/dubber",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 1112,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "Yoga Schmoga",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michellemargaret",
+      "twitterUrl" : "https://twitter.com/yogafreedom",
+      "followerCount" : 347
+    } ],
+    "followers" : 347,
+    "readers" : 30,
+    "minPrice" : 600,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "You Wove that on What???",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/matthewwilliams",
+      "twitterUrl" : "https://twitter.com/ops4devs",
+      "followerCount" : 25
+    } ],
+    "followers" : 25,
+    "readers" : 8,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Nijlpaard voor Kerstmis",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/blowagie",
+      "twitterUrl" : "https://twitter.com/bruno1970",
+      "followerCount" : 922
+    } ],
+    "followers" : 922,
+    "readers" : 4,
+    "minPrice" : -1,
+    "maxPrice" : 699
+  }, {
+    "bookTitle" : "Apostolic Baptism",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/simonpeter",
+      "twitterUrl" : "https://twitter.com/SimonPChappell",
+      "followerCount" : 34
+    } ],
+    "followers" : 34,
+    "readers" : 6,
+    "minPrice" : 500,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Lekcje z oddziału intensywnej terapii",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/marekkowalczyk"
+    } ],
+    "followers" : 0,
+    "readers" : 29,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The ABC of PDF with iText",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/itextsoftware",
+      "twitterUrl" : "https://twitter.com/iText",
+      "followerCount" : 396
+    } ],
+    "followers" : 396,
+    "readers" : 8738,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Startup Lessons Learned",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ericries",
+      "twitterUrl" : "https://twitter.com/ericries",
+      "followerCount" : 175000
+    } ],
+    "followers" : 175000,
+    "readers" : 706,
+    "minPrice" : -1,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "What The Defend?",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/whattheflop",
+      "twitterUrl" : "https://twitter.com/WTFlopPoker",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 80,
+    "minPrice" : -1,
+    "maxPrice" : 6000
+  }, {
+    "bookTitle" : "CakePHP Unit Testing",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rrd",
+      "twitterUrl" : "https://twitter.com/rrd",
+      "followerCount" : 663
+    } ],
+    "followers" : 663,
+    "readers" : 44,
+    "minPrice" : 999,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Business Case Analysis with R",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/robertdbrowniii",
+      "twitterUrl" : "https://twitter.com/InciteDecisions",
+      "followerCount" : 362
+    } ],
+    "followers" : 362,
+    "readers" : 45,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "The Tablet Interpreter",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 4,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Laravel 4 Türkçe Dokümantasyon (v. 4.1)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sineld",
+      "twitterUrl" : "https://twitter.com/sineld",
+      "followerCount" : 763
+    } ],
+    "followers" : 763,
+    "readers" : 707,
+    "minPrice" : -1,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "DNSSec Mastery",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelwlucas",
+      "twitterUrl" : "https://twitter.com/mwlauthor",
+      "followerCount" : 1563
+    } ],
+    "followers" : 1563,
+    "readers" : 91,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Muzica In Cuvinte",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/attilavago85"
+    } ],
+    "followers" : 0,
+    "readers" : 18,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Introducción a Lean",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/josemiguelvivesmartinez",
+      "twitterUrl" : "https://twitter.com/jmvives",
+      "followerCount" : 450
+    } ],
+    "followers" : 450,
+    "readers" : 43,
+    "minPrice" : -1,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Il talismano della Driade",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/demetriobattaglia"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 299,
+    "maxPrice" : 599
+  }, {
+    "bookTitle" : "คู่มือ Selenium IDE สำหรับผู้เริ่มต้น",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/platoosom"
+    } ],
+    "followers" : 0,
+    "readers" : 10,
+    "minPrice" : 699,
+    "maxPrice" : 899
+  }, {
+    "bookTitle" : "Android apps development - Cookbook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kaviraj"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : 4900,
+    "maxPrice" : 6900
+  }, {
+    "bookTitle" : "The Venture Hacks Bible",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nivi"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/naval"
+    } ],
+    "followers" : 0,
+    "readers" : 1288,
+    "minPrice" : -1,
+    "maxPrice" : 1900
+  }, {
+    "bookTitle" : "FAT Shoulder Exercises For Scapular Awareness, Control and Stability",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/neilkeleher"
+    } ],
+    "followers" : 0,
+    "readers" : 21,
+    "minPrice" : 1180,
+    "maxPrice" : 1650
+  }, {
+    "bookTitle" : "SCAN framework",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 19,
+    "minPrice" : 499,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "使用 RSpec 测试 Rails 程序",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aaronsumner",
+      "twitterUrl" : "https://twitter.com/everydayrails",
+      "followerCount" : 782
+    }, {
+      "authorUrl" : "https://leanpub.com/u/andor_chen",
+      "twitterUrl" : "https://twitter.com/Andor_Chen",
+      "followerCount" : 340
+    } ],
+    "followers" : 1122,
+    "readers" : 298,
+    "minPrice" : 500,
+    "maxPrice" : 700
+  }, {
+    "bookTitle" : "Beyond Web and Firefox OS - GAIA FROM ABOVE",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pychen"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/yurenju"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/dwi2"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/stevechung"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/huchengtw"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/lukechang"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/anonymous1KDfeNwqLBORxzWNQBkiRp"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/evanxd"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/crh0716"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/eragonj"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/snowmantw"
+    } ],
+    "followers" : 0,
+    "readers" : 49,
+    "minPrice" : 499,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "The Spirit Tracker",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/normpratt"
+    } ],
+    "followers" : 0,
+    "readers" : 4,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Samycreek",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/demetriobattaglia"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "A Level Biology",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/burtn"
+    } ],
+    "followers" : 0,
+    "readers" : 37,
+    "minPrice" : 100,
+    "maxPrice" : 200
+  }, {
+    "bookTitle" : "A Primer on SQL",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rbatra"
+    } ],
+    "followers" : 0,
+    "readers" : 1141,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Boulder Colorado CSA Guide",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coloradocsas",
+      "twitterUrl" : "https://twitter.com/coloradocsas",
+      "followerCount" : 203
+    } ],
+    "followers" : 203,
+    "readers" : 7,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Practical AngularJS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 2025,
+    "minPrice" : -1,
+    "maxPrice" : 1100
+  }, {
+    "bookTitle" : "SHËD: Build your own designer garden office for less than £2500",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/oddjones",
+      "twitterUrl" : "https://twitter.com/oddjones",
+      "followerCount" : 669
+    } ],
+    "followers" : 669,
+    "readers" : 451,
+    "minPrice" : 781,
+    "maxPrice" : 1561
+  }, {
+    "bookTitle" : "Quickstart Guide to the Five Rules of Accelerated Learning",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/willemlarsen",
+      "twitterUrl" : "https://twitter.com/cascadiawillem",
+      "followerCount" : 281
+    }, {
+      "authorUrl" : "https://leanpub.com/u/dianalarsen",
+      "twitterUrl" : "https://twitter.com/DianaOfPortland",
+      "followerCount" : 3446
+    } ],
+    "followers" : 3727,
+    "readers" : 114,
+    "minPrice" : 999,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Agile Planet",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous3AhjzDyvf5uAjSAXaF6H5Z",
+      "twitterUrl" : "https://twitter.com/fabianschiller",
+      "followerCount" : 227
+    } ],
+    "followers" : 227,
+    "readers" : 221,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Travel Diary",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/billymoon"
+    } ],
+    "followers" : 0,
+    "readers" : 11,
+    "minPrice" : 200,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Laravel 4 Cookbook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    }, {
+      "authorUrl" : "https://leanpub.com/u/taylorotwell",
+      "twitterUrl" : "https://twitter.com/taylorotwell",
+      "followerCount" : 13000
+    } ],
+    "followers" : 14209,
+    "readers" : 992,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Kanban for skeptics",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nickoostvogels",
+      "twitterUrl" : "https://twitter.com/NickOostvogels",
+      "followerCount" : 1034
+    } ],
+    "followers" : 1034,
+    "readers" : 2298,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The Psychology of Software #Testing",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/john_stevenson",
+      "twitterUrl" : "https://twitter.com/steveo1967",
+      "followerCount" : 1360
+    } ],
+    "followers" : 1360,
+    "readers" : 27,
+    "minPrice" : 999,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Dataflow and Reactive Programming Systems",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mattcarkci"
+    } ],
+    "followers" : 0,
+    "readers" : 554,
+    "minPrice" : 1995,
+    "maxPrice" : 2995
+  }, {
+    "bookTitle" : "Twinspiratie voor Tweelingouders",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/twinspiratie",
+      "twitterUrl" : "https://twitter.com/twinspiratie",
+      "followerCount" : 242
+    } ],
+    "followers" : 242,
+    "readers" : 161,
+    "minPrice" : 899,
+    "maxPrice" : 1299
+  }, {
+    "bookTitle" : "Brast",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/demetriobattaglia"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Приключения большой девочки в плоском городе",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/yulich1978"
+    } ],
+    "followers" : 0,
+    "readers" : 16,
+    "minPrice" : 100,
+    "maxPrice" : 250
+  }, {
+    "bookTitle" : "Beyond Kony2012",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/amandataub"
+    } ],
+    "followers" : 0,
+    "readers" : 1359,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Hur man förändrar världen",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/miboman",
+      "twitterUrl" : "https://twitter.com/miboman",
+      "followerCount" : 81
+    } ],
+    "followers" : 81,
+    "readers" : 38,
+    "minPrice" : 199,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Il Vascello del Diavolo",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alessandrapoma"
+    } ],
+    "followers" : 0,
+    "readers" : 5,
+    "minPrice" : 299,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Startup Marketing",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/seanellis"
+    } ],
+    "followers" : 0,
+    "readers" : 1235,
+    "minPrice" : -1,
+    "maxPrice" : 1900
+  }, {
+    "bookTitle" : "Asesino",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diegoresendez",
+      "twitterUrl" : "https://twitter.com/diegoresendez",
+      "followerCount" : 192
+    } ],
+    "followers" : 192,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 799
+  }, {
+    "bookTitle" : "Maroka",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/normis",
+      "twitterUrl" : "https://twitter.com/normis",
+      "followerCount" : 1205
+    } ],
+    "followers" : 1205,
+    "readers" : 15,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "Grunt Cookbook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mattgoldspink",
+      "twitterUrl" : "https://twitter.com/mattgoldspink",
+      "followerCount" : 190
+    } ],
+    "followers" : 190,
+    "readers" : 18,
+    "minPrice" : -1,
+    "maxPrice" : 1299
+  }, {
+    "bookTitle" : "Rise of the Chulo",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesleenathaniii",
+      "twitterUrl" : "https://twitter.com/nykingmd",
+      "followerCount" : 625
+    } ],
+    "followers" : 625,
+    "readers" : 5,
+    "minPrice" : 199,
+    "maxPrice" : 699
+  }, {
+    "bookTitle" : "AngularJS + Rails",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jonathanbirkholz"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jwo"
+    } ],
+    "followers" : 0,
+    "readers" : 137,
+    "minPrice" : 2500,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "Poetic License",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/crisses"
+    } ],
+    "followers" : 0,
+    "readers" : 4,
+    "minPrice" : 399,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "50 Quick Ideas to Improve your User Stories",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gojko",
+      "twitterUrl" : "https://twitter.com/gojkoadzic",
+      "followerCount" : 8150
+    } ],
+    "followers" : 8150,
+    "readers" : 3932,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Understanding the Four Rules of Simple Design",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/coreyhaines",
+      "twitterUrl" : "https://twitter.com/coreyhaines",
+      "followerCount" : 12800
+    } ],
+    "followers" : 12800,
+    "readers" : 1209,
+    "minPrice" : 11500,
+    "maxPrice" : 1799
+  }, {
+    "bookTitle" : "Growing Agile: A Coach's Guide to Release Planning",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 2186,
+    "readers" : 67,
+    "minPrice" : 1000,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "C++ for dinosaurs",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nickeconomidis"
+    } ],
+    "followers" : 0,
+    "readers" : 17,
+    "minPrice" : 499,
+    "maxPrice" : 799
+  }, {
+    "bookTitle" : "What's New in Java 8",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 114,
+    "minPrice" : 450,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Lisp for the Web",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamtornhill",
+      "twitterUrl" : "https://twitter.com/AdamTornhill",
+      "followerCount" : 225
+    } ],
+    "followers" : 225,
+    "readers" : 814,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Eldritch Fairytales",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/garycxjk",
+      "twitterUrl" : "https://twitter.com/garycxjk",
+      "followerCount" : 15
+    } ],
+    "followers" : 15,
+    "readers" : 44,
+    "minPrice" : 299,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Programmieren lernen mit Javascript",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/olav",
+      "twitterUrl" : "https://twitter.com/oschettler",
+      "followerCount" : 88
+    } ],
+    "followers" : 88,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Ansible for DevOps",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/geerlingguy",
+      "twitterUrl" : "https://twitter.com/geerlingguy",
+      "followerCount" : 3526
+    } ],
+    "followers" : 3526,
+    "readers" : 502,
+    "minPrice" : 999,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Exploiting MVC Model Binding",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 62,
+    "minPrice" : -1,
+    "maxPrice" : 1100
+  }, {
+    "bookTitle" : "Improve Your Security",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sorinmustaca",
+      "twitterUrl" : "https://twitter.com/sorinmustaca",
+      "followerCount" : 397
+    } ],
+    "followers" : 397,
+    "readers" : 496,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Changes in Genesis 2.0",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/garyjones",
+      "twitterUrl" : "https://twitter.com/GaryJ",
+      "followerCount" : 1925
+    } ],
+    "followers" : 1925,
+    "readers" : 183,
+    "minPrice" : 2999,
+    "maxPrice" : 3499
+  }, {
+    "bookTitle" : "Working Effectively with Unit Tests",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jayfields",
+      "twitterUrl" : "https://twitter.com/thejayfields",
+      "followerCount" : 965
+    } ],
+    "followers" : 965,
+    "readers" : 249,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Play Framework na prática",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/albertosouza",
+      "twitterUrl" : "https://twitter.com/alberto_souza",
+      "followerCount" : 608
+    } ],
+    "followers" : 608,
+    "readers" : 54,
+    "minPrice" : -1,
+    "maxPrice" : 990
+  }, {
+    "bookTitle" : "機構設計與規範",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/iword"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Predicting Security Threats with Splunk",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alessandro-parisi",
+      "twitterUrl" : "https://twitter.com/startithub",
+      "followerCount" : 144
+    } ],
+    "followers" : 144,
+    "readers" : 3,
+    "minPrice" : 299,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The Skool Of Life",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/srinivasrao",
+      "twitterUrl" : "https://twitter.com/skooloflife",
+      "followerCount" : 500
+    } ],
+    "followers" : 500,
+    "readers" : 491,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "Integrating Front end Components with Web Applications",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/msurguy",
+      "twitterUrl" : "https://twitter.com/msurguy",
+      "followerCount" : 3452
+    } ],
+    "followers" : 3452,
+    "readers" : 282,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Experiential Learning: Beginning",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 340,
+    "minPrice" : -1,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Upgrade to Rails 4",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipDS",
+      "twitterUrl" : "https://twitter.com/philipdesmedt",
+      "followerCount" : 328
+    } ],
+    "followers" : 328,
+    "readers" : 131,
+    "minPrice" : 999,
+    "maxPrice" : 1700
+  }, {
+    "bookTitle" : "Sabaha Karşı Öyküleri",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/engineryildiz",
+      "twitterUrl" : "https://twitter.com/author63",
+      "followerCount" : 59
+    } ],
+    "followers" : 59,
+    "readers" : 2,
+    "minPrice" : 300,
+    "maxPrice" : 400
+  }, {
+    "bookTitle" : "Rebuilding MooTools",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    } ],
+    "followers" : 1209,
+    "readers" : 6,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "EPiServer 7 CMS Development",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joelabrahamsson"
+    } ],
+    "followers" : 0,
+    "readers" : 432,
+    "minPrice" : 2500,
+    "maxPrice" : 3500
+  }, {
+    "bookTitle" : "Rebuilding Laravel",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    } ],
+    "followers" : 1209,
+    "readers" : 162,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Prescelti",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelavalente"
+    } ],
+    "followers" : 0,
+    "readers" : 8,
+    "minPrice" : 199,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Everyday Rails Testing with RSpec",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aaronsumner",
+      "twitterUrl" : "https://twitter.com/everydayrails",
+      "followerCount" : 782
+    } ],
+    "followers" : 782,
+    "readers" : 4131,
+    "minPrice" : 1400,
+    "maxPrice" : 1900
+  }, {
+    "bookTitle" : "Agile Reader",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2BypmyCJHE3v-RIRGcRrgT",
+      "twitterUrl" : "https://twitter.com/allankellynet",
+      "followerCount" : 1716
+    } ],
+    "followers" : 1716,
+    "readers" : 7,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "What I've Learned From Failure",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 3268,
+    "minPrice" : 1599,
+    "maxPrice" : 2499
+  }, {
+    "bookTitle" : "Saved by a Bug",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulbranski"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "The Mad God",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/skylarwolphe"
+    } ],
+    "followers" : 0,
+    "readers" : 7,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The Agile Agency",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bartvermijlen",
+      "twitterUrl" : "https://twitter.com/bartvermijlen",
+      "followerCount" : 1120
+    } ],
+    "followers" : 1120,
+    "readers" : 780,
+    "minPrice" : -1,
+    "maxPrice" : 795
+  }, {
+    "bookTitle" : "Continuous Improvement In A Flash",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tottinge",
+      "twitterUrl" : "https://twitter.com/tottinge",
+      "followerCount" : 2077
+    } ],
+    "followers" : 2077,
+    "readers" : 74,
+    "minPrice" : 1300,
+    "maxPrice" : 1750
+  }, {
+    "bookTitle" : "Collaboration Games",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    }, {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    } ],
+    "followers" : 2186,
+    "readers" : 1086,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Batting at Number 10",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chickdubber"
+    } ],
+    "followers" : 0,
+    "readers" : 21,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Patterns in C",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamtornhill",
+      "twitterUrl" : "https://twitter.com/AdamTornhill",
+      "followerCount" : 225
+    } ],
+    "followers" : 225,
+    "readers" : 421,
+    "minPrice" : 499,
+    "maxPrice" : 1299
+  }, {
+    "bookTitle" : "Sketchの基本。",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/auieauieauieauie"
+    } ],
+    "followers" : 0,
+    "readers" : 6,
+    "minPrice" : 499,
+    "maxPrice" : 799
+  }, {
+    "bookTitle" : "Responsible Design for Android",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jbrains",
+      "twitterUrl" : "https://twitter.com/jbrains",
+      "followerCount" : 6124
+    } ],
+    "followers" : 6124,
+    "readers" : 326,
+    "minPrice" : 1475,
+    "maxPrice" : 2100
+  }, {
+    "bookTitle" : "JavaScript Allongé",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 2270,
+    "minPrice" : 1900,
+    "maxPrice" : 2900
+  }, {
+    "bookTitle" : "Laravel: Code Bright (IT)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/hellofrancesco",
+      "twitterUrl" : "https://twitter.com/malatestafra",
+      "followerCount" : 184
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7269,
+    "readers" : 80,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Software Architecture for Developers",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/simonbrown",
+      "twitterUrl" : "https://twitter.com/simonbrown",
+      "followerCount" : 4704
+    } ],
+    "followers" : 4704,
+    "readers" : 4390,
+    "minPrice" : 2000,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "This Much I Knew",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peteashton",
+      "twitterUrl" : "https://twitter.com/peteashton",
+      "followerCount" : 3827
+    } ],
+    "followers" : 3827,
+    "readers" : 37,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Expected Value",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 8,
+    "minPrice" : -1,
+    "maxPrice" : 799
+  }, {
+    "bookTitle" : "Painless Tmux",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/natedickson",
+      "twitterUrl" : "https://twitter.com/PogiNate",
+      "followerCount" : 104
+    } ],
+    "followers" : 104,
+    "readers" : 75,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "97 Things Every Programmer Should Know - Extended",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/shirish4you",
+      "twitterUrl" : "https://twitter.com/_Garbage_",
+      "followerCount" : 511
+    } ],
+    "followers" : 511,
+    "readers" : 3587,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "N Ways To Be A Better Developer",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lornajane",
+      "twitterUrl" : "https://twitter.com/lornajane",
+      "followerCount" : 7140
+    }, {
+      "authorUrl" : "https://leanpub.com/u/ijansch",
+      "twitterUrl" : "https://twitter.com/ijansch",
+      "followerCount" : 3620
+    } ],
+    "followers" : 10760,
+    "readers" : 57,
+    "minPrice" : 400,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Xamarin iOS Application Development",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dpatra",
+      "twitterUrl" : "https://twitter.com/dpatra",
+      "followerCount" : 329
+    } ],
+    "followers" : 329,
+    "readers" : 70,
+    "minPrice" : 1099,
+    "maxPrice" : 1299
+  }, {
+    "bookTitle" : "Node.js 雲端技術與軟體思惟",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jollen"
+    } ],
+    "followers" : 0,
+    "readers" : 347,
+    "minPrice" : 699,
+    "maxPrice" : 799
+  }, {
+    "bookTitle" : "Cucumber & Cheese",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cheezy",
+      "twitterUrl" : "https://twitter.com/chzy",
+      "followerCount" : 1887
+    } ],
+    "followers" : 1887,
+    "readers" : 836,
+    "minPrice" : -1,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Teach Yourself Enterprise Architect in Ten Days",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    } ],
+    "followers" : 560,
+    "readers" : 302,
+    "minPrice" : 1499,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Writing On The Go With Scrivener",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipespinosa"
+    } ],
+    "followers" : 0,
+    "readers" : 6,
+    "minPrice" : 99,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Lady and The Hawk",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/iskiea",
+      "twitterUrl" : "https://twitter.com/Iskiea",
+      "followerCount" : 22
+    } ],
+    "followers" : 22,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Chicago Sunset",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/docwinters",
+      "twitterUrl" : "https://twitter.com/docwinters",
+      "followerCount" : 180
+    } ],
+    "followers" : 180,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Developing Games With Ruby",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/spajus",
+      "twitterUrl" : "https://twitter.com/spajus",
+      "followerCount" : 167
+    } ],
+    "followers" : 167,
+    "readers" : 23,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "TPL Dataflow by Example",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mattcarkci"
+    } ],
+    "followers" : 0,
+    "readers" : 255,
+    "minPrice" : -1,
+    "maxPrice" : 995
+  }, {
+    "bookTitle" : "The Light of the Dragons",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/brynncharity"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 199,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Cult of PHP",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/harshjv",
+      "twitterUrl" : "https://twitter.com/harshjv",
+      "followerCount" : 50
+    } ],
+    "followers" : 50,
+    "readers" : 41,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "PHP: \"Usulüne\" Uygun",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 242,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Flow & Flower",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michellemargaret",
+      "twitterUrl" : "https://twitter.com/yogafreedom",
+      "followerCount" : 347
+    } ],
+    "followers" : 347,
+    "readers" : 79,
+    "minPrice" : 400,
+    "maxPrice" : 800
+  }, {
+    "bookTitle" : "Invisible Disability",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mayatrimner",
+      "twitterUrl" : "https://twitter.com/Mayashappyplace",
+      "followerCount" : 1627
+    } ],
+    "followers" : 1627,
+    "readers" : 6,
+    "minPrice" : 1299,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "The Inebriated Chronicles",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zaper"
+    } ],
+    "followers" : 0,
+    "readers" : 4,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "The Zen Programmer",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/grobmeier",
+      "twitterUrl" : "https://twitter.com/grobmeier",
+      "followerCount" : 734
+    } ],
+    "followers" : 734,
+    "readers" : 225,
+    "minPrice" : 1499,
+    "maxPrice" : 2499
+  }, {
+    "bookTitle" : "PhoneGap Build Starter",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/justmyfreak",
+      "twitterUrl" : "https://twitter.com/justmyfreak",
+      "followerCount" : 178
+    } ],
+    "followers" : 178,
+    "readers" : 1402,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Lean Change",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jasonlittle",
+      "twitterUrl" : "https://twitter.com/jasonlittle",
+      "followerCount" : 2369
+    } ],
+    "followers" : 2369,
+    "readers" : 328,
+    "minPrice" : 499,
+    "maxPrice" : 1199
+  }, {
+    "bookTitle" : "Shape Script made easy",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomaskilian"
+    } ],
+    "followers" : 0,
+    "readers" : 16,
+    "minPrice" : 1599,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Fun Retrospectives",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tainacaetano",
+      "twitterUrl" : "https://twitter.com/caetano_tc",
+      "followerCount" : 183
+    }, {
+      "authorUrl" : "https://leanpub.com/u/paulocaroli",
+      "twitterUrl" : "https://twitter.com/paulocaroli",
+      "followerCount" : 1904
+    } ],
+    "followers" : 2087,
+    "readers" : 879,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Hiring Geeks That Fit",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/johannarothman",
+      "twitterUrl" : "https://twitter.com/johannarothman",
+      "followerCount" : 6463
+    } ],
+    "followers" : 6463,
+    "readers" : 448,
+    "minPrice" : -1,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "What The Board?",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/whattheflop",
+      "twitterUrl" : "https://twitter.com/WTFlopPoker",
+      "followerCount" : 112
+    } ],
+    "followers" : 112,
+    "readers" : 92,
+    "minPrice" : -1,
+    "maxPrice" : 8000
+  }, {
+    "bookTitle" : "A3 Problem Solving: Applying Lean Thinking",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/JamieFlinchbaugh",
+      "twitterUrl" : "https://twitter.com/flinchbaugh",
+      "followerCount" : 4037
+    } ],
+    "followers" : 4037,
+    "readers" : 293,
+    "minPrice" : 500,
+    "maxPrice" : 775
+  }, {
+    "bookTitle" : "Build APIs You Won't Hate",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philsturgeon",
+      "twitterUrl" : "https://twitter.com/philsturgeon",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 1310,
+    "minPrice" : 2699,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Seminggu Belajar Laravel",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rahmatawaludin",
+      "twitterUrl" : "https://twitter.com/rahmatawaludin",
+      "followerCount" : 164
+    } ],
+    "followers" : 164,
+    "readers" : 64,
+    "minPrice" : 1730,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Vagrant CookBook (PT-BR)",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 23,
+    "minPrice" : 999,
+    "maxPrice" : 1599
+  }, {
+    "bookTitle" : "Laravel 3.x Docs",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/mnishihan",
+      "twitterUrl" : "https://twitter.com/mnishihan",
+      "followerCount" : 83
+    } ],
+    "followers" : 83,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Paradise",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jwmberkowitz"
+    } ],
+    "followers" : 0,
+    "readers" : 11,
+    "minPrice" : -1,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Read-Eval-Print-λove",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fogus",
+      "twitterUrl" : "https://twitter.com/fogus",
+      "followerCount" : 8380
+    } ],
+    "followers" : 8380,
+    "readers" : 104,
+    "minPrice" : 149,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Laravel 4 Documentation",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fsalehpour",
+      "twitterUrl" : "https://twitter.com/fsalehpour",
+      "followerCount" : 24
+    } ],
+    "followers" : 24,
+    "readers" : 1182,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "There's Always a Duck",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/testobsessed",
+      "twitterUrl" : "https://twitter.com/testobsessed",
+      "followerCount" : 8618
+    } ],
+    "followers" : 8618,
+    "readers" : 145,
+    "minPrice" : 399,
+    "maxPrice" : 899
+  }, {
+    "bookTitle" : "Understanding ECMAScript 6",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/nzakas",
+      "twitterUrl" : "https://twitter.com/slicknet",
+      "followerCount" : 25400
+    } ],
+    "followers" : 25400,
+    "readers" : 100,
+    "minPrice" : 1499,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "The Silversong Child",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lunivore",
+      "twitterUrl" : "https://twitter.com/lunivore",
+      "followerCount" : 5842
+    } ],
+    "followers" : 5842,
+    "readers" : 75,
+    "minPrice" : 200,
+    "maxPrice" : 800
+  }, {
+    "bookTitle" : "HOW-TO: Convert PSD (Photoshop) to HTML/CSS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/artmov",
+      "twitterUrl" : "https://twitter.com/artmov",
+      "followerCount" : 106
+    } ],
+    "followers" : 106,
+    "readers" : 8,
+    "minPrice" : 1400,
+    "maxPrice" : 1900
+  }, {
+    "bookTitle" : "The Node Beginner Book",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelkiessling",
+      "twitterUrl" : "https://twitter.com/manuelkiessling",
+      "followerCount" : 1550
+    } ],
+    "followers" : 1550,
+    "readers" : 14638,
+    "minPrice" : 999,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Trello Dojo",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/danielroot"
+    } ],
+    "followers" : 0,
+    "readers" : 390,
+    "minPrice" : 837,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Memoirs of a Software Team Leader",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lukaszwrobel",
+      "twitterUrl" : "https://twitter.com/lukaszwrobel",
+      "followerCount" : 28
+    } ],
+    "followers" : 28,
+    "readers" : 87,
+    "minPrice" : 1900,
+    "maxPrice" : 2300
+  }, {
+    "bookTitle" : "The Stone Woods",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/aturqoise",
+      "twitterUrl" : "https://twitter.com/PeacefulHealing",
+      "followerCount" : 156
+    } ],
+    "followers" : 156,
+    "readers" : 2,
+    "minPrice" : 499,
+    "maxPrice" : 1299
+  }, {
+    "bookTitle" : "If Pictures Could Talk",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/churchjohnson28",
+      "twitterUrl" : "https://twitter.com/uniek81books",
+      "followerCount" : 366
+    } ],
+    "followers" : 366,
+    "readers" : 15,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Dash of Romance",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/elleclouse",
+      "twitterUrl" : "https://twitter.com/elleclouse",
+      "followerCount" : 1201
+    } ],
+    "followers" : 1201,
+    "readers" : 5,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Solivagant Souls",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/evasabolcik"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "The Engineer",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eriknordeus",
+      "twitterUrl" : "https://twitter.com/eriknordeus",
+      "followerCount" : 71
+    } ],
+    "followers" : 71,
+    "readers" : 116,
+    "minPrice" : 999,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "A Go Developer's Notebook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/feyeleanor",
+      "twitterUrl" : "https://twitter.com/feyeleanor",
+      "followerCount" : 1089
+    } ],
+    "followers" : 1089,
+    "readers" : 181,
+    "minPrice" : 600,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Change Artistry",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/estherderby"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    }, {
+      "authorUrl" : "https://leanpub.com/u/johannarothman",
+      "twitterUrl" : "https://twitter.com/johannarothman",
+      "followerCount" : 6463
+    }, {
+      "authorUrl" : "https://leanpub.com/u/dongray",
+      "twitterUrl" : "https://twitter.com/donaldegray",
+      "followerCount" : 1323
+    } ],
+    "followers" : 14997,
+    "readers" : 87,
+    "minPrice" : -1,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "Poeticbuttafly Expressions",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/poeticbuttafly",
+      "twitterUrl" : "https://twitter.com/ButtaFly125",
+      "followerCount" : 879
+    } ],
+    "followers" : 879,
+    "readers" : 17,
+    "minPrice" : 700,
+    "maxPrice" : 1250
+  }, {
+    "bookTitle" : "The Leadership Game",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/YvesHanoulle",
+      "twitterUrl" : "https://twitter.com/YvesHanoulle",
+      "followerCount" : 4054
+    }, {
+      "authorUrl" : "https://leanpub.com/u/meikemertsch",
+      "twitterUrl" : "https://twitter.com/meikemertsch",
+      "followerCount" : 531
+    }, {
+      "authorUrl" : "https://leanpub.com/u/ignacehanoulle"
+    } ],
+    "followers" : 4585,
+    "readers" : 336,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "PHP: The \"Right\" Way",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philsturgeon",
+      "twitterUrl" : "https://twitter.com/philsturgeon",
+      "followerCount" : 11100
+    }, {
+      "authorUrl" : "https://leanpub.com/u/joshlockhart",
+      "twitterUrl" : "https://twitter.com/codeguy",
+      "followerCount" : 2842
+    } ],
+    "followers" : 13942,
+    "readers" : 4446,
+    "minPrice" : -1,
+    "maxPrice" : 399
+  }, {
+    "bookTitle" : "Learn Vimscript the Hard Way",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stevelosh",
+      "twitterUrl" : "https://twitter.com/stevelosh",
+      "followerCount" : 4625
+    } ],
+    "followers" : 4625,
+    "readers" : 588,
+    "minPrice" : -1,
+    "maxPrice" : 800
+  }, {
+    "bookTitle" : "15 Fundamentals for Higher Performance in Software Development",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulemcmahon"
+    } ],
+    "followers" : 0,
+    "readers" : 12,
+    "minPrice" : 899,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Vagrant CookBook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/erikaheidi",
+      "twitterUrl" : "https://twitter.com/erikaheidi",
+      "followerCount" : 3695
+    } ],
+    "followers" : 3695,
+    "readers" : 506,
+    "minPrice" : 1999,
+    "maxPrice" : 2299
+  }, {
+    "bookTitle" : "Pursuit",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jimmurdoch",
+      "twitterUrl" : "https://twitter.com/jimmurdoch",
+      "followerCount" : 7461
+    } ],
+    "followers" : 7461,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Crafting Shakespeare",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jillkswanson"
+    } ],
+    "followers" : 0,
+    "readers" : 31,
+    "minPrice" : 699,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Using Zend Framework 2",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/zexspectrum"
+    } ],
+    "followers" : 0,
+    "readers" : 196,
+    "minPrice" : 1499,
+    "maxPrice" : 1799
+  }, {
+    "bookTitle" : "Building Organizational Intelligence",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/richardveryard",
+      "twitterUrl" : "https://twitter.com/richardveryard",
+      "followerCount" : 1466
+    } ],
+    "followers" : 1466,
+    "readers" : 85,
+    "minPrice" : 1500,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "Building Backbone Plugins",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/derickbailey",
+      "twitterUrl" : "https://twitter.com/derickbailey",
+      "followerCount" : 5729
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jeromegn",
+      "twitterUrl" : "https://twitter.com/jeromegn",
+      "followerCount" : 2345
+    } ],
+    "followers" : 8074,
+    "readers" : 1005,
+    "minPrice" : 4499,
+    "maxPrice" : 2400
+  }, {
+    "bookTitle" : "iOS7 Day by Day",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sammyd",
+      "twitterUrl" : "https://twitter.com/iwantmyrealname",
+      "followerCount" : 466
+    } ],
+    "followers" : 466,
+    "readers" : 1193,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Stuff that Nobody Cares About: Love is",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/faysebastian",
+      "twitterUrl" : "https://twitter.com/mileventwelve",
+      "followerCount" : 35
+    } ],
+    "followers" : 35,
+    "readers" : 4,
+    "minPrice" : 499,
+    "maxPrice" : 599
+  }, {
+    "bookTitle" : "Network Diagrams With Visio",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/EtherealMind",
+      "twitterUrl" : "https://twitter.com/EtherealMind",
+      "followerCount" : 11000
+    } ],
+    "followers" : 11000,
+    "readers" : 289,
+    "minPrice" : 649,
+    "maxPrice" : 1299
+  }, {
+    "bookTitle" : "The Neophyte's Guide to Scala",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 1497,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Primal Passions",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lynnalexandriamckendrick",
+      "twitterUrl" : "https://twitter.com/LexusRanger",
+      "followerCount" : 514
+    } ],
+    "followers" : 514,
+    "readers" : 70,
+    "minPrice" : -1,
+    "maxPrice" : 200
+  }, {
+    "bookTitle" : "The service-oriented enterprise",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 45,
+    "minPrice" : 799,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "The Quiet Inspector",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jonguenther",
+      "twitterUrl" : "https://twitter.com/_JonGuenther"
+    } ],
+    "followers" : 0,
+    "readers" : 7,
+    "minPrice" : -1,
+    "maxPrice" : 599
+  }, {
+    "bookTitle" : "Harri-Petteri ja Harmaa G",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rikupekka",
+      "twitterUrl" : "https://twitter.com/rikupekka",
+      "followerCount" : 51
+    } ],
+    "followers" : 51,
+    "readers" : 3,
+    "minPrice" : 99,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Global Moves",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caitlinmcdonald",
+      "twitterUrl" : "https://twitter.com/caitiewrites",
+      "followerCount" : 644
+    } ],
+    "followers" : 644,
+    "readers" : 74,
+    "minPrice" : 999,
+    "maxPrice" : 2499
+  }, {
+    "bookTitle" : "Clicker training and agile software development",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/bjorntikkanen",
+      "twitterUrl" : "https://twitter.com/BjornTikkanen",
+      "followerCount" : 277
+    } ],
+    "followers" : 277,
+    "readers" : 31,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Webentwicklung mit Zend Framework 2",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelromer",
+      "twitterUrl" : "https://twitter.com/startuppatterns",
+      "followerCount" : 49
+    } ],
+    "followers" : 49,
+    "readers" : 1209,
+    "minPrice" : 1200,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Archetypes",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/devonsteiger"
+    } ],
+    "followers" : 0,
+    "readers" : 28,
+    "minPrice" : 500,
+    "maxPrice" : 750
+  }, {
+    "bookTitle" : "Practical Jni4Net",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/diniscruz",
+      "twitterUrl" : "https://twitter.com/DinisCruz",
+      "followerCount" : 2174
+    } ],
+    "followers" : 2174,
+    "readers" : 42,
+    "minPrice" : -1,
+    "maxPrice" : 1100
+  }, {
+    "bookTitle" : "defmacro",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/josephwilk",
+      "twitterUrl" : "https://twitter.com/josephwilk",
+      "followerCount" : 1601
+    } ],
+    "followers" : 1601,
+    "readers" : 102,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "HÜDDAM",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/celaldengiz",
+      "twitterUrl" : "https://twitter.com/celalcem",
+      "followerCount" : 26
+    } ],
+    "followers" : 26,
+    "readers" : 9,
+    "minPrice" : -1,
+    "maxPrice" : 250
+  }, {
+    "bookTitle" : "PHP: Правильный путь",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/getjump"
+    } ],
+    "followers" : 0,
+    "readers" : 1370,
+    "minPrice" : -1,
+    "maxPrice" : 399
+  }, {
+    "bookTitle" : "Rails 程序部署之道",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/talkingquickly",
+      "twitterUrl" : "https://twitter.com/talkingquickly",
+      "followerCount" : 898
+    }, {
+      "authorUrl" : "https://leanpub.com/u/andor_chen",
+      "twitterUrl" : "https://twitter.com/Andor_Chen",
+      "followerCount" : 340
+    } ],
+    "followers" : 1238,
+    "readers" : 93,
+    "minPrice" : 990,
+    "maxPrice" : 1390
+  }, {
+    "bookTitle" : "Scaling PHP",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/stevecorona",
+      "twitterUrl" : "https://twitter.com/stevencorona",
+      "followerCount" : 56300
+    } ],
+    "followers" : 56300,
+    "readers" : 57,
+    "minPrice" : -1,
+    "maxPrice" : 5900
+  }, {
+    "bookTitle" : "Express.js Guide",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/azat",
+      "twitterUrl" : "https://twitter.com/azat_co",
+      "followerCount" : 2607
+    } ],
+    "followers" : 2607,
+    "readers" : 665,
+    "minPrice" : -1,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Conhecendo Rails",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/taq",
+      "twitterUrl" : "https://twitter.com/taq",
+      "followerCount" : 1381
+    } ],
+    "followers" : 1381,
+    "readers" : 25,
+    "minPrice" : -1,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Are there no more Dragon Warriors?",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesleenathaniii",
+      "twitterUrl" : "https://twitter.com/nykingmd",
+      "followerCount" : 625
+    } ],
+    "followers" : 625,
+    "readers" : 6,
+    "minPrice" : 99,
+    "maxPrice" : 699
+  }, {
+    "bookTitle" : "EMERGENT",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/cesarioramos",
+      "twitterUrl" : "https://twitter.com/cesarioramos",
+      "followerCount" : 311
+    } ],
+    "followers" : 311,
+    "readers" : 45,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Real, Legal, Normal",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/danielwildt",
+      "twitterUrl" : "https://twitter.com/dwildt",
+      "followerCount" : 2351
+    } ],
+    "followers" : 2351,
+    "readers" : 46,
+    "minPrice" : 999,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Devenez hACkTEUR !",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/alexis8nicolas",
+      "twitterUrl" : "https://twitter.com/alexis8nicolas",
+      "followerCount" : 593
+    } ],
+    "followers" : 593,
+    "readers" : 32,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Lecture Notes on Intelligent Agents Spring 2013",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/federicogobbo"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "สร้างระบบ chat อย่าง facebook ด้วย XMPP โปรโตคอลและ Openfire",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/platoosom"
+    } ],
+    "followers" : 0,
+    "readers" : 5,
+    "minPrice" : 1599,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Laravel: Code Bright (PT-BR)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/luisdalmolin",
+      "twitterUrl" : "https://twitter.com/luisdalmolin",
+      "followerCount" : 294
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7379,
+    "readers" : 149,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Reliably Deploying Rails Applications",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/talkingquickly",
+      "twitterUrl" : "https://twitter.com/talkingquickly",
+      "followerCount" : 898
+    } ],
+    "followers" : 898,
+    "readers" : 698,
+    "minPrice" : 2000,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "Take Control of Automating Your Mac (1.0)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joekissell",
+      "twitterUrl" : "https://twitter.com/joekissell",
+      "followerCount" : 1790
+    } ],
+    "followers" : 1790,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Software Craftsmanship",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/sandromancuso",
+      "twitterUrl" : "https://twitter.com/sandromancuso",
+      "followerCount" : 1727
+    } ],
+    "followers" : 1727,
+    "readers" : 476,
+    "minPrice" : 1800,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Butterflies and Sand",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/scribe",
+      "twitterUrl" : "https://twitter.com/6loss",
+      "followerCount" : 1427
+    } ],
+    "followers" : 1427,
+    "readers" : 9,
+    "minPrice" : 100,
+    "maxPrice" : 218
+  }, {
+    "bookTitle" : "Growing Agile: A Coach's Guide to Agile Requirements",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    }, {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    } ],
+    "followers" : 2186,
+    "readers" : 72,
+    "minPrice" : 1000,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "The Lean Change Method",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thomasjeffreyandersontwin"
+    } ],
+    "followers" : 0,
+    "readers" : 369,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Mermaid Ocean",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daphodil0200"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 495
+  }, {
+    "bookTitle" : "A Primer on Java",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/rbatra"
+    } ],
+    "followers" : 0,
+    "readers" : 1002,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "The Grumpy Programmer's PHPUnit Cookbook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chartjes",
+      "twitterUrl" : "https://twitter.com/grmpyprogrammer",
+      "followerCount" : 5571
+    } ],
+    "followers" : 5571,
+    "readers" : 869,
+    "minPrice" : -1,
+    "maxPrice" : 2900
+  }, {
+    "bookTitle" : "Broken Trees and Lost Horizons",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/philipespinosa"
+    } ],
+    "followers" : 0,
+    "readers" : 3,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Towards Next Practice Enterprise Architecture",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/richardveryard",
+      "twitterUrl" : "https://twitter.com/richardveryard",
+      "followerCount" : 1466
+    } ],
+    "followers" : 1466,
+    "readers" : 34,
+    "minPrice" : 750,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "The Little Book of Impediments",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tperry",
+      "twitterUrl" : "https://twitter.com/tlperry",
+      "followerCount" : 452
+    } ],
+    "followers" : 452,
+    "readers" : 23,
+    "minPrice" : 1099,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "White Box Networking in 2014",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/EtherealMind",
+      "twitterUrl" : "https://twitter.com/EtherealMind",
+      "followerCount" : 11000
+    } ],
+    "followers" : 11000,
+    "readers" : 43,
+    "minPrice" : 2499,
+    "maxPrice" : 4999
+  }, {
+    "bookTitle" : "The Single Page App Jumpstart",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jankrutisch",
+      "twitterUrl" : "https://twitter.com/halfbyte",
+      "followerCount" : 1346
+    } ],
+    "followers" : 1346,
+    "readers" : 74,
+    "minPrice" : 499,
+    "maxPrice" : 1199
+  }, {
+    "bookTitle" : "AngularJS na prática",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/danielschmitz",
+      "twitterUrl" : "https://twitter.com/daniel_schmitz",
+      "followerCount" : 846
+    }, {
+      "authorUrl" : "https://leanpub.com/u/douglaslira",
+      "twitterUrl" : "https://twitter.com/douglaslira",
+      "followerCount" : 222
+    } ],
+    "followers" : 1068,
+    "readers" : 639,
+    "minPrice" : 500,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "How To Develop iOS Database Apps using SQLite",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kevlangdo",
+      "twitterUrl" : "https://twitter.com/kevlangdo",
+      "followerCount" : 219
+    } ],
+    "followers" : 219,
+    "readers" : 2,
+    "minPrice" : 499,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Modern Java",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamldavis",
+      "twitterUrl" : "https://twitter.com/adamldavis",
+      "followerCount" : 47
+    } ],
+    "followers" : 47,
+    "readers" : 56,
+    "minPrice" : 995,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "A Practical Approach to API Design",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/caseysoftware",
+      "twitterUrl" : "https://twitter.com/CaseySoftware",
+      "followerCount" : 6071
+    }, {
+      "authorUrl" : "https://leanpub.com/u/jameshigginbotham",
+      "twitterUrl" : "https://twitter.com/launchany",
+      "followerCount" : 566
+    } ],
+    "followers" : 6637,
+    "readers" : 281,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Angliai Útikalauz IT-soknak",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/meza",
+      "twitterUrl" : "https://twitter.com/vsbmeza",
+      "followerCount" : 636
+    } ],
+    "followers" : 636,
+    "readers" : 11,
+    "minPrice" : 99,
+    "maxPrice" : 5
+  }, {
+    "bookTitle" : "Handbook of Technical Reviews, Fourth Edition",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 5,
+    "minPrice" : -1,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "The Incremental Architect´s Napkin",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ralfw",
+      "twitterUrl" : "https://twitter.com/ralfw",
+      "followerCount" : 1200
+    } ],
+    "followers" : 1200,
+    "readers" : 7,
+    "minPrice" : -1,
+    "maxPrice" : 99
+  }, {
+    "bookTitle" : "Writing Sublime Plugins",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/joshearl",
+      "twitterUrl" : "https://twitter.com/josh_earl",
+      "followerCount" : 3803
+    } ],
+    "followers" : 3803,
+    "readers" : 304,
+    "minPrice" : 2200,
+    "maxPrice" : 2700
+  }, {
+    "bookTitle" : "Your API Is Bad",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paddy",
+      "twitterUrl" : "https://twitter.com/paddyforan",
+      "followerCount" : 687
+    } ],
+    "followers" : 687,
+    "readers" : 587,
+    "minPrice" : -1,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Enterprise Architecture: unlocking business potential",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/kimparker",
+      "twitterUrl" : "https://twitter.com/kimparker054",
+      "followerCount" : 1712
+    } ],
+    "followers" : 1712,
+    "readers" : 7,
+    "minPrice" : 1195,
+    "maxPrice" : 1995
+  }, {
+    "bookTitle" : "The Order of Light",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/djamespawson",
+      "twitterUrl" : "https://twitter.com/iCantGB",
+      "followerCount" : 80
+    } ],
+    "followers" : 80,
+    "readers" : 2,
+    "minPrice" : 799,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Scrumtips",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tobiasfors",
+      "twitterUrl" : "https://twitter.com/tofo",
+      "followerCount" : 1051
+    } ],
+    "followers" : 1051,
+    "readers" : 247,
+    "minPrice" : 499,
+    "maxPrice" : 2499
+  }, {
+    "bookTitle" : "Laravel: Code Bright (TR) Türkçe Çevirisi",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/sineld",
+      "twitterUrl" : "https://twitter.com/sineld",
+      "followerCount" : 763
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7848,
+    "readers" : 56,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "JavaScript Spessore",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 239,
+    "minPrice" : 2900,
+    "maxPrice" : 3900
+  }, {
+    "bookTitle" : "D3 Tips and Tricks",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/d3noob",
+      "twitterUrl" : "https://twitter.com/d3noob",
+      "followerCount" : 312
+    } ],
+    "followers" : 312,
+    "readers" : 12031,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "Optimizing The Flow",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/paulocaroli",
+      "twitterUrl" : "https://twitter.com/paulocaroli",
+      "followerCount" : 1904
+    } ],
+    "followers" : 1904,
+    "readers" : 89,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Music in the Digital Age",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dubber",
+      "twitterUrl" : "https://twitter.com/dubber",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 2779,
+    "minPrice" : -1,
+    "maxPrice" : 299
+  }, {
+    "bookTitle" : "Der eigene Server mit FreeBSD 10",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/BenediktNiessen",
+      "twitterUrl" : "https://twitter.com/BenediktNiessen",
+      "followerCount" : 60
+    } ],
+    "followers" : 60,
+    "readers" : 26,
+    "minPrice" : 995,
+    "maxPrice" : 1995
+  }, {
+    "bookTitle" : "Mity i Problemy w Agile",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/streser",
+      "twitterUrl" : "https://twitter.com/streser",
+      "followerCount" : 483
+    } ],
+    "followers" : 483,
+    "readers" : 397,
+    "minPrice" : 359,
+    "maxPrice" : 699
+  }, {
+    "bookTitle" : "Lean Blog: Sports",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/markgraban",
+      "twitterUrl" : "https://twitter.com/markgraban",
+      "followerCount" : 12000
+    } ],
+    "followers" : 12000,
+    "readers" : 15,
+    "minPrice" : 199,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Enterprise Canvas",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 36,
+    "minPrice" : 499,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "The enterprise as story",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 30,
+    "minPrice" : 799,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "CoffeeScript",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/soyjavi",
+      "twitterUrl" : "https://twitter.com/soyjavi",
+      "followerCount" : 5284
+    } ],
+    "followers" : 5284,
+    "readers" : 2714,
+    "minPrice" : -1,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Mapping the enterprise",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tetradian",
+      "twitterUrl" : "https://twitter.com/tetradian",
+      "followerCount" : 2428
+    } ],
+    "followers" : 2428,
+    "readers" : 63,
+    "minPrice" : 799,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "The Nightingale Throne",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/lunivore",
+      "twitterUrl" : "https://twitter.com/lunivore",
+      "followerCount" : 5842
+    } ],
+    "followers" : 5842,
+    "readers" : 8,
+    "minPrice" : 200,
+    "maxPrice" : 800
+  }, {
+    "bookTitle" : "Musik im Digitalen Zeitalter",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dubber",
+      "twitterUrl" : "https://twitter.com/dubber",
+      "followerCount" : 11100
+    } ],
+    "followers" : 11100,
+    "readers" : 55,
+    "minPrice" : -1,
+    "maxPrice" : 199
+  }, {
+    "bookTitle" : "The Rails 4 Way",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/obie"
+    }, {
+      "authorUrl" : "https://leanpub.com/u/kfaustino",
+      "twitterUrl" : "https://twitter.com/kfaustino",
+      "followerCount" : 604
+    }, {
+      "authorUrl" : "https://leanpub.com/u/vitalykushner",
+      "twitterUrl" : "https://twitter.com/vkushner",
+      "followerCount" : 338
+    } ],
+    "followers" : 942,
+    "readers" : 2232,
+    "minPrice" : 2900,
+    "maxPrice" : 4900
+  }, {
+    "bookTitle" : "I'm Keeping My Baby",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/christeenthornton"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : 1199,
+    "maxPrice" : 1599
+  }, {
+    "bookTitle" : "Notes to a Software Team Leader",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/royosherove",
+      "twitterUrl" : "https://twitter.com/royosherove",
+      "followerCount" : 11700
+    } ],
+    "followers" : 11700,
+    "readers" : 1458,
+    "minPrice" : 2000,
+    "maxPrice" : 2500
+  }, {
+    "bookTitle" : "Parallel Programming with OmniThreadLibrary",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/gabr42",
+      "twitterUrl" : "https://twitter.com/thedelphigeek",
+      "followerCount" : 169
+    } ],
+    "followers" : 169,
+    "readers" : 365,
+    "minPrice" : 999,
+    "maxPrice" : 2998
+  }, {
+    "bookTitle" : "Kestrels, Quirky Birds, and Hopeless Egocentricity",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/raganwald",
+      "twitterUrl" : "https://twitter.com/raganwald",
+      "followerCount" : 9288
+    } ],
+    "followers" : 9288,
+    "readers" : 842,
+    "minPrice" : 1599,
+    "maxPrice" : 2399
+  }, {
+    "bookTitle" : "Getting Value out of Agile Retrospectives",
+    "authors" : [ ],
+    "followers" : 0,
+    "readers" : 1258,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Recipes with Angular.js",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fdietz",
+      "twitterUrl" : "https://twitter.com/fdietz",
+      "followerCount" : 281
+    } ],
+    "followers" : 281,
+    "readers" : 1109,
+    "minPrice" : 999,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Little Orange Ubuntu Book",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jamesgifford"
+    } ],
+    "followers" : 0,
+    "readers" : 1581,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Sangue Immortale",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/manuelavalente"
+    } ],
+    "followers" : 0,
+    "readers" : 7,
+    "minPrice" : 299,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Functional Reactive Programming on iOS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/theashfurrow",
+      "twitterUrl" : "https://twitter.com/ashfurrow",
+      "followerCount" : 4422
+    } ],
+    "followers" : 4422,
+    "readers" : 994,
+    "minPrice" : 999,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Backbone.Marionette.js: A Serious Progression",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/davidsulc",
+      "twitterUrl" : "https://twitter.com/davidsulc",
+      "followerCount" : 263
+    } ],
+    "followers" : 263,
+    "readers" : 280,
+    "minPrice" : 2900,
+    "maxPrice" : 3500
+  }, {
+    "bookTitle" : "Ambitious Ember Applications",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ryakh",
+      "twitterUrl" : "https://twitter.com/ryakh",
+      "followerCount" : 1389
+    } ],
+    "followers" : 1389,
+    "readers" : 194,
+    "minPrice" : 1299,
+    "maxPrice" : 2499
+  }, {
+    "bookTitle" : "Modern Programming Made Easy",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adamldavis",
+      "twitterUrl" : "https://twitter.com/adamldavis",
+      "followerCount" : 47
+    } ],
+    "followers" : 47,
+    "readers" : 30,
+    "minPrice" : 899,
+    "maxPrice" : 2499
+  }, {
+    "bookTitle" : "Lean Self Exercise Book",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/leanself",
+      "twitterUrl" : "https://twitter.com/leanself",
+      "followerCount" : 728
+    } ],
+    "followers" : 728,
+    "readers" : 68,
+    "minPrice" : 199,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Personal Kanban in a Nutshell",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/Jurgen",
+      "twitterUrl" : "https://twitter.com/JurgenLACoach",
+      "followerCount" : 1150
+    }, {
+      "authorUrl" : "https://leanpub.com/u/talboomerik",
+      "twitterUrl" : "https://twitter.com/talboomerik",
+      "followerCount" : 1045
+    } ],
+    "followers" : 2195,
+    "readers" : 384,
+    "minPrice" : 650,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "The SharePoint Governance Manifesto",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/antclay",
+      "twitterUrl" : "https://twitter.com/Soulsailor",
+      "followerCount" : 3137
+    } ],
+    "followers" : 3137,
+    "readers" : 212,
+    "minPrice" : 1800,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "How to run an internal unconference",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/hkniberg",
+      "twitterUrl" : "https://twitter.com/henrikkniberg",
+      "followerCount" : 9363
+    } ],
+    "followers" : 9363,
+    "readers" : 386,
+    "minPrice" : -1,
+    "maxPrice" : 1000
+  }, {
+    "bookTitle" : "Xamarin Android Application Development",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/dpatra",
+      "twitterUrl" : "https://twitter.com/dpatra",
+      "followerCount" : 329
+    } ],
+    "followers" : 329,
+    "readers" : 109,
+    "minPrice" : 899,
+    "maxPrice" : 1099
+  }, {
+    "bookTitle" : "Laravel: Code Happy",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    } ],
+    "followers" : 6657,
+    "readers" : 3103,
+    "minPrice" : 999,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Laravel: Code Bright (JP)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/hirokws",
+      "twitterUrl" : "https://twitter.com/hirokws",
+      "followerCount" : 150
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7235,
+    "readers" : 48,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Max for Live Ultimate Zen Guide",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/julienbayle",
+      "twitterUrl" : "https://twitter.com/julienbayle",
+      "followerCount" : 1984
+    } ],
+    "followers" : 1984,
+    "readers" : 592,
+    "minPrice" : 3000,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Responsive Email Design",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous1SIumixSn8xPeECypR25fQ"
+    } ],
+    "followers" : 0,
+    "readers" : 8,
+    "minPrice" : 1599,
+    "maxPrice" : 1899
+  }, {
+    "bookTitle" : "Getting Started with Data Journalism",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/clairemiller",
+      "twitterUrl" : "https://twitter.com/clairemilleruk",
+      "followerCount" : 1502
+    } ],
+    "followers" : 1502,
+    "readers" : 140,
+    "minPrice" : 1099,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Aventura en las Arenas",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/pablitux",
+      "twitterUrl" : "https://twitter.com/pablitux",
+      "followerCount" : 1937
+    } ],
+    "followers" : 1937,
+    "readers" : 13,
+    "minPrice" : -1,
+    "maxPrice" : 500
+  }, {
+    "bookTitle" : "Why programmers work at night",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/swizec",
+      "twitterUrl" : "https://twitter.com/swizec",
+      "followerCount" : 4016
+    } ],
+    "followers" : 4016,
+    "readers" : 1882,
+    "minPrice" : 1100,
+    "maxPrice" : 1600
+  }, {
+    "bookTitle" : "Growing Agile: A Coach's Guide to Training Scrum",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/karengreaves",
+      "twitterUrl" : "https://twitter.com/karen_greaves",
+      "followerCount" : 940
+    }, {
+      "authorUrl" : "https://leanpub.com/u/samanthalaing",
+      "twitterUrl" : "https://twitter.com/samlaing",
+      "followerCount" : 1246
+    } ],
+    "followers" : 2186,
+    "readers" : 203,
+    "minPrice" : 2500,
+    "maxPrice" : 3000
+  }, {
+    "bookTitle" : "The Retrospective Handbook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/thekua",
+      "twitterUrl" : "https://twitter.com/patkua",
+      "followerCount" : 1476
+    } ],
+    "followers" : 1476,
+    "readers" : 1194,
+    "minPrice" : 1299,
+    "maxPrice" : 1799
+  }, {
+    "bookTitle" : "Growing Rails Applications in Practice",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/henning-koch",
+      "twitterUrl" : "https://twitter.com/triskweline",
+      "followerCount" : 167
+    }, {
+      "authorUrl" : "https://leanpub.com/u/thomas-eisenbarth",
+      "twitterUrl" : "https://twitter.com/fnordonaut",
+      "followerCount" : 49
+    } ],
+    "followers" : 216,
+    "readers" : 456,
+    "minPrice" : -1,
+    "maxPrice" : 1500
+  }, {
+    "bookTitle" : "Laravel: Code Bright (ES)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/daylerees",
+      "twitterUrl" : "https://twitter.com/daylerees",
+      "followerCount" : 6657
+    }, {
+      "authorUrl" : "https://leanpub.com/u/alaguna",
+      "twitterUrl" : "https://twitter.com/Belelros",
+      "followerCount" : 428
+    } ],
+    "followers" : 7085,
+    "readers" : 179,
+    "minPrice" : 2999,
+    "maxPrice" : 3999
+  }, {
+    "bookTitle" : "Ofertas y Contratos en Scrum",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/anonymous2DNBhHQPr59f6Zh8TOkWI1",
+      "twitterUrl" : "https://twitter.com/PepeVazquezS",
+      "followerCount" : 369
+    } ],
+    "followers" : 369,
+    "readers" : 52,
+    "minPrice" : -1,
+    "maxPrice" : 900
+  }, {
+    "bookTitle" : "Fotozoektocht door Lier",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/peterdoomen",
+      "twitterUrl" : "https://twitter.com/AbOrigineMundi",
+      "followerCount" : 560
+    } ],
+    "followers" : 560,
+    "readers" : 45,
+    "minPrice" : 499,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Marionette Exposé",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/xjackk",
+      "twitterUrl" : "https://twitter.com/jack_killilea",
+      "followerCount" : 582
+    } ],
+    "followers" : 582,
+    "readers" : 1666,
+    "minPrice" : -1,
+    "maxPrice" : 1799
+  }, {
+    "bookTitle" : "APPropriate Behaviour",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/graham1",
+      "twitterUrl" : "https://twitter.com/secboffin",
+      "followerCount" : 5217
+    } ],
+    "followers" : 5217,
+    "readers" : 362,
+    "minPrice" : 1000,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Go, The Standard Library",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/darkhelmetlive",
+      "twitterUrl" : "https://twitter.com/darkhelmetlive",
+      "followerCount" : 880
+    } ],
+    "followers" : 880,
+    "readers" : 167,
+    "minPrice" : 2900,
+    "maxPrice" : 3900
+  }, {
+    "bookTitle" : "Zend Framework 2 na prática",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/eminetto",
+      "twitterUrl" : "https://twitter.com/eminetto",
+      "followerCount" : 2548
+    } ],
+    "followers" : 2548,
+    "readers" : 32,
+    "minPrice" : 1399,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "Agile Impressions",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/jerryweinberg",
+      "twitterUrl" : "https://twitter.com/jerryweinberg",
+      "followerCount" : 7211
+    } ],
+    "followers" : 7211,
+    "readers" : 152,
+    "minPrice" : -1,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "10 prosperity exercices",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/adrianharabula"
+    } ],
+    "followers" : 0,
+    "readers" : 239,
+    "minPrice" : 899,
+    "maxPrice" : 999
+  }, {
+    "bookTitle" : "Building Secure PHP Apps",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/benedmunds",
+      "twitterUrl" : "https://twitter.com/benedmunds",
+      "followerCount" : 1858
+    } ],
+    "followers" : 1858,
+    "readers" : 310,
+    "minPrice" : 2499,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "AngularJS for Zend Framework 2 Developers (Early Access Edition)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/michaelromer",
+      "twitterUrl" : "https://twitter.com/startuppatterns",
+      "followerCount" : 49
+    } ],
+    "followers" : 49,
+    "readers" : 31,
+    "minPrice" : 1200,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Developing Options Intuition (Draft)",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/ezl",
+      "twitterUrl" : "https://twitter.com/ezliu",
+      "followerCount" : 271
+    } ],
+    "followers" : 271,
+    "readers" : 251,
+    "minPrice" : -1,
+    "maxPrice" : 3995
+  }, {
+    "bookTitle" : "D3 on AngularJS",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fullstack",
+      "twitterUrl" : "https://twitter.com/auser",
+      "followerCount" : 1779
+    }, {
+      "authorUrl" : "https://leanpub.com/u/vicapow",
+      "twitterUrl" : "https://twitter.com/vicapow",
+      "followerCount" : 1104
+    } ],
+    "followers" : 2883,
+    "readers" : 853,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Laravel 4 Cookbook 日本語版",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/assertchris",
+      "twitterUrl" : "https://twitter.com/assertchris",
+      "followerCount" : 1209
+    }, {
+      "authorUrl" : "https://leanpub.com/u/taylorotwell",
+      "twitterUrl" : "https://twitter.com/taylorotwell",
+      "followerCount" : 13000
+    }, {
+      "authorUrl" : "https://leanpub.com/u/hirokws",
+      "twitterUrl" : "https://twitter.com/hirokws",
+      "followerCount" : 150
+    } ],
+    "followers" : 14359,
+    "readers" : 104,
+    "minPrice" : 1999,
+    "maxPrice" : 2999
+  }, {
+    "bookTitle" : "Real Machine Intelligence with Clortex and NuPIC",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/fergalbyrne",
+      "twitterUrl" : "https://twitter.com/fergbyrne",
+      "followerCount" : 1606
+    } ],
+    "followers" : 1606,
+    "readers" : 15,
+    "minPrice" : 768,
+    "maxPrice" : 2048
+  }, {
+    "bookTitle" : "AngularJS Cookbook",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/saschabrink"
+    } ],
+    "followers" : 0,
+    "readers" : 65,
+    "minPrice" : 1499,
+    "maxPrice" : 1999
+  }, {
+    "bookTitle" : "Runway",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/tomhoward"
+    } ],
+    "followers" : 0,
+    "readers" : 101,
+    "minPrice" : -1,
+    "maxPrice" : 1499
+  }, {
+    "bookTitle" : "OFF THE BOOK",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/delodell"
+    } ],
+    "followers" : 0,
+    "readers" : 2,
+    "minPrice" : -1,
+    "maxPrice" : 888
+  }, {
+    "bookTitle" : "The Grumpy Programmer's Guide To Building Testable PHP Applications",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/chartjes",
+      "twitterUrl" : "https://twitter.com/grmpyprogrammer",
+      "followerCount" : 5571
+    } ],
+    "followers" : 5571,
+    "readers" : 1279,
+    "minPrice" : -1,
+    "maxPrice" : 2000
+  }, {
+    "bookTitle" : "Nightfall Book One, Volume One of the Nightsong Saga",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/maximillianderembourg"
+    } ],
+    "followers" : 0,
+    "readers" : 5,
+    "minPrice" : 99,
+    "maxPrice" : 499
+  }, {
+    "bookTitle" : "Making the Shrimp",
+    "authors" : [ {
+      "authorUrl" : "https://leanpub.com/u/romilly",
+      "twitterUrl" : "https://twitter.com/romillyc",
+      "followerCount" : 526
+    } ],
+    "followers" : 526,
+    "readers" : 55,
+    "minPrice" : -1,
+    "maxPrice" : 149
+  } ]
+}

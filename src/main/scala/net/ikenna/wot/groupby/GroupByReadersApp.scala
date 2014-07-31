@@ -2,8 +2,8 @@ package net.ikenna.wot.groupby
 
 import net.ikenna.wot.{ Book3, WotLogger }
 import net.ikenna.wot.util.{WotCsvWriter, WotJson}
-import net.ikenna.wot.followersreaders.BooksDb
 import net.ikenna.wot.readersewomcorrelation.RichBook3Obj
+import ikenna.wot.BooksDb
 
 object GroupByReadersApp extends App with WotLogger {
   defaultLogger.info("Started. ")

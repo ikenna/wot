@@ -49,12 +49,16 @@ object WotJson extends WotLogger {
     writer.close()
   }
 
-  def serializeToJson[T <: AnyRef](books: Seq[T]): Unit = {
-    val fileName = "db/new/books-" + RunTimeStamp() + ".json"
-    val ser = writePretty(books)
+  def serializeToJson[T <: AnyRef](listOfObjects: Seq[T], file:String): Unit = {
+    val fileName = "db/new/" + file + "-" + RunTimeStamp() + ".json"
+    val ser = writePretty(listOfObjects)
     val writer = new PrintWriter(fileName);
     writer.println(ser)
     writer.close()
+  }
+
+  def serializeToJson[T <: AnyRef](books: Seq[T]): Unit = {
+    serializeToJson(books, "books-")
   }
 
   def deSerializeBooks(fileName: String): List[Book2] = {

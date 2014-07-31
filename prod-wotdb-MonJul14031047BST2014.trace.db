@@ -1,0 +1,3 @@
+07-14 23:12:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "BOOK[*] SELECT * FROM BOOKTWEETS"; expected "BACKUP, BEGIN, {"; SQL statement:
+BOOK SELECT * FROM BOOKTWEETS [42001-179]

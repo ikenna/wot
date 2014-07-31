@@ -23,6 +23,10 @@ object Db extends WotLogger {
       template.query("Select * from BOOKTWEETS where HASHTAG = ?", Array(hashTag.asInstanceOf[Object]), BookTweetRowMapper).toList
     }
 
+    def bookTweets(implicit template: JdbcTemplate): List[BookTweet] = {
+      template.query("Select * from BOOKTWEETS", BookTweetRowMapper).toList
+    }
+
     def book(url: String)(implicit template: JdbcTemplate): Book = {
       template.queryForObject("Select * from BOOK where BOOKURL = ?", BookRowMapper, Array(url))
     }

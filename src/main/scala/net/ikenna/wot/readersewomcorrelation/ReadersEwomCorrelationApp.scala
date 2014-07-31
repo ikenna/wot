@@ -2,7 +2,7 @@ package net.ikenna.wot.readersewomcorrelation
 
 import net.ikenna.wot.{Book3, Author2, WotLogger}
 import net.ikenna.wot.util.{WotCsvWriter, WotJson}
-import net.ikenna.wot.followersreaders.BooksDb
+import ikenna.wot.BooksDb
 
 object ReadersEwomCorrelationApp extends App with FollowersReadersCorrelation {
 
